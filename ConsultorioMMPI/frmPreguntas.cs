@@ -18,34 +18,46 @@ namespace ConsultorioMMPI
             for (int i = 0; i <= 337; i++)
             {
                 TableLayoutPanel group = new TableLayoutPanel();
-                group.ColumnCount = 2;
+                group.ColumnCount = 3;
                 group.RowCount = 1;
-                for (int j = 0; j < 2; j++)
+
+                group.RowStyles.Add(new RowStyle(SizeType.AutoSize ));
+                group.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 70));
+                group.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15));
+                group.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15));
+
+                group.Controls.Add(new Label { Text = "Pregunta " + i, Location = new Point(0,10) }, 0, 0);
+                for (int j = 1; j < 3; j++)
                 {
-                    group.Controls.Add(new RadioButton { Text = "Radio" + j, Location = new Point(j * 2, 10) }, j, 0);
+                    group.Controls.Add(new RadioButton { Text = "Radio" + j }, j, 0);
                 }
 
                 count++;
                 if (count <= 50)
-                    group.Location = new Point(1, i * 10);
+                    group.Location = new Point(i * 10, 0);
                 else
                 if (count > 50 && count <= 100)
-                    group.Location = new Point(50, i * 10);
+                    group.Location = new Point(i * 20, 0);
                 else
                      if (count > 100 && count <= 150)
-                    group.Location = new Point(100, i * 10);
+                    group.Location = new Point(i * 20, 0);
                 else
                      if (count > 150 && count <= 200)
-                    group.Location = new Point(150, i * 10);
+                    group.Location = new Point(i * 20, 0);
                 else
                      if (count > 200 && count <= 250)
-                    group.Location = new Point(200, i * 10);
+                    group.Location = new Point(i * 20, 0);
                 else
                      if (count > 250 && count <= 300)
-                    group.Location = new Point(250, i * 10);
+                    group.Location = new Point(i * 20, 0);
                 else
                      if (count > 300 && count <= 350)
-                    group.Location = new Point(300, i * 10);
+                    group.Location = new Point(i * 20, 0);
+                
+                group.TabIndex = i;
+                group.Width = 500;
+                group.Height = 15;
+                pnlPrincipal.AutoScroll = true;
                 pnlPrincipal.Dock = DockStyle.Fill;
                 pnlPrincipal.Controls.Add(group);
             }
