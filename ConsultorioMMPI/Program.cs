@@ -15,7 +15,7 @@ namespace ConsultorioMMPI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmPreguntas());
+            Application.Run(new frmPrincipal());
         }
     }
 }
