@@ -16,10 +16,7 @@ namespace ConsultorioMMPI
         public frmPrincipal()
         {
             InitializeComponent();
-            this.Hide();
-            FrmLogin frmLogin = new FrmLogin();
-            frmLogin.ShowDialog();
-            
+            this.Visible = false;   
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
