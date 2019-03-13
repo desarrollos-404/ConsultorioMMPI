@@ -279,7 +279,7 @@
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.label1);
             this.Name = "frmDatosUsuario";
-            this.Text = "frmDatosUsuario";
+            this.Text = "CECYADE";
             this.ResumeLayout(false);
             this.PerformLayout();
 
