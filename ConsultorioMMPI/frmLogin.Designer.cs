@@ -101,6 +101,7 @@
             this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUsuario.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.Location = new System.Drawing.Point(40, 234);
+            this.txtUsuario.MaxLength = 25;
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(215, 16);
             this.txtUsuario.TabIndex = 3;
@@ -111,9 +112,11 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(40, 285);
+            this.textBox1.MaxLength = 25;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(215, 16);
             this.textBox1.TabIndex = 4;
+            this.textBox1.UseSystemPasswordChar = true;
             // 
             // label1
             // 
