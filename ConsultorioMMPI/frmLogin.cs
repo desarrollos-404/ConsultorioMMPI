@@ -9,11 +9,24 @@ using System.Windows.Forms;
 
 namespace ConsultorioMMPI
 {
-    public partial class frmLogin : Form
+    public partial class FrmLogin : Form
     {
-        public frmLogin()
+        public FrmLogin()
         {
             InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            ucAvisoPrivacidad ucAvisoPrivacidad = new ucAvisoPrivacidad();
+            ucAvisoPrivacidad.ShowDialog();
+
         }
     }
 }

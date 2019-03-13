@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsultorioMMPI.Clases;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,6 +15,10 @@ namespace ConsultorioMMPI
         public frmPrincipal()
         {
             InitializeComponent();
+            this.Hide();
+            FrmLogin frmLogin = new FrmLogin();
+            frmLogin.ShowDialog();
+            
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -21,14 +26,15 @@ namespace ConsultorioMMPI
             this.Close();
         }
 
-        private void pictureclose_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
+        private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized;
+            frmDatosUsuario login = new frmDatosUsuario();
+            login.ShowDialog();
         }
     }
 }
