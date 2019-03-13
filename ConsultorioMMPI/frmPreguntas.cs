@@ -20,7 +20,7 @@ namespace ConsultorioMMPI
         public frmPreguntas()
         {
             InitializeComponent();
-            int count = 0;            
+            int count = 0;
             var preguntas = CargarDatosPrueba2();
 
             for (int i = 0; i <= preguntas.Count - 1; i++)
@@ -38,6 +38,7 @@ namespace ConsultorioMMPI
                 for (int j = 1; j < 3; j++)
                 {
                     group.Controls.Add(new RadioButton { Text = j == 1 ? "V" : "F" }, j, 0);
+                    
                 }
 
                 count++;
@@ -73,7 +74,6 @@ namespace ConsultorioMMPI
             }
 
         }
-
         private List<Pregunta> CargarDatosPrueba2()
         {
             List<Pregunta> result = new List<Pregunta>();
@@ -81,10 +81,8 @@ namespace ConsultorioMMPI
             var serializer = new XmlSerializer(typeof(List<Pregunta>), new XmlRootAttribute("Preguntas"));
             using (var stringReader = new StringReader(strDataXML))
             using (var reader = XmlReader.Create(stringReader))
-            {
-                result = (List<Pregunta>)serializer.Deserialize(reader);
-            }
+                result = (List<Pregunta>)serializer.Deserialize(reader);        
             return result;
-        }      
+        }
     }
 }

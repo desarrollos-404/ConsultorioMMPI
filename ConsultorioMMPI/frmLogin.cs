@@ -29,5 +29,13 @@ namespace ConsultorioMMPI
         {
             this.DialogResult = DialogResult.Cancel;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            ucAvisoPrivacidad ucAvisoPrivacidad = new ucAvisoPrivacidad();
+            ucAvisoPrivacidad.ShowDialog();
+
+        }
     }
 }

@@ -66,7 +66,7 @@
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(197, 37);
             this.btnBuscar.TabIndex = 6;
-            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.Text = "Buscar operador";
             this.btnBuscar.UseVisualStyleBackColor = false;
             // 
             // btnRegistrar
@@ -79,7 +79,7 @@
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(197, 37);
             this.btnRegistrar.TabIndex = 5;
-            this.btnRegistrar.Text = "Registrar";
+            this.btnRegistrar.Text = "Ingresar operador";
             this.btnRegistrar.UseVisualStyleBackColor = false;
             this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
