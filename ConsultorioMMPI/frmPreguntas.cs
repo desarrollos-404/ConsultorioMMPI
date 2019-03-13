@@ -1,11 +1,17 @@
-﻿using System;
+﻿using ConsultorioMMPI.Clases;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Xml;
+using System.Xml.Linq;
+using System.Xml.Serialization;
 
 namespace ConsultorioMMPI
 {
@@ -14,22 +20,24 @@ namespace ConsultorioMMPI
         public frmPreguntas()
         {
             InitializeComponent();
-            int count = 0;
-            for (int i = 0; i <= 337; i++)
+            int count = 0;            
+            var preguntas = CargarDatosPrueba2();
+
+            for (int i = 0; i <= preguntas.Count - 1; i++)
             {
                 TableLayoutPanel group = new TableLayoutPanel();
                 group.ColumnCount = 3;
                 group.RowCount = 1;
 
-                group.RowStyles.Add(new RowStyle(SizeType.AutoSize ));
+                group.RowStyles.Add(new RowStyle(SizeType.AutoSize));
                 group.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 70));
                 group.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15));
                 group.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15));
 
-                group.Controls.Add(new Label { Text = "Pregunta " + i, Location = new Point(0,10) }, 0, 0);
+                group.Controls.Add(new Label { Dock = DockStyle.Fill, Text = string.Format("{0} {1}", preguntas[i].idPregunta, preguntas[0].Descripcion), TextAlign = ContentAlignment.MiddleLeft }, 0, 0);
                 for (int j = 1; j < 3; j++)
                 {
-                    group.Controls.Add(new RadioButton { Text = "Radio" + j }, j, 0);
+                    group.Controls.Add(new RadioButton { Text = j == 1 ? "V" : "F" }, j, 0);
                 }
 
                 count++;
@@ -53,16 +61,30 @@ namespace ConsultorioMMPI
                 else
                      if (count > 300 && count <= 350)
                     group.Location = new Point(i * 20, 0);
-                
+
                 group.TabIndex = i;
                 group.Width = 500;
-                group.Height = 15;
+                group.Height = 30;
+                group.Dock = DockStyle.Top;
+
                 pnlPrincipal.AutoScroll = true;
                 pnlPrincipal.Dock = DockStyle.Fill;
                 pnlPrincipal.Controls.Add(group);
             }
 
         }
-    }
 
+        private List<Pregunta> CargarDatosPrueba2()
+        {
+            List<Pregunta> result = new List<Pregunta>();
+            var strDataXML = Properties.Resources.Preguntas.ToString();
+            var serializer = new XmlSerializer(typeof(List<Pregunta>), new XmlRootAttribute("Preguntas"));
+            using (var stringReader = new StringReader(strDataXML))
+            using (var reader = XmlReader.Create(stringReader))
+            {
+                result = (List<Pregunta>)serializer.Deserialize(reader);
+            }
+            return result;
+        }      
+    }
 }
