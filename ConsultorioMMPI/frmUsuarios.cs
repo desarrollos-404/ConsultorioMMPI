@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MetroFramework.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ConsultorioMMPI
 {
-    public partial class frmDatosUsuario : Form
+    public partial class frmUsuarios : MetroForm
     {
-        public frmDatosUsuario()
+        public frmUsuarios()
         {
             InitializeComponent();
         }

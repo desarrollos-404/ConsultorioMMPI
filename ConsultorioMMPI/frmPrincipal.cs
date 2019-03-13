@@ -12,6 +12,7 @@ namespace ConsultorioMMPI
 {
     public partial class frmPrincipal : Form
     {
+        bool primeraCarga = true;
         public frmPrincipal()
         {
             InitializeComponent();
@@ -29,8 +30,25 @@ namespace ConsultorioMMPI
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            FrmLogin login = new FrmLogin();
-            login.ShowDialog();
+            frmUsuarios registrousuario = new frmUsuarios();
+            registrousuario.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+            FrmLogin login = new FrmLogin(this);
+            int result = (int)login.ShowDialog();
+
+            if (result == 1)
+            {
+                this.Visible = true;
+            }
+            else this.Close();
         }
     }
 }
