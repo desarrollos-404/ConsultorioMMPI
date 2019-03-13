@@ -45,14 +45,14 @@ namespace ConsultorioMMPI
 
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
-            FrmLogin login = new FrmLogin(this);
-            int result = (int)login.ShowDialog();
+            FrmLogin login = new FrmLogin();
+            //int result = (int)login.ShowDialog();
 
-            if (result == 1)
-            {
-                this.Visible = true;
-            }
-            else this.Close();
+            //if (result == 1)
+            //{
+            //    this.Visible = true;
+            //}
+            //else this.Close();
         }
     }
 }

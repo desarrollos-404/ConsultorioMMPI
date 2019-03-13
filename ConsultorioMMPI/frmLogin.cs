@@ -12,11 +12,11 @@ namespace ConsultorioMMPI
     public partial class FrmLogin : Form
     {
         public frmPrincipal formprincipal;
-        public FrmLogin(frmPrincipal _formprincipal)
+        public FrmLogin()
         {
             InitializeComponent();
-            formprincipal = _formprincipal;
-            formprincipal.Visible = false;
+            //formprincipal = _formprincipal;
+            //formprincipal.Visible = false;
         }
 
 
