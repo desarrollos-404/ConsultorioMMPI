@@ -68,6 +68,7 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 1;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureclose
             // 
@@ -78,6 +79,7 @@
             this.pictureclose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureclose.TabIndex = 0;
             this.pictureclose.TabStop = false;
+            this.pictureclose.Click += new System.EventHandler(this.pictureclose_Click);
             // 
             // pnlBotones
             // 
@@ -100,7 +102,7 @@
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(197, 37);
             this.btnBuscar.TabIndex = 6;
-            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.Text = "Buscar operador";
             this.btnBuscar.UseVisualStyleBackColor = false;
             // 
             // btnRegistrar
@@ -113,14 +115,13 @@
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(197, 37);
             this.btnRegistrar.TabIndex = 5;
-            this.btnRegistrar.Text = "Registrar";
+            this.btnRegistrar.Text = "Ingresar operador";
             this.btnRegistrar.UseVisualStyleBackColor = false;
             // 
             // pnlGeneral
             // 
             this.pnlGeneral.BackColor = System.Drawing.Color.Transparent;
             this.pnlGeneral.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlGeneral.BackgroundImage")));
-            this.pnlGeneral.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlGeneral.Controls.Add(this.pictureBox2);
             this.pnlGeneral.Controls.Add(this.pictureBox1);
             this.pnlGeneral.Controls.Add(this.label1);

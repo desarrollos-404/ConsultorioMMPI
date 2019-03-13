@@ -20,5 +20,15 @@ namespace ConsultorioMMPI
         {
             this.Close();
         }
+
+        private void pictureclose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
