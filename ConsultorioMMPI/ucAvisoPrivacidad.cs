@@ -16,15 +16,15 @@ namespace ConsultorioMMPI
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.DialogResult = DialogResult.OK;
+        }
 
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
         }
     }
 }

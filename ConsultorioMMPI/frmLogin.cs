@@ -11,31 +11,19 @@ namespace ConsultorioMMPI
 {
     public partial class FrmLogin : Form
     {
-        public frmPrincipal formprincipal;
-        public FrmLogin(frmPrincipal _formprincipal)
+        public FrmLogin()
         {
             InitializeComponent();
-            formprincipal = _formprincipal;
-            formprincipal.Visible = false;
         }
-
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-
+            this.DialogResult = DialogResult.OK;
         }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.Cancel;
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            ucAvisoPrivacidad ucAvisoPrivacidad = new ucAvisoPrivacidad();
-            ucAvisoPrivacidad.ShowDialog();
-
         }
     }
 }
