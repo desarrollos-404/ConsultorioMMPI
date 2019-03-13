@@ -25,6 +25,7 @@ namespace ConsultorioMMPI
 
             for (int i = 0; i <= preguntas.Count - 1; i++)
             {
+                
                 TableLayoutPanel group = new TableLayoutPanel();
                 group.ColumnCount = 3;
                 group.RowCount = 1;
@@ -34,7 +35,7 @@ namespace ConsultorioMMPI
                 group.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15));
                 group.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15));
 
-                group.Controls.Add(new Label { Dock = DockStyle.Fill, Text = string.Format("{0} {1}", preguntas[i].idPregunta, preguntas[0].Descripcion), TextAlign = ContentAlignment.MiddleLeft }, 0, 0);
+                group.Controls.Add(new Label { Dock = DockStyle.Fill, Text = string.Format("{0} {1}", preguntas[i].idPregunta, preguntas[i].Descripcion), TextAlign = ContentAlignment.MiddleLeft }, 0, 0);
                 for (int j = 1; j < 3; j++)
                 {
                     group.Controls.Add(new RadioButton { Text = j == 1 ? "V" : "F" }, j, 0);
@@ -83,6 +84,11 @@ namespace ConsultorioMMPI
             using (var reader = XmlReader.Create(stringReader))
                 result = (List<Pregunta>)serializer.Deserialize(reader);        
             return result;
+        }
+
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
