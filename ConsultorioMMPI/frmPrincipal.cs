@@ -16,7 +16,10 @@ namespace ConsultorioMMPI
         public frmPrincipal()
         {
             InitializeComponent();
-            this.Visible = false;   
+            FrmLogin frmLogin = new FrmLogin();
+            frmLogin.ShowDialog();
+
+            this.Visible = false;
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -31,7 +34,7 @@ namespace ConsultorioMMPI
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            frmUsuarios registrousuario = new frmUsuarios();
+            frmUsuarios registrousuario = new frmUsuarios(false);
             registrousuario.ShowDialog();
         }
 
@@ -50,6 +53,12 @@ namespace ConsultorioMMPI
             //    this.Visible = true;
             //}
             //else this.Close();
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            frmUsuarios registrousuario = new frmUsuarios(true);
+            registrousuario.ShowDialog();
         }
     }
 }

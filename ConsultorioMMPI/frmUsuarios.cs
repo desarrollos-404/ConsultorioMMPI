@@ -12,7 +12,7 @@ namespace ConsultorioMMPI
 {
     public partial class frmUsuarios : MetroForm
     {
-        public frmUsuarios()
+        public frmUsuarios(bool modificar)
         {
             InitializeComponent();
         }

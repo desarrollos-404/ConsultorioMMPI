@@ -22,7 +22,9 @@ namespace ConsultorioMMPI
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-
+            this.Close();
+            ucAvisoPrivacidad ucAvisoPrivacidad = new ucAvisoPrivacidad();
+            ucAvisoPrivacidad.ShowDialog();
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -32,9 +34,7 @@ namespace ConsultorioMMPI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
-            ucAvisoPrivacidad ucAvisoPrivacidad = new ucAvisoPrivacidad();
-            ucAvisoPrivacidad.ShowDialog();
+           
 
         }
     }
