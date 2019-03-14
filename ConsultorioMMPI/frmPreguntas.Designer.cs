@@ -31,8 +31,8 @@
             this.pnlPrincipal = new System.Windows.Forms.FlowLayoutPanel();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.pnl = new MetroFramework.Controls.MetroPanel();
-            this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
+            this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.pnl.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,15 +61,6 @@
             this.pnl.VerticalScrollbarHighlightOnWheel = false;
             this.pnl.VerticalScrollbarSize = 10;
             // 
-            // metroButton1
-            // 
-            this.metroButton1.Location = new System.Drawing.Point(12, 12);
-            this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(75, 23);
-            this.metroButton1.TabIndex = 2;
-            this.metroButton1.Text = "Guardar";
-            this.metroButton1.UseSelectable = true;
-            // 
             // metroButton2
             // 
             this.metroButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -80,6 +71,16 @@
             this.metroButton2.Text = "Salir";
             this.metroButton2.UseSelectable = true;
             this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
+            // 
+            // metroButton1
+            // 
+            this.metroButton1.Location = new System.Drawing.Point(12, 12);
+            this.metroButton1.Name = "metroButton1";
+            this.metroButton1.Size = new System.Drawing.Size(75, 23);
+            this.metroButton1.TabIndex = 2;
+            this.metroButton1.Text = "Guardar";
+            this.metroButton1.UseSelectable = true;
+            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
             // 
             // frmPreguntas
             // 

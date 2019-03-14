@@ -22,25 +22,27 @@ namespace ConsultorioMMPI
             InitializeComponent();
             int count = 0;
             var preguntas = CargarDatosPrueba2();
-
+            this.WindowState = FormWindowState.Maximized;
             for (int i = 0; i <= preguntas.Count - 1; i++)
             {
                 
                 TableLayoutPanel group = new TableLayoutPanel();
                 group.Name = "group" + i;
-                group.ColumnCount = 3;
+                group.ColumnCount = 4;
                 group.RowCount = 1;
 
                 group.RowStyles.Add(new RowStyle(SizeType.AutoSize));
                 group.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 70));
                 group.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15));
+                group.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10));
                 group.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15));
 
                 group.Controls.Add(new Label { Dock = DockStyle.Fill, Text = string.Format("{0} {1}", preguntas[i].idPregunta, preguntas[i].Descripcion), TextAlign = ContentAlignment.MiddleLeft }, 0, 0);
-                for (int j = 1; j < 3; j++)
+                for (int j = 1; j < 4; j++)
                 {
-                    group.Controls.Add(new RadioButton {Name = "Radio"+i+j, Text = j == 1 ? "V" : "F" }, j, 0);
-                    
+                    group.Controls.Add(new RadioButton {Name = "Radio"+i+j,Tag = j-1, Text = j == 1 ? "Verdadero" : j== 2 ? "Falso" :  "No contestar" }, j, 0);
+                    if (group.Controls[j].Tag.ToString() == "2")
+                        ((RadioButton)group.Controls[j]).Checked = true;
                 }
 
                 count++;
@@ -66,7 +68,7 @@ namespace ConsultorioMMPI
                     group.Location = new Point(i * 20, 0);
 
                 group.TabIndex = i;
-                group.Width = 500;
+                group.Width = 800;
                 group.Height = 30;
                 group.Dock = DockStyle.Top;
 
@@ -90,6 +92,38 @@ namespace ConsultorioMMPI
         private void metroButton2_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            ObtenerRespuesta();
+        }
+
+        public List<Respuesta> ObtenerRespuesta()
+        {
+            List<Respuesta> resp = new List<Respuesta>();
+            for (int i = 0; i < pnlPrincipal.Controls.Count; i++)
+            {
+                var a = pnlPrincipal.Controls[i];
+                for (int j = 0; j < a.Controls.Count; j++)
+                {
+                    if (a.Controls[j] is RadioButton)
+                    {
+
+                        if (((RadioButton)a.Controls[j]).Checked)
+                        {
+
+                            resp.Add(new Respuesta() { ID = i + 1, valor = (int)a.Controls[j].Tag });
+                        }
+                        //var b = (RadioButton)a.Controls[j];
+                        //b.Checked
+                    }
+                    // group.Controls.Add(new RadioButton { Name = "Radio" + i + j, Tag = j - 1, Text = j == 1 ? "V" : "F" }, j, 0);
+                }
+
+
+            }
+            return resp;
         }
     }
 }
