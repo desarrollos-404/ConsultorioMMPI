@@ -68,6 +68,7 @@
             this.btnBuscar.TabIndex = 6;
             this.btnBuscar.Text = "Buscar operador";
             this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // btnRegistrar
             // 
