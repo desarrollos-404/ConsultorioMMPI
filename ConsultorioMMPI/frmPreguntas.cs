@@ -26,6 +26,7 @@ namespace ConsultorioMMPI
             for (int i = 0; i <= preguntas.Count - 1; i++)
             {
                 TableLayoutPanel group = new TableLayoutPanel();
+                group.Name = "group" + i;
                 group.ColumnCount = 3;
                 group.RowCount = 1;
 
@@ -37,7 +38,7 @@ namespace ConsultorioMMPI
                 group.Controls.Add(new Label { Dock = DockStyle.Fill, Text = string.Format("{0} {1}", preguntas[i].idPregunta, preguntas[0].Descripcion), TextAlign = ContentAlignment.MiddleLeft }, 0, 0);
                 for (int j = 1; j < 3; j++)
                 {
-                    group.Controls.Add(new RadioButton { Text = j == 1 ? "V" : "F" }, j, 0);
+                    group.Controls.Add(new RadioButton {Name = "Radio"+i+j, Text = j == 1 ? "V" : "F" }, j, 0);
                     
                 }
 

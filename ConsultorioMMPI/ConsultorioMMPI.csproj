@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\ClasesGenericas.cs" />
+    <Compile Include="Clases\ClsMesageBox.cs" />
     <Compile Include="Clases\ModelState.cs" />
     <Compile Include="Clases\Pregunta.cs" />
     <Compile Include="FrmLogin.cs">
