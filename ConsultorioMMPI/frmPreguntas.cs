@@ -113,7 +113,46 @@ namespace ConsultorioMMPI
         };
 
 
-        public List<Validacion> VALIDACION_FR_V = new List<Validacion>()
+        //public List<Validacion> VALIDACION_FR_V = new List<Validacion>()
+        //{
+        //    new Validacion{pregunta1 = 14,Valor1 = 0},
+        //    new Validacion{pregunta1 = 30,Valor1 = 0},
+        //    new Validacion{pregunta1 = 46,Valor1 = 0},
+        //    new Validacion{pregunta1 = 56,Valor1 = 0},
+        //    new Validacion{pregunta1 = 67,Valor1 = 0},
+        //    new Validacion{pregunta1 = 71,Valor1 = 0},
+        //    new Validacion{pregunta1 = 74,Valor1 = 0},
+        //    new Validacion{pregunta1 = 106,Valor1 = 0},
+        //    new Validacion{pregunta1 = 117,Valor1 = 0},
+        //    new Validacion{pregunta1 = 120,Valor1 = 0},
+        //    new Validacion{pregunta1 = 139,Valor1 = 0},
+        //    new Validacion{pregunta1 = 146,Valor1 = 0},
+        //    new Validacion{pregunta1 = 164,Valor1 = 0},
+        //    new Validacion{pregunta1 = 203,Valor1 = 0},
+        //    new Validacion{pregunta1 = 218,Valor1 = 0},
+        //    new Validacion{pregunta1 = 231,Valor1 = 0},
+        //    new Validacion{pregunta1 = 240,Valor1 = 0},
+        //    new Validacion{pregunta1 = 253,Valor1 = 0},
+        //    new Validacion{pregunta1 = 264,Valor1 = 0},
+        //    new Validacion{pregunta1 = 275,Valor1 = 0},
+        //    new Validacion{pregunta1 = 277,Valor1 = 0},
+        //    new Validacion{pregunta1 = 281,Valor1 = 0},
+        //    new Validacion{pregunta1 = 294,Valor1 = 0},
+        //    new Validacion{pregunta1 = 301,Valor1 = 0},
+        //    new Validacion{pregunta1 = 310,Valor1 = 0},
+        //    new Validacion{pregunta1 = 312,Valor1 = 0},
+        //    new Validacion{pregunta1 = 332,Valor1 = 0}
+        //};
+        //public List<Validacion> VALIDACION_FR_F = new List<Validacion>()
+        //{
+        //    new Validacion{pregunta1 = 59,Valor1 = 1},
+        //    new Validacion{pregunta1 = 83,Valor1 = 1},
+        //    new Validacion{pregunta1 = 102,Valor1 = 1},
+        //    new Validacion{pregunta1 = 174,Valor1 = 1},
+        //    new Validacion{pregunta1 = 227,Valor1 = 1}
+        //};
+
+        public List<Validacion> VALIDACION_FR = new List<Validacion>()
         {
             new Validacion{pregunta1 = 14,Valor1 = 0},
             new Validacion{pregunta1 = 30,Valor1 = 0},
@@ -141,10 +180,7 @@ namespace ConsultorioMMPI
             new Validacion{pregunta1 = 301,Valor1 = 0},
             new Validacion{pregunta1 = 310,Valor1 = 0},
             new Validacion{pregunta1 = 312,Valor1 = 0},
-            new Validacion{pregunta1 = 332,Valor1 = 0}
-        };
-        public List<Validacion> VALIDACION_FR_F = new List<Validacion>()
-        {
+            new Validacion{pregunta1 = 332,Valor1 = 0},
             new Validacion{pregunta1 = 59,Valor1 = 1},
             new Validacion{pregunta1 = 83,Valor1 = 1},
             new Validacion{pregunta1 = 102,Valor1 = 1},
@@ -152,7 +188,7 @@ namespace ConsultorioMMPI
             new Validacion{pregunta1 = 227,Valor1 = 1}
         };
 
-        public List<Validacion> VALIDACION_FPSI_V = new List<Validacion>()
+        public List<Validacion> VALIDACION_FPSI = new List<Validacion>()
         {
             new Validacion{pregunta1 = 40,Valor1 = 0},
             new Validacion{pregunta1 = 41,Valor1 = 0},
@@ -169,18 +205,41 @@ namespace ConsultorioMMPI
             new Validacion{pregunta1 = 255,Valor1 = 0},
             new Validacion{pregunta1 = 270,Valor1 = 0},
             new Validacion{pregunta1 = 314,Valor1 = 0},
-            new Validacion{pregunta1 = 317,Valor1 = 0}
-        };
-        public List<Validacion> VALIDACION_FPSI_F = new List<Validacion>()
-        {
+            new Validacion{pregunta1 = 317,Valor1 = 0},
             new Validacion{pregunta1 = 7,Valor1 = 1},
             new Validacion{pregunta1 = 98,Valor1 = 1},
             new Validacion{pregunta1 = 157,Valor1 = 1},
             new Validacion{pregunta1 = 221,Valor1 = 1},
             new Validacion{pregunta1 = 283,Valor1 = 1}
         };
-
-        public List<Validacion> VALIDACION_FS_V = new List<Validacion>()
+        //public List<Validacion> VALIDACION_FPSI_V = new List<Validacion>()
+        //{
+        //    new Validacion{pregunta1 = 40,Valor1 = 0},
+        //    new Validacion{pregunta1 = 41,Valor1 = 0},
+        //    new Validacion{pregunta1 = 79,Valor1 = 0},
+        //    new Validacion{pregunta1 = 86,Valor1 = 0},
+        //    new Validacion{pregunta1 = 124,Valor1 = 0},
+        //    new Validacion{pregunta1 = 129,Valor1 = 0},
+        //    new Validacion{pregunta1 = 150,Valor1 = 0},
+        //    new Validacion{pregunta1 = 168,Valor1 = 0},
+        //    new Validacion{pregunta1 = 178,Valor1 = 0},
+        //    new Validacion{pregunta1 = 191,Valor1 = 0},
+        //    new Validacion{pregunta1 = 208,Valor1 = 0},
+        //    new Validacion{pregunta1 = 252,Valor1 = 0},
+        //    new Validacion{pregunta1 = 255,Valor1 = 0},
+        //    new Validacion{pregunta1 = 270,Valor1 = 0},
+        //    new Validacion{pregunta1 = 314,Valor1 = 0},
+        //    new Validacion{pregunta1 = 317,Valor1 = 0}
+        //};
+        //public List<Validacion> VALIDACION_FPSI_F = new List<Validacion>()
+        //{
+        //    new Validacion{pregunta1 = 7,Valor1 = 1},
+        //    new Validacion{pregunta1 = 98,Valor1 = 1},
+        //    new Validacion{pregunta1 = 157,Valor1 = 1},
+        //    new Validacion{pregunta1 = 221,Valor1 = 1},
+        //    new Validacion{pregunta1 = 283,Valor1 = 1}
+        //};
+        public List<Validacion> VALIDACION_FS = new List<Validacion>()
         {
             new Validacion{pregunta1 = 15,Valor1 = 0},
             new Validacion{pregunta1 = 33,Valor1 = 0},
@@ -193,17 +252,37 @@ namespace ConsultorioMMPI
             new Validacion{pregunta1 = 199,Valor1 = 0},
             new Validacion{pregunta1 = 216,Valor1 = 0},
             new Validacion{pregunta1 = 225,Valor1 = 0},
-            new Validacion{pregunta1 = 308,Valor1 = 0}
-        };
-        public List<Validacion> VALIDACION_FS_F = new List<Validacion>()
-        {
+            new Validacion{pregunta1 = 308,Valor1 = 0},
             new Validacion{pregunta1 = 2,Valor1 = 1},
             new Validacion{pregunta1 = 78,Valor1 = 1},
             new Validacion{pregunta1 = 186,Valor1 = 1},
             new Validacion{pregunta1 = 272,Valor1 = 1}
         };
 
-        public List<Validacion> VALIDACION_FVS_V = new List<Validacion>()
+        //public List<Validacion> VALIDACION_FS_V = new List<Validacion>()
+        //{
+        //    new Validacion{pregunta1 = 15,Valor1 = 0},
+        //    new Validacion{pregunta1 = 33,Valor1 = 0},
+        //    new Validacion{pregunta1 = 43,Valor1 = 0},
+        //    new Validacion{pregunta1 = 122,Valor1 = 0},
+        //    new Validacion{pregunta1 = 133,Valor1 = 0},
+        //    new Validacion{pregunta1 = 137,Valor1 = 0},
+        //    new Validacion{pregunta1 = 159,Valor1 = 0},
+        //    new Validacion{pregunta1 = 170,Valor1 = 0},
+        //    new Validacion{pregunta1 = 199,Valor1 = 0},
+        //    new Validacion{pregunta1 = 216,Valor1 = 0},
+        //    new Validacion{pregunta1 = 225,Valor1 = 0},
+        //    new Validacion{pregunta1 = 308,Valor1 = 0}
+        //};
+        //public List<Validacion> VALIDACION_FS_F = new List<Validacion>()
+        //{
+        //    new Validacion{pregunta1 = 2,Valor1 = 1},
+        //    new Validacion{pregunta1 = 78,Valor1 = 1},
+        //    new Validacion{pregunta1 = 186,Valor1 = 1},
+        //    new Validacion{pregunta1 = 272,Valor1 = 1}
+        //};
+
+        public List<Validacion> VALIDACION_FVS = new List<Validacion>()
         {
             new Validacion{pregunta1 = 6,Valor1 = 0},
             new Validacion{pregunta1 = 15,Valor1 = 0},
@@ -220,10 +299,7 @@ namespace ConsultorioMMPI
             new Validacion{pregunta1 = 230,Valor1 = 0},
             new Validacion{pregunta1 = 247,Valor1 = 0},
             new Validacion{pregunta1 = 261,Valor1 = 0},
-            new Validacion{pregunta1 = 315,Valor1 = 0}
-        };
-        public List<Validacion> VALIDACION_FVS_F = new List<Validacion>()
-        {
+            new Validacion{pregunta1 = 315,Valor1 = 0},
             new Validacion{pregunta1 = 36,Valor1 = 1},
             new Validacion{pregunta1 = 45,Valor1 = 1},
             new Validacion{pregunta1 = 55,Valor1 = 1},
@@ -240,7 +316,44 @@ namespace ConsultorioMMPI
             new Validacion{pregunta1 = 290,Valor1 = 1}
         };
 
-        public List<Validacion> VALIDACION_SI_V = new List<Validacion>()
+        //public List<Validacion> VALIDACION_FVS_V = new List<Validacion>()
+        //{
+        //    new Validacion{pregunta1 = 6,Valor1 = 0},
+        //    new Validacion{pregunta1 = 15,Valor1 = 0},
+        //    new Validacion{pregunta1 = 43,Valor1 = 0},
+        //    new Validacion{pregunta1 = 76,Valor1 = 0},
+        //    new Validacion{pregunta1 = 77,Valor1 = 0},
+        //    new Validacion{pregunta1 = 79,Valor1 = 0},
+        //    new Validacion{pregunta1 = 93,Valor1 = 0},
+        //    new Validacion{pregunta1 = 101,Valor1 = 0},
+        //    new Validacion{pregunta1 = 133,Valor1 = 0},
+        //    new Validacion{pregunta1 = 187,Valor1 = 0},
+        //    new Validacion{pregunta1 = 200,Valor1 = 0},
+        //    new Validacion{pregunta1 = 210,Valor1 = 0},
+        //    new Validacion{pregunta1 = 230,Valor1 = 0},
+        //    new Validacion{pregunta1 = 247,Valor1 = 0},
+        //    new Validacion{pregunta1 = 261,Valor1 = 0},
+        //    new Validacion{pregunta1 = 315,Valor1 = 0}
+        //};
+        //public List<Validacion> VALIDACION_FVS_F = new List<Validacion>()
+        //{
+        //    new Validacion{pregunta1 = 36,Valor1 = 1},
+        //    new Validacion{pregunta1 = 45,Valor1 = 1},
+        //    new Validacion{pregunta1 = 55,Valor1 = 1},
+        //    new Validacion{pregunta1 = 88,Valor1 = 1},
+        //    new Validacion{pregunta1 = 99,Valor1 = 1},
+        //    new Validacion{pregunta1 = 141,Valor1 = 1},
+        //    new Validacion{pregunta1 = 156,Valor1 = 1},
+        //    new Validacion{pregunta1 = 162,Valor1 = 1},
+        //    new Validacion{pregunta1 = 171,Valor1 = 1},
+        //    new Validacion{pregunta1 = 189,Valor1 = 1},
+        //    new Validacion{pregunta1 = 193,Valor1 = 1},
+        //    new Validacion{pregunta1 = 234,Valor1 = 1},
+        //    new Validacion{pregunta1 = 265,Valor1 = 1},
+        //    new Validacion{pregunta1 = 290,Valor1 = 1}
+        //};
+
+        public List<Validacion> VALIDACION_SI = new List<Validacion>()
         {
             new Validacion{pregunta1 = 6,Valor1 = 0},
             new Validacion{pregunta1 = 24,Valor1 = 0},
@@ -260,10 +373,7 @@ namespace ConsultorioMMPI
             new Validacion{pregunta1 = 242,Valor1 = 0},
             new Validacion{pregunta1 = 252,Valor1 = 0},
             new Validacion{pregunta1 = 268,Valor1 = 0},
-            new Validacion{pregunta1 = 273,Valor1 = 0}
-        };
-        public List<Validacion> VALIDACION_SI_F = new List<Validacion>()
-        {
+            new Validacion{pregunta1 = 273,Valor1 = 0},
             new Validacion{pregunta1 = 11,Valor1 = 1},
             new Validacion{pregunta1 = 21,Valor1 = 1},
             new Validacion{pregunta1 = 53,Valor1 = 1},
@@ -274,15 +384,47 @@ namespace ConsultorioMMPI
             new Validacion{pregunta1 = 219,Valor1 = 1},
             new Validacion{pregunta1 = 325,Valor1 = 1}
         };
+        //public List<Validacion> VALIDACION_SI_V = new List<Validacion>()
+        //{
+        //    new Validacion{pregunta1 = 6,Valor1 = 0},
+        //    new Validacion{pregunta1 = 24,Valor1 = 0},
+        //    new Validacion{pregunta1 = 26,Valor1 = 0},
+        //    new Validacion{pregunta1 = 31,Valor1 = 0},
+        //    new Validacion{pregunta1 = 68,Valor1 = 0},
+        //    new Validacion{pregunta1 = 74,Valor1 = 0},
+        //    new Validacion{pregunta1 = 79,Valor1 = 0},
+        //    new Validacion{pregunta1 = 92,Valor1 = 0},
+        //    new Validacion{pregunta1 = 101,Valor1 = 0},
+        //    new Validacion{pregunta1 = 106,Valor1 = 0},
+        //    new Validacion{pregunta1 = 120,Valor1 = 0},
+        //    new Validacion{pregunta1 = 132,Valor1 = 0},
+        //    new Validacion{pregunta1 = 136,Valor1 = 0},
+        //    new Validacion{pregunta1 = 137,Valor1 = 0},
+        //    new Validacion{pregunta1 = 159,Valor1 = 0},
+        //    new Validacion{pregunta1 = 242,Valor1 = 0},
+        //    new Validacion{pregunta1 = 252,Valor1 = 0},
+        //    new Validacion{pregunta1 = 268,Valor1 = 0},
+        //    new Validacion{pregunta1 = 273,Valor1 = 0}
+        //};
+        //public List<Validacion> VALIDACION_SI_F = new List<Validacion>()
+        //{
+        //    new Validacion{pregunta1 = 11,Valor1 = 1},
+        //    new Validacion{pregunta1 = 21,Valor1 = 1},
+        //    new Validacion{pregunta1 = 53,Valor1 = 1},
+        //    new Validacion{pregunta1 = 59,Valor1 = 1},
+        //    new Validacion{pregunta1 = 125,Valor1 = 1},
+        //    new Validacion{pregunta1 = 131,Valor1 = 1},
+        //    new Validacion{pregunta1 = 156,Valor1 = 1},
+        //    new Validacion{pregunta1 = 219,Valor1 = 1},
+        //    new Validacion{pregunta1 = 325,Valor1 = 1}
+        //};
 
-        public List<Validacion> VALIDACION_LR_V = new List<Validacion>()
+
+        public List<Validacion> VALIDACION_LR = new List<Validacion>()
         {
             new Validacion{pregunta1 = 61,Valor1 = 0},
             new Validacion{pregunta1 = 182,Valor1 = 0},
-            new Validacion{pregunta1 = 268,Valor1 = 0}
-        };
-        public List<Validacion> VALIDACION_LR_F = new List<Validacion>()
-        {
+            new Validacion{pregunta1 = 268,Valor1 = 0},
             new Validacion{pregunta1 = 16,Valor1 = 1},
             new Validacion{pregunta1 = 45,Valor1 = 1},
             new Validacion{pregunta1 = 70,Valor1 = 1},
@@ -296,13 +438,30 @@ namespace ConsultorioMMPI
             new Validacion{pregunta1 = 325,Valor1 = 1},
         };
 
-        public List<Validacion> VALIDACION_KR_V = new List<Validacion>()
+        //public List<Validacion> VALIDACION_LR_V = new List<Validacion>()
+        //{
+        //    new Validacion{pregunta1 = 61,Valor1 = 0},
+        //    new Validacion{pregunta1 = 182,Valor1 = 0},
+        //    new Validacion{pregunta1 = 268,Valor1 = 0}
+        //};
+        //public List<Validacion> VALIDACION_LR_F = new List<Validacion>()
+        //{
+        //    new Validacion{pregunta1 = 16,Valor1 = 1},
+        //    new Validacion{pregunta1 = 45,Valor1 = 1},
+        //    new Validacion{pregunta1 = 70,Valor1 = 1},
+        //    new Validacion{pregunta1 = 95,Valor1 = 1},
+        //    new Validacion{pregunta1 = 127,Valor1 = 1},
+        //    new Validacion{pregunta1 = 154,Valor1 = 1},
+        //    new Validacion{pregunta1 = 183,Valor1 = 1},
+        //    new Validacion{pregunta1 = 211,Valor1 = 1},
+        //    new Validacion{pregunta1 = 241,Valor1 = 1},
+        //    new Validacion{pregunta1 = 298,Valor1 = 1},
+        //    new Validacion{pregunta1 = 325,Valor1 = 1},
+        //};
+        public List<Validacion> VALIDACION_KR = new List<Validacion>()
         {
             new Validacion{pregunta1 = 80,Valor1 = 0},
-            new Validacion{pregunta1 = 202,Valor1 = 0}
-        };
-        public List<Validacion> VALIDACION_KR_F = new List<Validacion>()
-        {
+            new Validacion{pregunta1 = 202,Valor1 = 0},
             new Validacion{pregunta1 = 10,Valor1 = 1},
             new Validacion{pregunta1 = 23,Valor1 = 1},
             new Validacion{pregunta1 = 36,Valor1 = 1},
@@ -316,6 +475,27 @@ namespace ConsultorioMMPI
             new Validacion{pregunta1 = 322,Valor1 = 1},
             new Validacion{pregunta1 = 338,Valor1 = 1}
         };
+
+        //public List<Validacion> VALIDACION_KR_V = new List<Validacion>()
+        //{
+        //    new Validacion{pregunta1 = 80,Valor1 = 0},
+        //    new Validacion{pregunta1 = 202,Valor1 = 0}
+        //};
+        //public List<Validacion> VALIDACION_KR_F = new List<Validacion>()
+        //{
+        //    new Validacion{pregunta1 = 10,Valor1 = 1},
+        //    new Validacion{pregunta1 = 23,Valor1 = 1},
+        //    new Validacion{pregunta1 = 36,Valor1 = 1},
+        //    new Validacion{pregunta1 = 44,Valor1 = 1},
+        //    new Validacion{pregunta1 = 72,Valor1 = 1},
+        //    new Validacion{pregunta1 = 89,Valor1 = 1},
+        //    new Validacion{pregunta1 = 99,Valor1 = 1},
+        //    new Validacion{pregunta1 = 155,Valor1 = 1},
+        //    new Validacion{pregunta1 = 171,Valor1 = 1},
+        //    new Validacion{pregunta1 = 187,Valor1 = 1},
+        //    new Validacion{pregunta1 = 322,Valor1 = 1},
+        //    new Validacion{pregunta1 = 338,Valor1 = 1}
+        //};
 
 
 
@@ -422,6 +602,7 @@ namespace ConsultorioMMPI
                 }
                 #endregion
                 #region VALIDACION_INVER
+                puntuacionNatural.ResultadoINVER_R = puntuacionNatural.ResultadoINVER_R + 11;
                 for (int i = 0; i < VALIDACION_INVER_V.Count(); i++)
                 {
                     comparar1 = resp.Where(x => x.ID == VALIDACION_INVER_V[i].pregunta1).ToList().FirstOrDefault().valor;
@@ -436,128 +617,134 @@ namespace ConsultorioMMPI
                     comparar2 = resp.Where(x => x.ID == VALIDACION_INVER_F[i].pregunta2).ToList().FirstOrDefault().valor;
                     if (comparar1 == 1 && comparar2 == 1)
                             puntuacionNatural.ResultadoINVER_R--;
-
                 }
-                puntuacionNatural.ResultadoINVER_R = puntuacionNatural.ResultadoINVER_R + 11;
+
                 #endregion
 
                 #region VALIDACION_FR
-                for (int i = 0; i < VALIDACION_FR_V.Count(); i++)
-                {
-                    comparar1 = resp.Where(x => x.ID == VALIDACION_FR_V[i].pregunta1).ToList().FirstOrDefault().valor;
-                    if (comparar1 == 0)
-                        puntuacionNatural.ResultadoF_R++;
+                puntuacionNatural.ResultadoF_R = TotalValidacion(VALIDACION_FR, resp);
+                //for (int i = 0; i < VALIDACION_FR_V.Count(); i++)
+                //{
+                //    comparar1 = resp.Where(x => x.ID == VALIDACION_FR_V[i].pregunta1).ToList().FirstOrDefault().valor;
+                //    if (comparar1 == 0)
+                //        puntuacionNatural.ResultadoF_R++;
 
-                }
-                for (int i = 0; i < VALIDACION_FR_F.Count(); i++)
-                {
-                    comparar1 = resp.Where(x => x.ID == VALIDACION_FR_F[i].pregunta1).ToList().FirstOrDefault().valor;
-                    if (comparar1 == 1)
-                        puntuacionNatural.ResultadoF_R++;
+                //}
+                //for (int i = 0; i < VALIDACION_FR_F.Count(); i++)
+                //{
+                //    comparar1 = resp.Where(x => x.ID == VALIDACION_FR_F[i].pregunta1).ToList().FirstOrDefault().valor;
+                //    if (comparar1 == 1)
+                //        puntuacionNatural.ResultadoF_R++;
 
-                }
+                //}
                 #endregion
 
                 #region VALIDACION_FPSI
-                for (int i = 0; i < VALIDACION_FPSI_V.Count(); i++)
-                {
-                    comparar1 = resp.Where(x => x.ID == VALIDACION_FPSI_V[i].pregunta1).ToList().FirstOrDefault().valor;
-                    if (comparar1 == 0)
-                        puntuacionNatural.ResultadoFPSI_R++;
+                puntuacionNatural.ResultadoFPSI_R = TotalValidacion(VALIDACION_FPSI, resp);
+                //for (int i = 0; i < VALIDACION_FPSI_V.Count(); i++)
+                //{
+                //    comparar1 = resp.Where(x => x.ID == VALIDACION_FPSI_V[i].pregunta1).ToList().FirstOrDefault().valor;
+                //    if (comparar1 == 0)
+                //        puntuacionNatural.ResultadoFPSI_R++;
 
-                }
-                for (int i = 0; i < VALIDACION_FPSI_F.Count(); i++)
-                {
-                    comparar1 = resp.Where(x => x.ID == VALIDACION_FPSI_F[i].pregunta1).ToList().FirstOrDefault().valor;
-                    if (comparar1 == 1)
-                        puntuacionNatural.ResultadoFPSI_R++;
+                //}
+                //for (int i = 0; i < VALIDACION_FPSI_F.Count(); i++)
+                //{
+                //    comparar1 = resp.Where(x => x.ID == VALIDACION_FPSI_F[i].pregunta1).ToList().FirstOrDefault().valor;
+                //    if (comparar1 == 1)
+                //        puntuacionNatural.ResultadoFPSI_R++;
 
-                }
+                //}
                 #endregion
 
                 #region VALIDACION_FS
-                for (int i = 0; i < VALIDACION_FS_V.Count(); i++)
-                {
-                    comparar1 = resp.Where(x => x.ID == VALIDACION_FS_V[i].pregunta1).ToList().FirstOrDefault().valor;
-                    if (comparar1 == 0)
-                        puntuacionNatural.ResultadoFS++;
+                puntuacionNatural.ResultadoFS = TotalValidacion(VALIDACION_FS, resp);
+                //for (int i = 0; i < VALIDACION_FS_V.Count(); i++)
+                //{
+                //    comparar1 = resp.Where(x => x.ID == VALIDACION_FS_V[i].pregunta1).ToList().FirstOrDefault().valor;
+                //    if (comparar1 == 0)
+                //        puntuacionNatural.ResultadoFS++;
 
-                }
-                for (int i = 0; i < VALIDACION_FS_F.Count(); i++)
-                {
-                    comparar1 = resp.Where(x => x.ID == VALIDACION_FS_F[i].pregunta1).ToList().FirstOrDefault().valor;
-                    if (comparar1 == 1)
-                        puntuacionNatural.ResultadoFS++;
+                //}
+                //for (int i = 0; i < VALIDACION_FS_F.Count(); i++)
+                //{
+                //    comparar1 = resp.Where(x => x.ID == VALIDACION_FS_F[i].pregunta1).ToList().FirstOrDefault().valor;
+                //    if (comparar1 == 1)
+                //        puntuacionNatural.ResultadoFS++;
 
-                }
+                //}
                 #endregion
 
                 #region VALIDACION_FVS
-                for (int i = 0; i < VALIDACION_FVS_V.Count(); i++)
-                {
-                    comparar1 = resp.Where(x => x.ID == VALIDACION_FVS_V[i].pregunta1).ToList().FirstOrDefault().valor;
-                    if (comparar1 == 0)
-                        puntuacionNatural.ResultadoFVS_R++;
+                puntuacionNatural.ResultadoFVS_R = TotalValidacion(VALIDACION_FVS, resp);
+                //for (int i = 0; i < VALIDACION_FVS_V.Count(); i++)
+                //{
+                //    comparar1 = resp.Where(x => x.ID == VALIDACION_FVS_V[i].pregunta1).ToList().FirstOrDefault().valor;
+                //    if (comparar1 == 0)
+                //        puntuacionNatural.ResultadoFVS_R++;
 
-                }
-                for (int i = 0; i < VALIDACION_FVS_F.Count(); i++)
-                {
-                    comparar1 = resp.Where(x => x.ID == VALIDACION_FVS_F[i].pregunta1).ToList().FirstOrDefault().valor;
-                    if (comparar1 == 1)
-                        puntuacionNatural.ResultadoFVS_R++;
+                //}
+                //for (int i = 0; i < VALIDACION_FVS_F.Count(); i++)
+                //{
+                //    comparar1 = resp.Where(x => x.ID == VALIDACION_FVS_F[i].pregunta1).ToList().FirstOrDefault().valor;
+                //    if (comparar1 == 1)
+                //        puntuacionNatural.ResultadoFVS_R++;
 
-                }
+                //}
                 #endregion
 
                 #region VALIDACION_SI
-                for (int i = 0; i < VALIDACION_SI_V.Count(); i++)
-                {
-                    comparar1 = resp.Where(x => x.ID == VALIDACION_SI_V[i].pregunta1).ToList().FirstOrDefault().valor;
-                    if (comparar1 == 0)
-                        puntuacionNatural.ResultadoSI++;
+                puntuacionNatural.ResultadoSI = TotalValidacion(VALIDACION_SI, resp);
+                //for (int i = 0; i < VALIDACION_SI_V.Count(); i++)
+                //{
+                //    comparar1 = resp.Where(x => x.ID == VALIDACION_SI_V[i].pregunta1).ToList().FirstOrDefault().valor;
+                //    if (comparar1 == 0)
+                //        puntuacionNatural.ResultadoSI++;
 
-                }
-                for (int i = 0; i < VALIDACION_SI_F.Count(); i++)
-                {
-                    comparar1 = resp.Where(x => x.ID == VALIDACION_SI_F[i].pregunta1).ToList().FirstOrDefault().valor;
-                    if (comparar1 == 1)
-                        puntuacionNatural.ResultadoSI++;
+                //}
+                //for (int i = 0; i < VALIDACION_SI_F.Count(); i++)
+                //{
+                //    comparar1 = resp.Where(x => x.ID == VALIDACION_SI_F[i].pregunta1).ToList().FirstOrDefault().valor;
+                //    if (comparar1 == 1)
+                //        puntuacionNatural.ResultadoSI++;
 
-                }
+                //}
                 #endregion
 
                 #region VALIDACION_LR
-                for (int i = 0; i < VALIDACION_LR_V.Count(); i++)
-                {
-                    comparar1 = resp.Where(x => x.ID == VALIDACION_LR_V[i].pregunta1).ToList().FirstOrDefault().valor;
-                    if (comparar1 == 0)
-                        puntuacionNatural.ResultadoL_R++;
+                puntuacionNatural.ResultadoL_R = TotalValidacion(VALIDACION_LR, resp);
+                //for (int i = 0; i < VALIDACION_LR_V.Count(); i++)
+                //{
+                //    comparar1 = resp.Where(x => x.ID == VALIDACION_LR_V[i].pregunta1).ToList().FirstOrDefault().valor;
+                //    if (comparar1 == 0)
+                //        puntuacionNatural.ResultadoL_R++;
 
-                }
-                for (int i = 0; i < VALIDACION_LR_F.Count(); i++)
-                {
-                    comparar1 = resp.Where(x => x.ID == VALIDACION_LR_F[i].pregunta1).ToList().FirstOrDefault().valor;
-                    if (comparar1 == 1)
-                        puntuacionNatural.ResultadoL_R--;
+                //}
+                //for (int i = 0; i < VALIDACION_LR_F.Count(); i++)
+                //{
+                //    comparar1 = resp.Where(x => x.ID == VALIDACION_LR_F[i].pregunta1).ToList().FirstOrDefault().valor;
+                //    if (comparar1 == 1)
+                //        puntuacionNatural.ResultadoL_R--;
 
-                }
+                //}
                 #endregion
 
                 #region VALIDACION_KR
-                for (int i = 0; i < VALIDACION_KR_V.Count(); i++)
-                {
-                    comparar1 = resp.Where(x => x.ID == VALIDACION_KR_V[i].pregunta1).ToList().FirstOrDefault().valor;
-                    if (comparar1 == 0)
-                        puntuacionNatural.ResultadoK_R++;
+                puntuacionNatural.ResultadoK_R = TotalValidacion(VALIDACION_KR, resp);
+                //for (int i = 0; i < VALIDACION_KR_V.Count(); i++)
+                //{
+                //    comparar1 = resp.Where(x => x.ID == VALIDACION_KR_V[i].pregunta1).ToList().FirstOrDefault().valor;
+                //    if (comparar1 == 0)
+                //        puntuacionNatural.ResultadoK_R++;
 
-                }
-                for (int i = 0; i < VALIDACION_KR_F.Count(); i++)
-                {
-                    comparar1 = resp.Where(x => x.ID == VALIDACION_KR_F[i].pregunta1).ToList().FirstOrDefault().valor;
-                    if (comparar1 == 1)
-                        puntuacionNatural.ResultadoK_R++;
+                //}
+                //for (int i = 0; i < VALIDACION_KR_F.Count(); i++)
+                //{
+                //    comparar1 = resp.Where(x => x.ID == VALIDACION_KR_F[i].pregunta1).ToList().FirstOrDefault().valor;
+                //    if (comparar1 == 1)
+                //        puntuacionNatural.ResultadoK_R++;
 
-                }
+                //}
                 #endregion
 
 
@@ -569,6 +756,34 @@ namespace ConsultorioMMPI
 
                 
             }
+        }
+
+        public int TotalValidacion(List<Validacion> VALIDACION, List<Respuesta> resp)
+        {
+            try
+            {
+                int comparar1, sumatoria = 0;
+                for (int i = 0; i < VALIDACION.Count(); i++)
+                {
+                    comparar1 = resp.Where(x => x.ID == VALIDACION[i].pregunta1).ToList().FirstOrDefault().valor;
+                    if (comparar1 == VALIDACION[i].Valor1)
+                        sumatoria++;
+
+                }
+                //for (int i = 0; i < VALIDACION_FR_F.Count(); i++)
+                //{
+                //    comparar1 = resp.Where(x => x.ID == VALIDACION_FR_F[i].pregunta1).ToList().FirstOrDefault().valor;
+                //    if (comparar1 == 1)
+                //        puntuacionNatural.ResultadoF_R++;
+
+                //}
+                return sumatoria;
+
+            }
+            catch (Exception)
+            {
+                return -1;
+            }  
         }
 
         public List<Respuesta> ObtenerRespuesta()
