@@ -1,4 +1,5 @@
 ﻿using ConsultorioMMPI.Clases;
+using ConsultorioMMPI.Clases.Escalas;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,7 +20,7 @@ namespace ConsultorioMMPI
     public partial class frmPreguntas : Form
     {
         #region Declaracion de objetos de validacion
-        public ResultadosSumatoria puntuacionNatural = new ResultadosSumatoria();
+        public RespuestaEscalas _puntuacionNatural = new RespuestaEscalas();
 
         public List<Validacion> VALIDACION_INVAR = new List<Validacion>() {
             new Validacion{pregunta1 = 136,Valor1 = 0,pregunta2 = 6, Valor2 = 1},
@@ -497,7 +498,7 @@ namespace ConsultorioMMPI
         //    new Validacion{pregunta1 = 338,Valor1 = 1}
         //};
 
-            //Escalas de orden superior
+        //Escalas de orden superior
 
         public List<Validacion> VALIDACION_AEPI = new List<Validacion>()
         {
@@ -1124,7 +1125,7 @@ namespace ConsultorioMMPI
             this.WindowState = FormWindowState.Maximized;
             for (int i = 0; i <= preguntas.Count - 1; i++)
             {
-                
+
                 TableLayoutPanel group = new TableLayoutPanel();
                 group.Name = "group" + i;
                 group.ColumnCount = 4;
@@ -1139,7 +1140,7 @@ namespace ConsultorioMMPI
                 group.Controls.Add(new Label { Dock = DockStyle.Fill, Text = string.Format("{0} {1}", preguntas[i].idPregunta, preguntas[i].Descripcion), TextAlign = ContentAlignment.MiddleLeft }, 0, 0);
                 for (int j = 1; j < 4; j++)
                 {
-                    group.Controls.Add(new RadioButton {Name = "Radio"+i+j,Tag = j-1, Text = j == 1 ? "Verdadero" : j== 2 ? "Falso" :  "No contestar" }, j, 0);
+                    group.Controls.Add(new RadioButton { Name = "Radio" + i + j, Tag = j - 1, Text = j == 1 ? "Verdadero" : j == 2 ? "Falso" : "No contestar" }, j, 0);
                     if (group.Controls[j].Tag.ToString() == "0")
                         ((RadioButton)group.Controls[j]).Checked = true;
                 }
@@ -1184,7 +1185,7 @@ namespace ConsultorioMMPI
             var serializer = new XmlSerializer(typeof(List<Pregunta>), new XmlRootAttribute("Preguntas"));
             using (var stringReader = new StringReader(strDataXML))
             using (var reader = XmlReader.Create(stringReader))
-                result = (List<Pregunta>)serializer.Deserialize(reader);        
+                result = (List<Pregunta>)serializer.Deserialize(reader);
             return result;
         }
 
@@ -1195,13 +1196,14 @@ namespace ConsultorioMMPI
 
         private void metroButton1_Click(object sender, EventArgs e)
         {
-            puntuacionNatural = new ResultadosSumatoria();
-            AplicarValidaciones(ObtenerRespuesta());
+            _puntuacionNatural = AplicarValidaciones(ObtenerRespuesta());
 
 
         }
-        public void AplicarValidaciones(List<Respuesta> resp)
+        public RespuestaEscalas AplicarValidaciones(List<Respuesta> resp)
         {
+            var puntuacionNatural = new RespuestaEscalas();
+            
             try
             {
                 int contador = resp.Count();
@@ -1213,18 +1215,18 @@ namespace ConsultorioMMPI
                     comparar1 = resp.Where(x => x.ID == VALIDACION_INVAR[i].pregunta1).ToList().FirstOrDefault().valor;
                     comparar2 = resp.Where(x => x.ID == VALIDACION_INVAR[i].pregunta2).ToList().FirstOrDefault().valor;
                     if (comparar1 == 0 && comparar2 == 1)
-                            puntuacionNatural.ResultadoINVAR_R++;
+                        puntuacionNatural.escalasDeValidez.INVAR_R.puntuacionNatural++;
 
                 }
                 #endregion
                 #region VALIDACION_INVER
-                puntuacionNatural.ResultadoINVER_R = puntuacionNatural.ResultadoINVER_R + 11;
+                puntuacionNatural.escalasDeValidez.ResultadoINVER_R = puntuacionNatural.escalasDeValidez.ResultadoINVER_R + 11;
                 for (int i = 0; i < VALIDACION_INVER_V.Count(); i++)
                 {
                     comparar1 = resp.Where(x => x.ID == VALIDACION_INVER_V[i].pregunta1).ToList().FirstOrDefault().valor;
                     comparar2 = resp.Where(x => x.ID == VALIDACION_INVER_V[i].pregunta2).ToList().FirstOrDefault().valor;
                     if (comparar1 == 0 && comparar2 == 0)
-                            puntuacionNatural.ResultadoINVER_R++;
+                        puntuacionNatural.escalasDeValidez.ResultadoINVER_R++;
 
                 }
                 for (int i = 0; i < VALIDACION_INVER_F.Count(); i++)
@@ -1232,13 +1234,13 @@ namespace ConsultorioMMPI
                     comparar1 = resp.Where(x => x.ID == VALIDACION_INVER_F[i].pregunta1).ToList().FirstOrDefault().valor;
                     comparar2 = resp.Where(x => x.ID == VALIDACION_INVER_F[i].pregunta2).ToList().FirstOrDefault().valor;
                     if (comparar1 == 1 && comparar2 == 1)
-                            puntuacionNatural.ResultadoINVER_R--;
+                        puntuacionNatural.escalasDeValidez.ResultadoINVER_R--;
                 }
 
                 #endregion
 
                 #region VALIDACION_FR
-                puntuacionNatural.ResultadoF_R = TotalValidacion(VALIDACION_FR, resp);
+                puntuacionNatural.escalasDeValidez.ResultadoF_R = TotalValidacion(VALIDACION_FR, resp);
                 //for (int i = 0; i < VALIDACION_FR_V.Count(); i++)
                 //{
                 //    comparar1 = resp.Where(x => x.ID == VALIDACION_FR_V[i].pregunta1).ToList().FirstOrDefault().valor;
@@ -1256,7 +1258,7 @@ namespace ConsultorioMMPI
                 #endregion
 
                 #region VALIDACION_FPSI
-                puntuacionNatural.ResultadoFPSI_R = TotalValidacion(VALIDACION_FPSI, resp);
+                puntuacionNatural.escalasDeValidez.ResultadoFPSI_R = TotalValidacion(VALIDACION_FPSI, resp);
                 //for (int i = 0; i < VALIDACION_FPSI_V.Count(); i++)
                 //{
                 //    comparar1 = resp.Where(x => x.ID == VALIDACION_FPSI_V[i].pregunta1).ToList().FirstOrDefault().valor;
@@ -1274,7 +1276,7 @@ namespace ConsultorioMMPI
                 #endregion
 
                 #region VALIDACION_FS
-                puntuacionNatural.ResultadoFS = TotalValidacion(VALIDACION_FS, resp);
+                puntuacionNatural.escalasDeValidez.ResultadoFS = TotalValidacion(VALIDACION_FS, resp);
                 //for (int i = 0; i < VALIDACION_FS_V.Count(); i++)
                 //{
                 //    comparar1 = resp.Where(x => x.ID == VALIDACION_FS_V[i].pregunta1).ToList().FirstOrDefault().valor;
@@ -1292,7 +1294,7 @@ namespace ConsultorioMMPI
                 #endregion
 
                 #region VALIDACION_FVS
-                puntuacionNatural.ResultadoFVS_R = TotalValidacion(VALIDACION_FVS, resp);
+                puntuacionNatural.escalasDeValidez.ResultadoFVS_R = TotalValidacion(VALIDACION_FVS, resp);
                 //for (int i = 0; i < VALIDACION_FVS_V.Count(); i++)
                 //{
                 //    comparar1 = resp.Where(x => x.ID == VALIDACION_FVS_V[i].pregunta1).ToList().FirstOrDefault().valor;
@@ -1310,7 +1312,7 @@ namespace ConsultorioMMPI
                 #endregion
 
                 #region VALIDACION_SI
-                puntuacionNatural.ResultadoSI = TotalValidacion(VALIDACION_SI, resp);
+                puntuacionNatural.escalasDeValidez.ResultadoSI = TotalValidacion(VALIDACION_SI, resp);
                 //for (int i = 0; i < VALIDACION_SI_V.Count(); i++)
                 //{
                 //    comparar1 = resp.Where(x => x.ID == VALIDACION_SI_V[i].pregunta1).ToList().FirstOrDefault().valor;
@@ -1328,7 +1330,7 @@ namespace ConsultorioMMPI
                 #endregion
 
                 #region VALIDACION_LR
-                puntuacionNatural.ResultadoL_R = TotalValidacion(VALIDACION_LR, resp);
+                puntuacionNatural.escalasDeValidez.ResultadoL_R = TotalValidacion(VALIDACION_LR, resp);
                 //for (int i = 0; i < VALIDACION_LR_V.Count(); i++)
                 //{
                 //    comparar1 = resp.Where(x => x.ID == VALIDACION_LR_V[i].pregunta1).ToList().FirstOrDefault().valor;
@@ -1346,7 +1348,7 @@ namespace ConsultorioMMPI
                 #endregion
 
                 #region VALIDACION_KR
-                puntuacionNatural.ResultadoK_R = TotalValidacion(VALIDACION_KR, resp);
+                puntuacionNatural.escalasDeValidez.ResultadoK_R = TotalValidacion(VALIDACION_KR, resp);
                 //for (int i = 0; i < VALIDACION_KR_V.Count(); i++)
                 //{
                 //    comparar1 = resp.Where(x => x.ID == VALIDACION_KR_V[i].pregunta1).ToList().FirstOrDefault().valor;
@@ -1364,14 +1366,14 @@ namespace ConsultorioMMPI
                 #endregion
 
                 //Escalas de orden superior
-
+                return puntuacionNatural;
 
 
             }
             catch (Exception ex)
             {
+                return new RespuestaEscalas();
 
-                
             }
         }
 
@@ -1400,7 +1402,7 @@ namespace ConsultorioMMPI
             catch (Exception)
             {
                 return -1;
-            }  
+            }
         }
 
         public List<Respuesta> ObtenerRespuesta()
