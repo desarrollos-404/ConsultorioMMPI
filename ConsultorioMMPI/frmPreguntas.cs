@@ -497,6 +497,622 @@ namespace ConsultorioMMPI
         //    new Validacion{pregunta1 = 338,Valor1 = 1}
         //};
 
+            //Escalas de orden superior
+
+        public List<Validacion> VALIDACION_AEPI = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 22,Valor1 = 0},
+            new Validacion{pregunta1 = 30,Valor1 = 0},
+            new Validacion{pregunta1 = 35,Valor1 = 0},
+            new Validacion{pregunta1 = 48,Valor1 = 0},
+            new Validacion{pregunta1 = 89,Valor1 = 0},
+            new Validacion{pregunta1 = 91,Valor1 = 0},
+            new Validacion{pregunta1 = 114,Valor1 = 0},
+            new Validacion{pregunta1 = 119,Valor1 = 0},
+            new Validacion{pregunta1 = 120,Valor1 = 0},
+            new Validacion{pregunta1 = 158,Valor1 = 0},
+            new Validacion{pregunta1 = 167,Valor1 = 0},
+            new Validacion{pregunta1 = 169,Valor1 = 0},
+            new Validacion{pregunta1 = 172,Valor1 = 0},
+            new Validacion{pregunta1 = 187,Valor1 = 0},
+            new Validacion{pregunta1 = 204,Valor1 = 0},
+            new Validacion{pregunta1 = 228,Valor1 = 0},
+            new Validacion{pregunta1 = 232,Valor1 = 0},
+            new Validacion{pregunta1 = 250,Valor1 = 0},
+            new Validacion{pregunta1 = 261,Valor1 = 0},
+            new Validacion{pregunta1 = 288,Valor1 = 0},
+            new Validacion{pregunta1 = 322,Valor1 = 0},
+            new Validacion{pregunta1 = 331,Valor1 = 0},
+            new Validacion{pregunta1 = 335,Valor1 = 0},
+            new Validacion{pregunta1 = 4,Valor1 = 1},
+            new Validacion{pregunta1 = 17,Valor1 = 1},
+            new Validacion{pregunta1 = 25,Valor1 = 1},
+            new Validacion{pregunta1 = 37,Valor1 = 1},
+            new Validacion{pregunta1 = 57,Valor1 = 1},
+            new Validacion{pregunta1 = 64,Valor1 = 1},
+            new Validacion{pregunta1 = 73,Valor1 = 1},
+            new Validacion{pregunta1 = 83,Valor1 = 1},
+            new Validacion{pregunta1 = 102,Valor1 = 1},
+            new Validacion{pregunta1 = 105,Valor1 = 1},
+            new Validacion{pregunta1 = 140,Valor1 = 1},
+            new Validacion{pregunta1 = 202,Valor1 = 1},
+            new Validacion{pregunta1 = 217,Valor1 = 1},
+            new Validacion{pregunta1 = 222,Valor1 = 1},
+            new Validacion{pregunta1 = 234,Valor1 = 1},
+            new Validacion{pregunta1 = 246,Valor1 = 1},
+            new Validacion{pregunta1 = 282,Valor1 = 1},
+            new Validacion{pregunta1 = 293,Valor1 = 1}
+        };
+
+        public List<Validacion> VALIDACION_AP = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 12,Valor1 = 0},
+            new Validacion{pregunta1 = 14,Valor1 = 0},
+            new Validacion{pregunta1 = 46,Valor1 = 0},
+            new Validacion{pregunta1 = 71,Valor1 = 0},
+            new Validacion{pregunta1 = 92,Valor1 = 0},
+            new Validacion{pregunta1 = 110,Valor1 = 0},
+            new Validacion{pregunta1 = 122,Valor1 = 0},
+            new Validacion{pregunta1 = 129,Valor1 = 0},
+            new Validacion{pregunta1 = 139,Valor1 = 0},
+            new Validacion{pregunta1 = 150,Valor1 = 0},
+            new Validacion{pregunta1 = 168,Valor1 = 0},
+            new Validacion{pregunta1 = 179,Valor1 = 0},
+            new Validacion{pregunta1 = 199,Valor1 = 0},
+            new Validacion{pregunta1 = 203,Valor1 = 0},
+            new Validacion{pregunta1 = 216,Valor1 = 0},
+            new Validacion{pregunta1 = 252,Valor1 = 0},
+            new Validacion{pregunta1 = 264,Valor1 = 0},
+            new Validacion{pregunta1 = 273,Valor1 = 0},
+            new Validacion{pregunta1 = 287,Valor1 = 0},
+            new Validacion{pregunta1 = 294,Valor1 = 0},
+            new Validacion{pregunta1 = 311,Valor1 = 0},
+            new Validacion{pregunta1 = 330,Valor1 = 0},
+            new Validacion{pregunta1 = 332,Valor1 = 0},
+            new Validacion{pregunta1 = 85,Valor1 = 1},
+            new Validacion{pregunta1 = 212,Valor1 = 1},
+        };
+        public List<Validacion> VALIDACION_ACPE = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 21,Valor1 = 0},
+            new Validacion{pregunta1 = 49,Valor1 = 0},
+            new Validacion{pregunta1 = 66,Valor1 = 0},
+            new Validacion{pregunta1 = 84,Valor1 = 0},
+            new Validacion{pregunta1 = 96,Valor1 = 0},
+            new Validacion{pregunta1 = 107,Valor1 = 0},
+            new Validacion{pregunta1 = 131,Valor1 = 0},
+            new Validacion{pregunta1 = 156,Valor1 = 0},
+            new Validacion{pregunta1 = 193,Valor1 = 0},
+            new Validacion{pregunta1 = 205,Valor1 = 0},
+            new Validacion{pregunta1 = 223,Valor1 = 0},
+            new Validacion{pregunta1 = 226,Valor1 = 0},
+            new Validacion{pregunta1 = 231,Valor1 = 0},
+            new Validacion{pregunta1 = 248,Valor1 = 0},
+            new Validacion{pregunta1 = 253,Valor1 = 0},
+            new Validacion{pregunta1 = 266,Valor1 = 0},
+            new Validacion{pregunta1 = 292,Valor1 = 0},
+            new Validacion{pregunta1 = 312,Valor1 = 0},
+            new Validacion{pregunta1 = 316,Valor1 = 0},
+            new Validacion{pregunta1 = 329,Valor1 = 0},
+            new Validacion{pregunta1 = 61,Valor1 = 1},
+            new Validacion{pregunta1 = 190,Valor1 = 1},
+            new Validacion{pregunta1 = 237,Valor1 = 1}
+        };
+
+        //Escalas clinicas reestructuradas
+        public List<Validacion> VALIDACION_CRD = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 6,Valor1 = 0},
+            new Validacion{pregunta1 = 22,Valor1 = 0},
+            new Validacion{pregunta1 = 30,Valor1 = 0},
+            new Validacion{pregunta1 = 48,Valor1 = 0},
+            new Validacion{pregunta1 = 62,Valor1 = 0},
+            new Validacion{pregunta1 = 74,Valor1 = 0},
+            new Validacion{pregunta1 = 89,Valor1 = 0},
+            new Validacion{pregunta1 = 117,Valor1 = 0},
+            new Validacion{pregunta1 = 130,Valor1 = 0},
+            new Validacion{pregunta1 = 144,Valor1 = 0},
+            new Validacion{pregunta1 = 158,Valor1 = 0},
+            new Validacion{pregunta1 = 172,Valor1 = 0},
+            new Validacion{pregunta1 = 187,Valor1 = 0},
+            new Validacion{pregunta1 = 204,Valor1 = 0},
+            new Validacion{pregunta1 = 232,Valor1 = 0},
+            new Validacion{pregunta1 = 247,Valor1 = 0},
+            new Validacion{pregunta1 = 261,Valor1 = 0},
+            new Validacion{pregunta1 = 274,Valor1 = 0},
+            new Validacion{pregunta1 = 288,Valor1 = 0},
+            new Validacion{pregunta1 = 299,Valor1 = 0},
+            new Validacion{pregunta1 = 315,Valor1 = 0},
+            new Validacion{pregunta1 = 331,Valor1 = 0},
+            new Validacion{pregunta1 = 105,Valor1 = 1},
+            new Validacion{pregunta1 = 217,Valor1 = 1}
+        };
+
+        public List<Validacion> VALIDACION_CR1 = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 15,Valor1 = 0},
+            new Validacion{pregunta1 = 43,Valor1 = 0},
+            new Validacion{pregunta1 = 76,Valor1 = 0},
+            new Validacion{pregunta1 = 101,Valor1 = 0},
+            new Validacion{pregunta1 = 137,Valor1 = 0},
+            new Validacion{pregunta1 = 176,Valor1 = 0},
+            new Validacion{pregunta1 = 230,Valor1 = 0},
+            new Validacion{pregunta1 = 242,Valor1 = 0},
+            new Validacion{pregunta1 = 277,Valor1 = 0},
+            new Validacion{pregunta1 = 301,Valor1 = 0},
+            new Validacion{pregunta1 = 328,Valor1 = 0},
+            new Validacion{pregunta1 = 2,Valor1 = 1},
+            new Validacion{pregunta1 = 28,Valor1 = 1},
+            new Validacion{pregunta1 = 52,Valor1 = 1},
+            new Validacion{pregunta1 = 65,Valor1 = 1},
+            new Validacion{pregunta1 = 69,Valor1 = 1},
+            new Validacion{pregunta1 = 88,Valor1 = 1},
+            new Validacion{pregunta1 = 113,Valor1 = 1},
+            new Validacion{pregunta1 = 125,Valor1 = 1},
+            new Validacion{pregunta1 = 162,Valor1 = 1},
+            new Validacion{pregunta1 = 174,Valor1 = 1},
+            new Validacion{pregunta1 = 189,Valor1 = 1},
+            new Validacion{pregunta1 = 227,Valor1 = 1},
+            new Validacion{pregunta1 = 254,Valor1 = 1},
+            new Validacion{pregunta1 = 265,Valor1 = 1},
+            new Validacion{pregunta1 = 290,Valor1 = 1},
+            new Validacion{pregunta1 = 313,Valor1 = 1}
+        };
+
+        public List<Validacion> VALIDACION_CR2 = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 4,Valor1 = 1},
+            new Validacion{pregunta1 = 17,Valor1 = 1},
+            new Validacion{pregunta1 = 25,Valor1 = 1},
+            new Validacion{pregunta1 = 53,Valor1 = 1},
+            new Validacion{pregunta1 = 64,Valor1 = 1},
+            new Validacion{pregunta1 = 83,Valor1 = 1},
+            new Validacion{pregunta1 = 102,Valor1 = 1},
+            new Validacion{pregunta1 = 140,Valor1 = 1},
+            new Validacion{pregunta1 = 160,Valor1 = 1},
+            new Validacion{pregunta1 = 182,Valor1 = 1},
+            new Validacion{pregunta1 = 195,Valor1 = 1},
+            new Validacion{pregunta1 = 202,Valor1 = 1},
+            new Validacion{pregunta1 = 222,Valor1 = 1},
+            new Validacion{pregunta1 = 246,Valor1 = 1},
+            new Validacion{pregunta1 = 282,Valor1 = 1},
+            new Validacion{pregunta1 = 302,Valor1 = 1},
+            new Validacion{pregunta1 = 323,Valor1 = 1}
+        };
+
+        public List<Validacion> VALIDACION_CR3 = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 10,Valor1 = 0},
+            new Validacion{pregunta1 = 36,Valor1 = 0},
+            new Validacion{pregunta1 = 55,Valor1 = 0},
+            new Validacion{pregunta1 = 87,Valor1 = 0},
+            new Validacion{pregunta1 = 99,Valor1 = 0},
+            new Validacion{pregunta1 = 121,Valor1 = 0},
+            new Validacion{pregunta1 = 142,Valor1 = 0},
+            new Validacion{pregunta1 = 171,Valor1 = 0},
+            new Validacion{pregunta1 = 185,Valor1 = 0},
+            new Validacion{pregunta1 = 213,Valor1 = 0},
+            new Validacion{pregunta1 = 238,Valor1 = 0},
+            new Validacion{pregunta1 = 260,Valor1 = 0},
+            new Validacion{pregunta1 = 279,Valor1 = 0},
+            new Validacion{pregunta1 = 304,Valor1 = 0},
+            new Validacion{pregunta1 = 326,Valor1 = 0}
+        };
+
+        public List<Validacion> VALIDACION_CR4 = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 5,Valor1 = 0},
+            new Validacion{pregunta1 = 21,Valor1 = 0},
+            new Validacion{pregunta1 = 49,Valor1 = 0},
+            new Validacion{pregunta1 = 66,Valor1 = 0},
+            new Validacion{pregunta1 = 96,Valor1 = 0},
+            new Validacion{pregunta1 = 141,Valor1 = 0},
+            new Validacion{pregunta1 = 156,Valor1 = 0},
+            new Validacion{pregunta1 = 173,Valor1 = 0},
+            new Validacion{pregunta1 = 205,Valor1 = 0},
+            new Validacion{pregunta1 = 218,Valor1 = 0},
+            new Validacion{pregunta1 = 223,Valor1 = 0},
+            new Validacion{pregunta1 = 253,Valor1 = 0},
+            new Validacion{pregunta1 = 266,Valor1 = 0},
+            new Validacion{pregunta1 = 297,Valor1 = 0},
+            new Validacion{pregunta1 = 312,Valor1 = 0},
+            new Validacion{pregunta1 = 329,Valor1 = 0},
+            new Validacion{pregunta1 = 19,Valor1 = 1},
+            new Validacion{pregunta1 = 38,Valor1 = 1},
+            new Validacion{pregunta1 = 80,Valor1 = 1},
+            new Validacion{pregunta1 = 126,Valor1 = 1},
+            new Validacion{pregunta1 = 190,Valor1 = 1},
+            new Validacion{pregunta1 = 237,Valor1 = 1}
+        };
+
+        public List<Validacion> VALIDACION_CR6 = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 14,Valor1 = 0},
+            new Validacion{pregunta1 = 34,Valor1 = 0},
+            new Validacion{pregunta1 = 71,Valor1 = 0},
+            new Validacion{pregunta1 = 92,Valor1 = 0},
+            new Validacion{pregunta1 = 110,Valor1 = 0},
+            new Validacion{pregunta1 = 129,Valor1 = 0},
+            new Validacion{pregunta1 = 150,Valor1 = 0},
+            new Validacion{pregunta1 = 168,Valor1 = 0},
+            new Validacion{pregunta1 = 194,Valor1 = 0},
+            new Validacion{pregunta1 = 233,Valor1 = 0},
+            new Validacion{pregunta1 = 252,Valor1 = 0},
+            new Validacion{pregunta1 = 264,Valor1 = 0},
+            new Validacion{pregunta1 = 270,Valor1 = 0},
+            new Validacion{pregunta1 = 287,Valor1 = 0},
+            new Validacion{pregunta1 = 310,Valor1 = 0},
+            new Validacion{pregunta1 = 332,Valor1 = 0},
+            new Validacion{pregunta1 = 212,Valor1 = 1}
+        };
+
+        public List<Validacion> VALIDACION_CR7 = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 9,Valor1 = 0},
+            new Validacion{pregunta1 = 23,Valor1 = 0},
+            new Validacion{pregunta1 = 35,Valor1 = 0},
+            new Validacion{pregunta1 = 51,Valor1 = 0},
+            new Validacion{pregunta1 = 63,Valor1 = 0},
+            new Validacion{pregunta1 = 77,Valor1 = 0},
+            new Validacion{pregunta1 = 91,Valor1 = 0},
+            new Validacion{pregunta1 = 112,Valor1 = 0},
+            new Validacion{pregunta1 = 119,Valor1 = 0},
+            new Validacion{pregunta1 = 132,Valor1 = 0},
+            new Validacion{pregunta1 = 146,Valor1 = 0},
+            new Validacion{pregunta1 = 149,Valor1 = 0},
+            new Validacion{pregunta1 = 161,Valor1 = 0},
+            new Validacion{pregunta1 = 206,Valor1 = 0},
+            new Validacion{pregunta1 = 228,Valor1 = 0},
+            new Validacion{pregunta1 = 235,Valor1 = 0},
+            new Validacion{pregunta1 = 250,Valor1 = 0},
+            new Validacion{pregunta1 = 263,Valor1 = 0},
+            new Validacion{pregunta1 = 275,Valor1 = 0},
+            new Validacion{pregunta1 = 289,Valor1 = 0},
+            new Validacion{pregunta1 = 303,Valor1 = 0},
+            new Validacion{pregunta1 = 318,Valor1 = 0},
+            new Validacion{pregunta1 = 322,Valor1 = 0},
+            new Validacion{pregunta1 = 335,Valor1 = 0}
+        };
+
+        public List<Validacion> VALIDACION_CR8 = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 12,Valor1 = 0},
+            new Validacion{pregunta1 = 32,Valor1 = 0},
+            new Validacion{pregunta1 = 46,Valor1 = 0},
+            new Validacion{pregunta1 = 106,Valor1 = 0},
+            new Validacion{pregunta1 = 122,Valor1 = 0},
+            new Validacion{pregunta1 = 139,Valor1 = 0},
+            new Validacion{pregunta1 = 159,Valor1 = 0},
+            new Validacion{pregunta1 = 179,Valor1 = 0},
+            new Validacion{pregunta1 = 199,Valor1 = 0},
+            new Validacion{pregunta1 = 203,Valor1 = 0},
+            new Validacion{pregunta1 = 216,Valor1 = 0},
+            new Validacion{pregunta1 = 240,Valor1 = 0},
+            new Validacion{pregunta1 = 257,Valor1 = 0},
+            new Validacion{pregunta1 = 273,Valor1 = 0},
+            new Validacion{pregunta1 = 294,Valor1 = 0},
+            new Validacion{pregunta1 = 311,Valor1 = 0},
+            new Validacion{pregunta1 = 330,Valor1 = 0},
+            new Validacion{pregunta1 = 85,Valor1 = 1}
+        };
+
+        public List<Validacion> VALIDACION_CR9 = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 13,Valor1 = 0},
+            new Validacion{pregunta1 = 26,Valor1 = 0},
+            new Validacion{pregunta1 = 39,Valor1 = 0},
+            new Validacion{pregunta1 = 47,Valor1 = 0},
+            new Validacion{pregunta1 = 72,Valor1 = 0},
+            new Validacion{pregunta1 = 84,Valor1 = 0},
+            new Validacion{pregunta1 = 97,Valor1 = 0},
+            new Validacion{pregunta1 = 107,Valor1 = 0},
+            new Validacion{pregunta1 = 118,Valor1 = 0},
+            new Validacion{pregunta1 = 131,Valor1 = 0},
+            new Validacion{pregunta1 = 143,Valor1 = 0},
+            new Validacion{pregunta1 = 155,Valor1 = 0},
+            new Validacion{pregunta1 = 166,Valor1 = 0},
+            new Validacion{pregunta1 = 181,Valor1 = 0},
+            new Validacion{pregunta1 = 193,Valor1 = 0},
+            new Validacion{pregunta1 = 207,Valor1 = 0},
+            new Validacion{pregunta1 = 219,Valor1 = 0},
+            new Validacion{pregunta1 = 231,Valor1 = 0},
+            new Validacion{pregunta1 = 244,Valor1 = 0},
+            new Validacion{pregunta1 = 248,Valor1 = 0},
+            new Validacion{pregunta1 = 256,Valor1 = 0},
+            new Validacion{pregunta1 = 267,Valor1 = 0},
+            new Validacion{pregunta1 = 292,Valor1 = 0},
+            new Validacion{pregunta1 = 305,Valor1 = 0},
+            new Validacion{pregunta1 = 316,Valor1 = 0},
+            new Validacion{pregunta1 = 327,Valor1 = 0},
+            new Validacion{pregunta1 = 337,Valor1 = 0},
+            new Validacion{pregunta1 = 61,Valor1 = 1}
+        };
+
+        //Escalas de problemas especificos
+        public List<Validacion> VALIDACION_MAL = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 18,Valor1 = 0},
+            new Validacion{pregunta1 = 4,Valor1 = 1},
+            new Validacion{pregunta1 = 25,Valor1 = 1},
+            new Validacion{pregunta1 = 163,Valor1 = 1},
+            new Validacion{pregunta1 = 174,Valor1 = 1},
+            new Validacion{pregunta1 = 202,Valor1 = 1},
+            new Validacion{pregunta1 = 262,Valor1 = 1},
+            new Validacion{pregunta1 = 333,Valor1 = 1}
+        };
+
+        public List<Validacion> VALIDACION_QGI = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 43,Valor1 = 0},
+            new Validacion{pregunta1 = 76,Valor1 = 0},
+            new Validacion{pregunta1 = 210,Valor1 = 0},
+            new Validacion{pregunta1 = 230,Valor1 = 0},
+            new Validacion{pregunta1 = 2,Valor1 = 1}
+        };
+
+        public List<Validacion> VALIDACION_QDC = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 101,Valor1 = 0},
+            new Validacion{pregunta1 = 176,Valor1 = 0},
+            new Validacion{pregunta1 = 328,Valor1 = 0},
+            new Validacion{pregunta1 = 88,Valor1 = 1},
+            new Validacion{pregunta1 = 189,Valor1 = 1},
+            new Validacion{pregunta1 = 265,Valor1 = 1}
+        };
+
+        public List<Validacion> VALIDACION_QNEU = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 122,Valor1 = 0},
+            new Validacion{pregunta1 = 277,Valor1 = 0},
+            new Validacion{pregunta1 = 301,Valor1 = 0},
+            new Validacion{pregunta1 = 69,Valor1 = 1},
+            new Validacion{pregunta1 = 113,Valor1 = 1},
+            new Validacion{pregunta1 = 125,Valor1 = 1},
+            new Validacion{pregunta1 = 162,Valor1 = 1},
+            new Validacion{pregunta1 = 186,Valor1 = 1},
+            new Validacion{pregunta1 = 227,Valor1 = 1},
+            new Validacion{pregunta1 = 313,Valor1 = 1}
+        };
+
+        public List<Validacion> VALIDACION_QCO = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 31,Valor1 = 0},
+            new Validacion{pregunta1 = 136,Valor1 = 0},
+            new Validacion{pregunta1 = 159,Valor1 = 0},
+            new Validacion{pregunta1 = 200,Valor1 = 0},
+            new Validacion{pregunta1 = 240,Valor1 = 0},
+            new Validacion{pregunta1 = 257,Valor1 = 0},
+            new Validacion{pregunta1 = 280,Valor1 = 0},
+            new Validacion{pregunta1 = 306,Valor1 = 0},
+            new Validacion{pregunta1 = 59,Valor1 = 1},
+            new Validacion{pregunta1 = 102,Valor1 = 1}
+        };
+
+        //ESCALAS DE PROBLEMAS INTERNALIZADOS
+
+        public List<Validacion> VALIDACION_ISU = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 93,Valor1 = 0},
+            new Validacion{pregunta1 = 120,Valor1 = 0},
+            new Validacion{pregunta1 = 164,Valor1 = 0},
+            new Validacion{pregunta1 = 251,Valor1 = 0},
+            new Validacion{pregunta1 = 334,Valor1 = 0}
+        };
+
+        public List<Validacion> VALIDACION_IMD = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 135,Valor1 = 0},
+            new Validacion{pregunta1 = 169,Valor1 = 0},
+            new Validacion{pregunta1 = 214,Valor1 = 0},
+            new Validacion{pregunta1 = 336,Valor1 = 0},
+            new Validacion{pregunta1 = 282,Valor1 = 1}
+        };
+
+        public List<Validacion> VALIDACION_DSM = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 48,Valor1 = 0},
+            new Validacion{pregunta1 = 89,Valor1 = 0},
+            new Validacion{pregunta1 = 232,Valor1 = 0},
+            new Validacion{pregunta1 = 288,Valor1 = 0}
+        };
+
+        public List<Validacion> VALIDACION_INE = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 27,Valor1 = 0},
+            new Validacion{pregunta1 = 68,Valor1 = 0},
+            new Validacion{pregunta1 = 108,Valor1 = 0},
+            new Validacion{pregunta1 = 152,Valor1 = 0},
+            new Validacion{pregunta1 = 198,Valor1 = 0},
+            new Validacion{pregunta1 = 229,Valor1 = 0},
+            new Validacion{pregunta1 = 271,Valor1 = 0},
+            new Validacion{pregunta1 = 274,Valor1 = 0},
+            new Validacion{pregunta1 = 324,Valor1 = 0}
+        };
+
+        public List<Validacion> VALIDACION_PE = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 29,Valor1 = 0},
+            new Validacion{pregunta1 = 123,Valor1 = 0},
+            new Validacion{pregunta1 = 167,Valor1 = 0},
+            new Validacion{pregunta1 = 224,Valor1 = 0},
+            new Validacion{pregunta1 = 309,Valor1 = 0},
+            new Validacion{pregunta1 = 73,Valor1 = 1},
+            new Validacion{pregunta1 = 234,Valor1 = 1}
+        };
+
+        public List<Validacion> VALIDACION_ANS = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 79,Valor1 = 0},
+            new Validacion{pregunta1 = 146,Valor1 = 0},
+            new Validacion{pregunta1 = 228,Valor1 = 0},
+            new Validacion{pregunta1 = 275,Valor1 = 0},
+            new Validacion{pregunta1 = 289,Valor1 = 0}
+        };
+        public List<Validacion> VALIDACION_TEN = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 119,Valor1 = 0},
+            new Validacion{pregunta1 = 155,Valor1 = 0},
+            new Validacion{pregunta1 = 248,Valor1 = 0},
+            new Validacion{pregunta1 = 303,Valor1 = 0},
+            new Validacion{pregunta1 = 318,Valor1 = 0},
+            new Validacion{pregunta1 = 134,Valor1 = 1},
+            new Validacion{pregunta1 = 293,Valor1 = 1}
+        };
+
+        public List<Validacion> VALIDACION_LCM = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 20,Valor1 = 0},
+            new Validacion{pregunta1 = 56,Valor1 = 0},
+            new Validacion{pregunta1 = 90,Valor1 = 0},
+            new Validacion{pregunta1 = 165,Valor1 = 0},
+            new Validacion{pregunta1 = 208,Valor1 = 0},
+            new Validacion{pregunta1 = 243,Valor1 = 0},
+            new Validacion{pregunta1 = 284,Valor1 = 0},
+            new Validacion{pregunta1 = 317,Valor1 = 0},
+            new Validacion{pregunta1 = 128,Valor1 = 1}
+        };
+
+        public List<Validacion> VALIDACION_MEM = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 54,Valor1 = 0},
+            new Validacion{pregunta1 = 151,Valor1 = 0},
+            new Validacion{pregunta1 = 258,Valor1 = 0},
+            new Validacion{pregunta1 = 320,Valor1 = 0},
+            new Validacion{pregunta1 = 82,Valor1 = 1},
+            new Validacion{pregunta1 = 115,Valor1 = 1},
+            new Validacion{pregunta1 = 184,Valor1 = 1},
+            new Validacion{pregunta1 = 220,Valor1 = 1},
+            new Validacion{pregunta1 = 286,Valor1 = 1}
+        };
+        //Escalas de problemas externalizados
+        public List<Validacion> VALIDACION_PCIJ = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 21,Valor1 = 0},
+            new Validacion{pregunta1 = 66,Valor1 = 0},
+            new Validacion{pregunta1 = 96,Valor1 = 0},
+            new Validacion{pregunta1 = 205,Valor1 = 0},
+            new Validacion{pregunta1 = 223,Valor1 = 0},
+            new Validacion{pregunta1 = 253,Valor1 = 0}
+        };
+
+        public List<Validacion> VALIDACION_ABS = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 49,Valor1 = 0},
+            new Validacion{pregunta1 = 86,Valor1 = 0},
+            new Validacion{pregunta1 = 141,Valor1 = 0},
+            new Validacion{pregunta1 = 192,Valor1 = 0},
+            new Validacion{pregunta1 = 266,Valor1 = 0},
+            new Validacion{pregunta1 = 297,Valor1 = 0},
+            new Validacion{pregunta1 = 237,Valor1 = 1}
+        };
+        public List<Validacion> VALIDACION_AG = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 23,Valor1 = 0},
+            new Validacion{pregunta1 = 26,Valor1 = 0},
+            new Validacion{pregunta1 = 41,Valor1 = 0},
+            new Validacion{pregunta1 = 84,Valor1 = 0},
+            new Validacion{pregunta1 = 231,Valor1 = 0},
+            new Validacion{pregunta1 = 312,Valor1 = 0},
+            new Validacion{pregunta1 = 316,Valor1 = 0},
+            new Validacion{pregunta1 = 329,Valor1 = 0},
+            new Validacion{pregunta1 = 337,Valor1 = 0}
+        };
+
+        public List<Validacion> VALIDACION_EUF = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 72,Valor1 = 0},
+            new Validacion{pregunta1 = 81,Valor1 = 0},
+            new Validacion{pregunta1 = 166,Valor1 = 0},
+            new Validacion{pregunta1 = 181,Valor1 = 0},
+            new Validacion{pregunta1 = 207,Valor1 = 0},
+            new Validacion{pregunta1 = 219,Valor1 = 0},
+            new Validacion{pregunta1 = 267,Valor1 = 0},
+            new Validacion{pregunta1 = 285,Valor1 = 0}
+        };
+        //Escalas de problemas interpersonales
+        public List<Validacion> VALIDACION_PFA = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 58,Valor1 = 0},
+            new Validacion{pregunta1 = 103,Valor1 = 0},
+            new Validacion{pregunta1 = 138,Valor1 = 0},
+            new Validacion{pregunta1 = 180,Valor1 = 0},
+            new Validacion{pregunta1 = 215,Valor1 = 0},
+            new Validacion{pregunta1 = 281,Valor1 = 0},
+            new Validacion{pregunta1 = 307,Valor1 = 0},
+            new Validacion{pregunta1 = 19,Valor1 = 1},
+            new Validacion{pregunta1 = 80,Valor1 = 1},
+            new Validacion{pregunta1 = 269,Valor1 = 1}
+        };
+        public List<Validacion> VALIDACION_PIP = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 24,Valor1 = 0},
+            new Validacion{pregunta1 = 60,Valor1 = 1},
+            new Validacion{pregunta1 = 104,Valor1 = 1},
+            new Validacion{pregunta1 = 147,Valor1 = 1},
+            new Validacion{pregunta1 = 197,Valor1 = 1},
+            new Validacion{pregunta1 = 239,Valor1 = 1},
+            new Validacion{pregunta1 = 276,Valor1 = 1},
+            new Validacion{pregunta1 = 302,Valor1 = 1},
+            new Validacion{pregunta1 = 321,Valor1 = 1},
+            new Validacion{pregunta1 = 327,Valor1 = 1}
+        };
+
+        public List<Validacion> VALIDACION_ESO = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 278,Valor1 = 0},
+            new Validacion{pregunta1 = 11,Valor1 = 1},
+            new Validacion{pregunta1 = 17,Valor1 = 1},
+            new Validacion{pregunta1 = 47,Valor1 = 1},
+            new Validacion{pregunta1 = 57,Valor1 = 1},
+            new Validacion{pregunta1 = 94,Valor1 = 1},
+            new Validacion{pregunta1 = 109,Valor1 = 1},
+            new Validacion{pregunta1 = 153,Valor1 = 1},
+            new Validacion{pregunta1 = 201,Valor1 = 1},
+            new Validacion{pregunta1 = 222,Valor1 = 1}
+        };
+        public List<Validacion> VALIDACION_TIM = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 35,Valor1 = 0},
+            new Validacion{pregunta1 = 44,Valor1 = 0},
+            new Validacion{pregunta1 = 91,Valor1 = 0},
+            new Validacion{pregunta1 = 114,Valor1 = 0},
+            new Validacion{pregunta1 = 177,Valor1 = 0},
+            new Validacion{pregunta1 = 249,Valor1 = 0},
+            new Validacion{pregunta1 = 295,Valor1 = 1}
+        };
+        public List<Validacion> VALIDACION_DES = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 67,Valor1 = 0},
+            new Validacion{pregunta1 = 124,Valor1 = 0},
+            new Validacion{pregunta1 = 175,Valor1 = 0},
+            new Validacion{pregunta1 = 236,Valor1 = 0},
+            new Validacion{pregunta1 = 291,Valor1 = 0},
+            new Validacion{pregunta1 = 8,Valor1 = 1}
+        };
+        //Escalas de intereses especificos
+        public List<Validacion> VALIDACION_IEL = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 3,Valor1 = 0},
+            new Validacion{pregunta1 = 50,Valor1 = 0},
+            new Validacion{pregunta1 = 100,Valor1 = 0},
+            new Validacion{pregunta1 = 145,Valor1 = 0},
+            new Validacion{pregunta1 = 196,Valor1 = 0},
+            new Validacion{pregunta1 = 245,Valor1 = 0},
+            new Validacion{pregunta1 = 296,Valor1 = 0}
+        };
+
+        public List<Validacion> VALIDACION_IFM = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 1,Valor1 = 0},
+            new Validacion{pregunta1 = 42,Valor1 = 0},
+            new Validacion{pregunta1 = 75,Valor1 = 0},
+            new Validacion{pregunta1 = 111,Valor1 = 0},
+            new Validacion{pregunta1 = 148,Valor1 = 0},
+            new Validacion{pregunta1 = 188,Valor1 = 0},
+            new Validacion{pregunta1 = 226,Valor1 = 0},
+            new Validacion{pregunta1 = 259,Valor1 = 0},
+            new Validacion{pregunta1 = 300,Valor1 = 0}
+        };
 
 
         #endregion
@@ -747,6 +1363,7 @@ namespace ConsultorioMMPI
                 //}
                 #endregion
 
+                //Escalas de orden superior
 
 
 
