@@ -1203,169 +1203,159 @@ namespace ConsultorioMMPI
         public RespuestaEscalas AplicarValidaciones(List<Respuesta> resp)
         {
             var puntuacionNatural = new RespuestaEscalas();
-            
+
             try
             {
                 int contador = resp.Count();
                 int comparar1, comparar2 = 0;
 
+                #region ESCALAS DE VALIDEZ
                 #region VALIDACION_INVAR
+                int ptINVAR_R = 0;
                 for (int i = 0; i < VALIDACION_INVAR.Count(); i++)
                 {
                     comparar1 = resp.Where(x => x.ID == VALIDACION_INVAR[i].pregunta1).ToList().FirstOrDefault().valor;
                     comparar2 = resp.Where(x => x.ID == VALIDACION_INVAR[i].pregunta2).ToList().FirstOrDefault().valor;
                     if (comparar1 == 0 && comparar2 == 1)
-                        puntuacionNatural.escalasDeValidez.INVAR_R.puntuacionNatural++;
+                        ptINVAR_R++;
 
                 }
+                var INVAR_R = new Escala()
+                {
+                    descripcion = "INCONSISTENCIA EN LAS RESPUESTAS VARIABLES",
+                    significado = "RESPONDER AL AZAR",
+                    siglas = "INVAR-R",
+                    puntuacionNatural = ptINVAR_R,
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref INVAR_R);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(INVAR_R);
                 #endregion
+
                 #region VALIDACION_INVER
-                puntuacionNatural.escalasDeValidez.ResultadoINVER_R = puntuacionNatural.escalasDeValidez.ResultadoINVER_R + 11;
+                int puntuacionNaturalINVER_R = 0;
                 for (int i = 0; i < VALIDACION_INVER_V.Count(); i++)
                 {
                     comparar1 = resp.Where(x => x.ID == VALIDACION_INVER_V[i].pregunta1).ToList().FirstOrDefault().valor;
                     comparar2 = resp.Where(x => x.ID == VALIDACION_INVER_V[i].pregunta2).ToList().FirstOrDefault().valor;
                     if (comparar1 == 0 && comparar2 == 0)
-                        puntuacionNatural.escalasDeValidez.ResultadoINVER_R++;
-
+                        puntuacionNaturalINVER_R++;
                 }
                 for (int i = 0; i < VALIDACION_INVER_F.Count(); i++)
                 {
                     comparar1 = resp.Where(x => x.ID == VALIDACION_INVER_F[i].pregunta1).ToList().FirstOrDefault().valor;
                     comparar2 = resp.Where(x => x.ID == VALIDACION_INVER_F[i].pregunta2).ToList().FirstOrDefault().valor;
                     if (comparar1 == 1 && comparar2 == 1)
-                        puntuacionNatural.escalasDeValidez.ResultadoINVER_R--;
+                        puntuacionNaturalINVER_R--;
                 }
-
+                var INVER_R = new Escala()
+                {
+                    descripcion = @"INCONSISTENCIA EN RESPUESTAS ""VERDADERO""",
+                    significado = "RESPONDE DE FORMA FIJA",
+                    siglas = "INVER-R",
+                    puntuacionNatural = puntuacionNaturalINVER_R + 11,
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref INVER_R);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(INVER_R);
                 #endregion
 
                 #region VALIDACION_FR
-                puntuacionNatural.escalasDeValidez.ResultadoF_R = TotalValidacion(VALIDACION_FR, resp);
-                //for (int i = 0; i < VALIDACION_FR_V.Count(); i++)
-                //{
-                //    comparar1 = resp.Where(x => x.ID == VALIDACION_FR_V[i].pregunta1).ToList().FirstOrDefault().valor;
-                //    if (comparar1 == 0)
-                //        puntuacionNatural.ResultadoF_R++;
-
-                //}
-                //for (int i = 0; i < VALIDACION_FR_F.Count(); i++)
-                //{
-                //    comparar1 = resp.Where(x => x.ID == VALIDACION_FR_F[i].pregunta1).ToList().FirstOrDefault().valor;
-                //    if (comparar1 == 1)
-                //        puntuacionNatural.ResultadoF_R++;
-
-                //}
+                var F_R = new Escala()
+                {
+                    descripcion = "RESPUESTAS INFRECUENTES",
+                    significado = "RESPUESTAS INFRECUENTES EN LA POBLACIÓN GENERAL",
+                    siglas = "F-R",
+                    puntuacionNatural = TotalValidacion(VALIDACION_FR, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref F_R);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(F_R);
                 #endregion
 
-                #region VALIDACION_FPSI
-                puntuacionNatural.escalasDeValidez.ResultadoFPSI_R = TotalValidacion(VALIDACION_FPSI, resp);
-                //for (int i = 0; i < VALIDACION_FPSI_V.Count(); i++)
-                //{
-                //    comparar1 = resp.Where(x => x.ID == VALIDACION_FPSI_V[i].pregunta1).ToList().FirstOrDefault().valor;
-                //    if (comparar1 == 0)
-                //        puntuacionNatural.ResultadoFPSI_R++;
-
-                //}
-                //for (int i = 0; i < VALIDACION_FPSI_F.Count(); i++)
-                //{
-                //    comparar1 = resp.Where(x => x.ID == VALIDACION_FPSI_F[i].pregunta1).ToList().FirstOrDefault().valor;
-                //    if (comparar1 == 1)
-                //        puntuacionNatural.ResultadoFPSI_R++;
-
-                //}
+                #region VALIDACION_FPSI                
+                var FPSI_R = new Escala()
+                {
+                    descripcion = "RESP. INFRE. DE PSICOPAT.",
+                    significado = "RESPUESTAS INFRECUENTES EN LA POBLACIÓN PSIQUIÁTRICA",
+                    siglas = "FPSI-R",
+                    puntuacionNatural = TotalValidacion(VALIDACION_FPSI, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref FPSI_R);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(FPSI_R);
                 #endregion
 
-                #region VALIDACION_FS
-                puntuacionNatural.escalasDeValidez.ResultadoFS = TotalValidacion(VALIDACION_FS, resp);
-                //for (int i = 0; i < VALIDACION_FS_V.Count(); i++)
-                //{
-                //    comparar1 = resp.Where(x => x.ID == VALIDACION_FS_V[i].pregunta1).ToList().FirstOrDefault().valor;
-                //    if (comparar1 == 0)
-                //        puntuacionNatural.ResultadoFS++;
+                #region VALIDACION_FS                
+                var FS = new Escala()
+                {
+                    descripcion = "RESPUESTAS INFRECUENTES SOMÁTICAS",
+                    significado = "QUEJAS SOMÁTICAS INFRECUENTES EN LA POBLACIÓN MÉDICA-PACIENTES.",
+                    siglas = "FS",
+                    puntuacionNatural = TotalValidacion(VALIDACION_FS, resp),
+                    puntuacionT = 0
 
-                //}
-                //for (int i = 0; i < VALIDACION_FS_F.Count(); i++)
-                //{
-                //    comparar1 = resp.Where(x => x.ID == VALIDACION_FS_F[i].pregunta1).ToList().FirstOrDefault().valor;
-                //    if (comparar1 == 1)
-                //        puntuacionNatural.ResultadoFS++;
-
-                //}
+                };
+                PuntuacionT.CalcularPuntuacionT(ref FS);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(FS);
                 #endregion
 
-                #region VALIDACION_FVS
-                puntuacionNatural.escalasDeValidez.ResultadoFVS_R = TotalValidacion(VALIDACION_FVS, resp);
-                //for (int i = 0; i < VALIDACION_FVS_V.Count(); i++)
-                //{
-                //    comparar1 = resp.Where(x => x.ID == VALIDACION_FVS_V[i].pregunta1).ToList().FirstOrDefault().valor;
-                //    if (comparar1 == 0)
-                //        puntuacionNatural.ResultadoFVS_R++;
-
-                //}
-                //for (int i = 0; i < VALIDACION_FVS_F.Count(); i++)
-                //{
-                //    comparar1 = resp.Where(x => x.ID == VALIDACION_FVS_F[i].pregunta1).ToList().FirstOrDefault().valor;
-                //    if (comparar1 == 1)
-                //        puntuacionNatural.ResultadoFVS_R++;
-
-                //}
+                #region VALIDACION_FVS               
+                var FVS_R = new Escala()
+                {
+                    descripcion = "VALIDEZ DEL SÍNTOMA",
+                    significado = "QUEJAS",
+                    siglas = "FVS-R",
+                    puntuacionNatural = TotalValidacion(VALIDACION_FVS, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref FVS_R);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(FVS_R);
                 #endregion
 
                 #region VALIDACION_SI
-                puntuacionNatural.escalasDeValidez.ResultadoSI = TotalValidacion(VALIDACION_SI, resp);
-                //for (int i = 0; i < VALIDACION_SI_V.Count(); i++)
-                //{
-                //    comparar1 = resp.Where(x => x.ID == VALIDACION_SI_V[i].pregunta1).ToList().FirstOrDefault().valor;
-                //    if (comparar1 == 0)
-                //        puntuacionNatural.ResultadoSI++;
 
-                //}
-                //for (int i = 0; i < VALIDACION_SI_F.Count(); i++)
-                //{
-                //    comparar1 = resp.Where(x => x.ID == VALIDACION_SI_F[i].pregunta1).ToList().FirstOrDefault().valor;
-                //    if (comparar1 == 1)
-                //        puntuacionNatural.ResultadoSI++;
-
-                //}
+                var SI = new Escala()
+                {
+                    descripcion = "ESCALAS DE SÍNTOMAS INCONSISTENTES.",
+                    significado = string.Empty,
+                    siglas = "SI",
+                    puntuacionNatural = TotalValidacion(VALIDACION_SI, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref SI);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(SI);
                 #endregion
 
                 #region VALIDACION_LR
-                puntuacionNatural.escalasDeValidez.ResultadoL_R = TotalValidacion(VALIDACION_LR, resp);
-                //for (int i = 0; i < VALIDACION_LR_V.Count(); i++)
-                //{
-                //    comparar1 = resp.Where(x => x.ID == VALIDACION_LR_V[i].pregunta1).ToList().FirstOrDefault().valor;
-                //    if (comparar1 == 0)
-                //        puntuacionNatural.ResultadoL_R++;
 
-                //}
-                //for (int i = 0; i < VALIDACION_LR_F.Count(); i++)
-                //{
-                //    comparar1 = resp.Where(x => x.ID == VALIDACION_LR_F[i].pregunta1).ToList().FirstOrDefault().valor;
-                //    if (comparar1 == 1)
-                //        puntuacionNatural.ResultadoL_R--;
-
-                //}
+                var L_R = new Escala()
+                {
+                    descripcion = "VIRTUDES POCO COMUNES",
+                    significado = "PRETENSIÓN DE ATRIBUTOS O ACTIVIDADES MORALES POCO COMUNES.",
+                    siglas = "L-R",
+                    puntuacionNatural = TotalValidacion(VALIDACION_LR, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref L_R);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(L_R);
                 #endregion
 
-                #region VALIDACION_KR
-                puntuacionNatural.escalasDeValidez.ResultadoK_R = TotalValidacion(VALIDACION_KR, resp);
-                //for (int i = 0; i < VALIDACION_KR_V.Count(); i++)
-                //{
-                //    comparar1 = resp.Where(x => x.ID == VALIDACION_KR_V[i].pregunta1).ToList().FirstOrDefault().valor;
-                //    if (comparar1 == 0)
-                //        puntuacionNatural.ResultadoK_R++;
-
-                //}
-                //for (int i = 0; i < VALIDACION_KR_F.Count(); i++)
-                //{
-                //    comparar1 = resp.Where(x => x.ID == VALIDACION_KR_F[i].pregunta1).ToList().FirstOrDefault().valor;
-                //    if (comparar1 == 1)
-                //        puntuacionNatural.ResultadoK_R++;
-
-                //}
+                #region VALIDACION_KR                
+                var K_R = new Escala()
+                {
+                    descripcion = "VALIDEZ DE ADAPTACIÓN",
+                    significado = "DECLARACIÒN DE UNA BUENA ADAPTACIÓN PSICOLÓGICA",
+                    siglas = "K-R",
+                    puntuacionNatural = TotalValidacion(VALIDACION_KR, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref K_R);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(K_R);
                 #endregion
-
+                #endregion
                 //Escalas de orden superior
+
                 return puntuacionNatural;
 
 
@@ -1376,6 +1366,8 @@ namespace ConsultorioMMPI
 
             }
         }
+
+
 
         public int TotalValidacion(List<Validacion> VALIDACION, List<Respuesta> resp)
         {

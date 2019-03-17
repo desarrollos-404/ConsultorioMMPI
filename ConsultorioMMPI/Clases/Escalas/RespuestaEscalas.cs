@@ -16,6 +16,7 @@ namespace ConsultorioMMPI.Clases.Escalas
 
         #region Propiedades
         public EscalasDeValidez escalasDeValidez { get; set; }
+
         #endregion
     }
 }
