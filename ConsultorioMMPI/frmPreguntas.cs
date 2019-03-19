@@ -1114,7 +1114,129 @@ namespace ConsultorioMMPI
             new Validacion{pregunta1 = 259,Valor1 = 0},
             new Validacion{pregunta1 = 300,Valor1 = 0}
         };
+        //5 escalas de psicopatologia de la personalidad
 
+        public List<Validacion> VALIDACION_AGGR = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 26,Valor1 = 0},
+            new Validacion{pregunta1 = 39,Valor1 = 0},
+            new Validacion{pregunta1 = 84,Valor1 = 0},
+            new Validacion{pregunta1 = 104,Valor1 = 0},
+            new Validacion{pregunta1 = 147,Valor1 = 0},
+            new Validacion{pregunta1 = 182,Valor1 = 0},
+            new Validacion{pregunta1 = 197,Valor1 = 0},
+            new Validacion{pregunta1 = 231,Valor1 = 0},
+            new Validacion{pregunta1 = 239,Valor1 = 0},
+            new Validacion{pregunta1 = 256,Valor1 = 0},
+            new Validacion{pregunta1 = 276,Valor1 = 0},
+            new Validacion{pregunta1 = 302,Valor1 = 0},
+            new Validacion{pregunta1 = 316,Valor1 = 0},
+            new Validacion{pregunta1 = 321,Valor1 = 0},
+            new Validacion{pregunta1 = 327,Valor1 = 0},
+            new Validacion{pregunta1 = 329,Valor1 = 0},
+            new Validacion{pregunta1 = 24,Valor1 = 1},
+            new Validacion{pregunta1 = 319,Valor1 = 1}
+        };
+        public List<Validacion> VALIDACION_PSYC = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 12,Valor1 = 0},
+            new Validacion{pregunta1 = 14,Valor1 = 0},
+            new Validacion{pregunta1 = 34,Valor1 = 0},
+            new Validacion{pregunta1 = 40,Valor1 = 0},
+            new Validacion{pregunta1 = 46,Valor1 = 0},
+            new Validacion{pregunta1 = 71,Valor1 = 0},
+            new Validacion{pregunta1 = 92,Valor1 = 0},
+            new Validacion{pregunta1 = 129,Valor1 = 0},
+            new Validacion{pregunta1 = 137,Valor1 = 0},
+            new Validacion{pregunta1 = 139,Valor1 = 0},
+            new Validacion{pregunta1 = 150,Valor1 = 0},
+            new Validacion{pregunta1 = 168,Valor1 = 0},
+            new Validacion{pregunta1 = 179,Valor1 = 0},
+            new Validacion{pregunta1 = 199,Valor1 = 0},
+            new Validacion{pregunta1 = 203,Valor1 = 0},
+            new Validacion{pregunta1 = 216,Valor1 = 0},
+            new Validacion{pregunta1 = 140,Valor1 = 0},
+            new Validacion{pregunta1 = 252,Valor1 = 0},
+             new Validacion{pregunta1 = 264,Valor1 = 0},
+            new Validacion{pregunta1 = 270,Valor1 = 0},
+            new Validacion{pregunta1 = 287,Valor1 = 0},
+            new Validacion{pregunta1 = 294,Valor1 = 0},
+            new Validacion{pregunta1 = 311,Valor1 = 0},
+            new Validacion{pregunta1 = 330,Valor1 = 0},
+            new Validacion{pregunta1 = 332,Valor1 = 0},
+            new Validacion{pregunta1 = 85,Valor1 = 1},
+        };
+        public List<Validacion> VALIDACION_DISC = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 21,Valor1 = 0},
+            new Validacion{pregunta1 = 42,Valor1 = 0},
+            new Validacion{pregunta1 = 49,Valor1 = 0},
+            new Validacion{pregunta1 = 66,Valor1 = 0},
+            new Validacion{pregunta1 = 75,Valor1 = 0},
+            new Validacion{pregunta1 = 107,Valor1 = 0},
+            new Validacion{pregunta1 = 115,Valor1 = 0},
+            new Validacion{pregunta1 = 131,Valor1 = 0},
+            new Validacion{pregunta1 = 156,Valor1 = 0},
+            new Validacion{pregunta1 = 193,Valor1 = 0},
+            new Validacion{pregunta1 = 205,Valor1 = 0},
+            new Validacion{pregunta1 = 223,Valor1 = 0},
+            new Validacion{pregunta1 = 226,Valor1 = 0},
+            new Validacion{pregunta1 = 253,Valor1 = 0},
+            new Validacion{pregunta1 = 292,Valor1 = 0},
+            new Validacion{pregunta1 = 297,Valor1 = 0},
+            new Validacion{pregunta1 = 300,Valor1 = 0},
+            new Validacion{pregunta1 = 61,Valor1 = 1},
+            new Validacion{pregunta1 = 190,Valor1 = 1},
+            new Validacion{pregunta1 = 237,Valor1 = 1}
+        };
+
+        public List<Validacion> VALIDACION_NEGE = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 9,Valor1 = 0},
+            new Validacion{pregunta1 = 23,Valor1 = 0},
+            new Validacion{pregunta1 = 29,Valor1 = 0},
+            new Validacion{pregunta1 = 56,Valor1 = 0},
+            new Validacion{pregunta1 = 77,Valor1 = 0},
+            new Validacion{pregunta1 = 116,Valor1 = 0},
+            new Validacion{pregunta1 = 123,Valor1 = 0},
+            new Validacion{pregunta1 = 146,Valor1 = 0},
+            new Validacion{pregunta1 = 155,Valor1 = 0},
+            new Validacion{pregunta1 = 167,Valor1 = 0},
+            new Validacion{pregunta1 = 206,Valor1 = 0},
+            new Validacion{pregunta1 = 209,Valor1 = 0},
+            new Validacion{pregunta1 = 263,Valor1 = 0},
+            new Validacion{pregunta1 = 277,Valor1 = 0},
+            new Validacion{pregunta1 = 309,Valor1 = 0},
+            new Validacion{pregunta1 = 37,Valor1 = 1},
+            new Validacion{pregunta1 = 73,Valor1 = 1},
+            new Validacion{pregunta1 = 134,Valor1 = 1},
+            new Validacion{pregunta1 = 234,Valor1 = 1},
+            new Validacion{pregunta1 = 293,Valor1 = 1}
+        };
+
+        public List<Validacion> VALIDACION_INTR = new List<Validacion>()
+        {
+            new Validacion{pregunta1 = 4,Valor1 = 1},
+            new Validacion{pregunta1 = 11,Valor1 = 1},
+            new Validacion{pregunta1 = 17,Valor1 = 1},
+            new Validacion{pregunta1 = 47,Valor1 = 1},
+            new Validacion{pregunta1 = 53,Valor1 = 1},
+            new Validacion{pregunta1 = 57,Valor1 = 1},
+            new Validacion{pregunta1 = 64,Valor1 = 1},
+            new Validacion{pregunta1 = 102,Valor1 = 1},
+            new Validacion{pregunta1 = 109,Valor1 = 1},
+            new Validacion{pregunta1 = 118,Valor1 = 1},
+            new Validacion{pregunta1 = 140,Valor1 = 1},
+            new Validacion{pregunta1 = 153,Valor1 = 1},
+            new Validacion{pregunta1 = 166,Valor1 = 1},
+            new Validacion{pregunta1 = 181,Valor1 = 1},
+            new Validacion{pregunta1 = 195,Valor1 = 1},
+            new Validacion{pregunta1 = 201,Valor1 = 1},
+            new Validacion{pregunta1 = 207,Valor1 = 1},
+            new Validacion{pregunta1 = 222,Valor1 = 1},
+            new Validacion{pregunta1 = 246,Valor1 = 1},
+            new Validacion{pregunta1 = 323,Valor1 = 1}
+        };
 
         #endregion
         public frmPreguntas()
@@ -1353,8 +1475,564 @@ namespace ConsultorioMMPI
                 PuntuacionT.CalcularPuntuacionT(ref K_R);
                 puntuacionNatural.escalasDeValidez.lstEscalas.Add(K_R);
                 #endregion
+
+
+                #region VALIDACION_AEPI               
+                var AEPI = new Escala()
+                {
+                    descripcion = "ALTERACIÓN EMOCIONAL/PROBLEMAS INTERNALIZADOS",
+                    significado = "ASOCIADOS CON EL ESTADO DE ANIMO Y AFECTIVOS.",
+                    siglas = "AE/PI",
+                    puntuacionNatural = TotalValidacion(VALIDACION_AEPI, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref AEPI);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(AEPI);
                 #endregion
+                #region VALIDACION_AP                
+                var AP = new Escala()
+                {
+                    descripcion = "ALTERACIÓN DEL PENSAMIENTO",
+                    significado = "PROBLEMAS ASOCIADOS CON TRASTORNOS DEL PENSAMIENTO",
+                    siglas = "AP",
+                    puntuacionNatural = TotalValidacion(VALIDACION_AP, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref AP);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(AP);
+                #endregion
+                #region VALIDACION_ACPE            
+                var ACPE = new Escala()
+                {
+                    descripcion = "ALTERACIONES DE LA CONDUCTA/PROBLEMAS EXTERNALIZADOS",
+                    significado = "ASOCIADOS CON PROBLEMAS DE CONDUCTA DONDE HAY UN POBRE CONTROL DE IMPULSOS",
+                    siglas = "AC/PE",
+                    puntuacionNatural = TotalValidacion(VALIDACION_ACPE, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref ACPE);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(ACPE);
+                #endregion
+                #region VALIDACION_CRD                
+                var CRD = new Escala()
+                {
+                    descripcion = "DESMORALIZACIÓN",
+                    significado = "SENTIMIENTOS DE INFELICIDAD E INSATISFACCIÓN GENERAL",
+                    siglas = "CRD",
+                    puntuacionNatural = TotalValidacion(VALIDACION_CRD, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref CRD);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(CRD);
+                #endregion
+                #region VALIDACION_KR                
+                var K_R = new Escala()
+                {
+                    descripcion = "VALIDEZ DE ADAPTACIÓN",
+                    significado = "DECLARACIÒN DE UNA BUENA ADAPTACIÓN PSICOLÓGICA",
+                    siglas = "K-R",
+                    puntuacionNatural = TotalValidacion(VALIDACION_KR, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref K_R);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(K_R);
+                #endregion
+                #region VALIDACION_CR1                
+                var CR1 = new Escala()
+                {
+                    descripcion = "QUEJAS SOMÁTICAS",
+                    significado = "QUEJAS VAGAS ACERCA DE LA SALUD FÍSICA",
+                    siglas = "CR1",
+                    puntuacionNatural = TotalValidacion(VALIDACION_CR1, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref CR1);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(CR1);
+                #endregion
+                #region VALIDACION_CR2               
+                var CR2 = new Escala()
+                {
+                    descripcion = "DISMINUCIÓN DE EMOCIONES POSITIVAS",
+                    significado = "AUSENCIA DE RESPUESTAS EMOCIONALES POSITIVAS",
+                    siglas = "CR2",
+                    puntuacionNatural = TotalValidacion(VALIDACION_CR2, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref CR2);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(CR2);
+                #endregion
+                #region VALIDACION_CR3                
+                var CR3 = new Escala()
+                {
+                    descripcion = "CINISMO",
+                    significado = "CREENCIAS NO AUTORREFERENCIALES QUE EXPRESAN DESCONFIANZA Y UNA OPINIÓN NEGATIVA GENERALIZADA DE LOS OTROS.",
+                    siglas = "CR3",
+                    puntuacionNatural = TotalValidacion(VALIDACION_CR3, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref CR3);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(CR3);
+                #endregion
+                #region VALIDACION_CR4                
+                var CR4 = new Escala()
+                {
+                    descripcion = "CONDUCTA ANTISOCIAL",
+                    significado = "ROMPIMIENTO DE REGLAS Y CONDUCTAS IRRESPONSABLES.",
+                    siglas = "CR4",
+                    puntuacionNatural = TotalValidacion(VALIDACION_CR4, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref CR4);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(CR4);
+                #endregion
+                #region VALIDACION_CR6                
+                var CR6 = new Escala()
+                {
+                    descripcion = "IDEAS DE PERSECUCIÓN",
+                    significado = "CREENCIAS AUTORREFERENCIALES DE QUE OTROS REPRESENTAN UNA AMENAZA.",
+                    siglas = "CR6",
+                    puntuacionNatural = TotalValidacion(VALIDACION_CR6, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref CR6);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(CR6);
+                #endregion
+                #region VALIDACION_CR7                
+                var CR7 = new Escala()
+                {
+                    descripcion = "EMOCIONES NEGATIVAS DISFUNCIONALES",
+                    significado = "ANSIEDAD DES ADAPTATIVA, ENOJO E IRRITABILIDAD.",
+                    siglas = "CR7",
+                    puntuacionNatural = TotalValidacion(VALIDACION_CR7, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref CR7);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(CR7);
+                #endregion
+                #region VALIDACION_CR8                
+                var CR8 = new Escala()
+                {
+                    descripcion = "EXPERIENCIAS ABERRANTES",
+                    significado = "PERCEPCIONES Y PENSAMIENTOS RAROS.",
+                    siglas = "CR8",
+                    puntuacionNatural = TotalValidacion(VALIDACION_CR8, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref CR8);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(CR8);
+                #endregion
+
+                #region VALIDACION_CR9               
+                var CR9 = new Escala()
+                {
+                    descripcion = "ACTIVACIÓN HIPOMANÍACA",
+                    significado = "SOBRE ACTIVACIÓN, AGRESIÓN, IMPULSIVIDAD Y PENSAMIENTO DE GRANDEZA.",
+                    siglas = "CR9",
+                    puntuacionNatural = TotalValidacion(VALIDACION_CR9, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref CR9);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(CR9);
+                #endregion
+
+                #region VALIDACION_MAL                
+                var MAL = new Escala()
+                {
+                    descripcion = "MALESTAR",
+                    significado = "SENSACIÓN GENERALIZADA DE DEBILIDAD Y SALUD FÍSICA MALA.",
+                    siglas = "MAL",
+                    puntuacionNatural = TotalValidacion(VALIDACION_MAL, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref MAL);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(MAL);
+                #endregion
+
+                #region VALIDACION_QGI                
+                var QGI = new Escala()
+                {
+                    descripcion = "QUEJAS GASTROINTESTINALES",
+                    significado = "NAUSEAS, DOLOR DE ESTOMAGO FRECUENTE, MAL APETITO.",
+                    siglas = "QGI",
+                    puntuacionNatural = TotalValidacion(VALIDACION_QGI, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref QGI);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(QGI);
+                #endregion
+
+                #region VALIDACION_QDC             
+                var QDC = new Escala()
+                {
+                    descripcion = "QUEJAS DE DOLOR DE CABEZA",
+                    significado = "DOLOR DE CABEZA Y CUELLO.",
+                    siglas = "QDC",
+                    puntuacionNatural = TotalValidacion(VALIDACION_QDC, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref QDC);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(QDC);
+                #endregion
+
+                #region VALIDACION_QNEU                
+                var QNEU = new Escala()
+                {
+                    descripcion = "QUEJAS NEUROLÓGICAS",
+                    significado = "MAREOS, DEBILIDAD, PARÁLISIS, PERDIDA DE EQUILIBRO, ETC.",
+                    siglas = "QNEU",
+                    puntuacionNatural = TotalValidacion(VALIDACION_QNEU, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref QNEU);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(QNEU);
+                #endregion
+
+                #region VALIDACION_QCO               
+                var QCO = new Escala()
+                {
+                    descripcion = "QUEJAS COGNITIVAS",
+                    significado = "PROBLEMAS DE MEMORIA, PROBLEMAS DE CONCENTRACIÓN.",
+                    siglas = "QCO",
+                    puntuacionNatural = TotalValidacion(VALIDACION_QCO, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref QCO);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(QCO);
+                #endregion
+
+                #region VALIDACION_ISU                
+                var ISU = new Escala()
+                {
+                    descripcion = "IDEAS SUICIDAS/DESEOS DE MUERTE",
+                    significado = "REPORTES DIRECTOS DE IDEACIÓN SUICIDA E INTENTOS DE SUICIDIOS RECIENTES.",
+                    siglas = "ISU",
+                    puntuacionNatural = TotalValidacion(VALIDACION_ISU, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref ISU);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(ISU);
+                #endregion
+
+                #region VALIDACION_LMD                
+                var LMD = new Escala()
+                {
+                    descripcion = "IMPOTENCIA/DESESPERANZA",
+                    significado = "CREENCIAS DE QUE SUS METAS NO SERÁN ALCANZADAS O QUE NO PUEDEN SOLUCIONAR SUS PROBLEMAS.",
+                    siglas = "LM/D",
+                    puntuacionNatural = TotalValidacion(VALIDACION_IMD, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref LMD);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(LMD);
+                #endregion
+
+                #region VALIDACION_DSM                
+                var DSM = new Escala()
+                {
+                    descripcion = "DESCONFIANZA DE SI MISMOS",
+                    significado = "PERDIDA DE CONFIANZA, SENTIMIENTOS DE INUTILIDAD.",
+                    siglas = "DSM",
+                    puntuacionNatural = TotalValidacion(VALIDACION_DSM, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref DSM);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(DSM);
+                #endregion
+
+                #region VALIDACION_INE                
+                var INE = new Escala()
+                {
+                    descripcion = "INEFICIENCIA",
+                    significado = "CREENCIAS DE QUE SE ES INEFICIENTE E INDECISO.",
+                    siglas = "INE",
+                    puntuacionNatural = TotalValidacion(VALIDACION_INE, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref INE);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(INE);
+                #endregion
+
+                #region VALIDACION_PE                
+                var PE = new Escala()
+                {
+                    descripcion = "PREOCUPACIÓN/ESTRÉS",
+                    significado = "PREOCUPACIÓN POR DESILUSIONES, DIFICULTAD PARA MANEJAR LA PRESIÓN DEL TIEMPO.",
+                    siglas = "P/E",
+                    puntuacionNatural = TotalValidacion(VALIDACION_PE, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref PE);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(PE);
+                #endregion
+
+                #region VALIDACION_ANS                
+                var ANS = new Escala()
+                {
+                    descripcion = "ANSIEDAD",
+                    significado = "ANSIEDAD PERSISTENTE, TEMORES, PESADILLAS FRECUENTES.",
+                    siglas = "ANS",
+                    puntuacionNatural = TotalValidacion(VALIDACION_ANS, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref ANS);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(ANS);
+                #endregion
+
+                #region VALIDACION_TEN                
+                var TEN = new Escala()
+                {
+                    descripcion = "TENDENCIA AL ENOJO",
+                    significado = "SE ENOJA CON FACILIDAD, IMPACIENCIA CON LOS OTROS.",
+                    siglas = "TEN",
+                    puntuacionNatural = TotalValidacion(VALIDACION_TEN, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref TEN);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(TEN);
+                #endregion
+
+                #region VALIDACION_LCM                
+                var LCM = new Escala()
+                {
+                    descripcion = "LIMITACIONES CONDUCTUALES POR MIEDOS",
+                    significado = "MIEDOS QUE INHIBEN DE FORMA SIGNIFICATIVA LAS ACTIVIDADES NORMALES.",
+                    siglas = "LCM",
+                    puntuacionNatural = TotalValidacion(VALIDACION_LCM, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref LCM);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(LCM);
+                #endregion
+
+                #region VALIDACION_MEM                
+                var MEM = new Escala()
+                {
+                    descripcion = "MIEDOS ESPECÍFICOS MÚLTIPLES",
+                    significado = "MIEDO A LA SANGRE, AL FUEGO, TRUENOS, ETC.",
+                    siglas = "MEM",
+                    puntuacionNatural = TotalValidacion(VALIDACION_MEM, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref MEM);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(MEM);
+                #endregion
+
+                #region VALIDACION_PCIJ                
+                var PCIJ = new Escala()
+                {
+                    descripcion = "PROBLEMAS DE CONDUCTA INFANTO-JUVENILES",
+                    significado = "DIFICULTADES EN LA ESCUELA, CASA Y ROBOS.",
+                    siglas = "PCIJ",
+                    puntuacionNatural = TotalValidacion(VALIDACION_PCIJ, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref PCIJ);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(PCIJ);
+                #endregion
+
+                #region VALIDACION_ABS                
+                var ABS = new Escala()
+                {
+                    descripcion = "ABUSO DE SUSTANCIAS",
+                    significado = "MAL USO ACTUAL O EN EL PASADO DE ALCOHOL Y DROGAS.",
+                    siglas = "ABS",
+                    puntuacionNatural = TotalValidacion(VALIDACION_ABS, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref ABS);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(ABS);
+                #endregion
+
+                #region VALIDACION_AG                
+                var AG = new Escala()
+                {
+                    descripcion = "AGRESIÓN",
+                    significado = "CONDUCTA VIOLENTA Y AGRESIÓN FÍSICA.",
+                    siglas = "AG",
+                    puntuacionNatural = TotalValidacion(VALIDACION_AG, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref AG);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(AG);
+                #endregion
+
+                #region VALIDACION_EUF                
+                var EUF = new Escala()
+                {
+                    descripcion = "EUFORIA",
+                    significado = "PERIODOS DE GRAN ENERGÍA Y ACTIVIDAD.",
+                    siglas = "EUF",
+                    puntuacionNatural = TotalValidacion(VALIDACION_EUF, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref EUF);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(EUF);
+                #endregion
+
+                #region VALIDACION_PFA                
+                var PFA = new Escala()
+                {
+                    descripcion = "PROBLEMAS FAMILIARES",
+                    significado = "RELACIONES FAMILIARES CONFLICTIVAS.",
+                    siglas = "PFA",
+                    puntuacionNatural = TotalValidacion(VALIDACION_PFA, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref PFA);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(PFA);
+                #endregion
+
+                #region VALIDACION_PIP                
+                var PIP = new Escala()
+                {
+                    descripcion = "PASIVIDAD INTERPERSONAL",
+                    significado = "SER POCO ASERTIVO Y SUMISO.",
+                    siglas = "PIP",
+                    puntuacionNatural = TotalValidacion(VALIDACION_PIP, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref PIP);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(PIP);
+                #endregion
+
+                #region VALIDACION_ESO                
+                var ESO = new Escala()
+                {
+                    descripcion = "EVITACIÓN SOCIAL",
+                    significado = "EVITAR O NO DISFRUTAR DE EVENTOS SOCIALES.",
+                    siglas = "ESO",
+                    puntuacionNatural = TotalValidacion(VALIDACION_ESO, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref ESO);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(ESO);
+                #endregion
+
+                #region VALIDACION_TIM                
+                var TIM = new Escala()
+                {
+                    descripcion = "TIMIDEZ",
+                    significado = "TÍMIDO, CON TENDENCIA A SENTIRSE INHIBIDO Y ANSIOSO EN TORNO A OTROS.",
+                    siglas = "TIM",
+                    puntuacionNatural = TotalValidacion(VALIDACION_TIM, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref TIM);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(TIM);
+                #endregion
+
+                #region VALIDACION_DES                
+                var DES = new Escala()
+                {
+                    descripcion = "DESAPEGO",
+                    significado = "AVERSIÓN A LA GENTE Y A ESTAR CON ELLOS.",
+                    siglas = "DES",
+                    puntuacionNatural = TotalValidacion(VALIDACION_DES, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref DES);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(DES);
+
+                #region VALIDACION_IEL                
+                var IEL = new Escala()
+                {
+                    descripcion = "INTERESES ESTÉTICOS-LITERARIOS",
+                    significado = "LITERATURA, MÚSICA, TEATRO.",
+                    siglas = "IEL",
+                    puntuacionNatural = TotalValidacion(VALIDACION_IEL, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref IEL);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(IEL);
+                #endregion
+
+                #region VALIDACION_IFM                
+                var IFM = new Escala()
+                {
+                    descripcion = "INTERESES FÍSICO-MECÁNICOS",
+                    significado = "DESARMAR Y CONSTRUIR COSAS, DEPORTES, ACTIVIDADES AL AIRE LIBRE.",
+                    siglas = "IFM",
+                    puntuacionNatural = TotalValidacion(VALIDACION_IFM, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref IFM);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(IFM);
+                #endregion
+
+                #region VALIDACION_AGGR                
+                var AGGR = new Escala()
+                {
+                    descripcion = "AGRESIVIDAD-REVISADA",
+                    significado = "AGRESIÓN INSTRUMENTAL, DIRIGIDA A UN OBJETIVO.",
+                    siglas = "AGGR-R",
+                    puntuacionNatural = TotalValidacion(VALIDACION_AGGR, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref AGGR);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(AGGR);
+                #endregion
+
+                #region VALIDACION_PSYC                
+                var PSYC = new Escala()
+                {
+                    descripcion = "PSICOTICISMO-REVISADA",
+                    significado = "PERDIDA DE CONTACTO CON LA REALIDAD.",
+                    siglas = "PSYC-R",
+                    puntuacionNatural = TotalValidacion(VALIDACION_PSYC, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref PSYC);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(PSYC);
+                #endregion
+
+                #region VALIDACION_DISC                
+                var DISC = new Escala()
+                {
+                    descripcion = "IMPULSIVIDAD-REVISADA",
+                    significado = "CONDUCTA POCO CONTROLADA.",
+                    siglas = "DISC-R",
+                    puntuacionNatural = TotalValidacion(VALIDACION_DISC, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref DISC);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(DISC);
+                #endregion
+
+                #region VALIDACION_NEGE            
+                var NEGE = new Escala()
+                {
+                    descripcion = "NEUROTICISMO/EMOCIONALIDAD NEGATIVA-REVISADA",
+                    significado = "ANSIEDAD, INSEGURIDAD, PREOCUPACIÓN Y TEMORES.",
+                    siglas = "NEGE-R",
+                    puntuacionNatural = TotalValidacion(VALIDACION_NEGE, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref NEGE);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(NEGE);
+                #endregion
+
+                #region VALIDACION_INTR            
+                var INTR = new Escala()
+                {
+                    descripcion = "INTROVERSIÓN/DISMINUCIÓN EMOCIONES POSITIVA-REVISADA",
+                    significado = "RETRAIMIENTO SOCIAL, DESAPEGO Y ANHEDONIA.",
+                    siglas = "INTR-R",
+                    puntuacionNatural = TotalValidacion(VALIDACION_INTR, resp),
+                    puntuacionT = 0
+                };
+                PuntuacionT.CalcularPuntuacionT(ref INTR);
+                puntuacionNatural.escalasDeValidez.lstEscalas.Add(INTR);
+                #endregion
+
+                #endregion
+
+
+
                 //Escalas de orden superior
+
+
+
+
 
                 return puntuacionNatural;
 
