@@ -1526,16 +1526,16 @@ namespace ConsultorioMMPI
                 puntuacionNatural.escalasDeValidez.lstEscalas.Add(CRD);
                 #endregion
                 #region VALIDACION_KR                
-                var K_R = new Escala()
-                {
-                    descripcion = "VALIDEZ DE ADAPTACIÓN",
-                    significado = "DECLARACIÒN DE UNA BUENA ADAPTACIÓN PSICOLÓGICA",
-                    siglas = "K-R",
-                    puntuacionNatural = TotalValidacion(VALIDACION_KR, resp),
-                    puntuacionT = 0
-                };
-                PuntuacionT.CalcularPuntuacionT(ref K_R);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(K_R);
+                //var K_R = new Escala()
+                //{
+                //    descripcion = "VALIDEZ DE ADAPTACIÓN",
+                //    significado = "DECLARACIÒN DE UNA BUENA ADAPTACIÓN PSICOLÓGICA",
+                //    siglas = "K-R",
+                //    puntuacionNatural = TotalValidacion(VALIDACION_KR, resp),
+                //    puntuacionT = 0
+                //};
+                //PuntuacionT.CalcularPuntuacionT(ref K_R);
+                //puntuacionNatural.escalasDeValidez.lstEscalas.Add(K_R);
                 #endregion
                 #region VALIDACION_CR1                
                 var CR1 = new Escala()
@@ -2105,3 +2105,4 @@ namespace ConsultorioMMPI
 
     }
 }
+#endregion

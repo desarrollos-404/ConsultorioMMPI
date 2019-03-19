@@ -6,9 +6,9 @@ using System.Text;
 
 namespace ConsultorioMMPI.Clases
 {
-   public static class PuntuacionT
-   {        
-        public  static void CalcularPuntuacionT( ref Escala escala)
+    public static class PuntuacionT
+    {
+        public static void CalcularPuntuacionT(ref Escala escala)
         {
 
             #region arrays
@@ -68,11 +68,12 @@ namespace ConsultorioMMPI.Clases
 
             switch (escala.siglas)
             {
+                #region Escalas de validez
                 case "INVAR-R":
                     if (escala.puntuacionNatural > 19)
                         escala.puntuacionT = 120;
                     else
-                    escala.puntuacionT = arrayINVAR[escala.puntuacionNatural];
+                        escala.puntuacionT = arrayINVAR[escala.puntuacionNatural];
                     break;
                 case "INVER-R":
                     if (escala.puntuacionNatural > 23)
@@ -80,160 +81,231 @@ namespace ConsultorioMMPI.Clases
                     else
                         escala.puntuacionT = arrayINVAR[escala.puntuacionNatural];
                     break;
-
-
                 case "F-R":
-                    escala.puntuacionT = arrayFR[escala.puntuacionNatural];
+                    if (escala.puntuacionNatural > 31)
+                        escala.puntuacionT = 120;
+                    else
+                        escala.puntuacionT = arrayFR[escala.puntuacionNatural];
                     break;
                 case "FPSI-R":
-                    escala.puntuacionT = arrayFPSI[escala.puntuacionNatural];
+                    if (escala.puntuacionNatural > 15)
+                        escala.puntuacionT = 120;
+                    else
+                        escala.puntuacionT = arrayFPSI[escala.puntuacionNatural];
                     break;
                 case "FS":
-                    escala.puntuacionT = arrayFS[escala.puntuacionNatural];
+                    if (escala.puntuacionNatural > 15)
+                        escala.puntuacionT = 120;
+                    else
+                        escala.puntuacionT = arrayFS[escala.puntuacionNatural];
                     break;
                 case "FVS-R":
-                    escala.puntuacionT = arrayFVS[escala.puntuacionNatural];
+                    if (escala.puntuacionNatural > 30)
+                        escala.puntuacionT = 104;
+                    else
+                        escala.puntuacionT = arrayFVS[escala.puntuacionNatural];
                     break;
                 case "SI":
-                    escala.puntuacionT = arraySI[escala.puntuacionNatural];
+                    if (escala.puntuacionNatural > 28)
+                        escala.puntuacionT = 115;
+                    else
+                        escala.puntuacionT = arraySI[escala.puntuacionNatural];
                     break;
                 case "L-R":
-                    escala.puntuacionT = arrayLR[escala.puntuacionNatural];
+                    if (escala.puntuacionNatural > 14)
+                        escala.puntuacionT = 92;
+                    else
+                        escala.puntuacionT = arrayLR[escala.puntuacionNatural];
                     break;
                 case "K-R":
-                    escala.puntuacionT = arrayKR[escala.puntuacionNatural];
-                    break;
-                case "AE/PI":
-                    escala.puntuacionT = arrayAEPI[escala.puntuacionNatural];
-                    break;
-                case "AP":
-                    escala.puntuacionT = arrayAP[escala.puntuacionNatural];
-                    break;
-                case "AC/PE":
-                    escala.puntuacionT = arrayACPE[escala.puntuacionNatural];
-                    break;
-                case "CRD":
-                    escala.puntuacionT = arrayCRD[escala.puntuacionNatural];
-                    break;
-                case "CR1":
-                    escala.puntuacionT = arrayCR1[escala.puntuacionNatural];
-                    break;
-                case "CR2":
-                    escala.puntuacionT = arrayCR2[escala.puntuacionNatural];
-                    break;
-                case "CR3":
-                    escala.puntuacionT = arrayCR3[escala.puntuacionNatural];
-                    break;
-                case "CR4":
-                    escala.puntuacionT = arrayCR4[escala.puntuacionNatural];
-                    break;
-                case "CR6":
-                    escala.puntuacionT = arrayCR6[escala.puntuacionNatural];
-                    break;
-                case "CR7":
-                    escala.puntuacionT = arrayCR7[escala.puntuacionNatural];
-                    break;
-                case "CR8":
-                    escala.puntuacionT = arrayCR8[escala.puntuacionNatural];
-                    break;
-                case "CR9":
-                    escala.puntuacionT = arrayCR9[escala.puntuacionNatural];
-                    break;
-                case "MAL":
-                    escala.puntuacionT = arrayMAL[escala.puntuacionNatural];
-                    break;
-                case "QGI":
-                    escala.puntuacionT = arrayQGI[escala.puntuacionNatural];
-                    break;
-                case "QDC":
-                    escala.puntuacionT = arrayQDC[escala.puntuacionNatural];
-                    break;
-                case "QNEU":
-                    escala.puntuacionT = arrayQNEU[escala.puntuacionNatural];
-                    break;
-                case "QCO":
-                    escala.puntuacionT = arrayQCO[escala.puntuacionNatural];
-                    break;
-                case "ISU":
-                    escala.puntuacionT = arrayISU[escala.puntuacionNatural];
-                    break;
-                case "LM/D":
-                    escala.puntuacionT = arrayIMD[escala.puntuacionNatural];
-                    break;
-                case "DSM":
-                    escala.puntuacionT = arrayDSM[escala.puntuacionNatural];
-                    break;
-                case "INE":
-                    escala.puntuacionT = arrayINE[escala.puntuacionNatural];
-                    break;
-                case "P/E":
-                    escala.puntuacionT = arrayPE[escala.puntuacionNatural];
-                    break;
-                case "ANS":
-                    escala.puntuacionT = arrayANS[escala.puntuacionNatural];
-                    break;
-                case "TEN":
-                    escala.puntuacionT = arrayTEN[escala.puntuacionNatural];
-                    break;
-                case "LCM":
-                    escala.puntuacionT = arrayLCM[escala.puntuacionNatural];
-                    break;
-                case "MEM":
-                    escala.puntuacionT = arrayMEM[escala.puntuacionNatural];
-                    break;
-                case "PCIJ":
-                    escala.puntuacionT = arrayPCIJ[escala.puntuacionNatural];
-                    break;
-                case "ABS":
-                    escala.puntuacionT = arrayABS[escala.puntuacionNatural];
-                    break;
-                case "AG":
-                    escala.puntuacionT = arrayAG[escala.puntuacionNatural];
-                    break;
-                case "EUF":
-                    escala.puntuacionT = arrayEUF[escala.puntuacionNatural];
-                    break;
-                case "PFA":
-                    escala.puntuacionT = arrayPFA[escala.puntuacionNatural];
-                    break;
-                case "PIP":
-                    escala.puntuacionT = arrayPIP[escala.puntuacionNatural];
-                    break;
-                case "ESO":
-                    escala.puntuacionT = arrayESO[escala.puntuacionNatural];
-                    break;
-                case "TIM":
-                    escala.puntuacionT = arrayTIM[escala.puntuacionNatural];
-                    break;
-                case "DES":
-                    escala.puntuacionT = arrayDES[escala.puntuacionNatural];
-                    break;
-                case "IEL":
-                    escala.puntuacionT = arrayIEL[escala.puntuacionNatural];
-                    break;
-                case "IFM":
-                    escala.puntuacionT = arrayIFM[escala.puntuacionNatural];
-                    break;
-                case "AGGR-R":
-                    escala.puntuacionT = arrayAGGR[escala.puntuacionNatural];
-                    break;
-                case "PSYC-R":
-                    escala.puntuacionT = arrayPSYC[escala.puntuacionNatural];
-                    break;
-                case "DISC-R":
-                    escala.puntuacionT = arrayDISC[escala.puntuacionNatural];
-                    break;
-                case "NEGE-R":
-                    escala.puntuacionT = arrayNEGE[escala.puntuacionNatural];
-                    break;
-                case "INTR-R":
-                    escala.puntuacionT = arrayINTR[escala.puntuacionNatural];
+                    if (escala.puntuacionNatural > 14)
+                        escala.puntuacionT = 73;
+                    else
+                        escala.puntuacionT = arrayKR[escala.puntuacionNatural];
                     break;
 
+                #endregion
+                #region Orden superior
+                case "AE/PI":
+                    if (escala.puntuacionNatural > 41)
+                        escala.puntuacionT = 93;
+                    else
+                        escala.puntuacionT = arrayAEPI[escala.puntuacionNatural];
+                    break;
+                case "AP":
+                    if (escala.puntuacionNatural > 22)
+                        escala.puntuacionT = 100;
+                    else
+                        escala.puntuacionT = arrayAP[escala.puntuacionNatural];
+                    break;
+                case "AC/PE":
+                    if (escala.puntuacionNatural > 23)
+                        escala.puntuacionT = 99;
+                    else
+                        escala.puntuacionT = arrayACPE[escala.puntuacionNatural];
+                    break;
+                #endregion
+                #region Clinicas Reestructuradas
+                case "CRD":
+                    if (escala.puntuacionNatural > 24)
+                        escala.puntuacionT = 84;
+                    else
+                        escala.puntuacionT = arrayCRD[escala.puntuacionNatural];
+                    break;
+                case "CR1":
+                    if (escala.puntuacionNatural > 27)
+                        escala.puntuacionT = 95;
+                    else
+                        escala.puntuacionT = arrayCR1[escala.puntuacionNatural];
+                    break;
+                case "CR2":
+                    if (escala.puntuacionNatural > 17)
+                        escala.puntuacionT = 89;
+                    else
+                        escala.puntuacionT = arrayCR2[escala.puntuacionNatural];
+                    break;
+                case "CR3":
+                    if (escala.puntuacionNatural > 15)
+                        escala.puntuacionT = 83;
+                    else
+                        escala.puntuacionT = arrayCR3[escala.puntuacionNatural];
+                    break;
+                case "CR4":
+                    if (escala.puntuacionNatural > 20)
+                        escala.puntuacionT = 100;
+                    else
+                        escala.puntuacionT = arrayCR4[escala.puntuacionNatural];
+                    break;
+                case "CR6":
+                    if (escala.puntuacionNatural > 16)
+                        escala.puntuacionT = 100;
+                    else
+                        escala.puntuacionT = arrayCR6[escala.puntuacionNatural];
+                    break;
+                case "CR7":
+                    if (escala.puntuacionNatural > 24)
+                        escala.puntuacionT = 88;
+                    else
+                        escala.puntuacionT = arrayCR7[escala.puntuacionNatural];
+                    break;
+                case "CR8":
+                    if (escala.puntuacionNatural > 18)
+                        escala.puntuacionT = 100;
+                    else
+                        escala.puntuacionT = arrayCR8[escala.puntuacionNatural];
+                    break;
+                case "CR9":
+                    if (escala.puntuacionNatural > 28)
+                        escala.puntuacionT = 96;
+                    else
+                        escala.puntuacionT = arrayCR9[escala.puntuacionNatural];
+                    break;
+                #endregion
+                #region Somaticas/Cognitivas
+                case "MAL":
+                    escala.puntuacionT = CalculaT(arrayMAL, escala.puntuacionNatural);
+                    //escala.puntuacionT = arrayMAL[escala.puntuacionNatural];
+                    break;
+                case "QGI":
+                    escala.puntuacionT = CalculaT(arrayQGI, escala.puntuacionNatural);
+                    break;
+                case "QDC":
+                    escala.puntuacionT = CalculaT(arrayQDC, escala.puntuacionNatural);
+                    break;
+                case "QNEU":
+                    escala.puntuacionT = CalculaT(arrayQNEU, escala.puntuacionNatural);
+                    break;
+                case "QCO":
+                    escala.puntuacionT = CalculaT(arrayQCO, escala.puntuacionNatural);
+                    break;
+                #endregion
+                case "ISU":
+                    escala.puntuacionT = CalculaT(arrayISU, escala.puntuacionNatural);
+                    break;
+                case "LM/D":
+                    escala.puntuacionT = CalculaT(arrayIMD, escala.puntuacionNatural);
+                    break;
+                case "DSM":
+                    escala.puntuacionT = CalculaT(arrayDSM, escala.puntuacionNatural);
+                    break;
+                case "INE":
+                    escala.puntuacionT = CalculaT(arrayINE, escala.puntuacionNatural);
+                    break;
+                case "P/E":
+                    escala.puntuacionT = CalculaT(arrayPE, escala.puntuacionNatural);
+                    break;
+                case "ANS":
+                    escala.puntuacionT = CalculaT(arrayANS, escala.puntuacionNatural);
+                    break;
+                case "TEN":
+                    escala.puntuacionT = CalculaT(arrayTEN, escala.puntuacionNatural);
+                    break;
+                case "LCM":
+                    escala.puntuacionT = CalculaT(arrayLCM, escala.puntuacionNatural);
+                    break;
+                case "MEM":
+                    escala.puntuacionT = CalculaT(arrayMEM, escala.puntuacionNatural);
+                    break;
+                case "PCIJ":
+                    escala.puntuacionT = CalculaT(arrayPCIJ, escala.puntuacionNatural);
+                    break;
+                case "ABS":
+                    escala.puntuacionT = CalculaT(arrayABS, escala.puntuacionNatural);
+                    break;
+                case "AG":
+                    escala.puntuacionT = CalculaT(arrayAG, escala.puntuacionNatural);
+                    break;
+                case "EUF":
+                    escala.puntuacionT = CalculaT(arrayEUF, escala.puntuacionNatural);
+                    break;
+                case "PFA":
+                    escala.puntuacionT = CalculaT(arrayPFA, escala.puntuacionNatural);
+                    break;
+                case "PIP":
+                    escala.puntuacionT = CalculaT(arrayPIP, escala.puntuacionNatural);
+                    break;
+                case "ESO":
+                    escala.puntuacionT = CalculaT(arrayESO, escala.puntuacionNatural);
+                    break;
+                case "TIM":
+                    escala.puntuacionT = CalculaT(arrayTIM, escala.puntuacionNatural);
+                    break;
+                case "DES":
+                    escala.puntuacionT = CalculaT(arrayDES, escala.puntuacionNatural);
+                    break;
+                case "IEL":
+                    escala.puntuacionT = CalculaT(arrayIEL, escala.puntuacionNatural);
+                    break;
+                case "IFM":
+                    escala.puntuacionT = CalculaT(arrayIFM, escala.puntuacionNatural);
+                    break;
+                case "AGGR-R":
+                    escala.puntuacionT = CalculaT(arrayAGGR, escala.puntuacionNatural);
+                    break;
+                case "PSYC-R":
+                    escala.puntuacionT = CalculaT(arrayPSYC, escala.puntuacionNatural);
+                    break;
+                case "DISC-R":
+                    escala.puntuacionT = CalculaT(arrayDISC, escala.puntuacionNatural);
+                    break;
+                case "NEGE-R":
+                    escala.puntuacionT = CalculaT(arrayNEGE, escala.puntuacionNatural);
+                    break;
+                case "INTR-R":
+                    escala.puntuacionT = CalculaT(arrayINTR, escala.puntuacionNatural);
+                    break;
                 default:
                     escala.puntuacionT = 0;
                     break;
             };
+        }
+
+        private static int CalculaT(int[] array, int puntuacionNatural)
+        {
+            if (puntuacionNatural >= array.Length - 1)
+                return array.Last();
+            else
+                return array[puntuacionNatural];
         }
     }
 }
