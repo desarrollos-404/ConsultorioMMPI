@@ -1318,10 +1318,15 @@ namespace ConsultorioMMPI
 
         private void metroButton1_Click(object sender, EventArgs e)
         {
-            _puntuacionNatural = AplicarValidaciones(ObtenerRespuesta());
+            List<Respuesta> respuestas = new List<Respuesta>();
+            respuestas = ObtenerRespuesta();
+            _puntuacionNatural = AplicarValidaciones(respuestas);
 
+            frmFinal frmFinal = new frmFinal(_puntuacionNatural,respuestas.Where(x=> x.valor == 2).Count());
+            frmFinal.ShowDialog();
 
         }
+
         public RespuestaEscalas AplicarValidaciones(List<Respuesta> resp)
         {
             var puntuacionNatural = new RespuestaEscalas();
@@ -1476,7 +1481,9 @@ namespace ConsultorioMMPI
                 puntuacionNatural.escalasDeValidez.lstEscalas.Add(K_R);
                 #endregion
 
+                #endregion
 
+                #region Escalas de orden superior OS (H-O)
                 #region VALIDACION_AEPI               
                 var AEPI = new Escala()
                 {
@@ -1487,7 +1494,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref AEPI);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(AEPI);
+                puntuacionNatural.escalasDeOrdenSuperior.lstEscalas.Add(AEPI);
                 #endregion
                 #region VALIDACION_AP                
                 var AP = new Escala()
@@ -1499,7 +1506,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref AP);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(AP);
+                puntuacionNatural.escalasDeOrdenSuperior.lstEscalas.Add(AP);
                 #endregion
                 #region VALIDACION_ACPE            
                 var ACPE = new Escala()
@@ -1511,8 +1518,11 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref ACPE);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(ACPE);
+                puntuacionNatural.escalasDeOrdenSuperior.lstEscalas.Add(ACPE);
                 #endregion
+                #endregion
+
+                #region Escalas clinicas Reestructuradas CR (RC)
                 #region VALIDACION_CRD                
                 var CRD = new Escala()
                 {
@@ -1523,19 +1533,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref CRD);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(CRD);
-                #endregion
-                #region VALIDACION_KR                
-                //var K_R = new Escala()
-                //{
-                //    descripcion = "VALIDEZ DE ADAPTACIÓN",
-                //    significado = "DECLARACIÒN DE UNA BUENA ADAPTACIÓN PSICOLÓGICA",
-                //    siglas = "K-R",
-                //    puntuacionNatural = TotalValidacion(VALIDACION_KR, resp),
-                //    puntuacionT = 0
-                //};
-                //PuntuacionT.CalcularPuntuacionT(ref K_R);
-                //puntuacionNatural.escalasDeValidez.lstEscalas.Add(K_R);
+                puntuacionNatural.escalasDeClinicasReestructuradas.lstEscalas.Add(CRD);
                 #endregion
                 #region VALIDACION_CR1                
                 var CR1 = new Escala()
@@ -1547,7 +1545,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref CR1);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(CR1);
+                puntuacionNatural.escalasDeClinicasReestructuradas.lstEscalas.Add(CR1);
                 #endregion
                 #region VALIDACION_CR2               
                 var CR2 = new Escala()
@@ -1559,7 +1557,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref CR2);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(CR2);
+                puntuacionNatural.escalasDeClinicasReestructuradas.lstEscalas.Add(CR2);
                 #endregion
                 #region VALIDACION_CR3                
                 var CR3 = new Escala()
@@ -1571,7 +1569,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref CR3);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(CR3);
+                puntuacionNatural.escalasDeClinicasReestructuradas.lstEscalas.Add(CR3);
                 #endregion
                 #region VALIDACION_CR4                
                 var CR4 = new Escala()
@@ -1583,7 +1581,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref CR4);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(CR4);
+                puntuacionNatural.escalasDeClinicasReestructuradas.lstEscalas.Add(CR4);
                 #endregion
                 #region VALIDACION_CR6                
                 var CR6 = new Escala()
@@ -1595,7 +1593,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref CR6);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(CR6);
+                puntuacionNatural.escalasDeClinicasReestructuradas.lstEscalas.Add(CR6);
                 #endregion
                 #region VALIDACION_CR7                
                 var CR7 = new Escala()
@@ -1607,7 +1605,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref CR7);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(CR7);
+                puntuacionNatural.escalasDeClinicasReestructuradas.lstEscalas.Add(CR7);
                 #endregion
                 #region VALIDACION_CR8                
                 var CR8 = new Escala()
@@ -1619,9 +1617,8 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref CR8);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(CR8);
+                puntuacionNatural.escalasDeClinicasReestructuradas.lstEscalas.Add(CR8);
                 #endregion
-
                 #region VALIDACION_CR9               
                 var CR9 = new Escala()
                 {
@@ -1632,8 +1629,11 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref CR9);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(CR9);
+                puntuacionNatural.escalasDeClinicasReestructuradas.lstEscalas.Add(CR9);
                 #endregion
+                #endregion
+
+                #region Somaticos cognitivos
 
                 #region VALIDACION_MAL                
                 var MAL = new Escala()
@@ -1645,7 +1645,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref MAL);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(MAL);
+                puntuacionNatural.somaticosCognitivos.lstEscalas.Add(MAL);
                 #endregion
 
                 #region VALIDACION_QGI                
@@ -1658,7 +1658,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref QGI);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(QGI);
+                puntuacionNatural.somaticosCognitivos.lstEscalas.Add(QGI);
                 #endregion
 
                 #region VALIDACION_QDC             
@@ -1671,7 +1671,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref QDC);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(QDC);
+                puntuacionNatural.somaticosCognitivos.lstEscalas.Add(QDC);
                 #endregion
 
                 #region VALIDACION_QNEU                
@@ -1684,7 +1684,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref QNEU);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(QNEU);
+                puntuacionNatural.somaticosCognitivos.lstEscalas.Add(QNEU);
                 #endregion
 
                 #region VALIDACION_QCO               
@@ -1697,9 +1697,11 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref QCO);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(QCO);
+                puntuacionNatural.somaticosCognitivos.lstEscalas.Add(QCO);
+                #endregion
                 #endregion
 
+                #region Escala de problemas internalizados
                 #region VALIDACION_ISU                
                 var ISU = new Escala()
                 {
@@ -1710,7 +1712,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref ISU);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(ISU);
+                puntuacionNatural.escalasDeProblemasInternalizados.lstEscalas.Add(ISU);
                 #endregion
 
                 #region VALIDACION_LMD                
@@ -1723,7 +1725,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref LMD);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(LMD);
+                puntuacionNatural.escalasDeProblemasInternalizados.lstEscalas.Add(LMD);
                 #endregion
 
                 #region VALIDACION_DSM                
@@ -1736,7 +1738,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref DSM);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(DSM);
+                puntuacionNatural.escalasDeProblemasInternalizados.lstEscalas.Add(DSM);
                 #endregion
 
                 #region VALIDACION_INE                
@@ -1749,7 +1751,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref INE);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(INE);
+                puntuacionNatural.escalasDeProblemasInternalizados.lstEscalas.Add(INE);
                 #endregion
 
                 #region VALIDACION_PE                
@@ -1762,7 +1764,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref PE);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(PE);
+                puntuacionNatural.escalasDeProblemasInternalizados.lstEscalas.Add(PE);
                 #endregion
 
                 #region VALIDACION_ANS                
@@ -1775,7 +1777,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref ANS);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(ANS);
+                puntuacionNatural.escalasDeProblemasInternalizados.lstEscalas.Add(ANS);
                 #endregion
 
                 #region VALIDACION_TEN                
@@ -1788,7 +1790,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref TEN);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(TEN);
+                puntuacionNatural.escalasDeProblemasInternalizados.lstEscalas.Add(TEN);
                 #endregion
 
                 #region VALIDACION_LCM                
@@ -1801,7 +1803,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref LCM);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(LCM);
+                puntuacionNatural.escalasDeProblemasInternalizados.lstEscalas.Add(LCM);
                 #endregion
 
                 #region VALIDACION_MEM                
@@ -1814,9 +1816,11 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref MEM);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(MEM);
+                puntuacionNatural.escalasDeProblemasInternalizados.lstEscalas.Add(MEM);
+                #endregion
                 #endregion
 
+                #region Escalas de problemas externalizados
                 #region VALIDACION_PCIJ                
                 var PCIJ = new Escala()
                 {
@@ -1827,7 +1831,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref PCIJ);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(PCIJ);
+                puntuacionNatural.escalasDeProblemasExternalizados.lstEscalas.Add(PCIJ);
                 #endregion
 
                 #region VALIDACION_ABS                
@@ -1840,7 +1844,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref ABS);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(ABS);
+                puntuacionNatural.escalasDeProblemasExternalizados.lstEscalas.Add(ABS);
                 #endregion
 
                 #region VALIDACION_AG                
@@ -1853,7 +1857,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref AG);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(AG);
+                puntuacionNatural.escalasDeProblemasExternalizados.lstEscalas.Add(AG);
                 #endregion
 
                 #region VALIDACION_EUF                
@@ -1866,9 +1870,11 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref EUF);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(EUF);
+                puntuacionNatural.escalasDeProblemasExternalizados.lstEscalas.Add(EUF);
+                #endregion
                 #endregion
 
+                #region Escala de problemas interpersonales
                 #region VALIDACION_PFA                
                 var PFA = new Escala()
                 {
@@ -1879,7 +1885,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref PFA);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(PFA);
+                puntuacionNatural.escalasDeProblemasInterpersonales.lstEscalas.Add(PFA);
                 #endregion
 
                 #region VALIDACION_PIP                
@@ -1892,7 +1898,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref PIP);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(PIP);
+                puntuacionNatural.escalasDeProblemasInterpersonales.lstEscalas.Add(PIP);
                 #endregion
 
                 #region VALIDACION_ESO                
@@ -1905,7 +1911,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref ESO);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(ESO);
+                puntuacionNatural.escalasDeProblemasInterpersonales.lstEscalas.Add(ESO);
                 #endregion
 
                 #region VALIDACION_TIM                
@@ -1918,7 +1924,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref TIM);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(TIM);
+                puntuacionNatural.escalasDeProblemasInterpersonales.lstEscalas.Add(TIM);
                 #endregion
 
                 #region VALIDACION_DES                
@@ -1931,8 +1937,11 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref DES);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(DES);
+                puntuacionNatural.escalasDeProblemasInterpersonales.lstEscalas.Add(DES);
+                #endregion
+                #endregion
 
+                #region Escalas de interes especifico
                 #region VALIDACION_IEL                
                 var IEL = new Escala()
                 {
@@ -1943,7 +1952,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref IEL);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(IEL);
+                puntuacionNatural.escalasDeInteresEspecifico.lstEscalas.Add(IEL);
                 #endregion
 
                 #region VALIDACION_IFM                
@@ -1956,8 +1965,12 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref IFM);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(IFM);
+                puntuacionNatural.escalasDeInteresEspecifico.lstEscalas.Add(IFM);
                 #endregion
+
+                #endregion
+
+                #region Cinco escalas de psicopatología de la personalidad (PSY-5)
 
                 #region VALIDACION_AGGR                
                 var AGGR = new Escala()
@@ -1969,7 +1982,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref AGGR);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(AGGR);
+                puntuacionNatural.escalasDePSY_5.lstEscalas.Add(AGGR);
                 #endregion
 
                 #region VALIDACION_PSYC                
@@ -1982,7 +1995,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref PSYC);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(PSYC);
+                puntuacionNatural.escalasDePSY_5.lstEscalas.Add(PSYC);
                 #endregion
 
                 #region VALIDACION_DISC                
@@ -1995,7 +2008,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref DISC);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(DISC);
+                puntuacionNatural.escalasDePSY_5.lstEscalas.Add(DISC);
                 #endregion
 
                 #region VALIDACION_NEGE            
@@ -2008,7 +2021,7 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref NEGE);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(NEGE);
+                puntuacionNatural.escalasDePSY_5.lstEscalas.Add(NEGE);
                 #endregion
 
                 #region VALIDACION_INTR            
@@ -2021,19 +2034,12 @@ namespace ConsultorioMMPI
                     puntuacionT = 0
                 };
                 PuntuacionT.CalcularPuntuacionT(ref INTR);
-                puntuacionNatural.escalasDeValidez.lstEscalas.Add(INTR);
+                puntuacionNatural.escalasDePSY_5.lstEscalas.Add(INTR);
                 #endregion
 
                 #endregion
-
-
 
                 //Escalas de orden superior
-
-
-
-
-
                 return puntuacionNatural;
 
 
@@ -2105,4 +2111,3 @@ namespace ConsultorioMMPI
 
     }
 }
-#endregion
