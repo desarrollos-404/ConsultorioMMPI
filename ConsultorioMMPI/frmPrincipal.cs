@@ -1,4 +1,5 @@
 ﻿using ConsultorioMMPI.Clases;
+using ConsultorioMMPI.DataBase;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,7 +17,40 @@ namespace ConsultorioMMPI
         public frmPrincipal()
         {
             InitializeComponent();
+            CrearUsuarioLogin();
             this.Visible = false;
+        }
+
+        private void CrearUsuarioLogin()
+        {
+            //string s = Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData);
+            //string a = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+            //string d = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+
+            //AppDomain.CurrentDomain.SetData("DataDirectory", Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData));
+
+            using (DataBaseEntities ctx = new DataBaseEntities())
+            {
+                try
+                {
+                    UsuarioAcceso user= ctx.UsuarioAcceso.Where(x => x.usuario == "hjpulido" && x.contrasena == "12345").FirstOrDefault();
+                    if(user == null)
+                    {
+                        UsuarioAcceso usuarioguardar = new UsuarioAcceso
+                        {
+                            usuario = "hjpulido",
+                            contrasena = "12345"
+                        };
+                        ctx.UsuarioAcceso.Add(usuarioguardar);
+                        ctx.SaveChanges();
+                    }
+
+                }
+                catch (Exception ex)
+                {
+                }
+
+            }
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)

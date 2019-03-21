@@ -16,7 +16,7 @@ namespace ConsultorioMMPI.DataBase
     public partial class UsuarioAcceso
     {
         public int id { get; set; }
-        [Required(ErrorMessage ="Ingresar el usuario")]
+        [Required(ErrorMessage = "Ingresar el usuario")]
         [DataType(DataType.Text)]
         [StringLength(25, ErrorMessage = "El usuario no debe ser mayor a 25 caractertes")]
         public string usuario { get; set; }

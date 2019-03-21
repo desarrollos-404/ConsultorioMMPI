@@ -18,6 +18,7 @@ namespace ConsultorioMMPI.DataBase
         public DataBaseEntities()
             : base("name=DataBaseEntities")
         {
+            Database.SetInitializer<DataBaseEntities>(new CreateDatabaseIfNotExists<DataBaseEntities>());
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
