@@ -12,12 +12,10 @@ namespace ConsultorioMMPI
 {
     public partial class frmPrincipal : Form
     {
+
         public frmPrincipal()
         {
             InitializeComponent();
-            FrmLogin frmLogin = new FrmLogin();
-            frmLogin.ShowDialog();
-
             this.Visible = false;
         }
 
@@ -56,6 +54,7 @@ namespace ConsultorioMMPI
                 else this.Close();
             }
             else this.Close();
+            Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);// para usar
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)

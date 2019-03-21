@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
             this.txtNombre = new MetroFramework.Controls.MetroTextBox();
-            this.txtSexo = new MetroFramework.Controls.MetroTextBox();
             this.txtEscolaridad = new MetroFramework.Controls.MetroTextBox();
             this.txtNSS = new MetroFramework.Controls.MetroTextBox();
             this.txtEdad = new MetroFramework.Controls.MetroTextBox();
@@ -52,6 +52,10 @@
             this.btnAplicar = new MetroFramework.Controls.MetroButton();
             this.dteRegistro = new MetroFramework.Controls.MetroDateTime();
             this.dteNacimiento = new MetroFramework.Controls.MetroDateTime();
+            this.cmbsexo = new MetroFramework.Controls.MetroComboBox();
+            this.sexosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.btnVerResultado = new MetroFramework.Controls.MetroButton();
+            ((System.ComponentModel.ISupportInitialize)(this.sexosBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // metroLabel1
@@ -119,36 +123,6 @@
             this.txtNombre.UseSelectable = true;
             this.txtNombre.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtNombre.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // txtSexo
-            // 
-            // 
-            // 
-            // 
-            this.txtSexo.CustomButton.Image = null;
-            this.txtSexo.CustomButton.Location = new System.Drawing.Point(137, 1);
-            this.txtSexo.CustomButton.Name = "";
-            this.txtSexo.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.txtSexo.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtSexo.CustomButton.TabIndex = 1;
-            this.txtSexo.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtSexo.CustomButton.UseSelectable = true;
-            this.txtSexo.CustomButton.Visible = false;
-            this.txtSexo.Lines = new string[0];
-            this.txtSexo.Location = new System.Drawing.Point(162, 134);
-            this.txtSexo.MaxLength = 32767;
-            this.txtSexo.Name = "txtSexo";
-            this.txtSexo.PasswordChar = '\0';
-            this.txtSexo.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtSexo.SelectedText = "";
-            this.txtSexo.SelectionLength = 0;
-            this.txtSexo.SelectionStart = 0;
-            this.txtSexo.ShortcutsEnabled = true;
-            this.txtSexo.Size = new System.Drawing.Size(159, 23);
-            this.txtSexo.TabIndex = 4;
-            this.txtSexo.UseSelectable = true;
-            this.txtSexo.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtSexo.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // txtEscolaridad
             // 
@@ -431,6 +405,7 @@
             this.btnGuardar.TabIndex = 16;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseSelectable = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnAplicar
             // 
@@ -458,11 +433,41 @@
             this.dteNacimiento.Size = new System.Drawing.Size(159, 29);
             this.dteNacimiento.TabIndex = 24;
             // 
+            // cmbsexo
+            // 
+            this.cmbsexo.DataSource = this.sexosBindingSource;
+            this.cmbsexo.DisplayMember = "descripcion";
+            this.cmbsexo.FormattingEnabled = true;
+            this.cmbsexo.ItemHeight = 23;
+            this.cmbsexo.Location = new System.Drawing.Point(162, 134);
+            this.cmbsexo.Name = "cmbsexo";
+            this.cmbsexo.Size = new System.Drawing.Size(159, 29);
+            this.cmbsexo.TabIndex = 25;
+            this.cmbsexo.UseSelectable = true;
+            this.cmbsexo.ValueMember = "valor";
+            // 
+            // sexosBindingSource
+            // 
+            this.sexosBindingSource.DataSource = typeof(ConsultorioMMPI.Clases.Sexos);
+            // 
+            // btnVerResultado
+            // 
+            this.btnVerResultado.Location = new System.Drawing.Point(536, 239);
+            this.btnVerResultado.Name = "btnVerResultado";
+            this.btnVerResultado.Size = new System.Drawing.Size(91, 31);
+            this.btnVerResultado.TabIndex = 26;
+            this.btnVerResultado.Text = "Ver resultado";
+            this.btnVerResultado.UseSelectable = true;
+            this.btnVerResultado.Visible = false;
+            this.btnVerResultado.Click += new System.EventHandler(this.btnVerResultado_Click);
+            // 
             // frmUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(687, 276);
+            this.Controls.Add(this.btnVerResultado);
+            this.Controls.Add(this.cmbsexo);
             this.Controls.Add(this.dteNacimiento);
             this.Controls.Add(this.dteRegistro);
             this.Controls.Add(this.btnAplicar);
@@ -481,7 +486,6 @@
             this.Controls.Add(this.metroLabel7);
             this.Controls.Add(this.metroLabel8);
             this.Controls.Add(this.txtEscolaridad);
-            this.Controls.Add(this.txtSexo);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.metroLabel4);
             this.Controls.Add(this.metroLabel3);
@@ -493,6 +497,7 @@
             this.Resizable = false;
             this.Style = MetroFramework.MetroColorStyle.Purple;
             this.Text = "Datos del usuario";
+            ((System.ComponentModel.ISupportInitialize)(this.sexosBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -505,7 +510,6 @@
         private MetroFramework.Controls.MetroLabel metroLabel3;
         private MetroFramework.Controls.MetroLabel metroLabel4;
         private MetroFramework.Controls.MetroTextBox txtNombre;
-        private MetroFramework.Controls.MetroTextBox txtSexo;
         private MetroFramework.Controls.MetroTextBox txtEscolaridad;
         private MetroFramework.Controls.MetroTextBox txtNSS;
         private MetroFramework.Controls.MetroTextBox txtEdad;
@@ -524,5 +528,8 @@
         private MetroFramework.Controls.MetroButton btnAplicar;
         private MetroFramework.Controls.MetroDateTime dteRegistro;
         private MetroFramework.Controls.MetroDateTime dteNacimiento;
+        private MetroFramework.Controls.MetroComboBox cmbsexo;
+        private System.Windows.Forms.BindingSource sexosBindingSource;
+        private MetroFramework.Controls.MetroButton btnVerResultado;
     }
 }

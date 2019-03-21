@@ -1,4 +1,6 @@
-﻿using MetroFramework.Forms;
+﻿using ConsultorioMMPI.Clases;
+using ConsultorioMMPI.DataBase;
+using MetroFramework.Forms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,8 +19,19 @@ namespace ConsultorioMMPI
             InitializeComponent();
             bloquearControles(modificar);
             CargarDatosPrueba();
-
+            Init();
         }
+        public void Init()
+        {
+            List<Sexos> sexos = new List<Sexos>
+        {
+            new Sexos{descripcion = "Hombre", valor = 1},
+            new Sexos{descripcion = "Mujer", valor = 0}
+        };
+            cmbsexo.DataSource = sexos;
+        }
+
+        
 
         private void CargarDatosPrueba()
         {
@@ -29,7 +42,7 @@ namespace ConsultorioMMPI
             txtEstadoCivil.Text = "Casado";
             txtLugarResidencia.Text = "Gomez Palacio DGO";
             txtOcupacion.Text = "Operador";
-            txtSexo.Text = "Masculino";
+            //txtSexo.Text = "Masculino";
             txtTelefono.Text = "871-782-34-67";
             dteNacimiento.Value = new DateTime(1981, 2, 24);
             dteRegistro.Value = DateTime.Now;
@@ -46,7 +59,7 @@ namespace ConsultorioMMPI
                 txtLugarResidencia.Enabled = false;
                 txtNombre.Enabled = false;
                 txtOcupacion.Enabled = false;
-                txtSexo.Enabled = false;
+                cmbsexo.Enabled = false;
                 txtTelefono.Enabled = false;
                 dteNacimiento.Enabled = false;
                 dteRegistro.Enabled = false;
@@ -59,6 +72,57 @@ namespace ConsultorioMMPI
             frmPreguntas frmPreguntas = new frmPreguntas();
             frmPreguntas.WindowState = FormWindowState.Maximized;
             frmPreguntas.ShowDialog();
+
+        }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            AgregarUsuario();
+        }
+        public void AgregarUsuario()
+        {
+            using (DataBaseEntities ctx = new DataBaseEntities())
+            {
+                try
+                {
+                    Clientes usuario = new Clientes
+                    {
+                        NumPreventivo = txtNSS.Text,
+                        Nombre = txtNombre.Text,
+                        Edad = Convert.ToInt32(txtEdad.Text),
+                        Escolaridad = txtEscolaridad.Text,
+                        EstadoCivil = txtEstadoCivil.Text,
+                        LugarResidencia = txtLugarResidencia.Text,
+                        Ocupacion = txtOcupacion.Text,
+                        Sexo = Convert.ToInt32(cmbsexo.SelectedValue),
+                        Telefono = txtTelefono.Text,
+                        FechaNacimiento = dteNacimiento.Value,
+                        FechaRegistro = DateTime.Now
+                    };
+                    if (!ModelState.IsValid<Clientes>(usuario))
+                    {
+                        ClsMesageBox.MBOK(ModelState.ErrorMessages[0], "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
+                    }
+                    //ClsMesageBox.MostraFormaEspera("Cargando...", this);
+
+                    ctx.Clientes.Add(usuario);
+                    ctx.SaveChanges();
+                    ClsMesageBox.MBOK("El cliente se guardo correctamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.DialogResult = DialogResult.OK;
+                    ClsMesageBox.CerrarFormaEspera();
+                }
+               
+                catch (Exception ex)
+                {
+                    ClsMesageBox.CerrarFormaEspera();
+                    ClsMesageBox.MBOK("No se pudo guardar el cliente.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+        }
+
+        private void btnVerResultado_Click(object sender, EventArgs e)
+        {
 
         }
     }

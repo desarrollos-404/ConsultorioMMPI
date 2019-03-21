@@ -29,120 +29,120 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tbInterpretación = new MetroFramework.Controls.MetroTabControl();
             this.tbResultados = new MetroFramework.Controls.MetroTabPage();
-            this.lstEscalasBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tbInterpretacion = new MetroFramework.Controls.MetroTabPage();
-            this.lblEscalasDeValidez = new System.Windows.Forms.Label();
-            this.grdEscalasDeValidez = new MetroFramework.Controls.MetroGrid();
-            this.lstEscalasBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.lblOrdenSuperior = new System.Windows.Forms.Label();
-            this.grdEscalasOrdenSuperior = new MetroFramework.Controls.MetroGrid();
-            this.grdEscalasClinicasReestructuradas = new MetroFramework.Controls.MetroGrid();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.grdEscalasProblemasSomaticosCognitivos = new MetroFramework.Controls.MetroGrid();
-            this.grdProblemasInternalizados = new MetroFramework.Controls.MetroGrid();
-            this.label4 = new System.Windows.Forms.Label();
-            this.grdProblemasExternalizados = new MetroFramework.Controls.MetroGrid();
-            this.label5 = new System.Windows.Forms.Label();
-            this.grdEscalasProbleasInterpersonlaes = new MetroFramework.Controls.MetroGrid();
-            this.label6 = new System.Windows.Forms.Label();
-            this.grdEscalasInteresEspecifico = new MetroFramework.Controls.MetroGrid();
-            this.label7 = new System.Windows.Forms.Label();
             this.grdPSY5 = new MetroFramework.Controls.MetroGrid();
-            this.label8 = new System.Windows.Forms.Label();
-            this.pnlEncabezado = new MetroFramework.Controls.MetroPanel();
             this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn37 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn38 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn39 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn40 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lstEscalasBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.escalasDeValidezBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.label8 = new System.Windows.Forms.Label();
+            this.grdEscalasInteresEspecifico = new MetroFramework.Controls.MetroGrid();
             this.dataGridViewTextBoxColumn31 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn32 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn34 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn35 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label7 = new System.Windows.Forms.Label();
+            this.grdEscalasProbleasInterpersonlaes = new MetroFramework.Controls.MetroGrid();
             this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn29 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label6 = new System.Windows.Forms.Label();
+            this.grdProblemasExternalizados = new MetroFramework.Controls.MetroGrid();
             this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label5 = new System.Windows.Forms.Label();
+            this.grdProblemasInternalizados = new MetroFramework.Controls.MetroGrid();
             this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label4 = new System.Windows.Forms.Label();
+            this.grdEscalasProblemasSomaticosCognitivos = new MetroFramework.Controls.MetroGrid();
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.grdEscalasClinicasReestructuradas = new MetroFramework.Controls.MetroGrid();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
+            this.grdEscalasOrdenSuperior = new MetroFramework.Controls.MetroGrid();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lblOrdenSuperior = new System.Windows.Forms.Label();
+            this.grdEscalasDeValidez = new MetroFramework.Controls.MetroGrid();
             this.descripcionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.significadoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.siglasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.puntuacionNaturalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.puntuacionTDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lblEscalasDeValidez = new System.Windows.Forms.Label();
+            this.pnlEncabezado = new MetroFramework.Controls.MetroPanel();
             this.lblSinContestar = new System.Windows.Forms.Label();
+            this.tbInterpretacion = new MetroFramework.Controls.MetroTabPage();
+            this.lstEscalasBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tbInterpretación.SuspendLayout();
             this.tbResultados.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.lstEscalasBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasDeValidez)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lstEscalasBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasOrdenSuperior)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasClinicasReestructuradas)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasProblemasSomaticosCognitivos)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdProblemasInternalizados)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdProblemasExternalizados)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasProbleasInterpersonlaes)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasInteresEspecifico)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grdPSY5)).BeginInit();
-            this.pnlEncabezado.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.lstEscalasBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.escalasDeValidezBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasInteresEspecifico)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasProbleasInterpersonlaes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdProblemasExternalizados)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdProblemasInternalizados)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasProblemasSomaticosCognitivos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasClinicasReestructuradas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasOrdenSuperior)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasDeValidez)).BeginInit();
+            this.pnlEncabezado.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.lstEscalasBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // tbInterpretación
@@ -193,585 +193,6 @@
             this.tbResultados.VerticalScrollbarBarColor = false;
             this.tbResultados.VerticalScrollbarHighlightOnWheel = true;
             this.tbResultados.VerticalScrollbarSize = 10;
-            // 
-            // lstEscalasBindingSource
-            // 
-            this.lstEscalasBindingSource.DataMember = "lstEscalas";
-            this.lstEscalasBindingSource.DataSource = this.escalasDeValidezBindingSource;
-            // 
-            // tbInterpretacion
-            // 
-            this.tbInterpretacion.HorizontalScrollbarBarColor = true;
-            this.tbInterpretacion.HorizontalScrollbarHighlightOnWheel = false;
-            this.tbInterpretacion.HorizontalScrollbarSize = 10;
-            this.tbInterpretacion.Location = new System.Drawing.Point(4, 38);
-            this.tbInterpretacion.Name = "tbInterpretacion";
-            this.tbInterpretacion.Size = new System.Drawing.Size(965, 658);
-            this.tbInterpretacion.TabIndex = 1;
-            this.tbInterpretacion.Text = "Interpretación";
-            this.tbInterpretacion.VerticalScrollbarBarColor = true;
-            this.tbInterpretacion.VerticalScrollbarHighlightOnWheel = false;
-            this.tbInterpretacion.VerticalScrollbarSize = 10;
-            // 
-            // lblEscalasDeValidez
-            // 
-            this.lblEscalasDeValidez.AutoSize = true;
-            this.lblEscalasDeValidez.BackColor = System.Drawing.Color.Transparent;
-            this.lblEscalasDeValidez.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblEscalasDeValidez.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEscalasDeValidez.ForeColor = System.Drawing.Color.DarkRed;
-            this.lblEscalasDeValidez.Location = new System.Drawing.Point(0, 26);
-            this.lblEscalasDeValidez.Name = "lblEscalasDeValidez";
-            this.lblEscalasDeValidez.Size = new System.Drawing.Size(171, 23);
-            this.lblEscalasDeValidez.TabIndex = 2;
-            this.lblEscalasDeValidez.Text = "ESCALAS DE VALIDEZ";
-            // 
-            // grdEscalasDeValidez
-            // 
-            this.grdEscalasDeValidez.AllowUserToResizeRows = false;
-            this.grdEscalasDeValidez.AutoGenerateColumns = false;
-            this.grdEscalasDeValidez.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.grdEscalasDeValidez.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.grdEscalasDeValidez.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.grdEscalasDeValidez.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle25.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle25.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle25.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdEscalasDeValidez.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle25;
-            this.grdEscalasDeValidez.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdEscalasDeValidez.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.descripcionDataGridViewTextBoxColumn,
-            this.significadoDataGridViewTextBoxColumn,
-            this.siglasDataGridViewTextBoxColumn,
-            this.puntuacionNaturalDataGridViewTextBoxColumn,
-            this.puntuacionTDataGridViewTextBoxColumn});
-            this.grdEscalasDeValidez.DataSource = this.lstEscalasBindingSource1;
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle26.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdEscalasDeValidez.DefaultCellStyle = dataGridViewCellStyle26;
-            this.grdEscalasDeValidez.Dock = System.Windows.Forms.DockStyle.Top;
-            this.grdEscalasDeValidez.EnableHeadersVisualStyles = false;
-            this.grdEscalasDeValidez.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.grdEscalasDeValidez.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.grdEscalasDeValidez.Location = new System.Drawing.Point(0, 49);
-            this.grdEscalasDeValidez.Name = "grdEscalasDeValidez";
-            this.grdEscalasDeValidez.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle27.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdEscalasDeValidez.RowHeadersDefaultCellStyle = dataGridViewCellStyle27;
-            this.grdEscalasDeValidez.Size = new System.Drawing.Size(948, 250);
-            this.grdEscalasDeValidez.StandardTab = true;
-            this.grdEscalasDeValidez.TabIndex = 3;
-            this.grdEscalasDeValidez.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasDeValidez_CellFormatting);
-            this.grdEscalasDeValidez.SelectionChanged += new System.EventHandler(this.grdEscalasDeValidez_SelectionChanged);
-            // 
-            // lstEscalasBindingSource1
-            // 
-            this.lstEscalasBindingSource1.DataMember = "lstEscalas";
-            this.lstEscalasBindingSource1.DataSource = this.escalasDeValidezBindingSource;
-            // 
-            // lblOrdenSuperior
-            // 
-            this.lblOrdenSuperior.AutoSize = true;
-            this.lblOrdenSuperior.BackColor = System.Drawing.Color.Transparent;
-            this.lblOrdenSuperior.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblOrdenSuperior.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOrdenSuperior.ForeColor = System.Drawing.Color.DarkRed;
-            this.lblOrdenSuperior.Location = new System.Drawing.Point(0, 299);
-            this.lblOrdenSuperior.Name = "lblOrdenSuperior";
-            this.lblOrdenSuperior.Size = new System.Drawing.Size(318, 23);
-            this.lblOrdenSuperior.TabIndex = 4;
-            this.lblOrdenSuperior.Text = "ESCALAS DE ORDEN SUPERIOR OS (H-O)";
-            // 
-            // grdEscalasOrdenSuperior
-            // 
-            this.grdEscalasOrdenSuperior.AllowUserToResizeRows = false;
-            this.grdEscalasOrdenSuperior.AutoGenerateColumns = false;
-            this.grdEscalasOrdenSuperior.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.grdEscalasOrdenSuperior.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.grdEscalasOrdenSuperior.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.grdEscalasOrdenSuperior.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdEscalasOrdenSuperior.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
-            this.grdEscalasOrdenSuperior.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdEscalasOrdenSuperior.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2,
-            this.dataGridViewTextBoxColumn3,
-            this.dataGridViewTextBoxColumn4,
-            this.dataGridViewTextBoxColumn5});
-            this.grdEscalasOrdenSuperior.DataSource = this.lstEscalasBindingSource1;
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdEscalasOrdenSuperior.DefaultCellStyle = dataGridViewCellStyle23;
-            this.grdEscalasOrdenSuperior.Dock = System.Windows.Forms.DockStyle.Top;
-            this.grdEscalasOrdenSuperior.EnableHeadersVisualStyles = false;
-            this.grdEscalasOrdenSuperior.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.grdEscalasOrdenSuperior.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.grdEscalasOrdenSuperior.Location = new System.Drawing.Point(0, 322);
-            this.grdEscalasOrdenSuperior.Name = "grdEscalasOrdenSuperior";
-            this.grdEscalasOrdenSuperior.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdEscalasOrdenSuperior.RowHeadersDefaultCellStyle = dataGridViewCellStyle24;
-            this.grdEscalasOrdenSuperior.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.grdEscalasOrdenSuperior.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdEscalasOrdenSuperior.Size = new System.Drawing.Size(948, 130);
-            this.grdEscalasOrdenSuperior.StandardTab = true;
-            this.grdEscalasOrdenSuperior.TabIndex = 5;
-            this.grdEscalasOrdenSuperior.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasOrdenSuperior_CellFormatting);
-            this.grdEscalasOrdenSuperior.SelectionChanged += new System.EventHandler(this.grdEscalasOrdenSuperior_SelectionChanged);
-            // 
-            // grdEscalasClinicasReestructuradas
-            // 
-            this.grdEscalasClinicasReestructuradas.AllowUserToResizeRows = false;
-            this.grdEscalasClinicasReestructuradas.AutoGenerateColumns = false;
-            this.grdEscalasClinicasReestructuradas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.grdEscalasClinicasReestructuradas.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.grdEscalasClinicasReestructuradas.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.grdEscalasClinicasReestructuradas.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdEscalasClinicasReestructuradas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle19;
-            this.grdEscalasClinicasReestructuradas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdEscalasClinicasReestructuradas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn6,
-            this.dataGridViewTextBoxColumn7,
-            this.dataGridViewTextBoxColumn8,
-            this.dataGridViewTextBoxColumn9,
-            this.dataGridViewTextBoxColumn10});
-            this.grdEscalasClinicasReestructuradas.DataSource = this.lstEscalasBindingSource1;
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdEscalasClinicasReestructuradas.DefaultCellStyle = dataGridViewCellStyle20;
-            this.grdEscalasClinicasReestructuradas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.grdEscalasClinicasReestructuradas.EnableHeadersVisualStyles = false;
-            this.grdEscalasClinicasReestructuradas.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.grdEscalasClinicasReestructuradas.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.grdEscalasClinicasReestructuradas.Location = new System.Drawing.Point(0, 475);
-            this.grdEscalasClinicasReestructuradas.Name = "grdEscalasClinicasReestructuradas";
-            this.grdEscalasClinicasReestructuradas.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdEscalasClinicasReestructuradas.RowHeadersDefaultCellStyle = dataGridViewCellStyle21;
-            this.grdEscalasClinicasReestructuradas.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.grdEscalasClinicasReestructuradas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdEscalasClinicasReestructuradas.Size = new System.Drawing.Size(948, 250);
-            this.grdEscalasClinicasReestructuradas.StandardTab = true;
-            this.grdEscalasClinicasReestructuradas.TabIndex = 7;
-            this.grdEscalasClinicasReestructuradas.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasClinicasReestructuradas_CellFormatting);
-            this.grdEscalasClinicasReestructuradas.SelectionChanged += new System.EventHandler(this.grdEscalasClinicasReestructuradas_SelectionChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DarkRed;
-            this.label1.Location = new System.Drawing.Point(0, 452);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(369, 23);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "ESCALAS CLINICAS REESTRUCTURADAS CR (RC)";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Tomato;
-            this.label2.Location = new System.Drawing.Point(0, 725);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(307, 19);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "ESCALAS DE PROBLEMAS ESPECÍFICOS PE (SP)";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label3.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.DarkRed;
-            this.label3.Location = new System.Drawing.Point(0, 744);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(409, 23);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "ESCALAS DE PROBLEMAS SOMÁTICOS/COGNITIVOS";
-            // 
-            // grdEscalasProblemasSomaticosCognitivos
-            // 
-            this.grdEscalasProblemasSomaticosCognitivos.AllowUserToResizeRows = false;
-            this.grdEscalasProblemasSomaticosCognitivos.AutoGenerateColumns = false;
-            this.grdEscalasProblemasSomaticosCognitivos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.grdEscalasProblemasSomaticosCognitivos.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.grdEscalasProblemasSomaticosCognitivos.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.grdEscalasProblemasSomaticosCognitivos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdEscalasProblemasSomaticosCognitivos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle16;
-            this.grdEscalasProblemasSomaticosCognitivos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdEscalasProblemasSomaticosCognitivos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn11,
-            this.dataGridViewTextBoxColumn12,
-            this.dataGridViewTextBoxColumn13,
-            this.dataGridViewTextBoxColumn14,
-            this.dataGridViewTextBoxColumn15});
-            this.grdEscalasProblemasSomaticosCognitivos.DataSource = this.lstEscalasBindingSource1;
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdEscalasProblemasSomaticosCognitivos.DefaultCellStyle = dataGridViewCellStyle17;
-            this.grdEscalasProblemasSomaticosCognitivos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.grdEscalasProblemasSomaticosCognitivos.EnableHeadersVisualStyles = false;
-            this.grdEscalasProblemasSomaticosCognitivos.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.grdEscalasProblemasSomaticosCognitivos.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.grdEscalasProblemasSomaticosCognitivos.Location = new System.Drawing.Point(0, 767);
-            this.grdEscalasProblemasSomaticosCognitivos.Name = "grdEscalasProblemasSomaticosCognitivos";
-            this.grdEscalasProblemasSomaticosCognitivos.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdEscalasProblemasSomaticosCognitivos.RowHeadersDefaultCellStyle = dataGridViewCellStyle18;
-            this.grdEscalasProblemasSomaticosCognitivos.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.grdEscalasProblemasSomaticosCognitivos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdEscalasProblemasSomaticosCognitivos.Size = new System.Drawing.Size(948, 170);
-            this.grdEscalasProblemasSomaticosCognitivos.StandardTab = true;
-            this.grdEscalasProblemasSomaticosCognitivos.TabIndex = 11;
-            this.grdEscalasProblemasSomaticosCognitivos.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasProblemasSomaticosCognitivos_CellFormatting);
-            this.grdEscalasProblemasSomaticosCognitivos.SelectionChanged += new System.EventHandler(this.grdEscalasProblemasSomaticosCognitivos_SelectionChanged);
-            // 
-            // grdProblemasInternalizados
-            // 
-            this.grdProblemasInternalizados.AllowUserToResizeRows = false;
-            this.grdProblemasInternalizados.AutoGenerateColumns = false;
-            this.grdProblemasInternalizados.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.grdProblemasInternalizados.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.grdProblemasInternalizados.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.grdProblemasInternalizados.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdProblemasInternalizados.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
-            this.grdProblemasInternalizados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdProblemasInternalizados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn16,
-            this.dataGridViewTextBoxColumn17,
-            this.dataGridViewTextBoxColumn18,
-            this.dataGridViewTextBoxColumn19,
-            this.dataGridViewTextBoxColumn20});
-            this.grdProblemasInternalizados.DataSource = this.lstEscalasBindingSource1;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdProblemasInternalizados.DefaultCellStyle = dataGridViewCellStyle14;
-            this.grdProblemasInternalizados.Dock = System.Windows.Forms.DockStyle.Top;
-            this.grdProblemasInternalizados.EnableHeadersVisualStyles = false;
-            this.grdProblemasInternalizados.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.grdProblemasInternalizados.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.grdProblemasInternalizados.Location = new System.Drawing.Point(0, 960);
-            this.grdProblemasInternalizados.Name = "grdProblemasInternalizados";
-            this.grdProblemasInternalizados.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdProblemasInternalizados.RowHeadersDefaultCellStyle = dataGridViewCellStyle15;
-            this.grdProblemasInternalizados.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.grdProblemasInternalizados.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdProblemasInternalizados.Size = new System.Drawing.Size(948, 250);
-            this.grdProblemasInternalizados.StandardTab = true;
-            this.grdProblemasInternalizados.TabIndex = 13;
-            this.grdProblemasInternalizados.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdProblemasInternalizados_CellFormatting);
-            this.grdProblemasInternalizados.SelectionChanged += new System.EventHandler(this.grdProblemasInternalizados_SelectionChanged);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label4.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.DarkRed;
-            this.label4.Location = new System.Drawing.Point(0, 937);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(343, 23);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "ESCALAS DE PROBLEMAS INTERNALIZADOS";
-            // 
-            // grdProblemasExternalizados
-            // 
-            this.grdProblemasExternalizados.AllowUserToResizeRows = false;
-            this.grdProblemasExternalizados.AutoGenerateColumns = false;
-            this.grdProblemasExternalizados.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.grdProblemasExternalizados.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.grdProblemasExternalizados.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.grdProblemasExternalizados.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdProblemasExternalizados.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
-            this.grdProblemasExternalizados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdProblemasExternalizados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn21,
-            this.dataGridViewTextBoxColumn22,
-            this.dataGridViewTextBoxColumn23,
-            this.dataGridViewTextBoxColumn24,
-            this.dataGridViewTextBoxColumn25});
-            this.grdProblemasExternalizados.DataSource = this.lstEscalasBindingSource1;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdProblemasExternalizados.DefaultCellStyle = dataGridViewCellStyle11;
-            this.grdProblemasExternalizados.Dock = System.Windows.Forms.DockStyle.Top;
-            this.grdProblemasExternalizados.EnableHeadersVisualStyles = false;
-            this.grdProblemasExternalizados.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.grdProblemasExternalizados.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.grdProblemasExternalizados.Location = new System.Drawing.Point(0, 1233);
-            this.grdProblemasExternalizados.Name = "grdProblemasExternalizados";
-            this.grdProblemasExternalizados.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdProblemasExternalizados.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
-            this.grdProblemasExternalizados.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.grdProblemasExternalizados.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdProblemasExternalizados.Size = new System.Drawing.Size(948, 140);
-            this.grdProblemasExternalizados.StandardTab = true;
-            this.grdProblemasExternalizados.TabIndex = 15;
-            this.grdProblemasExternalizados.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdProblemasExternalizados_CellFormatting);
-            this.grdProblemasExternalizados.SelectionChanged += new System.EventHandler(this.grdProblemasExternalizados_SelectionChanged);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label5.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.DarkRed;
-            this.label5.Location = new System.Drawing.Point(0, 1210);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(344, 23);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "ESCALAS DE PROBLEMAS EXTERNALIZADOS";
-            // 
-            // grdEscalasProbleasInterpersonlaes
-            // 
-            this.grdEscalasProbleasInterpersonlaes.AllowUserToResizeRows = false;
-            this.grdEscalasProbleasInterpersonlaes.AutoGenerateColumns = false;
-            this.grdEscalasProbleasInterpersonlaes.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.grdEscalasProbleasInterpersonlaes.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.grdEscalasProbleasInterpersonlaes.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.grdEscalasProbleasInterpersonlaes.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdEscalasProbleasInterpersonlaes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
-            this.grdEscalasProbleasInterpersonlaes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdEscalasProbleasInterpersonlaes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn26,
-            this.dataGridViewTextBoxColumn27,
-            this.dataGridViewTextBoxColumn28,
-            this.dataGridViewTextBoxColumn29,
-            this.dataGridViewTextBoxColumn30});
-            this.grdEscalasProbleasInterpersonlaes.DataSource = this.lstEscalasBindingSource1;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdEscalasProbleasInterpersonlaes.DefaultCellStyle = dataGridViewCellStyle8;
-            this.grdEscalasProbleasInterpersonlaes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.grdEscalasProbleasInterpersonlaes.EnableHeadersVisualStyles = false;
-            this.grdEscalasProbleasInterpersonlaes.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.grdEscalasProbleasInterpersonlaes.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.grdEscalasProbleasInterpersonlaes.Location = new System.Drawing.Point(0, 1396);
-            this.grdEscalasProbleasInterpersonlaes.Name = "grdEscalasProbleasInterpersonlaes";
-            this.grdEscalasProbleasInterpersonlaes.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdEscalasProbleasInterpersonlaes.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
-            this.grdEscalasProbleasInterpersonlaes.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.grdEscalasProbleasInterpersonlaes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdEscalasProbleasInterpersonlaes.Size = new System.Drawing.Size(948, 170);
-            this.grdEscalasProbleasInterpersonlaes.StandardTab = true;
-            this.grdEscalasProbleasInterpersonlaes.TabIndex = 17;
-            this.grdEscalasProbleasInterpersonlaes.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasProbleasInterpersonlaes_CellFormatting);
-            this.grdEscalasProbleasInterpersonlaes.SelectionChanged += new System.EventHandler(this.grdEscalasProbleasInterpersonlaes_SelectionChanged);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label6.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.DarkRed;
-            this.label6.Location = new System.Drawing.Point(0, 1373);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(352, 23);
-            this.label6.TabIndex = 16;
-            this.label6.Text = "ESCALAS DE PROBLEMAS INTERPERSONALES";
-            // 
-            // grdEscalasInteresEspecifico
-            // 
-            this.grdEscalasInteresEspecifico.AllowUserToResizeRows = false;
-            this.grdEscalasInteresEspecifico.AutoGenerateColumns = false;
-            this.grdEscalasInteresEspecifico.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.grdEscalasInteresEspecifico.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.grdEscalasInteresEspecifico.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.grdEscalasInteresEspecifico.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdEscalasInteresEspecifico.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            this.grdEscalasInteresEspecifico.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdEscalasInteresEspecifico.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn31,
-            this.dataGridViewTextBoxColumn32,
-            this.dataGridViewTextBoxColumn33,
-            this.dataGridViewTextBoxColumn34,
-            this.dataGridViewTextBoxColumn35});
-            this.grdEscalasInteresEspecifico.DataSource = this.lstEscalasBindingSource1;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdEscalasInteresEspecifico.DefaultCellStyle = dataGridViewCellStyle5;
-            this.grdEscalasInteresEspecifico.Dock = System.Windows.Forms.DockStyle.Top;
-            this.grdEscalasInteresEspecifico.EnableHeadersVisualStyles = false;
-            this.grdEscalasInteresEspecifico.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.grdEscalasInteresEspecifico.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.grdEscalasInteresEspecifico.Location = new System.Drawing.Point(0, 1589);
-            this.grdEscalasInteresEspecifico.Name = "grdEscalasInteresEspecifico";
-            this.grdEscalasInteresEspecifico.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdEscalasInteresEspecifico.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
-            this.grdEscalasInteresEspecifico.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.grdEscalasInteresEspecifico.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdEscalasInteresEspecifico.Size = new System.Drawing.Size(948, 100);
-            this.grdEscalasInteresEspecifico.StandardTab = true;
-            this.grdEscalasInteresEspecifico.TabIndex = 19;
-            this.grdEscalasInteresEspecifico.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasInteresEspecifico_CellFormatting);
-            this.grdEscalasInteresEspecifico.SelectionChanged += new System.EventHandler(this.grdEscalasInteresEspecifico_SelectionChanged);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label7.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.DarkRed;
-            this.label7.Location = new System.Drawing.Point(0, 1566);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(265, 23);
-            this.label7.TabIndex = 18;
-            this.label7.Text = "ESCALAS DE INTERÉS ESPECIFICO";
             // 
             // grdPSY5
             // 
@@ -828,34 +249,6 @@
             this.grdPSY5.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdPSY5_CellFormatting);
             this.grdPSY5.SelectionChanged += new System.EventHandler(this.grdPSY5_SelectionChanged);
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label8.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.DarkRed;
-            this.label8.Location = new System.Drawing.Point(0, 1689);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(533, 23);
-            this.label8.TabIndex = 20;
-            this.label8.Text = "CINCO ESCALAS DE PSICOPATOLOGÍA DE LA PERSONALIDAD (PSY-5)";
-            // 
-            // pnlEncabezado
-            // 
-            this.pnlEncabezado.Controls.Add(this.lblSinContestar);
-            this.pnlEncabezado.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlEncabezado.HorizontalScrollbarBarColor = true;
-            this.pnlEncabezado.HorizontalScrollbarHighlightOnWheel = false;
-            this.pnlEncabezado.HorizontalScrollbarSize = 10;
-            this.pnlEncabezado.Location = new System.Drawing.Point(0, 0);
-            this.pnlEncabezado.Name = "pnlEncabezado";
-            this.pnlEncabezado.Size = new System.Drawing.Size(948, 26);
-            this.pnlEncabezado.TabIndex = 22;
-            this.pnlEncabezado.VerticalScrollbarBarColor = true;
-            this.pnlEncabezado.VerticalScrollbarHighlightOnWheel = false;
-            this.pnlEncabezado.VerticalScrollbarSize = 10;
-            // 
             // dataGridViewTextBoxColumn36
             // 
             this.dataGridViewTextBoxColumn36.DataPropertyName = "descripcion";
@@ -899,9 +292,82 @@
             this.dataGridViewTextBoxColumn40.ReadOnly = true;
             this.dataGridViewTextBoxColumn40.Width = 103;
             // 
+            // lstEscalasBindingSource1
+            // 
+            this.lstEscalasBindingSource1.DataMember = "lstEscalas";
+            this.lstEscalasBindingSource1.DataSource = this.escalasDeValidezBindingSource;
+            // 
             // escalasDeValidezBindingSource
             // 
             this.escalasDeValidezBindingSource.DataSource = typeof(ConsultorioMMPI.Clases.Escalas.EscalasDeValidez);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label8.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.DarkRed;
+            this.label8.Location = new System.Drawing.Point(0, 1689);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(533, 23);
+            this.label8.TabIndex = 20;
+            this.label8.Text = "CINCO ESCALAS DE PSICOPATOLOGÍA DE LA PERSONALIDAD (PSY-5)";
+            // 
+            // grdEscalasInteresEspecifico
+            // 
+            this.grdEscalasInteresEspecifico.AllowUserToResizeRows = false;
+            this.grdEscalasInteresEspecifico.AutoGenerateColumns = false;
+            this.grdEscalasInteresEspecifico.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdEscalasInteresEspecifico.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.grdEscalasInteresEspecifico.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.grdEscalasInteresEspecifico.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdEscalasInteresEspecifico.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.grdEscalasInteresEspecifico.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdEscalasInteresEspecifico.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn31,
+            this.dataGridViewTextBoxColumn32,
+            this.dataGridViewTextBoxColumn33,
+            this.dataGridViewTextBoxColumn34,
+            this.dataGridViewTextBoxColumn35});
+            this.grdEscalasInteresEspecifico.DataSource = this.lstEscalasBindingSource1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grdEscalasInteresEspecifico.DefaultCellStyle = dataGridViewCellStyle5;
+            this.grdEscalasInteresEspecifico.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grdEscalasInteresEspecifico.EnableHeadersVisualStyles = false;
+            this.grdEscalasInteresEspecifico.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.grdEscalasInteresEspecifico.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdEscalasInteresEspecifico.Location = new System.Drawing.Point(0, 1589);
+            this.grdEscalasInteresEspecifico.Name = "grdEscalasInteresEspecifico";
+            this.grdEscalasInteresEspecifico.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdEscalasInteresEspecifico.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.grdEscalasInteresEspecifico.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.grdEscalasInteresEspecifico.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.grdEscalasInteresEspecifico.Size = new System.Drawing.Size(948, 100);
+            this.grdEscalasInteresEspecifico.StandardTab = true;
+            this.grdEscalasInteresEspecifico.TabIndex = 19;
+            this.grdEscalasInteresEspecifico.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasInteresEspecifico_CellFormatting);
+            this.grdEscalasInteresEspecifico.SelectionChanged += new System.EventHandler(this.grdEscalasInteresEspecifico_SelectionChanged);
             // 
             // dataGridViewTextBoxColumn31
             // 
@@ -946,6 +412,74 @@
             this.dataGridViewTextBoxColumn35.ReadOnly = true;
             this.dataGridViewTextBoxColumn35.Width = 103;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label7.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.DarkRed;
+            this.label7.Location = new System.Drawing.Point(0, 1566);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(265, 23);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "ESCALAS DE INTERÉS ESPECIFICO";
+            // 
+            // grdEscalasProbleasInterpersonlaes
+            // 
+            this.grdEscalasProbleasInterpersonlaes.AllowUserToResizeRows = false;
+            this.grdEscalasProbleasInterpersonlaes.AutoGenerateColumns = false;
+            this.grdEscalasProbleasInterpersonlaes.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdEscalasProbleasInterpersonlaes.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.grdEscalasProbleasInterpersonlaes.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.grdEscalasProbleasInterpersonlaes.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdEscalasProbleasInterpersonlaes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            this.grdEscalasProbleasInterpersonlaes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdEscalasProbleasInterpersonlaes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn26,
+            this.dataGridViewTextBoxColumn27,
+            this.dataGridViewTextBoxColumn28,
+            this.dataGridViewTextBoxColumn29,
+            this.dataGridViewTextBoxColumn30});
+            this.grdEscalasProbleasInterpersonlaes.DataSource = this.lstEscalasBindingSource1;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grdEscalasProbleasInterpersonlaes.DefaultCellStyle = dataGridViewCellStyle8;
+            this.grdEscalasProbleasInterpersonlaes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grdEscalasProbleasInterpersonlaes.EnableHeadersVisualStyles = false;
+            this.grdEscalasProbleasInterpersonlaes.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.grdEscalasProbleasInterpersonlaes.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdEscalasProbleasInterpersonlaes.Location = new System.Drawing.Point(0, 1396);
+            this.grdEscalasProbleasInterpersonlaes.Name = "grdEscalasProbleasInterpersonlaes";
+            this.grdEscalasProbleasInterpersonlaes.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdEscalasProbleasInterpersonlaes.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            this.grdEscalasProbleasInterpersonlaes.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.grdEscalasProbleasInterpersonlaes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.grdEscalasProbleasInterpersonlaes.Size = new System.Drawing.Size(948, 170);
+            this.grdEscalasProbleasInterpersonlaes.StandardTab = true;
+            this.grdEscalasProbleasInterpersonlaes.TabIndex = 17;
+            this.grdEscalasProbleasInterpersonlaes.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasProbleasInterpersonlaes_CellFormatting);
+            this.grdEscalasProbleasInterpersonlaes.SelectionChanged += new System.EventHandler(this.grdEscalasProbleasInterpersonlaes_SelectionChanged);
+            // 
             // dataGridViewTextBoxColumn26
             // 
             this.dataGridViewTextBoxColumn26.DataPropertyName = "descripcion";
@@ -988,6 +522,74 @@
             this.dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
             this.dataGridViewTextBoxColumn30.ReadOnly = true;
             this.dataGridViewTextBoxColumn30.Width = 103;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label6.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.DarkRed;
+            this.label6.Location = new System.Drawing.Point(0, 1373);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(352, 23);
+            this.label6.TabIndex = 16;
+            this.label6.Text = "ESCALAS DE PROBLEMAS INTERPERSONALES";
+            // 
+            // grdProblemasExternalizados
+            // 
+            this.grdProblemasExternalizados.AllowUserToResizeRows = false;
+            this.grdProblemasExternalizados.AutoGenerateColumns = false;
+            this.grdProblemasExternalizados.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdProblemasExternalizados.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.grdProblemasExternalizados.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.grdProblemasExternalizados.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdProblemasExternalizados.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            this.grdProblemasExternalizados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdProblemasExternalizados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn21,
+            this.dataGridViewTextBoxColumn22,
+            this.dataGridViewTextBoxColumn23,
+            this.dataGridViewTextBoxColumn24,
+            this.dataGridViewTextBoxColumn25});
+            this.grdProblemasExternalizados.DataSource = this.lstEscalasBindingSource1;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grdProblemasExternalizados.DefaultCellStyle = dataGridViewCellStyle11;
+            this.grdProblemasExternalizados.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grdProblemasExternalizados.EnableHeadersVisualStyles = false;
+            this.grdProblemasExternalizados.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.grdProblemasExternalizados.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdProblemasExternalizados.Location = new System.Drawing.Point(0, 1233);
+            this.grdProblemasExternalizados.Name = "grdProblemasExternalizados";
+            this.grdProblemasExternalizados.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdProblemasExternalizados.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            this.grdProblemasExternalizados.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.grdProblemasExternalizados.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.grdProblemasExternalizados.Size = new System.Drawing.Size(948, 140);
+            this.grdProblemasExternalizados.StandardTab = true;
+            this.grdProblemasExternalizados.TabIndex = 15;
+            this.grdProblemasExternalizados.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdProblemasExternalizados_CellFormatting);
+            this.grdProblemasExternalizados.SelectionChanged += new System.EventHandler(this.grdProblemasExternalizados_SelectionChanged);
             // 
             // dataGridViewTextBoxColumn21
             // 
@@ -1032,6 +634,74 @@
             this.dataGridViewTextBoxColumn25.ReadOnly = true;
             this.dataGridViewTextBoxColumn25.Width = 103;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label5.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.DarkRed;
+            this.label5.Location = new System.Drawing.Point(0, 1210);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(344, 23);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "ESCALAS DE PROBLEMAS EXTERNALIZADOS";
+            // 
+            // grdProblemasInternalizados
+            // 
+            this.grdProblemasInternalizados.AllowUserToResizeRows = false;
+            this.grdProblemasInternalizados.AutoGenerateColumns = false;
+            this.grdProblemasInternalizados.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdProblemasInternalizados.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.grdProblemasInternalizados.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.grdProblemasInternalizados.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdProblemasInternalizados.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
+            this.grdProblemasInternalizados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdProblemasInternalizados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn16,
+            this.dataGridViewTextBoxColumn17,
+            this.dataGridViewTextBoxColumn18,
+            this.dataGridViewTextBoxColumn19,
+            this.dataGridViewTextBoxColumn20});
+            this.grdProblemasInternalizados.DataSource = this.lstEscalasBindingSource1;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grdProblemasInternalizados.DefaultCellStyle = dataGridViewCellStyle14;
+            this.grdProblemasInternalizados.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grdProblemasInternalizados.EnableHeadersVisualStyles = false;
+            this.grdProblemasInternalizados.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.grdProblemasInternalizados.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdProblemasInternalizados.Location = new System.Drawing.Point(0, 960);
+            this.grdProblemasInternalizados.Name = "grdProblemasInternalizados";
+            this.grdProblemasInternalizados.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdProblemasInternalizados.RowHeadersDefaultCellStyle = dataGridViewCellStyle15;
+            this.grdProblemasInternalizados.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.grdProblemasInternalizados.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.grdProblemasInternalizados.Size = new System.Drawing.Size(948, 250);
+            this.grdProblemasInternalizados.StandardTab = true;
+            this.grdProblemasInternalizados.TabIndex = 13;
+            this.grdProblemasInternalizados.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdProblemasInternalizados_CellFormatting);
+            this.grdProblemasInternalizados.SelectionChanged += new System.EventHandler(this.grdProblemasInternalizados_SelectionChanged);
+            // 
             // dataGridViewTextBoxColumn16
             // 
             this.dataGridViewTextBoxColumn16.DataPropertyName = "descripcion";
@@ -1074,6 +744,74 @@
             this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
             this.dataGridViewTextBoxColumn20.ReadOnly = true;
             this.dataGridViewTextBoxColumn20.Width = 103;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label4.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.DarkRed;
+            this.label4.Location = new System.Drawing.Point(0, 937);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(343, 23);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "ESCALAS DE PROBLEMAS INTERNALIZADOS";
+            // 
+            // grdEscalasProblemasSomaticosCognitivos
+            // 
+            this.grdEscalasProblemasSomaticosCognitivos.AllowUserToResizeRows = false;
+            this.grdEscalasProblemasSomaticosCognitivos.AutoGenerateColumns = false;
+            this.grdEscalasProblemasSomaticosCognitivos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdEscalasProblemasSomaticosCognitivos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.grdEscalasProblemasSomaticosCognitivos.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.grdEscalasProblemasSomaticosCognitivos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle16.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdEscalasProblemasSomaticosCognitivos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle16;
+            this.grdEscalasProblemasSomaticosCognitivos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdEscalasProblemasSomaticosCognitivos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn11,
+            this.dataGridViewTextBoxColumn12,
+            this.dataGridViewTextBoxColumn13,
+            this.dataGridViewTextBoxColumn14,
+            this.dataGridViewTextBoxColumn15});
+            this.grdEscalasProblemasSomaticosCognitivos.DataSource = this.lstEscalasBindingSource1;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grdEscalasProblemasSomaticosCognitivos.DefaultCellStyle = dataGridViewCellStyle17;
+            this.grdEscalasProblemasSomaticosCognitivos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grdEscalasProblemasSomaticosCognitivos.EnableHeadersVisualStyles = false;
+            this.grdEscalasProblemasSomaticosCognitivos.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.grdEscalasProblemasSomaticosCognitivos.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdEscalasProblemasSomaticosCognitivos.Location = new System.Drawing.Point(0, 767);
+            this.grdEscalasProblemasSomaticosCognitivos.Name = "grdEscalasProblemasSomaticosCognitivos";
+            this.grdEscalasProblemasSomaticosCognitivos.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdEscalasProblemasSomaticosCognitivos.RowHeadersDefaultCellStyle = dataGridViewCellStyle18;
+            this.grdEscalasProblemasSomaticosCognitivos.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.grdEscalasProblemasSomaticosCognitivos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.grdEscalasProblemasSomaticosCognitivos.Size = new System.Drawing.Size(948, 170);
+            this.grdEscalasProblemasSomaticosCognitivos.StandardTab = true;
+            this.grdEscalasProblemasSomaticosCognitivos.TabIndex = 11;
+            this.grdEscalasProblemasSomaticosCognitivos.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasProblemasSomaticosCognitivos_CellFormatting);
+            this.grdEscalasProblemasSomaticosCognitivos.SelectionChanged += new System.EventHandler(this.grdEscalasProblemasSomaticosCognitivos_SelectionChanged);
             // 
             // dataGridViewTextBoxColumn11
             // 
@@ -1118,6 +856,87 @@
             this.dataGridViewTextBoxColumn15.ReadOnly = true;
             this.dataGridViewTextBoxColumn15.Width = 103;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label3.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.DarkRed;
+            this.label3.Location = new System.Drawing.Point(0, 744);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(409, 23);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "ESCALAS DE PROBLEMAS SOMÁTICOS/COGNITIVOS";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Tomato;
+            this.label2.Location = new System.Drawing.Point(0, 725);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(307, 19);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "ESCALAS DE PROBLEMAS ESPECÍFICOS PE (SP)";
+            // 
+            // grdEscalasClinicasReestructuradas
+            // 
+            this.grdEscalasClinicasReestructuradas.AllowUserToResizeRows = false;
+            this.grdEscalasClinicasReestructuradas.AutoGenerateColumns = false;
+            this.grdEscalasClinicasReestructuradas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdEscalasClinicasReestructuradas.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.grdEscalasClinicasReestructuradas.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.grdEscalasClinicasReestructuradas.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle19.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdEscalasClinicasReestructuradas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle19;
+            this.grdEscalasClinicasReestructuradas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdEscalasClinicasReestructuradas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn7,
+            this.dataGridViewTextBoxColumn8,
+            this.dataGridViewTextBoxColumn9,
+            this.dataGridViewTextBoxColumn10});
+            this.grdEscalasClinicasReestructuradas.DataSource = this.lstEscalasBindingSource1;
+            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle20.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grdEscalasClinicasReestructuradas.DefaultCellStyle = dataGridViewCellStyle20;
+            this.grdEscalasClinicasReestructuradas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grdEscalasClinicasReestructuradas.EnableHeadersVisualStyles = false;
+            this.grdEscalasClinicasReestructuradas.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.grdEscalasClinicasReestructuradas.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdEscalasClinicasReestructuradas.Location = new System.Drawing.Point(0, 475);
+            this.grdEscalasClinicasReestructuradas.Name = "grdEscalasClinicasReestructuradas";
+            this.grdEscalasClinicasReestructuradas.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle21.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdEscalasClinicasReestructuradas.RowHeadersDefaultCellStyle = dataGridViewCellStyle21;
+            this.grdEscalasClinicasReestructuradas.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.grdEscalasClinicasReestructuradas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.grdEscalasClinicasReestructuradas.Size = new System.Drawing.Size(948, 250);
+            this.grdEscalasClinicasReestructuradas.StandardTab = true;
+            this.grdEscalasClinicasReestructuradas.TabIndex = 7;
+            this.grdEscalasClinicasReestructuradas.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasClinicasReestructuradas_CellFormatting);
+            this.grdEscalasClinicasReestructuradas.SelectionChanged += new System.EventHandler(this.grdEscalasClinicasReestructuradas_SelectionChanged);
+            // 
             // dataGridViewTextBoxColumn6
             // 
             this.dataGridViewTextBoxColumn6.DataPropertyName = "descripcion";
@@ -1160,6 +979,74 @@
             this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             this.dataGridViewTextBoxColumn10.ReadOnly = true;
             this.dataGridViewTextBoxColumn10.Width = 103;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DarkRed;
+            this.label1.Location = new System.Drawing.Point(0, 452);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(369, 23);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "ESCALAS CLINICAS REESTRUCTURADAS CR (RC)";
+            // 
+            // grdEscalasOrdenSuperior
+            // 
+            this.grdEscalasOrdenSuperior.AllowUserToResizeRows = false;
+            this.grdEscalasOrdenSuperior.AutoGenerateColumns = false;
+            this.grdEscalasOrdenSuperior.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdEscalasOrdenSuperior.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.grdEscalasOrdenSuperior.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.grdEscalasOrdenSuperior.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdEscalasOrdenSuperior.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
+            this.grdEscalasOrdenSuperior.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdEscalasOrdenSuperior.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5});
+            this.grdEscalasOrdenSuperior.DataSource = this.lstEscalasBindingSource1;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grdEscalasOrdenSuperior.DefaultCellStyle = dataGridViewCellStyle23;
+            this.grdEscalasOrdenSuperior.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grdEscalasOrdenSuperior.EnableHeadersVisualStyles = false;
+            this.grdEscalasOrdenSuperior.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.grdEscalasOrdenSuperior.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdEscalasOrdenSuperior.Location = new System.Drawing.Point(0, 322);
+            this.grdEscalasOrdenSuperior.Name = "grdEscalasOrdenSuperior";
+            this.grdEscalasOrdenSuperior.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdEscalasOrdenSuperior.RowHeadersDefaultCellStyle = dataGridViewCellStyle24;
+            this.grdEscalasOrdenSuperior.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.grdEscalasOrdenSuperior.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.grdEscalasOrdenSuperior.Size = new System.Drawing.Size(948, 130);
+            this.grdEscalasOrdenSuperior.StandardTab = true;
+            this.grdEscalasOrdenSuperior.TabIndex = 5;
+            this.grdEscalasOrdenSuperior.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasOrdenSuperior_CellFormatting);
+            this.grdEscalasOrdenSuperior.SelectionChanged += new System.EventHandler(this.grdEscalasOrdenSuperior_SelectionChanged);
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -1204,6 +1091,74 @@
             this.dataGridViewTextBoxColumn5.ReadOnly = true;
             this.dataGridViewTextBoxColumn5.Width = 103;
             // 
+            // lblOrdenSuperior
+            // 
+            this.lblOrdenSuperior.AutoSize = true;
+            this.lblOrdenSuperior.BackColor = System.Drawing.Color.Transparent;
+            this.lblOrdenSuperior.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblOrdenSuperior.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOrdenSuperior.ForeColor = System.Drawing.Color.DarkRed;
+            this.lblOrdenSuperior.Location = new System.Drawing.Point(0, 299);
+            this.lblOrdenSuperior.Name = "lblOrdenSuperior";
+            this.lblOrdenSuperior.Size = new System.Drawing.Size(318, 23);
+            this.lblOrdenSuperior.TabIndex = 4;
+            this.lblOrdenSuperior.Text = "ESCALAS DE ORDEN SUPERIOR OS (H-O)";
+            // 
+            // grdEscalasDeValidez
+            // 
+            this.grdEscalasDeValidez.AllowUserToResizeRows = false;
+            this.grdEscalasDeValidez.AutoGenerateColumns = false;
+            this.grdEscalasDeValidez.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdEscalasDeValidez.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.grdEscalasDeValidez.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.grdEscalasDeValidez.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle25.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle25.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle25.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdEscalasDeValidez.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle25;
+            this.grdEscalasDeValidez.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdEscalasDeValidez.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.descripcionDataGridViewTextBoxColumn,
+            this.significadoDataGridViewTextBoxColumn,
+            this.siglasDataGridViewTextBoxColumn,
+            this.puntuacionNaturalDataGridViewTextBoxColumn,
+            this.puntuacionTDataGridViewTextBoxColumn});
+            this.grdEscalasDeValidez.DataSource = this.lstEscalasBindingSource1;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grdEscalasDeValidez.DefaultCellStyle = dataGridViewCellStyle26;
+            this.grdEscalasDeValidez.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grdEscalasDeValidez.EnableHeadersVisualStyles = false;
+            this.grdEscalasDeValidez.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.grdEscalasDeValidez.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdEscalasDeValidez.Location = new System.Drawing.Point(0, 49);
+            this.grdEscalasDeValidez.Name = "grdEscalasDeValidez";
+            this.grdEscalasDeValidez.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdEscalasDeValidez.RowHeadersDefaultCellStyle = dataGridViewCellStyle27;
+            this.grdEscalasDeValidez.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.grdEscalasDeValidez.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.grdEscalasDeValidez.Size = new System.Drawing.Size(948, 250);
+            this.grdEscalasDeValidez.StandardTab = true;
+            this.grdEscalasDeValidez.TabIndex = 3;
+            this.grdEscalasDeValidez.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasDeValidez_CellFormatting);
+            this.grdEscalasDeValidez.SelectionChanged += new System.EventHandler(this.grdEscalasDeValidez_SelectionChanged);
+            // 
             // descripcionDataGridViewTextBoxColumn
             // 
             this.descripcionDataGridViewTextBoxColumn.DataPropertyName = "descripcion";
@@ -1247,6 +1202,34 @@
             this.puntuacionTDataGridViewTextBoxColumn.ReadOnly = true;
             this.puntuacionTDataGridViewTextBoxColumn.Width = 103;
             // 
+            // lblEscalasDeValidez
+            // 
+            this.lblEscalasDeValidez.AutoSize = true;
+            this.lblEscalasDeValidez.BackColor = System.Drawing.Color.Transparent;
+            this.lblEscalasDeValidez.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblEscalasDeValidez.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEscalasDeValidez.ForeColor = System.Drawing.Color.DarkRed;
+            this.lblEscalasDeValidez.Location = new System.Drawing.Point(0, 26);
+            this.lblEscalasDeValidez.Name = "lblEscalasDeValidez";
+            this.lblEscalasDeValidez.Size = new System.Drawing.Size(171, 23);
+            this.lblEscalasDeValidez.TabIndex = 2;
+            this.lblEscalasDeValidez.Text = "ESCALAS DE VALIDEZ";
+            // 
+            // pnlEncabezado
+            // 
+            this.pnlEncabezado.Controls.Add(this.lblSinContestar);
+            this.pnlEncabezado.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlEncabezado.HorizontalScrollbarBarColor = true;
+            this.pnlEncabezado.HorizontalScrollbarHighlightOnWheel = false;
+            this.pnlEncabezado.HorizontalScrollbarSize = 10;
+            this.pnlEncabezado.Location = new System.Drawing.Point(0, 0);
+            this.pnlEncabezado.Name = "pnlEncabezado";
+            this.pnlEncabezado.Size = new System.Drawing.Size(948, 26);
+            this.pnlEncabezado.TabIndex = 22;
+            this.pnlEncabezado.VerticalScrollbarBarColor = true;
+            this.pnlEncabezado.VerticalScrollbarHighlightOnWheel = false;
+            this.pnlEncabezado.VerticalScrollbarSize = 10;
+            // 
             // lblSinContestar
             // 
             this.lblSinContestar.AutoSize = true;
@@ -1261,6 +1244,25 @@
             this.lblSinContestar.TabIndex = 3;
             this.lblSinContestar.Text = "ESCALAS DE VALIDEZ";
             // 
+            // tbInterpretacion
+            // 
+            this.tbInterpretacion.HorizontalScrollbarBarColor = true;
+            this.tbInterpretacion.HorizontalScrollbarHighlightOnWheel = false;
+            this.tbInterpretacion.HorizontalScrollbarSize = 10;
+            this.tbInterpretacion.Location = new System.Drawing.Point(4, 38);
+            this.tbInterpretacion.Name = "tbInterpretacion";
+            this.tbInterpretacion.Size = new System.Drawing.Size(965, 658);
+            this.tbInterpretacion.TabIndex = 1;
+            this.tbInterpretacion.Text = "Interpretación";
+            this.tbInterpretacion.VerticalScrollbarBarColor = true;
+            this.tbInterpretacion.VerticalScrollbarHighlightOnWheel = false;
+            this.tbInterpretacion.VerticalScrollbarSize = 10;
+            // 
+            // lstEscalasBindingSource
+            // 
+            this.lstEscalasBindingSource.DataMember = "lstEscalas";
+            this.lstEscalasBindingSource.DataSource = this.escalasDeValidezBindingSource;
+            // 
             // frmFinal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1273,20 +1275,20 @@
             this.tbInterpretación.ResumeLayout(false);
             this.tbResultados.ResumeLayout(false);
             this.tbResultados.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.lstEscalasBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasDeValidez)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lstEscalasBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasOrdenSuperior)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasClinicasReestructuradas)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasProblemasSomaticosCognitivos)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdProblemasInternalizados)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdProblemasExternalizados)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasProbleasInterpersonlaes)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasInteresEspecifico)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grdPSY5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lstEscalasBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.escalasDeValidezBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasInteresEspecifico)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasProbleasInterpersonlaes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdProblemasExternalizados)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdProblemasInternalizados)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasProblemasSomaticosCognitivos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasClinicasReestructuradas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasOrdenSuperior)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdEscalasDeValidez)).EndInit();
             this.pnlEncabezado.ResumeLayout(false);
             this.pnlEncabezado.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.escalasDeValidezBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lstEscalasBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
