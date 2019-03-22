@@ -223,7 +223,7 @@
             this.tbInterpretación.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbInterpretación.Location = new System.Drawing.Point(0, 0);
             this.tbInterpretación.Name = "tbInterpretación";
-            this.tbInterpretación.SelectedIndex = 1;
+            this.tbInterpretación.SelectedIndex = 0;
             this.tbInterpretación.Size = new System.Drawing.Size(1064, 749);
             this.tbInterpretación.TabIndex = 0;
             this.tbInterpretación.UseSelectable = true;

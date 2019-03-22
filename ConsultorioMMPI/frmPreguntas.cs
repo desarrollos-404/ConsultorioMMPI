@@ -1264,7 +1264,7 @@ namespace ConsultorioMMPI
                 for (int j = 1; j < 4; j++)
                 {
                     group.Controls.Add(new RadioButton { Name = "Radio" + i + j, Tag = j - 1, Text = j == 1 ? "Verdadero" : j == 2 ? "Falso" : "No contestar" }, j, 0);
-                    if (group.Controls[j].Tag.ToString() == "0")
+                    if (group.Controls[j].Tag.ToString() == "2")
                         ((RadioButton)group.Controls[j]).Checked = true;
                 }
 
@@ -1315,7 +1315,7 @@ namespace ConsultorioMMPI
         private void metroButton2_Click(object sender, EventArgs e)
         {
 
-            if (!ClsMesageBox.MBOK("Si cierra la encuesta se perderá su avance\r\n ¿Desea salir? ", "Advertencia", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question))
+            if (ClsMesageBox.MBOK("Si cierra la encuesta se perderá su avance\r\n ¿Desea salir? ", "Advertencia", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question))
                 this.Close();
         }
 

@@ -18,6 +18,7 @@ namespace ConsultorioMMPI
         public frmFinal(RespuestaEscalas objResultados, int sinContestar)
         {
             InitializeComponent();
+            tbInterpretación.ShowTab(tbResultados);
             CargarGrids(objResultados);
             CargarInterpretaciones(objResultados, sinContestar);
             lblSinContestar.Text = "Preguntas SIN CONTESTAR: " + sinContestar.ToString();
