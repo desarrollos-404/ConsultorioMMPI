@@ -36,11 +36,11 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.usuarioAccesoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.txtcontrasena = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
-            this.usuarioAccesoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.usuarioAccesoBindingSource)).BeginInit();
@@ -110,6 +110,10 @@
             this.txtUsuario.Size = new System.Drawing.Size(215, 16);
             this.txtUsuario.TabIndex = 3;
             // 
+            // usuarioAccesoBindingSource
+            // 
+            this.usuarioAccesoBindingSource.DataSource = typeof(ConsultorioMMPI.DataBase.UsuarioAcceso);
+            // 
             // txtcontrasena
             // 
             this.txtcontrasena.BackColor = System.Drawing.SystemColors.Control;
@@ -158,10 +162,6 @@
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // usuarioAccesoBindingSource
-            // 
-            this.usuarioAccesoBindingSource.DataSource = typeof(ConsultorioMMPI.DataBase.UsuarioAcceso);
-            // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -176,6 +176,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmLogin";

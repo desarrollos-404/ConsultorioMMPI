@@ -1314,7 +1314,9 @@ namespace ConsultorioMMPI
 
         private void metroButton2_Click(object sender, EventArgs e)
         {
-            this.Close();
+
+            if (!ClsMesageBox.MBOK("Si cierra la encuesta se perderá su avance\r\n ¿Desea salir? ", "Advertencia", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question))
+                this.Close();
         }
 
         private void metroButton1_Click(object sender, EventArgs e)

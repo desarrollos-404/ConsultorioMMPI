@@ -67,7 +67,7 @@
     <AssemblyOriginatorKeyFile>ConsultorioMMPI.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>icons8_workstation.ico</ApplicationIcon>
+    <ApplicationIcon>iconUMTuxtla.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
@@ -269,6 +269,7 @@
       <LastGenOutput>BaseDeDatos.cs</LastGenOutput>
     </Content>
     <Content Include="icons8_workstation.ico" />
+    <Content Include="iconUMTuxtla.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
