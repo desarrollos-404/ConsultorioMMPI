@@ -14,12 +14,11 @@ namespace ConsultorioMMPI.Clases
         private static Loading Cargando;
         private static Thread t;
 
-        public static void MostraFormaEspera(string strCaption)
+        public static void MostraFormaEspera(string strCaption,Form frm)
         {
             try
             {
-                Cargando = new Loading(strCaption);
-                
+                Cargando = new Loading(strCaption,frm);
                 t = new Thread(new ThreadStart(Carga));
             }
             catch (Exception ex)

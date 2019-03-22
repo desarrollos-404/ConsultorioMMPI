@@ -11,10 +11,11 @@ namespace ConsultorioMMPI
 {
     public partial class Loading : Form
     {
-        public Loading(string caption)
+        public Loading(string caption,Form frm)
         {
             InitializeComponent();
             lblTexto.Text = caption;
+            this.TopLevel = true;
         }
     }
 }

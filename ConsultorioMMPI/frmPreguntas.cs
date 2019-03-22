@@ -1322,6 +1322,7 @@ namespace ConsultorioMMPI
             var valido = ClsMesageBox.MBOK("¿Está seguro de sus respuestas?", "Información", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
             if (valido)
             {
+                //ClsMesageBox.MostraFormaEspera("Guardando, espere un momento...",this);
                 List<Respuesta> respuestas = new List<Respuesta>();
                 respuestas = ObtenerRespuesta();
                 bool guardo = GuardarRespuestas(respuestas);
@@ -1332,8 +1333,10 @@ namespace ConsultorioMMPI
                 }
                 _puntuacionNatural = AplicarValidaciones(respuestas);
 
+                //ClsMesageBox.CerrarFormaEspera();
                 frmFinal frmFinal = new frmFinal(_puntuacionNatural, respuestas.Where(x => x.valor == 2).Count());
-                frmFinal.ShowDialog();
+                frmFinal.Show();
+                this.Close();
             }
         }
 

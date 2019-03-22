@@ -17,8 +17,10 @@ namespace ConsultorioMMPI
         public frmPrincipal()
         {
             InitializeComponent();
+            //ClsMesageBox.MostraFormaEspera("Cargando...",this);
             CrearUsuarioLogin();
             this.Visible = false;
+            //ClsMesageBox.CerrarFormaEspera();
         }
 
         private void CrearUsuarioLogin()
@@ -33,13 +35,13 @@ namespace ConsultorioMMPI
             {
                 try
                 {
-                    UsuarioAcceso user= ctx.UsuarioAcceso.Where(x => x.usuario == "hjpulido" && x.contrasena == "12345").FirstOrDefault();
+                    UsuarioAcceso user= ctx.UsuarioAcceso.Where(x => x.usuario.ToUpper() == "UMTUXTLA" && x.contrasena == "12032019").FirstOrDefault();
                     if(user == null)
                     {
                         UsuarioAcceso usuarioguardar = new UsuarioAcceso
                         {
-                            usuario = "hjpulido",
-                            contrasena = "12345"
+                            usuario = "UMTUXTLA",
+                            contrasena = "12032019"
                         };
                         ctx.UsuarioAcceso.Add(usuarioguardar);
                         ctx.SaveChanges();

@@ -22,7 +22,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationRevision>7</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -58,7 +58,7 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -214,7 +214,6 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="ConsultorioMMPI.snk" />
-    <None Include="ConsultorioMMPI_TemporaryKey.pfx" />
     <EntityDeploy Include="DataBase\BaseDeDatos.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>BaseDeDatos.Designer.cs</LastGenOutput>
