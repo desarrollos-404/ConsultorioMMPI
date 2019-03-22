@@ -28,34 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loading));
-            this.MensajeCargando = new MetroFramework.Controls.MetroLabel();
-            this.metroProgressBar1 = new MetroFramework.Controls.MetroProgressBar();
+            this.lblTexto = new System.Windows.Forms.Label();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
-            // MensajeCargando
+            // lblTexto
             // 
-            resources.ApplyResources(this.MensajeCargando, "MensajeCargando");
-            this.MensajeCargando.Name = "MensajeCargando";
+            this.lblTexto.AutoSize = true;
+            this.lblTexto.Location = new System.Drawing.Point(12, 23);
+            this.lblTexto.Name = "lblTexto";
+            this.lblTexto.Size = new System.Drawing.Size(0, 13);
+            this.lblTexto.TabIndex = 0;
             // 
-            // metroProgressBar1
+            // progressBar1
             // 
-            resources.ApplyResources(this.metroProgressBar1, "metroProgressBar1");
-            this.metroProgressBar1.Name = "metroProgressBar1";
+            this.progressBar1.Location = new System.Drawing.Point(12, 39);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(194, 23);
+            this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
+            this.progressBar1.TabIndex = 1;
             // 
             // Loading
             // 
-            resources.ApplyResources(this, "$this");
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(221, 84);
             this.ControlBox = false;
-            this.Controls.Add(this.metroProgressBar1);
-            this.Controls.Add(this.MensajeCargando);
-            this.DisplayHeader = false;
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
+            this.Controls.Add(this.progressBar1);
+            this.Controls.Add(this.lblTexto);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Loading";
-            this.Resizable = false;
-            this.Load += new System.EventHandler(this.Loading_Load);
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Loading";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -63,7 +67,7 @@
 
         #endregion
 
-        private MetroFramework.Controls.MetroLabel MensajeCargando;
-        private MetroFramework.Controls.MetroProgressBar metroProgressBar1;
+        private System.Windows.Forms.Label lblTexto;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }

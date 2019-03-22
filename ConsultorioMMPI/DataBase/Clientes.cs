@@ -46,4 +46,5 @@ namespace ConsultorioMMPI.DataBase
         public string LugarResidencia { get; set; }
         public string Resultados { get; set; }
     }
+
 }
