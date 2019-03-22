@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\ClasesGenericas.cs" />
+    <Compile Include="Clases\clsInterpretacion.cs" />
     <Compile Include="Clases\PuntuacionT.cs" />
     <Compile Include="Clases\ClsMesageBox.cs" />
     <Compile Include="Clases\Escalas\Escala.cs" />

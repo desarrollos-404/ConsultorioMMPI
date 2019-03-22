@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using ConsultorioMMPI.Clases;
 using ConsultorioMMPI.Clases.Escalas;
 
 namespace ConsultorioMMPI
@@ -18,7 +19,27 @@ namespace ConsultorioMMPI
         {
             InitializeComponent();
             CargarGrids(objResultados);
+            CargarInterpretaciones(objResultados, sinContestar);
             lblSinContestar.Text = "Preguntas SIN CONTESTAR: " + sinContestar.ToString();
+        }
+
+        private void CargarInterpretaciones(RespuestaEscalas objResultados, int sinContestar)
+        {
+            //cargar sin contestar
+            lblSinContestarPuntuacion.Text = sinContestar.ToString();
+            lblSinContestarDescripcion.Text = clsInterpretacion.InterpretacionSinContestar(sinContestar);
+            //Cargar escalas de validez
+            lblPtInvar.Text = objResultados.escalasDeValidez.lstEscalas.Where(x => x.siglas == "INVAR-R").FirstOrDefault().puntuacionT.ToString();
+            lblPtInver.Text = objResultados.escalasDeValidez.lstEscalas.Where(x => x.siglas == "INVER-R").FirstOrDefault().puntuacionT.ToString();
+            lblPtFR.Text = objResultados.escalasDeValidez.lstEscalas.Where(x => x.siglas == "F-R").FirstOrDefault().puntuacionT.ToString();
+            lblPtFPSIR.Text = objResultados.escalasDeValidez.lstEscalas.Where(x => x.siglas == "FPSI-R").FirstOrDefault().puntuacionT.ToString();
+            lblPtFS.Text = objResultados.escalasDeValidez.lstEscalas.Where(x => x.siglas == "FS").FirstOrDefault().puntuacionT.ToString();
+            lblPtFVSR.Text = objResultados.escalasDeValidez.lstEscalas.Where(x => x.siglas == "FVS-R").FirstOrDefault().puntuacionT.ToString();
+            lblPtSI.Text = objResultados.escalasDeValidez.lstEscalas.Where(x => x.siglas == "SI").FirstOrDefault().puntuacionT.ToString();
+            lblPtLR.Text = objResultados.escalasDeValidez.lstEscalas.Where(x => x.siglas == "L-R").FirstOrDefault().puntuacionT.ToString();
+            lblPtKR.Text = objResultados.escalasDeValidez.lstEscalas.Where(x => x.siglas == "K-R").FirstOrDefault().puntuacionT.ToString();
+
+
         }
 
         private void CargarGrids(RespuestaEscalas objResultados)
