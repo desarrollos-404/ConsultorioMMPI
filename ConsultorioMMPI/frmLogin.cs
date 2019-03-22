@@ -16,15 +16,21 @@ namespace ConsultorioMMPI
     {
         public FrmLogin()
         {
+            //ClsMesageBox.MostraFormaEspera("Cargando...", this);
             InitializeComponent();
+            //ClsMesageBox.CerrarFormaEspera();
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            
+            loguearse();   
+        }
+        public void loguearse()
+        {
             try
             {
-                UsuarioAcceso usuario = new UsuarioAcceso {
+                UsuarioAcceso usuario = new UsuarioAcceso
+                {
                     usuario = txtUsuario.Text.ToUpper(),
                     contrasena = txtcontrasena.Text
                 };
@@ -33,7 +39,7 @@ namespace ConsultorioMMPI
                     ClsMesageBox.MBOK(ModelState.ErrorMessages[0], "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
-                ClsMesageBox.MostraFormaEspera("Cargando...");
+                //ClsMesageBox.MostraFormaEspera("Cargando...",this);
                 using (DataBaseEntities ctx = new DataBaseEntities())
                 {
                     UsuarioAcceso result = ctx.UsuarioAcceso.Where(x => x.usuario.ToUpper() == usuario.usuario.ToUpper() && x.contrasena == usuario.contrasena).FirstOrDefault();
@@ -44,20 +50,25 @@ namespace ConsultorioMMPI
                     }
                     this.DialogResult = DialogResult.OK;
                 }
-                ClsMesageBox.CerrarFormaEspera();
+                //ClsMesageBox.CerrarFormaEspera();
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 ClsMesageBox.CerrarFormaEspera();
                 ClsMesageBox.MBOK("Error al loguearse", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }                
+            }
         }
         
 
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.Cancel;
+        }
+
+        private void FrmLogin_Enter(object sender, EventArgs e)
+        {
+            loguearse();
         }
     }
 }

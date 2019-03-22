@@ -117,28 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>El desarrollo de esta aplicación 
-ha sido generado única 
-y exclusivamente con fines didácticos. 
-La información ha 
-sido tomada de 
-las pruebas MMPI 2 RF 
-edición 2015 
-editada por manual moderno, 
-Autores: Auke Tellegen; Ben-Porath Yossef S.															</value>
-  </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Esta es una aplicación didáctica 
-la cual es confidencial e intransferible, 
-desarrollada única y exclusivamente
-para uso interno de la unidad médica.
-Fue elaborada sin fines de lucro.
-Queda prohibida su venta
-y transferencia total y/o parcial,
-ya que es de uso exclusivo del
-Lic. Javier Trinidad Domínguez y del
-Lic. en Psicología Anastasio Zacarías Gutiérrez.															</value>
+    <value>El desarrollo de esta aplicación 
+ha sido generada única
+y exclusivamente para 
+fines didácticos y sin fines de lucro.
+La información ha sido 
+tomada de la prueba
+MMPI 2 RF edición 2015 
+editada por Manual Moderno
+Autores Auke Tellegen 
+y Ben- Porath Yossef S. 
+Queda prohibida su venta 
+y transferencia total y/o parcial.
+
+Esta aplicación fue 
+diseñada para uso exclusivo del 
+Centro de capacitación 
+y adiestramiento Emanuel S.C.
+representado por el 
+Lic. Javier Trinidad Domínguez.
+por lo que la información 
+debe ser confidencial e intransferible.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnClose.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

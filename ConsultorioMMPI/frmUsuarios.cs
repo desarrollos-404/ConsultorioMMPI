@@ -17,8 +17,9 @@ namespace ConsultorioMMPI
         public frmUsuarios(bool modificar)
         {
             InitializeComponent();
+            btnAplicar.Visible = false;
             bloquearControles(modificar);
-            CargarDatosPrueba();
+            
             Init();
         }
         public void Init()
@@ -52,7 +53,8 @@ namespace ConsultorioMMPI
         {
             if (modificar)
             {
-                btnAplicar.Text = "Ver prueba";
+            //btnAplicar.Text = "Ver prueba";
+            txtNSS.Enabled = false;
                 txtEdad.Enabled = false;
                 txtEscolaridad.Enabled = false;
                 txtEstadoCivil.Enabled = false;
@@ -63,12 +65,14 @@ namespace ConsultorioMMPI
                 txtTelefono.Enabled = false;
                 dteNacimiento.Enabled = false;
                 dteRegistro.Enabled = false;
+                btnGuardar.Visible = false;
             }
 
         }
 
         private void btnAplicar_Click(object sender, EventArgs e)
         {
+            this.Close();
             frmPreguntas frmPreguntas = new frmPreguntas();
             frmPreguntas.WindowState = FormWindowState.Maximized;
             frmPreguntas.ShowDialog();
@@ -85,11 +89,12 @@ namespace ConsultorioMMPI
             {
                 try
                 {
+                    
                     Clientes usuario = new Clientes
                     {
                         NumPreventivo = txtNSS.Text,
                         Nombre = txtNombre.Text,
-                        Edad = Convert.ToInt32(txtEdad.Text),
+                        Edad = Convert.ToInt32(txtEdad.Text == "" ? "0": txtEdad.Text),
                         Escolaridad = txtEscolaridad.Text,
                         EstadoCivil = txtEstadoCivil.Text,
                         LugarResidencia = txtLugarResidencia.Text,
@@ -109,7 +114,10 @@ namespace ConsultorioMMPI
                     ctx.Clientes.Add(usuario);
                     ctx.SaveChanges();
                     ClsMesageBox.MBOK("El cliente se guardo correctamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    this.DialogResult = DialogResult.OK;
+                    bloquearControles(true);
+
+                    btnGuardar.Visible = false;
+                    btnAplicar.Visible = true;
                     ClsMesageBox.CerrarFormaEspera();
                 }
                
@@ -124,6 +132,39 @@ namespace ConsultorioMMPI
         private void btnVerResultado_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void txtEdad_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsDigit(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (Char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
+
+
+        private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsDigit(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (Char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
         }
     }
 }

@@ -1264,7 +1264,7 @@ namespace ConsultorioMMPI
                 for (int j = 1; j < 4; j++)
                 {
                     group.Controls.Add(new RadioButton { Name = "Radio" + i + j, Tag = j - 1, Text = j == 1 ? "Verdadero" : j == 2 ? "Falso" : "No contestar" }, j, 0);
-                    if (group.Controls[j].Tag.ToString() == "0")
+                    if (group.Controls[j].Tag.ToString() == "2")
                         ((RadioButton)group.Controls[j]).Checked = true;
                 }
 
@@ -1314,7 +1314,9 @@ namespace ConsultorioMMPI
 
         private void metroButton2_Click(object sender, EventArgs e)
         {
-            this.Close();
+
+            if (ClsMesageBox.MBOK("Si cierra la encuesta se perderá su avance\r\n ¿Desea salir? ", "Advertencia", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question))
+                this.Close();
         }
 
         private void metroButton1_Click(object sender, EventArgs e)
@@ -1322,6 +1324,7 @@ namespace ConsultorioMMPI
             var valido = ClsMesageBox.MBOK("¿Está seguro de sus respuestas?", "Información", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
             if (valido)
             {
+                //ClsMesageBox.MostraFormaEspera("Guardando, espere un momento...",this);
                 List<Respuesta> respuestas = new List<Respuesta>();
                 respuestas = ObtenerRespuesta();
                 bool guardo = GuardarRespuestas(respuestas);
@@ -1332,8 +1335,10 @@ namespace ConsultorioMMPI
                 }
                 _puntuacionNatural = AplicarValidaciones(respuestas);
 
+                //ClsMesageBox.CerrarFormaEspera();
                 frmFinal frmFinal = new frmFinal(_puntuacionNatural, respuestas.Where(x => x.valor == 2).Count());
-                frmFinal.ShowDialog();
+                frmFinal.Show();
+                this.Close();
             }
         }
 

@@ -38,6 +38,7 @@
             // 
             // pnlPrincipal
             // 
+            this.pnlPrincipal.BackColor = System.Drawing.Color.White;
             this.pnlPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlPrincipal.Location = new System.Drawing.Point(0, 45);
             this.pnlPrincipal.Name = "pnlPrincipal";
@@ -74,6 +75,8 @@
             // 
             // metroButton1
             // 
+            this.metroButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.metroButton1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.metroButton1.Location = new System.Drawing.Point(12, 12);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(75, 23);

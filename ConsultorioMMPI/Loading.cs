@@ -1,5 +1,4 @@
-﻿using MetroFramework.Forms;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,17 +9,13 @@ using System.Windows.Forms;
 
 namespace ConsultorioMMPI
 {
-    public partial class Loading : MetroForm
+    public partial class Loading : Form
     {
-        public Loading(string strCaption)
+        public Loading(string caption,Form frm)
         {
             InitializeComponent();
-            MensajeCargando.Text = strCaption;
-        }
-
-        private void Loading_Load(object sender, EventArgs e)
-        {
-
+            lblTexto.Text = caption;
+            this.TopLevel = true;
         }
     }
 }

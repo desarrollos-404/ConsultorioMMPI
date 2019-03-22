@@ -14,12 +14,11 @@ namespace ConsultorioMMPI.Clases
         private static Loading Cargando;
         private static Thread t;
 
-        public static void MostraFormaEspera(string strCaption)
+        public static void MostraFormaEspera(string strCaption,Form frm)
         {
             try
             {
-                Cargando = new Loading(strCaption);
-                
+                Cargando = new Loading(strCaption,frm);
                 t = new Thread(new ThreadStart(Carga));
             }
             catch (Exception ex)
@@ -29,7 +28,7 @@ namespace ConsultorioMMPI.Clases
         }
         public static void Carga()
         {
-            Application.Run(Cargando);
+            Cargando.ShowDialog();
         }
         //public static void MostraFormaEspera(MetroForm frmParent, string strCaption)
         //{
