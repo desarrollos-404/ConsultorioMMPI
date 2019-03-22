@@ -1,5 +1,6 @@
 ﻿using ConsultorioMMPI.Clases;
 using ConsultorioMMPI.Clases.Escalas;
+using ConsultorioMMPI.DataBase;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -1318,13 +1319,52 @@ namespace ConsultorioMMPI
 
         private void metroButton1_Click(object sender, EventArgs e)
         {
-            List<Respuesta> respuestas = new List<Respuesta>();
-            respuestas = ObtenerRespuesta();
-            _puntuacionNatural = AplicarValidaciones(respuestas);
+            var valido = ClsMesageBox.MBOK("¿Está seguro de sus respuestas?", "Información", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+            if (valido)
+            {
+                List<Respuesta> respuestas = new List<Respuesta>();
+                respuestas = ObtenerRespuesta();
+                bool guardo = GuardarRespuestas(respuestas);
+                if (!guardo)
+                {
+                    ClsMesageBox.MBOK("No se pudo guardar las respuestas, intentelo de nuevo", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                _puntuacionNatural = AplicarValidaciones(respuestas);
 
-            frmFinal frmFinal = new frmFinal(_puntuacionNatural,respuestas.Where(x=> x.valor == 2).Count());
-            frmFinal.ShowDialog();
+                frmFinal frmFinal = new frmFinal(_puntuacionNatural, respuestas.Where(x => x.valor == 2).Count());
+                frmFinal.ShowDialog();
+            }
+        }
 
+        private bool GuardarRespuestas(List<Respuesta> list)
+        {
+            using (DataBaseEntities ctx = new DataBaseEntities())
+            {
+                try
+                {
+                    Clientes client = ctx.Clientes.Where(x => x.NumPreventivo == "0912039120").FirstOrDefault();
+                    if (client != null)
+                    {
+                        string resp = string.Empty;
+                        for (int i = 0; i < list.Count; i++)
+                        {
+                            if (i == 0)
+                                resp = list[i].valor.ToString();
+                            else resp = resp + "," + list[i].valor.ToString();
+                        }
+
+                        client.Resultados = resp;
+                        ctx.SaveChanges();
+                    }
+                    return true;
+
+                }
+                catch (Exception ex)
+                {
+                    return false;
+                }
+            }
         }
 
         public RespuestaEscalas AplicarValidaciones(List<Respuesta> resp)

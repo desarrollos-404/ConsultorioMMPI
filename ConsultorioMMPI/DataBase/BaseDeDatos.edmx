@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DataBaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2005" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Clientes">
+          <Key>
+            <PropertyRef Name="NumPreventivo" />
+          </Key>
+          <Property Name="NumPreventivo" Type="nchar" MaxLength="50" Nullable="false" />
+          <Property Name="FechaNacimiento" Type="datetime" Nullable="false" />
+          <Property Name="Sexo" Type="int" Nullable="false" />
+          <Property Name="Escolaridad" Type="nchar" MaxLength="50" Nullable="false" />
+          <Property Name="FechaRegistro" Type="datetime" Nullable="false" />
+          <Property Name="Telefono" Type="nchar" MaxLength="20" Nullable="false" />
+          <Property Name="Nombre" Type="nchar" MaxLength="50" Nullable="false" />
+          <Property Name="Edad" Type="int" Nullable="false" />
+          <Property Name="EstadoCivil" Type="nchar" MaxLength="50" Nullable="false" />
+          <Property Name="Ocupacion" Type="nchar" MaxLength="50" Nullable="false" />
+          <Property Name="LugarResidencia" Type="nchar" MaxLength="50" Nullable="false" />
+          <Property Name="Resultados" Type="nchar" MaxLength="1000" />
+        </EntityType>
+        <EntityType Name="UsuarioAcceso">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="usuario" Type="nchar" MaxLength="25" Nullable="false" />
+          <Property Name="contrasena" Type="nchar" MaxLength="25" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="DataBaseModelStoreContainer">
+          <EntitySet Name="Clientes" EntityType="Self.Clientes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UsuarioAcceso" EntityType="Self.UsuarioAcceso" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DataBaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Clientes">
+          <Key>
+            <PropertyRef Name="NumPreventivo" />
+          </Key>
+          <Property Name="NumPreventivo" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="FechaNacimiento" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Sexo" Type="Int32" Nullable="false" />
+          <Property Name="Escolaridad" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="FechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Telefono" Type="String" MaxLength="20" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Edad" Type="Int32" Nullable="false" />
+          <Property Name="EstadoCivil" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Ocupacion" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="LugarResidencia" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Resultados" Type="String" MaxLength="1000" FixedLength="true" Unicode="true" />
+        </EntityType>
+        <EntityType Name="UsuarioAcceso">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="usuario" Type="String" MaxLength="25" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="contrasena" Type="String" MaxLength="25" FixedLength="true" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="DataBaseEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Clientes" EntityType="Self.Clientes" />
+          <EntitySet Name="UsuarioAcceso" EntityType="Self.UsuarioAcceso" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DataBaseModelStoreContainer" CdmEntityContainer="DataBaseEntities">
+          <EntitySetMapping Name="Clientes">
+            <EntityTypeMapping TypeName="DataBaseModel.Clientes">
+              <MappingFragment StoreEntitySet="Clientes">
+                <ScalarProperty Name="NumPreventivo" ColumnName="NumPreventivo" />
+                <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+                <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+                <ScalarProperty Name="Escolaridad" ColumnName="Escolaridad" />
+                <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+                <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Edad" ColumnName="Edad" />
+                <ScalarProperty Name="EstadoCivil" ColumnName="EstadoCivil" />
+                <ScalarProperty Name="Ocupacion" ColumnName="Ocupacion" />
+                <ScalarProperty Name="LugarResidencia" ColumnName="LugarResidencia" />
+                <ScalarProperty Name="Resultados" ColumnName="Resultados" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UsuarioAcceso">
+            <EntityTypeMapping TypeName="DataBaseModel.UsuarioAcceso">
+              <MappingFragment StoreEntitySet="UsuarioAcceso">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="usuario" ColumnName="usuario" />
+                <ScalarProperty Name="contrasena" ColumnName="contrasena" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
