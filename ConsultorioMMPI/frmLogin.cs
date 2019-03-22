@@ -21,7 +21,6 @@ namespace ConsultorioMMPI
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            
             try
             {
                 UsuarioAcceso usuario = new UsuarioAcceso {
@@ -47,7 +46,7 @@ namespace ConsultorioMMPI
                 ClsMesageBox.CerrarFormaEspera();
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 ClsMesageBox.CerrarFormaEspera();
                 ClsMesageBox.MBOK("Error al loguearse", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);

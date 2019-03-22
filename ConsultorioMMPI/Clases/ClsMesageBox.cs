@@ -29,7 +29,7 @@ namespace ConsultorioMMPI.Clases
         }
         public static void Carga()
         {
-            Application.Run(Cargando);
+            Cargando.ShowDialog();
         }
         //public static void MostraFormaEspera(MetroForm frmParent, string strCaption)
         //{
