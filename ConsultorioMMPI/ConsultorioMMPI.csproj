@@ -49,7 +49,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>C6507866B75B674DB6B4B3B395CA004F90DB1EEF</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>7FD9ED77706741693256BCE98BC2E6D9179B30F3</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>ConsultorioMMPI_TemporaryKey.pfx</ManifestKeyFile>
@@ -58,10 +58,10 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>ConsultorioMMPI.snk</AssemblyOriginatorKeyFile>
@@ -71,6 +71,12 @@
   </PropertyGroup>
   <PropertyGroup>
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -215,15 +221,16 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="ConsultorioMMPI.snk" />
-    <None Include="ConsultorioMMPI_TemporaryKey.pfx" />
     <EntityDeploy Include="DataBase\BaseDeDatos.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>BaseDeDatos.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <None Include="ConsultorioMMPI_TemporaryKey.pfx" />
     <None Include="DataBase\BaseDeDatos.edmx.diagram">
       <DependentUpon>BaseDeDatos.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\DataSources\ConsultorioMMPI.Clases.Sexos.datasource" />
     <None Include="Properties\DataSources\ConsultorioMMPI.DataBase.UsuarioAcceso.datasource" />
     <None Include="Properties\Settings.settings">
