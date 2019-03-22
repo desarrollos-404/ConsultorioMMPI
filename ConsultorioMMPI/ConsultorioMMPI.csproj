@@ -49,7 +49,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>C6507866B75B674DB6B4B3B395CA004F90DB1EEF</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>7FD9ED77706741693256BCE98BC2E6D9179B30F3</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>ConsultorioMMPI_TemporaryKey.pfx</ManifestKeyFile>
@@ -61,16 +61,23 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>ConsultorioMMPI.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>icons8_workstation.ico</ApplicationIcon>
+    <ApplicationIcon>iconUMTuxtla.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -106,6 +113,7 @@
     <Compile Include="Clases\ClasesGenericas.cs" />
     <Compile Include="Clases\Encriptar.cs" />
     <Compile Include="Clases\FechasExtensiones.cs" />
+    <Compile Include="Clases\clsInterpretacion.cs" />
     <Compile Include="Clases\PuntuacionT.cs" />
     <Compile Include="Clases\ClsMesageBox.cs" />
     <Compile Include="Clases\Escalas\Escala.cs" />
@@ -218,10 +226,12 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>BaseDeDatos.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <None Include="ConsultorioMMPI_TemporaryKey.pfx" />
     <None Include="DataBase\BaseDeDatos.edmx.diagram">
       <DependentUpon>BaseDeDatos.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\DataSources\ConsultorioMMPI.Clases.Sexos.datasource" />
     <None Include="Properties\DataSources\ConsultorioMMPI.DataBase.UsuarioAcceso.datasource" />
     <None Include="Properties\Settings.settings">
@@ -260,6 +270,7 @@
       <LastGenOutput>BaseDeDatos.cs</LastGenOutput>
     </Content>
     <Content Include="icons8_workstation.ico" />
+    <Content Include="iconUMTuxtla.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
