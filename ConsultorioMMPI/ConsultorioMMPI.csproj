@@ -7,7 +7,7 @@
     <ProjectGuid>{EE7C10E7-1076-4EF8-B8A4-01A27B5BD2C3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ConsultorioMMPI</RootNamespace>
-    <AssemblyName>ConsultorioMMPI</AssemblyName>
+    <AssemblyName>UMTuxtla</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -22,7 +22,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>7</ApplicationRevision>
+    <ApplicationRevision>11</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -49,10 +49,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>7FD9ED77706741693256BCE98BC2E6D9179B30F3</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>C6507866B75B674DB6B4B3B395CA004F90DB1EEF</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>ConsultorioMMPI_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -61,7 +62,7 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>false</SignAssembly>
+    <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>ConsultorioMMPI.snk</AssemblyOriginatorKeyFile>
@@ -95,6 +96,10 @@
     <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.ConnectionInfoExtended, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Smo, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.SmoExtended, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -110,6 +115,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdministrarBaseDatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministrarBaseDatos.Designer.cs">
+      <DependentUpon>AdministrarBaseDatos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Clases\ClasesGenericas.cs" />
     <Compile Include="Clases\Encriptar.cs" />
     <Compile Include="Clases\FechasExtensiones.cs" />
@@ -178,6 +189,12 @@
     <Compile Include="Loading.Designer.cs">
       <DependentUpon>Loading.cs</DependentUpon>
     </Compile>
+    <Compile Include="MyWaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyWaitForm.Designer.cs">
+      <DependentUpon>MyWaitForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Clases\Respuesta.cs" />
@@ -187,6 +204,10 @@
     <Compile Include="ucAvisoPrivacidad.Designer.cs">
       <DependentUpon>ucAvisoPrivacidad.cs</DependentUpon>
     </Compile>
+    <Compile Include="Validaciones\Validaciones.cs" />
+    <EmbeddedResource Include="AdministrarBaseDatos.resx">
+      <DependentUpon>AdministrarBaseDatos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmFinal.resx">
       <DependentUpon>frmFinal.cs</DependentUpon>
     </EmbeddedResource>
@@ -226,7 +247,6 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>BaseDeDatos.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="ConsultorioMMPI_TemporaryKey.pfx" />
     <None Include="DataBase\BaseDeDatos.edmx.diagram">
       <DependentUpon>BaseDeDatos.edmx</DependentUpon>
     </None>

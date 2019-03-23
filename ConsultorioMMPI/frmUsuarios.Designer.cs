@@ -38,11 +38,9 @@
             this.txtEscolaridad = new MetroFramework.Controls.MetroTextBox();
             this.txtNSS = new MetroFramework.Controls.MetroTextBox();
             this.txtEdad = new MetroFramework.Controls.MetroTextBox();
-            this.txtEstadoCivil = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
             this.txtOcupacion = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
             this.txtLugarResidencia = new MetroFramework.Controls.MetroTextBox();
@@ -56,13 +54,15 @@
             this.cmbsexo = new MetroFramework.Controls.MetroComboBox();
             this.sexosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.btnVerResultado = new MetroFramework.Controls.MetroButton();
+            this.btnBuscar = new MetroFramework.Controls.MetroButton();
+            this.btnEditar = new MetroFramework.Controls.MetroButton();
             ((System.ComponentModel.ISupportInitialize)(this.sexosBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(350, 67);
+            this.metroLabel1.Location = new System.Drawing.Point(351, 78);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(62, 19);
             this.metroLabel1.TabIndex = 0;
@@ -71,7 +71,7 @@
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(16, 102);
+            this.metroLabel2.Location = new System.Drawing.Point(16, 114);
             this.metroLabel2.Name = "metroLabel2";
             this.metroLabel2.Size = new System.Drawing.Size(133, 19);
             this.metroLabel2.TabIndex = 1;
@@ -80,7 +80,7 @@
             // metroLabel3
             // 
             this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(16, 138);
+            this.metroLabel3.Location = new System.Drawing.Point(16, 148);
             this.metroLabel3.Name = "metroLabel3";
             this.metroLabel3.Size = new System.Drawing.Size(40, 19);
             this.metroLabel3.TabIndex = 2;
@@ -89,7 +89,7 @@
             // metroLabel4
             // 
             this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(16, 174);
+            this.metroLabel4.Location = new System.Drawing.Point(16, 182);
             this.metroLabel4.Name = "metroLabel4";
             this.metroLabel4.Size = new System.Drawing.Size(79, 19);
             this.metroLabel4.TabIndex = 3;
@@ -110,7 +110,7 @@
             this.txtNombre.CustomButton.UseSelectable = true;
             this.txtNombre.CustomButton.Visible = false;
             this.txtNombre.Lines = new string[0];
-            this.txtNombre.Location = new System.Drawing.Point(496, 63);
+            this.txtNombre.Location = new System.Drawing.Point(496, 70);
             this.txtNombre.MaxLength = 32767;
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.PasswordChar = '\0';
@@ -140,7 +140,7 @@
             this.txtEscolaridad.CustomButton.UseSelectable = true;
             this.txtEscolaridad.CustomButton.Visible = false;
             this.txtEscolaridad.Lines = new string[0];
-            this.txtEscolaridad.Location = new System.Drawing.Point(162, 170);
+            this.txtEscolaridad.Location = new System.Drawing.Point(162, 172);
             this.txtEscolaridad.MaxLength = 32767;
             this.txtEscolaridad.Name = "txtEscolaridad";
             this.txtEscolaridad.PasswordChar = '\0';
@@ -170,7 +170,7 @@
             this.txtNSS.CustomButton.UseSelectable = true;
             this.txtNSS.CustomButton.Visible = false;
             this.txtNSS.Lines = new string[0];
-            this.txtNSS.Location = new System.Drawing.Point(162, 63);
+            this.txtNSS.Location = new System.Drawing.Point(162, 70);
             this.txtNSS.MaxLength = 32767;
             this.txtNSS.Name = "txtNSS";
             this.txtNSS.PasswordChar = '\0';
@@ -200,7 +200,7 @@
             this.txtEdad.CustomButton.UseSelectable = true;
             this.txtEdad.CustomButton.Visible = false;
             this.txtEdad.Lines = new string[0];
-            this.txtEdad.Location = new System.Drawing.Point(496, 98);
+            this.txtEdad.Location = new System.Drawing.Point(496, 103);
             this.txtEdad.MaxLength = 32767;
             this.txtEdad.Name = "txtEdad";
             this.txtEdad.PasswordChar = '\0';
@@ -216,40 +216,10 @@
             this.txtEdad.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             this.txtEdad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtEdad_KeyPress);
             // 
-            // txtEstadoCivil
-            // 
-            // 
-            // 
-            // 
-            this.txtEstadoCivil.CustomButton.Image = null;
-            this.txtEstadoCivil.CustomButton.Location = new System.Drawing.Point(137, 1);
-            this.txtEstadoCivil.CustomButton.Name = "";
-            this.txtEstadoCivil.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.txtEstadoCivil.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtEstadoCivil.CustomButton.TabIndex = 1;
-            this.txtEstadoCivil.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtEstadoCivil.CustomButton.UseSelectable = true;
-            this.txtEstadoCivil.CustomButton.Visible = false;
-            this.txtEstadoCivil.Lines = new string[0];
-            this.txtEstadoCivil.Location = new System.Drawing.Point(496, 134);
-            this.txtEstadoCivil.MaxLength = 32767;
-            this.txtEstadoCivil.Name = "txtEstadoCivil";
-            this.txtEstadoCivil.PasswordChar = '\0';
-            this.txtEstadoCivil.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtEstadoCivil.SelectedText = "";
-            this.txtEstadoCivil.SelectionLength = 0;
-            this.txtEstadoCivil.SelectionStart = 0;
-            this.txtEstadoCivil.ShortcutsEnabled = true;
-            this.txtEstadoCivil.Size = new System.Drawing.Size(159, 23);
-            this.txtEstadoCivil.TabIndex = 5;
-            this.txtEstadoCivil.UseSelectable = true;
-            this.txtEstadoCivil.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtEstadoCivil.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
             // metroLabel5
             // 
             this.metroLabel5.AutoSize = true;
-            this.metroLabel5.Location = new System.Drawing.Point(16, 210);
+            this.metroLabel5.Location = new System.Drawing.Point(16, 216);
             this.metroLabel5.Name = "metroLabel5";
             this.metroLabel5.Size = new System.Drawing.Size(114, 19);
             this.metroLabel5.TabIndex = 11;
@@ -258,7 +228,7 @@
             // metroLabel6
             // 
             this.metroLabel6.AutoSize = true;
-            this.metroLabel6.Location = new System.Drawing.Point(16, 67);
+            this.metroLabel6.Location = new System.Drawing.Point(16, 80);
             this.metroLabel6.Name = "metroLabel6";
             this.metroLabel6.Size = new System.Drawing.Size(65, 19);
             this.metroLabel6.TabIndex = 10;
@@ -267,20 +237,11 @@
             // metroLabel7
             // 
             this.metroLabel7.AutoSize = true;
-            this.metroLabel7.Location = new System.Drawing.Point(350, 102);
+            this.metroLabel7.Location = new System.Drawing.Point(351, 112);
             this.metroLabel7.Name = "metroLabel7";
             this.metroLabel7.Size = new System.Drawing.Size(42, 19);
             this.metroLabel7.TabIndex = 9;
             this.metroLabel7.Text = "Edad:";
-            // 
-            // metroLabel8
-            // 
-            this.metroLabel8.AutoSize = true;
-            this.metroLabel8.Location = new System.Drawing.Point(350, 138);
-            this.metroLabel8.Name = "metroLabel8";
-            this.metroLabel8.Size = new System.Drawing.Size(76, 19);
-            this.metroLabel8.TabIndex = 8;
-            this.metroLabel8.Text = "Estado civil:";
             // 
             // txtOcupacion
             // 
@@ -297,7 +258,7 @@
             this.txtOcupacion.CustomButton.UseSelectable = true;
             this.txtOcupacion.CustomButton.Visible = false;
             this.txtOcupacion.Lines = new string[0];
-            this.txtOcupacion.Location = new System.Drawing.Point(496, 170);
+            this.txtOcupacion.Location = new System.Drawing.Point(496, 136);
             this.txtOcupacion.MaxLength = 32767;
             this.txtOcupacion.Name = "txtOcupacion";
             this.txtOcupacion.PasswordChar = '\0';
@@ -307,7 +268,7 @@
             this.txtOcupacion.SelectionStart = 0;
             this.txtOcupacion.ShortcutsEnabled = true;
             this.txtOcupacion.Size = new System.Drawing.Size(159, 23);
-            this.txtOcupacion.TabIndex = 7;
+            this.txtOcupacion.TabIndex = 5;
             this.txtOcupacion.UseSelectable = true;
             this.txtOcupacion.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtOcupacion.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
@@ -315,7 +276,7 @@
             // metroLabel9
             // 
             this.metroLabel9.AutoSize = true;
-            this.metroLabel9.Location = new System.Drawing.Point(351, 174);
+            this.metroLabel9.Location = new System.Drawing.Point(349, 146);
             this.metroLabel9.Name = "metroLabel9";
             this.metroLabel9.Size = new System.Drawing.Size(75, 19);
             this.metroLabel9.TabIndex = 17;
@@ -336,7 +297,7 @@
             this.txtLugarResidencia.CustomButton.UseSelectable = true;
             this.txtLugarResidencia.CustomButton.Visible = false;
             this.txtLugarResidencia.Lines = new string[0];
-            this.txtLugarResidencia.Location = new System.Drawing.Point(496, 206);
+            this.txtLugarResidencia.Location = new System.Drawing.Point(496, 169);
             this.txtLugarResidencia.MaxLength = 32767;
             this.txtLugarResidencia.Name = "txtLugarResidencia";
             this.txtLugarResidencia.PasswordChar = '\0';
@@ -346,7 +307,7 @@
             this.txtLugarResidencia.SelectionStart = 0;
             this.txtLugarResidencia.ShortcutsEnabled = true;
             this.txtLugarResidencia.Size = new System.Drawing.Size(159, 23);
-            this.txtLugarResidencia.TabIndex = 9;
+            this.txtLugarResidencia.TabIndex = 7;
             this.txtLugarResidencia.UseSelectable = true;
             this.txtLugarResidencia.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtLugarResidencia.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
@@ -354,7 +315,7 @@
             // metroLabel10
             // 
             this.metroLabel10.AutoSize = true;
-            this.metroLabel10.Location = new System.Drawing.Point(351, 210);
+            this.metroLabel10.Location = new System.Drawing.Point(349, 180);
             this.metroLabel10.Name = "metroLabel10";
             this.metroLabel10.Size = new System.Drawing.Size(126, 19);
             this.metroLabel10.TabIndex = 19;
@@ -375,7 +336,7 @@
             this.txtTelefono.CustomButton.UseSelectable = true;
             this.txtTelefono.CustomButton.Visible = false;
             this.txtTelefono.Lines = new string[0];
-            this.txtTelefono.Location = new System.Drawing.Point(162, 239);
+            this.txtTelefono.Location = new System.Drawing.Point(496, 202);
             this.txtTelefono.MaxLength = 32767;
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.PasswordChar = '\0';
@@ -385,7 +346,7 @@
             this.txtTelefono.SelectionStart = 0;
             this.txtTelefono.ShortcutsEnabled = true;
             this.txtTelefono.Size = new System.Drawing.Size(159, 23);
-            this.txtTelefono.TabIndex = 10;
+            this.txtTelefono.TabIndex = 9;
             this.txtTelefono.UseSelectable = true;
             this.txtTelefono.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtTelefono.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
@@ -394,7 +355,7 @@
             // metroLabel11
             // 
             this.metroLabel11.AutoSize = true;
-            this.metroLabel11.Location = new System.Drawing.Point(16, 239);
+            this.metroLabel11.Location = new System.Drawing.Point(349, 214);
             this.metroLabel11.Name = "metroLabel11";
             this.metroLabel11.Size = new System.Drawing.Size(61, 19);
             this.metroLabel11.TabIndex = 21;
@@ -402,7 +363,7 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(351, 239);
+            this.btnGuardar.Location = new System.Drawing.Point(467, 239);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(80, 31);
             this.btnGuardar.TabIndex = 16;
@@ -412,17 +373,17 @@
             // 
             // btnAplicar
             // 
-            this.btnAplicar.Location = new System.Drawing.Point(351, 239);
+            this.btnAplicar.Location = new System.Drawing.Point(467, 239);
             this.btnAplicar.Name = "btnAplicar";
             this.btnAplicar.Size = new System.Drawing.Size(91, 31);
-            this.btnAplicar.TabIndex = 11;
+            this.btnAplicar.TabIndex = 10;
             this.btnAplicar.Text = "Aplicar prueba";
             this.btnAplicar.UseSelectable = true;
             this.btnAplicar.Click += new System.EventHandler(this.btnAplicar_Click);
             // 
             // dteRegistro
             // 
-            this.dteRegistro.Location = new System.Drawing.Point(162, 200);
+            this.dteRegistro.Location = new System.Drawing.Point(162, 206);
             this.dteRegistro.MinimumSize = new System.Drawing.Size(0, 29);
             this.dteRegistro.Name = "dteRegistro";
             this.dteRegistro.Size = new System.Drawing.Size(159, 29);
@@ -430,11 +391,12 @@
             // 
             // dteNacimiento
             // 
-            this.dteNacimiento.Location = new System.Drawing.Point(162, 92);
+            this.dteNacimiento.Location = new System.Drawing.Point(162, 104);
             this.dteNacimiento.MinimumSize = new System.Drawing.Size(0, 29);
             this.dteNacimiento.Name = "dteNacimiento";
             this.dteNacimiento.Size = new System.Drawing.Size(159, 29);
             this.dteNacimiento.TabIndex = 2;
+            this.dteNacimiento.Validated += new System.EventHandler(this.dteNacimiento_Validated_1);
             // 
             // cmbsexo
             // 
@@ -442,7 +404,7 @@
             this.cmbsexo.DisplayMember = "descripcion";
             this.cmbsexo.FormattingEnabled = true;
             this.cmbsexo.ItemHeight = 23;
-            this.cmbsexo.Location = new System.Drawing.Point(162, 134);
+            this.cmbsexo.Location = new System.Drawing.Point(162, 138);
             this.cmbsexo.Name = "cmbsexo";
             this.cmbsexo.Size = new System.Drawing.Size(159, 29);
             this.cmbsexo.TabIndex = 4;
@@ -455,20 +417,42 @@
             // 
             // btnVerResultado
             // 
-            this.btnVerResultado.Location = new System.Drawing.Point(448, 239);
+            this.btnVerResultado.Location = new System.Drawing.Point(564, 239);
             this.btnVerResultado.Name = "btnVerResultado";
             this.btnVerResultado.Size = new System.Drawing.Size(91, 31);
-            this.btnVerResultado.TabIndex = 26;
+            this.btnVerResultado.TabIndex = 11;
             this.btnVerResultado.Text = "Ver resultado";
             this.btnVerResultado.UseSelectable = true;
             this.btnVerResultado.Visible = false;
             this.btnVerResultado.Click += new System.EventHandler(this.btnVerResultado_Click);
             // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Location = new System.Drawing.Point(351, 239);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(91, 31);
+            this.btnBuscar.TabIndex = 22;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseSelectable = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // btnEditar
+            // 
+            this.btnEditar.Location = new System.Drawing.Point(351, 239);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(91, 31);
+            this.btnEditar.TabIndex = 23;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseSelectable = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            // 
             // frmUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(687, 276);
+            this.ClientSize = new System.Drawing.Size(680, 281);
+            this.Controls.Add(this.btnEditar);
+            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnVerResultado);
             this.Controls.Add(this.cmbsexo);
             this.Controls.Add(this.dteNacimiento);
@@ -483,11 +467,9 @@
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.txtNSS);
             this.Controls.Add(this.txtEdad);
-            this.Controls.Add(this.txtEstadoCivil);
             this.Controls.Add(this.metroLabel5);
             this.Controls.Add(this.metroLabel6);
             this.Controls.Add(this.metroLabel7);
-            this.Controls.Add(this.metroLabel8);
             this.Controls.Add(this.txtEscolaridad);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.metroLabel4);
@@ -517,11 +499,9 @@
         private MetroFramework.Controls.MetroTextBox txtEscolaridad;
         private MetroFramework.Controls.MetroTextBox txtNSS;
         private MetroFramework.Controls.MetroTextBox txtEdad;
-        private MetroFramework.Controls.MetroTextBox txtEstadoCivil;
         private MetroFramework.Controls.MetroLabel metroLabel5;
         private MetroFramework.Controls.MetroLabel metroLabel6;
         private MetroFramework.Controls.MetroLabel metroLabel7;
-        private MetroFramework.Controls.MetroLabel metroLabel8;
         private MetroFramework.Controls.MetroTextBox txtOcupacion;
         private MetroFramework.Controls.MetroLabel metroLabel9;
         private MetroFramework.Controls.MetroTextBox txtLugarResidencia;
@@ -535,5 +515,7 @@
         private MetroFramework.Controls.MetroComboBox cmbsexo;
         private System.Windows.Forms.BindingSource sexosBindingSource;
         private MetroFramework.Controls.MetroButton btnVerResultado;
+        private MetroFramework.Controls.MetroButton btnBuscar;
+        private MetroFramework.Controls.MetroButton btnEditar;
     }
 }

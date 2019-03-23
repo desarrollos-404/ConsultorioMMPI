@@ -9,12 +9,11 @@ using System.Windows.Forms;
 
 namespace ConsultorioMMPI
 {
-    public partial class Loading : Form
+    public partial class MyWaitForm : Form
     {
-        public Loading(string caption)
+        public MyWaitForm()
         {
             InitializeComponent();
-           // lblTexto.Text = caption;
         }
     }
 }

@@ -7,6 +7,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace ConsultorioMMPI
@@ -17,20 +18,15 @@ namespace ConsultorioMMPI
         public frmPrincipal()
         {
             InitializeComponent();
-            //ClsMesageBox.MostraFormaEspera("Cargando...",this);
+            //this.Visible = false;
+            
             CrearUsuarioLogin();
-            this.Visible = false;
-            //ClsMesageBox.CerrarFormaEspera();
+            
+            
         }
 
         private void CrearUsuarioLogin()
         {
-            //string s = Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData);
-            //string a = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
-            //string d = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
-
-            //AppDomain.CurrentDomain.SetData("DataDirectory", Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData));
-
             using (DataBaseEntities ctx = new DataBaseEntities())
             {
                 try
@@ -97,6 +93,12 @@ namespace ConsultorioMMPI
         {
             frmUsuarios registrousuario = new frmUsuarios(true);
             registrousuario.ShowDialog();
+        }
+
+        private void btnbasedatos_Click(object sender, EventArgs e)
+        {
+            AdministrarBaseDatos frmAdmin = new AdministrarBaseDatos();
+            frmAdmin.ShowDialog();
         }
     }
 }

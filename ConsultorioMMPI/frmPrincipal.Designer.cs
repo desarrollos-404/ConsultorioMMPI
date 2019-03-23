@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
             this.pnlBotones = new System.Windows.Forms.Panel();
+            this.btnbasedatos = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.pnlGeneral = new System.Windows.Forms.Panel();
@@ -48,6 +49,7 @@
             // pnlBotones
             // 
             this.pnlBotones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(134)))), ((int)(((byte)(196)))));
+            this.pnlBotones.Controls.Add(this.btnbasedatos);
             this.pnlBotones.Controls.Add(this.btnBuscar);
             this.pnlBotones.Controls.Add(this.btnRegistrar);
             this.pnlBotones.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -55,6 +57,20 @@
             this.pnlBotones.Name = "pnlBotones";
             this.pnlBotones.Size = new System.Drawing.Size(727, 46);
             this.pnlBotones.TabIndex = 6;
+            // 
+            // btnbasedatos
+            // 
+            this.btnbasedatos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(135)))), ((int)(((byte)(244)))));
+            this.btnbasedatos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnbasedatos.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnbasedatos.ForeColor = System.Drawing.Color.White;
+            this.btnbasedatos.Location = new System.Drawing.Point(285, 3);
+            this.btnbasedatos.Name = "btnbasedatos";
+            this.btnbasedatos.Size = new System.Drawing.Size(160, 38);
+            this.btnbasedatos.TabIndex = 7;
+            this.btnbasedatos.Text = "Base de datos";
+            this.btnbasedatos.UseVisualStyleBackColor = false;
+            this.btnbasedatos.Click += new System.EventHandler(this.btnbasedatos_Click);
             // 
             // btnBuscar
             // 
@@ -192,6 +208,7 @@
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnbasedatos;
     }
     }
 

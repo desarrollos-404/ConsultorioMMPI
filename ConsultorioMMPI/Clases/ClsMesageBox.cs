@@ -13,13 +13,16 @@ namespace ConsultorioMMPI.Clases
     {
         private static Loading Cargando;
         private static Thread t;
+        private static Form _FRM;
 
         public static void MostraFormaEspera(string strCaption,Form frm)
         {
             try
             {
-                Cargando = new Loading(strCaption,frm);
+                Cargando = new Loading(strCaption);
+                _FRM = frm;
                 t = new Thread(new ThreadStart(Carga));
+                t.Start();
             }
             catch (Exception ex)
             {
@@ -28,7 +31,7 @@ namespace ConsultorioMMPI.Clases
         }
         public static void Carga()
         {
-            Cargando.ShowDialog();
+            Cargando.ShowDialog(_FRM);
         }
         //public static void MostraFormaEspera(MetroForm frmParent, string strCaption)
         //{
@@ -52,7 +55,7 @@ namespace ConsultorioMMPI.Clases
             try
             {
                 t.Abort();
-                Cargando.DialogResult = DialogResult.Abort;
+                
             }
             catch (Exception ex)
             {
@@ -76,5 +79,33 @@ namespace ConsultorioMMPI.Clases
                 return false;
             }
         }
+
+        //private MyWaitForm _waitForm;
+
+        //protected void ShowWaitForm(string message)
+        //{
+        //    // don't display more than one wait form at a time
+        //    if (_waitForm != null && !_waitForm.IsDisposed)
+        //    {
+        //        return;
+        //    }
+
+        //    _waitForm = new MyWaitForm();
+        //    _waitForm.SetMessage(message); // "Loading data. Please wait..."
+        //    _waitForm.TopMost = true;
+        //    _waitForm.StartPosition = FormStartPosition.CenterScreen;
+        //    _waitForm.Show();
+        //    _waitForm.Refresh();
+
+        //    // force the wait window to display for at least 700ms so it doesn't just flash on the screen
+        //    System.Threading.Thread.Sleep(700);
+        //    Application.Idle += OnLoaded;
+        //}
+
+        //private void OnLoaded(object sender, EventArgs e)
+        //{
+        //    Application.Idle -= OnLoaded;
+        //    _waitForm.Close();
+        //}
     }
 }

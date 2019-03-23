@@ -39,7 +39,7 @@ namespace ConsultorioMMPI
                     ClsMesageBox.MBOK(ModelState.ErrorMessages[0], "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
-                //ClsMesageBox.MostraFormaEspera("Cargando...",this);
+              //  ClsMesageBox.MostraFormaEspera("Cargando...",this);
                 using (DataBaseEntities ctx = new DataBaseEntities())
                 {
                     UsuarioAcceso result = ctx.UsuarioAcceso.Where(x => x.usuario.ToUpper() == usuario.usuario.ToUpper() && x.contrasena == usuario.contrasena).FirstOrDefault();
@@ -50,7 +50,7 @@ namespace ConsultorioMMPI
                     }
                     this.DialogResult = DialogResult.OK;
                 }
-                //ClsMesageBox.CerrarFormaEspera();
+               // ClsMesageBox.CerrarFormaEspera();
 
             }
             catch (Exception ex)

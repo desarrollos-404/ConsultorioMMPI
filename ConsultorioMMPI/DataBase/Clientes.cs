@@ -15,7 +15,7 @@ namespace ConsultorioMMPI.DataBase
 
     public partial class Clientes
     {
-        [Required(ErrorMessage = "El número medico preventivo es obligatorio.")]
+        [Required(ErrorMessage = "El número preventivo es obligatorio.")]
         [DataType(DataType.Text)]
         public string NumPreventivo { get; set; }
         [Required(ErrorMessage = "La fecha de nacimiento es obligatoria.")]
@@ -46,5 +46,4 @@ namespace ConsultorioMMPI.DataBase
         public string LugarResidencia { get; set; }
         public string Resultados { get; set; }
     }
-
 }

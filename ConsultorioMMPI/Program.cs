@@ -15,7 +15,6 @@ namespace ConsultorioMMPI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            AppDomain.CurrentDomain.SetData("DataDirectory", Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData));
             //Application.Run(new frmPrincipal());
             Application.Run(new frmPrincipal());
         }

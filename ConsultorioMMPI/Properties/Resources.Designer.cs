@@ -62,14 +62,22 @@ namespace ConsultorioMMPI.Properties {
         
         /// <summary>
         ///   Busca una cadena traducida similar a &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
-        ///&lt;Preguntas&gt;
-        ///  &lt;pregunta&gt;﻿Me gustan las revistas de mecánica.&lt;/pregunta&gt;
-        ///  &lt;pregunta&gt;Tengo buen apetito.&lt;/pregunta&gt;
-        ///  &lt;pregunta&gt;Creo que me gustaría el trabajo de bibliotecario.&lt;/pregunta&gt;
-        ///  &lt;pregunta&gt;Mi vida diaria está llena de cosas que mantienen mi interés.&lt;/pregunta&gt;
-        ///  &lt;pregunta&gt;A veces he sentido un intenso deseo de abandonar mi hogar.&lt;/pregunta&gt;
-        ///  &lt;pregunta&gt;Tengo dificultades para concentrare en una tarea o trabajo&lt;/pregunta&gt;
-        ///  &lt;pregunta&gt;Mi madre es una  [resto de la cadena truncado]&quot;;.
+        ///
+        ///  &lt;Preguntas&gt;
+        ///    &lt;Pregunta&gt;
+        ///      &lt;idPregunta&gt;1&lt;/idPregunta&gt;
+        ///      &lt;Descripcion&gt;﻿Me gustan las revistas de mecánica.&lt;/Descripcion&gt;
+        ///    &lt;/Pregunta&gt;
+        ///    &lt;Pregunta&gt;
+        ///      &lt;idPregunta&gt;2&lt;/idPregunta&gt;
+        ///      &lt;Descripcion&gt;Tengo buen apetito.&lt;/Descripcion&gt;
+        ///    &lt;/Pregunta&gt;
+        ///    &lt;Pregunta&gt;
+        ///      &lt;idPregunta&gt;3&lt;/idPregunta&gt;
+        ///      &lt;Descripcion&gt;Creo que me gustaría el trabajo de bibliotecario.&lt;/Descripcion&gt;
+        ///    &lt;/Pregunta&gt;
+        ///    &lt;Pregunta&gt;
+        ///      &lt;idPregunta&gt;4&lt;/idPregu [resto de la cadena truncado]&quot;;.
         /// </summary>
         internal static string Preguntas {
             get {
