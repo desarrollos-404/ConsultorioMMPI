@@ -8,11 +8,13 @@ using System.Text;
 using System.Windows.Forms;
 using ConsultorioMMPI.Clases;
 using ConsultorioMMPI.Clases.Escalas;
+using MetroFramework.Controls;
 
 namespace ConsultorioMMPI
 {
     public partial class frmFinal : Form
     {
+
 
 
         public frmFinal(RespuestaEscalas objResultados, int sinContestar)
@@ -30,23 +32,81 @@ namespace ConsultorioMMPI
             lblSinContestarPuntuacion.Text = sinContestar.ToString();
             lblSinContestarDescripcion.Text = clsInterpretacion.InterpretacionSinContestar(sinContestar);
             //Cargar escalas de validez
-            lblPtInvar.Text = objResultados.escalasDeValidez.lstEscalas.Where(x => x.siglas == "INVAR-R").FirstOrDefault().puntuacionT.ToString();
-            lblPtInver.Text = objResultados.escalasDeValidez.lstEscalas.Where(x => x.siglas == "INVER-R").FirstOrDefault().puntuacionT.ToString();
-            lblPtFR.Text = objResultados.escalasDeValidez.lstEscalas.Where(x => x.siglas == "F-R").FirstOrDefault().puntuacionT.ToString();
-            lblPtFPSIR.Text = objResultados.escalasDeValidez.lstEscalas.Where(x => x.siglas == "FPSI-R").FirstOrDefault().puntuacionT.ToString();
-            lblPtFS.Text = objResultados.escalasDeValidez.lstEscalas.Where(x => x.siglas == "FS").FirstOrDefault().puntuacionT.ToString();
-            lblPtFVSR.Text = objResultados.escalasDeValidez.lstEscalas.Where(x => x.siglas == "FVS-R").FirstOrDefault().puntuacionT.ToString();
-            lblPtSI.Text = objResultados.escalasDeValidez.lstEscalas.Where(x => x.siglas == "SI").FirstOrDefault().puntuacionT.ToString();
-            lblPtLR.Text = objResultados.escalasDeValidez.lstEscalas.Where(x => x.siglas == "L-R").FirstOrDefault().puntuacionT.ToString();
-            lblPtKR.Text = objResultados.escalasDeValidez.lstEscalas.Where(x => x.siglas == "K-R").FirstOrDefault().puntuacionT.ToString();
+            CargarEscalasDeValidez(objResultados.escalasDeValidez);
+        }
 
+        private void CargarEscalasDeValidez(EscalasDeValidez escalasDeValidez)
+        {
+            try
+            {
+                List<int> conclusion = new List<int>();
+                List<int> conclusion2 = new List<int>();
+                List<int> lstGeneral = new List<int>();
+                AsignarAControles("INVAR-R", ref lblPtInvar, ref lblINQinvar, ref lblIMPinvar, escalasDeValidez, ref conclusion);
+                AsignarAControles("INVER-R", ref lblPtInver, ref lblINQinver, ref lblIMPinver, escalasDeValidez, ref conclusion);
+                AsignarAControles("F-R", ref lblPtFR, ref lblINQfr, ref lblIMPfr, escalasDeValidez, ref conclusion2);
+                AsignarAControles("FPSI-R", ref lblPtFPSIR, ref lblINQfpsir, ref lblIMPfpsir, escalasDeValidez, ref conclusion2);
+                AsignarAControles("FS", ref lblPtFS, ref lblINQfs, ref lblIMPfs, escalasDeValidez, ref conclusion2);
+                AsignarAControles("FVS-R", ref lblPtFVSR, ref lblINQfvsr, ref lblIMPfvsr, escalasDeValidez, ref conclusion2);
+                AsignarAControles("SI", ref lblPtSI, ref lblINQsi, ref lblIMPsi, escalasDeValidez, ref conclusion2);
+                AsignarAControles("L-R", ref lblPtLR, ref lblINQlr, ref lblIMPlr, escalasDeValidez, ref conclusion2);
+                AsignarAControles("K-R", ref lblPtKR, ref lblINQkr, ref lblIMPkr, escalasDeValidez, ref conclusion2);
+                txtConclusion1.Text = getConclusion1(conclusion);
+                txtConclusion2.Text = getConclusion2(conclusion2);
+                lstGeneral.AddRange(conclusion);
+                lstGeneral.AddRange(conclusion2);
+                txtConclusionGral.Text = getConclusiongral(lstGeneral);
+            }
+            catch (Exception)
+            {
 
+                throw;
+            }
+        }
+
+        private string getConclusion1(List<int> conclusion)
+        {
+            if (conclusion.Any(x => x == 0))
+                return "EL PROTOCOLO ES INVÁLIDO DEBIDO A INCONSISTENCIAS Y/O EXAGERACIONES";
+
+            else if (conclusion.Any(x => x == 1))
+                return "EL PROTOCOLO ES VALIDO E INTERPRETABLE CON INCONSISTENCIAS";
+            else
+                return "EL PROTOCOLO ES VALIDO E INTERPRETABLE";
+        }
+        private string getConclusion2(List<int> conclusion)
+        {
+            if (conclusion.Any(x => x == 0))
+                return "EL PROTOCOLO PODRÍA SER INVÁLIDO DEBIDO A EXCESO DE EXAGERACIONES EN EL SÍNTOMA";
+
+            else if (conclusion.Any(x => x == 1))
+                return "EL PROTOCOLO ES VALIDO E INTERPRETABLE PRESENTANDO EXAGERACIONES EN EL SÍNTOMA";
+            else
+                return "EL PROTOCOLO ES VALIDO E INTERPRETABLE";
+        }
+        private string getConclusiongral(List<int> conclusion)
+        {
+            if (conclusion.Any(x => x == 0))
+                return "EL PROTOCOLO ES INVALIDO";
+
+            else if (conclusion.Any(x => x == 1))
+                return "EL PROTOCOLO ES VALIDO E INTERPRETABLE PRESENTANDO EXAGERACION EN EL SINTOMA, LO QUE SIGNIFICA QUE HAY PRESENCIA DE QUEJAS SOMATICAS, COGNITIVAS Y ALTERACIONES EMOCIONALES SIGNIFICATIVAS, MISMAS QUE SE ANALIZARAN EN LA INTERPRETACIÒN DE LOS RESULTADOS";
+            else
+                return "EL PROTOCOLO ES VALIDO E INTERPRETABLE";
+        }
+
+        private void AsignarAControles(string siglaEscala, ref MetroLabel lblPuntos, ref TextBox lblInquietud, ref TextBox lblImplicacion, EscalasDeValidez escalasDeValidez, ref List<int> valConclusion)
+        {
+            var objEscala = escalasDeValidez.lstEscalas.Where(x => x.siglas == siglaEscala).FirstOrDefault();
+            lblPuntos.Text = objEscala.puntuacionT.ToString();
+            var interpretacion = clsInterpretacion.InterpretacionEscalasValidez(objEscala.puntuacionT, objEscala.siglas, ref valConclusion);
+            lblInquietud.Text = interpretacion[0].ToString();
+            lblImplicacion.Text = interpretacion[1].ToString();
         }
 
         private void CargarGrids(RespuestaEscalas objResultados)
         {
             grdEscalasDeValidez.DataSource = objResultados.escalasDeValidez.lstEscalas;
-
             grdEscalasOrdenSuperior.DataSource = objResultados.escalasDeOrdenSuperior.lstEscalas;
             grdEscalasClinicasReestructuradas.DataSource = objResultados.escalasDeClinicasReestructuradas.lstEscalas;
             grdEscalasProblemasSomaticosCognitivos.DataSource = objResultados.somaticosCognitivos.lstEscalas;
@@ -188,6 +248,16 @@ namespace ConsultorioMMPI
         {
             DataGridView dgv = sender as DataGridView;
             dgv.ClearSelection();
+        }
+
+        private void tableLayoutPanel5_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtConclusion1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -79,7 +79,7 @@ namespace ConsultorioMMPI.Clases
                     if (escala.puntuacionNatural > 23)
                         escala.puntuacionT = 120;
                     else
-                        escala.puntuacionT = arrayINVAR[escala.puntuacionNatural];
+                        escala.puntuacionT = arrayINVER[escala.puntuacionNatural];
                     break;
                 case "F-R":
                     if (escala.puntuacionNatural > 31)

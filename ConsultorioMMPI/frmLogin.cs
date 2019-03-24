@@ -18,6 +18,7 @@ namespace ConsultorioMMPI
         {
             //ClsMesageBox.MostraFormaEspera("Cargando...", this);
             InitializeComponent();
+            txtUsuario.Select();
             //ClsMesageBox.CerrarFormaEspera();
         }
 
@@ -45,7 +46,7 @@ namespace ConsultorioMMPI
                     UsuarioAcceso result = ctx.UsuarioAcceso.Where(x => x.usuario.ToUpper() == usuario.usuario.ToUpper() && x.contrasena == usuario.contrasena).FirstOrDefault();
                     if (result == null)
                     {
-                        ClsMesageBox.MBOK("Usuario o contraseña no validos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        ClsMesageBox.MBOK("Usuario o contraseña no válidos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         return;
                     }
                     this.DialogResult = DialogResult.OK;
