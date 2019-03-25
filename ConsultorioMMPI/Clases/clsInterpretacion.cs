@@ -606,7 +606,7 @@ namespace ConsultorioMMPI.Clases
                     break;
                 #endregion
                 case "ISU":
-                    escala.puntuacionT = CalculaT(arrayISU, escala.puntuacionNatural);
+                    escala.puntuacionT = CalculaT(arrayISU, escala.puntuacionNatural); //Cambio de prueba
                     break;
                 case "LM/D":
                     escala.puntuacionT = CalculaT(arrayIMD, escala.puntuacionNatural);
