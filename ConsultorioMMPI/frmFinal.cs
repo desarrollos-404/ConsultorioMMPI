@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Windows.Forms;
 using ConsultorioMMPI.Clases;
@@ -33,6 +34,20 @@ namespace ConsultorioMMPI
             lblSinContestarDescripcion.Text = clsInterpretacion.InterpretacionSinContestar(sinContestar);
             //Cargar escalas de validez
             CargarEscalasDeValidez(objResultados.escalasDeValidez);
+            CargarGridsInterpretaciones(objResultados);
+        }
+
+        private void CargarGridsInterpretaciones(RespuestaEscalas objResultados)
+        {
+            Type myType = objResultados.GetType();
+            IList<PropertyInfo> props = new List<PropertyInfo>(myType.GetProperties());
+
+            foreach (PropertyInfo prop in props)
+            {
+                object propValue = prop.GetValue(objResultados, null);
+
+                // Do something with propValue
+            }
         }
 
         private void CargarEscalasDeValidez(EscalasDeValidez escalasDeValidez)

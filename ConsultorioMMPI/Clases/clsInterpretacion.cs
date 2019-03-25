@@ -236,7 +236,7 @@ namespace ConsultorioMMPI.Clases
                     //    break;
             }
         }
-        public static string InterPretacionConclusion(objInterpretacion objInterpretacion)
+        public static objInterpretacion InterPretacionConclusion(objInterpretacion objInterpretacion)
         {
             switch (objInterpretacion.siglas)
             {
@@ -606,81 +606,666 @@ namespace ConsultorioMMPI.Clases
                     break;
                 #endregion
                 case "ISU":
-                    escala.puntuacionT = CalculaT(arrayISU, escala.puntuacionNatural); //Cambio de prueba
+                    if (objInterpretacion.puntuacionT >= 100)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas indican ideación suicida actual y presenta una historia de ideación suicida e intentos";
+                        objInterpretacion.especificaciones = @"Esta preocupado por el suicidio y la muerte. Puede tener intentos de suicidio recientes. Impotencia y desesperación.";
+                        objInterpretacion.correlacionesEmpiricas = @"Es necesario realizar una correlación con la escalas AC/PE, CR4, CR9 o DISC-R y ABS si sus puntaciones T son mayores o iguales a 65, ya que esto implicaría que corre el riesgo de intento de suicidio y esto se podría ver acentuado por abuso de sustancias.";
+                    }
+                    else if (objInterpretacion.puntuacionT >= 65 && objInterpretacion.puntuacionT <= 99)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas indican una historia de ideación suicida y/o intentos";
+                        objInterpretacion.especificaciones = @"Esta preocupado por el suicidio y la muerte. Puede tener intentos de suicidio recientes. Impotencia y desesperación.";
+                        objInterpretacion.correlacionesEmpiricas = @"Es necesario realizar una correlación con la escalas AC/PE, CR4, CR9 o DISC-R y ABS si sus puntaciones T son mayores o iguales a 65, ya que esto implicaría que corre el riesgo de intento de suicidio y esto se podría ver acentuado por abuso de sustancias.";
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiestan síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"No manifiesta síntomas alarmantes";
+                        objInterpretacion.correlacionesEmpiricas = @"No manifiesta síntomas alarmantes";
+                    }
                     break;
                 case "LM/D":
-                    escala.puntuacionT = CalculaT(arrayIMD, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 80)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas indican creencias de que no puede cambiar o sobrellevar sus problemas y de que es incapaz de alcanzar sus metas de vida";
+                        objInterpretacion.especificaciones = @"Sentimientos de desesperanza y pesimismo. sentimientos de agobio y de que la vida es pesada. Creencias de que no puede ser ayudado. Creencias de que recibe un trato injusto en la vida. Perdida de motivación para el cambio.";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+                    }
+                    else if (objInterpretacion.puntuacionT >= 65 && objInterpretacion.puntuacionT <= 79)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas indican sentimientos de desesperanza y pesimismo";
+                        objInterpretacion.especificaciones = @"Sentimientos de desesperanza y pesimismo. sentimientos de agobio y de que la vida es pesada. Creencias de que no puede ser ayudado. Creencias de que recibe un trato injusto en la vida. Perdida de motivación para el cambio.";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiestan síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+                    }
                     break;
                 case "DSM":
-                    escala.puntuacionT = CalculaT(arrayDSM, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 70)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas indican perdida de confianza y sentir que es inútil";
+                        objInterpretacion.especificaciones = @"Sentimientos de inferioridad e inseguridad. Es autodestructivo (se menosprecia). Tiende a presentar ideas obsesivas. Se autocastiga. Presenta perdida de confianza y sentimientos de inutilidad.";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+                    }
+                    else if (objInterpretacion.puntuacionT >= 65 && objInterpretacion.puntuacionT <= 69)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas indican que duda de si mismo";
+                        objInterpretacion.especificaciones = @"Sentimientos de inferioridad e inseguridad. Es autodestructivo (se menosprecia). Tiende a presentar ideas obsesivas. Se autocastiga. Presenta perdida de confianza y sentimientos de inutilidad.";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiestan síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+                    }
                     break;
                 case "INE":
-                    escala.puntuacionT = CalculaT(arrayINE, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 80)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas indican que es muy indeciso e ineficaz. cree que es incapaz de tomar decisiones y manejar de manera efectiva las crisis además de tener dificultades cuando trata asuntos pequeños e insignificantes.";
+                        objInterpretacion.especificaciones = @"Es poco probable que sea autosuficiente. Es pasivo";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 65 && objInterpretacion.puntuacionT <= 79)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas indican que es muy indeciso e ineficaz, además de que cree que es incapaz de afrontar sus dificultades actuales.";
+                        objInterpretacion.especificaciones = @"Es poco probable que sea autosuficiente.Es pasivo";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas indican que no endoso los reactivos que indican indecisión e ineficiencia";
+                        objInterpretacion.especificaciones = @"Es probable que sea autosuficiente y este orientado al poder.";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+                    }
                     break;
                 case "P/E":
-                    escala.puntuacionT = CalculaT(arrayPE, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 80)
+                    {
+
+                        objInterpretacion.respuestasALaPrueba = @"Indica múltiples problemas que involucran experiencias de estrés y preocupación, incluyendo decepciones,  dificultades con la presión del tiempo, desgracia y finanzas.";
+                        objInterpretacion.especificaciones = @"Reacciona ante el estrés.Es propenso a preocuparse. Se involucra en conductas obsesivas.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de trastornos involucrados con el seres y la preocupación, como el trastorno obsesivo-compulsivo.";
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 65 && objInterpretacion.puntuacionT <= 79)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica un nivel por arriba del promedio del estrés y preocupación.";
+                        objInterpretacion.especificaciones = @"Reacciona ante el estrés.Es propenso a preocuparse. Se involucra en conductas obsesivas.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de trastornos involucrados con el seres y la preocupación, como el trastorno obsesivo-compulsivo.";
+
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica un nivel por debajo del promedio de estrés o preocupación.";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
                     break;
                 case "ANS":
-                    escala.puntuacionT = CalculaT(arrayANS, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 100)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica sentirse constantemente ansioso, con frecuencia siente que algo terrible pasara, siente miedo por algo cada día y a menudo tiene pesadillas.";
+                        objInterpretacion.especificaciones = @"Experimenta ansiedad significativa y ansiedad relacionada con algunos problema, ideación intrusiva, dificultades del sueño, incluyendo pesadillas y estrés postraumático.";
+                        objInterpretacion.correlacionesEmpiricas = @"Es necesario realizar una correlación con la escala ANS si su puntuación T es igual o mayor a 80, ya que implicaría evaluar la posibilidad de necesidad de medicación ansiolítica.también se debe evaluar la presencia de trastornos relacionados con la ansiedad, incluyendo trastorno de estrés postraumático.";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 65 && objInterpretacion.puntuacionT <= 99)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica sentirse ansioso.";
+                        objInterpretacion.especificaciones = @"Experimenta ansiedad significativa y ansiedad relacionada con algunos problema, ideación intrusiva, dificultades del sueño, incluyendo pesadillas y estrés postraumático.";
+                        objInterpretacion.correlacionesEmpiricas = @"Es necesario realizar una correlación con la escala ANS si su puntuación T es igual o mayor a 80, ya que implicaría evaluar la posibilidad de necesidad de medicación ansiolítica.también se debe evaluar la presencia de trastornos relacionados con la ansiedad, incluyendo trastorno de estrés postraumático.";
+
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiesta síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
                     break;
                 case "TEN":
-                    escala.puntuacionT = CalculaT(arrayTEN, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 80)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica alterarse con facilidad, ser impaciente con los otros, enojarse con facilidad y algunas veces la persona se siente superada por su ira.";
+                        objInterpretacion.especificaciones = @"Tiene problemas con: el enojo, irritabilidad, baja tolerancia a la frustración, guardar rencor, hace rabietas y es testarudo.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de trastornos relacionados con el enojo";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 65 && objInterpretacion.puntuacionT <= 79)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica tendencias al enojo.";
+                        objInterpretacion.especificaciones = @"Tiene problemas con: el enojo, irritabilidad, baja tolerancia a la frustración, guardar rencor, hace rabietas y es testarudo.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de trastornos relacionados con el enojo";
+
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiesta síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
                     break;
                 case "LCM":
-                    escala.puntuacionT = CalculaT(arrayLCM, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 90)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Reporta múltiples miedos que restringe de manera significativa la actividad normal dentro y fuera de casa, incluyendo miedo a salir de esta, a los espacios abiertos, pequeños espacios, la oscuridad, suciedad, objetos filoso y a portar dinero.";
+                        objInterpretacion.especificaciones = @"Agorafobia.Temores.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar los trastornos de ansiedad, en particular la agorafobia.";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 65 && objInterpretacion.puntuacionT <= 79)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica múltiples miedos que restringe la actividad normal dentro y fuera de casa.";
+                        objInterpretacion.especificaciones = @"Agorafobia.Temores.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar los trastornos de ansiedad, en particular la agorafobia.";
+
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiesta síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
                     break;
                 case "MEM":
-                    escala.puntuacionT = CalculaT(arrayMEM, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 78)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica miedos específicos múltiples como a la sangre, fuego, agua, truenos, desastres naturales, arañas, ratones y otros animales";
+                        objInterpretacion.especificaciones = @"Aversión al riesgo y evitación al daño.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de fobias especificas";
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 65 && objInterpretacion.puntuacionT <= 77)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica miedos específicos múltiples a ciertos animales y eventos de la naturaleza.";
+                        objInterpretacion.especificaciones = @"Aversión al riesgo y evitación al daño.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de fobias especificas";
+
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 40 && objInterpretacion.puntuacionT <= 64)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiesta síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica un numero de miedos específicos menor al promedio";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+
+                    }
                     break;
                 case "PCIJ":
-                    escala.puntuacionT = CalculaT(arrayPCIJ, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 80)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica una historia de problemas conductuales juveniles como problemas de conducta en la escuela, robo y ser influenciado de manera negativa por sus pares.";
+                        objInterpretacion.especificaciones = @"Tiene una historia de delincuencia juvenil, criminal y conducta antisocial. Experimenta relaciones interpersonales conflictivas. Se involucra en conductas de acting out. Tiene dificultades con las figuras de autoridad.Tiene dificultades para confiar en otros.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de trastornos externalizados, en particular el trastorno de personalidad antisocial.";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 65 && objInterpretacion.puntuacionT <= 79)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica una historia de problemas conductuales en la escuela ";
+                        objInterpretacion.especificaciones = @"Tiene una historia de delincuencia juvenil, criminal y conducta antisocial. Experimenta relaciones interpersonales conflictivas. Se involucra en conductas de acting out. Tiene dificultades con las figuras de autoridad.Tiene dificultades para confiar en otros.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de trastornos externalizados, en particular el trastorno de personalidad antisocial.";
+
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiesta síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
                     break;
                 case "ABS":
-                    escala.puntuacionT = CalculaT(arrayABS, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 80)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Una historia significativa de abuso de sustancias. Abuso de sustancias en la actualidad. Uso frecuente de alcohol y drogas. Uso de alcohol para relajarse y despejarse.";
+                        objInterpretacion.especificaciones = @"Tiene una historia de uso problemático con alcohol o drogas.Ha tenido problemas legales como resultado del abuso de sustancias. Es una persona en busca de sensaciones.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de trastornos relacionados con el uso de sustancias";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 65 && objInterpretacion.puntuacionT <= 79)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica un abuso significativo de sustancias en el pasado y en  la actualidad.";
+                        objInterpretacion.especificaciones = @"Tiene una historia de uso problemático con alcohol o drogas.Ha tenido problemas legales como resultado del abuso de sustancias. Es una persona en busca de sensaciones.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de trastornos relacionados con el uso de sustancias";
+
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiesta síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
                     break;
                 case "AG":
-                    escala.puntuacionT = CalculaT(arrayAG, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 80)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica involucramiento en agresión física y conducta violenta, incluyendo conductas explosivas y alteraciones físicas; disfruta intimidar a los otros";
+                        objInterpretacion.especificaciones = @"Tiene una historia de conductas violentas hacia otros.Es abusivo y experimenta problemas relacionados con el enojo.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de trastornos asociados con la agresión interpersonal.";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 65 && objInterpretacion.puntuacionT <= 79)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica involucramiento en agresión física, conducta violenta y perdida de control.";
+                        objInterpretacion.especificaciones = @"Tiene una historia de conductas violentas hacia otros.Es abusivo y experimenta problemas relacionados con el enojo.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de trastornos asociados con la agresión interpersonal.";
+
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica un nivel por debajo del promedio de conductas agresivas.";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
                     break;
                 case "EUF":
-                    escala.puntuacionT = CalculaT(arrayEUF, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 80)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica episodios de un alto nivel de excitación y energía, cambios de humor incontrolables y falta de sueño.";
+                        objInterpretacion.especificaciones = @"Tiene una historia de episodios maniacos o hipomaniacos";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de episodios maniacos e hipomaniacos con condiciones asociadas con energía excesiva y activación.";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 65 && objInterpretacion.puntuacionT <= 79)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica episodios de un alto nivel de energía y excitación.";
+                        objInterpretacion.especificaciones = @"Experimenta activación excesiva.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de episodios maniacos e hipomaniacos con condiciones asociadas con energía excesiva y activación.";
+
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica un nivel por debajo del promedio de energía y activación.";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
                     break;
                 case "PFA":
-                    escala.puntuacionT = CalculaT(arrayPFA, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 80)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica relaciones conflictivas con la familia y falta de apoyo de los miembros de la misma. Las experiencias y actitudes negativas en la familia incluyen peleas frecuentes, disgustando por los miembros de la familia, sentirse despreciado por los mismo; además, la persona siente que no puede contar con ellos ante una necesidad.";
+                        objInterpretacion.especificaciones = @"Tiene conflictos familiares. Experimenta un pobre funcionamiento familiar.Tiene sentimientos negativos hacia los miembros de su familia.Culpa a los miembros de su familia de sus dificultades.";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 65 && objInterpretacion.puntuacionT <= 79)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica relaciones familiares conflictivas y falta de apoyo de los miembros de la familia.";
+                        objInterpretacion.especificaciones = @"Tiene conflictos familiares. Experimenta un pobre funcionamiento familiar.Tiene sentimientos negativos hacia los miembros de su familia.Culpa a los miembros de su familia de sus dificultades.";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica estar relativamente libre de conflictos familiares en el pasado y en la actualidad.";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
                     break;
                 case "PIP":
-                    escala.puntuacionT = CalculaT(arrayPIP, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 80)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica: que no es asertivo. Que no le gusta estar a cargo de otros. Dificultad para recuperarse por si mismo. Dispuesto a obedecer a otros (ceder).";
+                        objInterpretacion.especificaciones = @"Es pasivo y sumiso en las relaciones interpersonales además de que es sobre controlado.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de trastornos caracterizados por conductas pasivas y sumisas, como el trastorno de la personalidad por dependencia.";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 65 && objInterpretacion.puntuacionT <= 79)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica que no es asertivo.";
+                        objInterpretacion.especificaciones = @"Es pasivo y sumiso en las relaciones interpersonales además de que es sobre controlado.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de trastornos caracterizados por conductas pasivas y sumisas, como el trastorno de la personalidad por dependencia.";
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 40 && objInterpretacion.puntuacionT <= 64)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiesta síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Se describe a si mismo como: una persona con opiniones positivas acerca de si mismo. Se recupera por si mismo. Es asertivo y directo. Es capaz de ser líder";
+                        objInterpretacion.especificaciones = @"Creencia de que tiene capacidad de líder, pero es probable que los otros lo vean como dominante.Centrado en si mismo y posiblemente ambicioso.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar las características asociadas con trastorno narcisista de la personalidad";
+                    }
                     break;
                 case "ESO":
-                    escala.puntuacionT = CalculaT(arrayESO, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 80)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica: que no es asertivo. Que no le gusta estar a cargo de otros. Dificultad para recuperarse por si mismo. Dispuesto a obedecer a otros (ceder).";
+                        objInterpretacion.especificaciones = @"Es pasivo y sumiso en las relaciones interpersonales además de que es sobre controlado.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de trastornos caracterizados por conductas pasivas y sumisas, como el trastorno de la personalidad por dependencia.";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 65 && objInterpretacion.puntuacionT <= 79)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica que no es asertivo.";
+                        objInterpretacion.especificaciones = @"Es pasivo y sumiso en las relaciones interpersonales además de que es sobre controlado.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de trastornos caracterizados por conductas pasivas y sumisas, como el trastorno de la personalidad por dependencia.";
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 40 && objInterpretacion.puntuacionT <= 64)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiesta síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Se describe a si mismo como: una persona con opiniones positivas acerca de si mismo. Se recupera por si mismo. Es asertivo y directo. Es capaz de ser líder";
+                        objInterpretacion.especificaciones = @"Creencia de que tiene capacidad de líder, pero es probable que los otros lo vean como dominante.Centrado en si mismo y posiblemente ambicioso.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar las características asociadas con trastorno narcisista de la personalidad";
+
+                    }
                     break;
                 case "TIM":
-                    escala.puntuacionT = CalculaT(arrayTIM, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 65)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica timidez, la persona se avergüenza con facilidad y se siente incomoda cerca de los otros. ";
+                        objInterpretacion.especificaciones = @"Es sociablemente introvertido e inhibido. Es ansioso y nervioso en situaciones sociales.Por lo general es ansioso.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de fobia social";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 40 && objInterpretacion.puntuacionT <= 64)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiesta síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"Es sociablemente introvertido e inhibido. Es ansioso y nervioso en situaciones sociales.Por lo general es ansioso.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de fobia social";
+
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica poca o ninguna ansiedad social.";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
                     break;
                 case "DES":
-                    escala.puntuacionT = CalculaT(arrayDES, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 100)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica disgusto por las personas que se encuentran a su alrededor, prefiere estar solo, nunca ha tenido una relación cercana,";
+                        objInterpretacion.especificaciones = @"Es asocial";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de trastornos de personalidad esquizoides";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 80 && objInterpretacion.puntuacionT <= 99)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica desagrado hacia las personas, así como desagrado a estar cerca de ellas, prefiere estar solo.";
+                        objInterpretacion.especificaciones = @"Es asocial";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 65 && objInterpretacion.puntuacionT <= 79)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica desagrado hacia las personas y por estar cerca de ellas.";
+                        objInterpretacion.especificaciones = @"Es asocial";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+                    }
+
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiesta síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
                     break;
                 case "IEL":
-                    escala.puntuacionT = CalculaT(arrayIEL, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 65)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica un interés por arriba del promedio en actividades u ocupaciones de naturaleza estética o literaria (escribir, música, teatro).";
+                        objInterpretacion.especificaciones = @"Es empático y sensible.";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 40 && objInterpretacion.puntuacionT <= 64)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiesta síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica nulos intereses por actividades u ocupaciones de naturaleza estética o literario (escribir, música, teatro)";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
                     break;
                 case "IFM":
-                    escala.puntuacionT = CalculaT(arrayIFM, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 78)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica un interés muy alto en actividades u ocupaciones de naturaleza física o mecánica (construir cosas, deporte y actividades al aire libre).";
+                        objInterpretacion.especificaciones = @"Busca tener aventuras, además de que es una persona que continuamente busca sensaciones.";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 65 && objInterpretacion.puntuacionT <= 77)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica un interés por arriba del promedio en actividades u ocupaciones de naturaleza física o mecánica (construir cosas, deportes y actividades al aire libre).";
+                        objInterpretacion.especificaciones = @"Busca tener aventuras, además de que es una persona que continuamente busca sensaciones.";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 40 && objInterpretacion.puntuacionT <= 64)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiesta síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica nulos intereses en actividades u ocupaciones de naturaleza física o mecánica (construir cosas, hacer deporte y actividades al aire libre).";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
                     break;
                 case "AGGR-R":
-                    escala.puntuacionT = CalculaT(arrayAGGR, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 65)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica ser agresivo y asertivo a nivel interpersonal";
+                        objInterpretacion.especificaciones = @"Es asertivo y socialmente dominante. Se involucra en conductas agresivas instrumentales. Cree que tiene capacidades de líder. Es visto por otros como dominante.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de trastornos de personalidad del grupo B";
+                    }
+                    else if (objInterpretacion.puntuacionT >= 40 && objInterpretacion.puntuacionT <= 64)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiesta síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica ser sumiso y pasivo a nivel interpersonal.";
+                        objInterpretacion.especificaciones = @"Es pasivo y sumiso en sus relaciones interpersonales.";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
                     break;
                 case "PSYC-R":
-                    escala.puntuacionT = CalculaT(arrayPSYC, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 65)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica diversas experiencias asociadas con alteración en el pensamiento.";
+                        objInterpretacion.especificaciones = @"Experimenta procesos de pensamientos inusuales y fenómenos perceptuales.Esta alejado de los demás(se siente ajeno / diferente a los demás).Presenta un pensamiento poco realista. Presenta deterioro en la prueba de realidad.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de trastornos de personalidad del grupo A";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 40 && objInterpretacion.puntuacionT <= 64)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiesta síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"No indica experiencias de alteración en el pensamiento.";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
                     break;
                 case "DISC-R":
-                    escala.puntuacionT = CalculaT(arrayDISC, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 65)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica diversas manifestaciones de conducta no reservada";
+                        objInterpretacion.especificaciones = @"Es conductualmente desinhibido. Se involucra en conductas de acting out. Actúa de manera impulsiva. Busca experimenta nuevas excitantes.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de trastornos de la personalidad del grupo B";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 40 && objInterpretacion.puntuacionT <= 64)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiesta síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica comportamiento excesivamente reservado.";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
                     break;
                 case "NEGE-R":
-                    escala.puntuacionT = CalculaT(arrayNEGE, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 65)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica diversas experiencias de emociones negativas.";
+                        objInterpretacion.especificaciones = @"Experimenta diversas emociones negativas que incluyen: ansiedad, inseguridad, preocupación.Es inhibido debido a sus emociones negativas.Es autocritico y propenso a culparse. Experimenta ideas intrusivas.";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar los trastornos de personalidad del grupo C";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 40 && objInterpretacion.puntuacionT <= 64)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiesta síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica un nivel por debajo del promedio de experiencias emocionales negativas.";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
                     break;
                 case "INTR-R":
-                    escala.puntuacionT = CalculaT(arrayINTR, escala.puntuacionNatural);
+                    if (objInterpretacion.puntuacionT >= 65)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica: una perdida de experiencias emocionales positivas. Evitación de situaciones sociales.";
+                        objInterpretacion.especificaciones = @"Carece de experiencias emocionales positivas. Experimenta problemas significativos de anhedonia.Se queja de depresión. Falta de interés.Es pesimista. Es socialmente introvertido";
+                        objInterpretacion.correlacionesEmpiricas = @"Evaluar la presencia de trastornos de personalidad del grupo C";
+
+
+                    }
+                    else if (objInterpretacion.puntuacionT >= 40 && objInterpretacion.puntuacionT <= 64)
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Las respuestas no manifiesta síntomas alarmantes";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
+                    else
+                    {
+                        objInterpretacion.respuestasALaPrueba = @"Indica sentimientos de energía y tiene muchas experiencias emocionales positivas.";
+                        objInterpretacion.especificaciones = @"Ninguna";
+                        objInterpretacion.correlacionesEmpiricas = @"Ninguna";
+
+
+                    }
                     break;
+
             }
+            return objInterpretacion;
         }
     }
 }

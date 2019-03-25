@@ -143,6 +143,8 @@
             this.pnlEncabezado = new MetroFramework.Controls.MetroPanel();
             this.lblSinContestar = new System.Windows.Forms.Label();
             this.tbInterpretacion = new MetroFramework.Controls.MetroTabPage();
+            this.pnlSecundario = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.pnlEscalasValidez1 = new MetroFramework.Controls.MetroPanel();
             this.tblLayEscalasValidez = new System.Windows.Forms.TableLayoutPanel();
             this.txtConclusionGral = new System.Windows.Forms.TextBox();
@@ -203,8 +205,6 @@
             this.lblSinContestarPuntuacion = new MetroFramework.Controls.MetroLabel();
             this.lblSincontestarSigla = new MetroFramework.Controls.MetroLabel();
             this.lstEscalasBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pnlSecundario = new System.Windows.Forms.FlowLayoutPanel();
             this.tbInterpretación.SuspendLayout();
             this.tbResultados.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdPSY5)).BeginInit();
@@ -1392,6 +1392,23 @@
             this.tbInterpretacion.VerticalScrollbarHighlightOnWheel = false;
             this.tbInterpretacion.VerticalScrollbarSize = 10;
             // 
+            // pnlSecundario
+            // 
+            this.pnlSecundario.AutoScroll = true;
+            this.pnlSecundario.BackColor = System.Drawing.Color.Transparent;
+            this.pnlSecundario.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlSecundario.Location = new System.Drawing.Point(0, 547);
+            this.pnlSecundario.Name = "pnlSecundario";
+            this.pnlSecundario.Size = new System.Drawing.Size(1039, 344);
+            this.pnlSecundario.TabIndex = 5;
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(-27, -84);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 100);
+            this.panel1.TabIndex = 4;
+            // 
             // pnlEscalasValidez1
             // 
             this.pnlEscalasValidez1.AutoScroll = true;
@@ -1937,7 +1954,7 @@
             this.metroLabel19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel19.Location = new System.Drawing.Point(3, 384);
             this.metroLabel19.Name = "metroLabel19";
-            this.metroLabel19.Size = new System.Drawing.Size(60, 55);
+            this.metroLabel19.Size = new System.Drawing.Size(61, 55);
             this.metroLabel19.TabIndex = 20;
             this.metroLabel19.Text = "K-R";
             this.metroLabel19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1948,7 +1965,7 @@
             this.metroLabel20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel20.Location = new System.Drawing.Point(3, 336);
             this.metroLabel20.Name = "metroLabel20";
-            this.metroLabel20.Size = new System.Drawing.Size(60, 48);
+            this.metroLabel20.Size = new System.Drawing.Size(61, 48);
             this.metroLabel20.TabIndex = 19;
             this.metroLabel20.Text = "L-R";
             this.metroLabel20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1959,7 +1976,7 @@
             this.metroLabel21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel21.Location = new System.Drawing.Point(3, 288);
             this.metroLabel21.Name = "metroLabel21";
-            this.metroLabel21.Size = new System.Drawing.Size(60, 48);
+            this.metroLabel21.Size = new System.Drawing.Size(61, 48);
             this.metroLabel21.TabIndex = 18;
             this.metroLabel21.Text = "SI";
             this.metroLabel21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1970,7 +1987,7 @@
             this.metroLabel22.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel22.Location = new System.Drawing.Point(3, 240);
             this.metroLabel22.Name = "metroLabel22";
-            this.metroLabel22.Size = new System.Drawing.Size(60, 48);
+            this.metroLabel22.Size = new System.Drawing.Size(61, 48);
             this.metroLabel22.TabIndex = 17;
             this.metroLabel22.Text = "FVS-R";
             this.metroLabel22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1981,7 +1998,7 @@
             this.metroLabel23.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel23.Location = new System.Drawing.Point(3, 192);
             this.metroLabel23.Name = "metroLabel23";
-            this.metroLabel23.Size = new System.Drawing.Size(60, 48);
+            this.metroLabel23.Size = new System.Drawing.Size(61, 48);
             this.metroLabel23.TabIndex = 16;
             this.metroLabel23.Text = "FS";
             this.metroLabel23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1992,7 +2009,7 @@
             this.metroLabel24.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel24.Location = new System.Drawing.Point(3, 144);
             this.metroLabel24.Name = "metroLabel24";
-            this.metroLabel24.Size = new System.Drawing.Size(60, 48);
+            this.metroLabel24.Size = new System.Drawing.Size(61, 48);
             this.metroLabel24.TabIndex = 15;
             this.metroLabel24.Text = "FPSI-R";
             this.metroLabel24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2003,7 +2020,7 @@
             this.metroLabel25.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel25.Location = new System.Drawing.Point(3, 96);
             this.metroLabel25.Name = "metroLabel25";
-            this.metroLabel25.Size = new System.Drawing.Size(60, 48);
+            this.metroLabel25.Size = new System.Drawing.Size(61, 48);
             this.metroLabel25.TabIndex = 14;
             this.metroLabel25.Text = "F-R";
             this.metroLabel25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2014,7 +2031,7 @@
             this.metroLabel26.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel26.Location = new System.Drawing.Point(3, 48);
             this.metroLabel26.Name = "metroLabel26";
-            this.metroLabel26.Size = new System.Drawing.Size(60, 48);
+            this.metroLabel26.Size = new System.Drawing.Size(61, 48);
             this.metroLabel26.TabIndex = 14;
             this.metroLabel26.Text = "INVER-R";
             this.metroLabel26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2025,7 +2042,7 @@
             this.metroLabel27.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel27.Location = new System.Drawing.Point(3, 0);
             this.metroLabel27.Name = "metroLabel27";
-            this.metroLabel27.Size = new System.Drawing.Size(60, 48);
+            this.metroLabel27.Size = new System.Drawing.Size(61, 48);
             this.metroLabel27.TabIndex = 13;
             this.metroLabel27.Text = "INVAR-R";
             this.metroLabel27.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2234,23 +2251,6 @@
             // 
             this.lstEscalasBindingSource.DataMember = "lstEscalas";
             this.lstEscalasBindingSource.DataSource = this.escalasDeValidezBindingSource;
-            // 
-            // panel1
-            // 
-            this.panel1.Location = new System.Drawing.Point(-27, -84);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 100);
-            this.panel1.TabIndex = 4;
-            // 
-            // pnlSecundario
-            // 
-            this.pnlSecundario.AutoScroll = true;
-            this.pnlSecundario.BackColor = System.Drawing.Color.Transparent;
-            this.pnlSecundario.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlSecundario.Location = new System.Drawing.Point(0, 547);
-            this.pnlSecundario.Name = "pnlSecundario";
-            this.pnlSecundario.Size = new System.Drawing.Size(1039, 344);
-            this.pnlSecundario.TabIndex = 5;
             // 
             // frmFinal
             // 

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ConsultorioMMPI.Clases.Escalas
 {
-    class objInterpretacion : Escala
+  public  class objInterpretacion : Escala
     {
         public objInterpretacion()
         {
