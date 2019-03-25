@@ -71,6 +71,14 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFinal));
             this.tbInterpretación = new MetroFramework.Controls.MetroTabControl();
             this.tbResultados = new MetroFramework.Controls.MetroTabPage();
@@ -205,6 +213,14 @@
             this.lblSinContestarPuntuacion = new MetroFramework.Controls.MetroLabel();
             this.lblSincontestarSigla = new MetroFramework.Controls.MetroLabel();
             this.lstEscalasBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.grdIntOS = new MetroFramework.Controls.MetroGrid();
+            this.label10 = new System.Windows.Forms.Label();
+            this.objInterpretacionBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataGridViewTextBoxColumn43 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn45 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn41 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn42 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn44 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tbInterpretación.SuspendLayout();
             this.tbResultados.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdPSY5)).BeginInit();
@@ -220,6 +236,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.grdEscalasDeValidez)).BeginInit();
             this.pnlEncabezado.SuspendLayout();
             this.tbInterpretacion.SuspendLayout();
+            this.pnlSecundario.SuspendLayout();
             this.pnlEscalasValidez1.SuspendLayout();
             this.tblLayEscalasValidez.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
@@ -231,6 +248,8 @@
             this.pnlEscalasValidez.SuspendLayout();
             this.tblLaySinContestar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lstEscalasBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdIntOS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objInterpretacionBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // tbInterpretación
@@ -1396,6 +1415,8 @@
             // 
             this.pnlSecundario.AutoScroll = true;
             this.pnlSecundario.BackColor = System.Drawing.Color.Transparent;
+            this.pnlSecundario.Controls.Add(this.label10);
+            this.pnlSecundario.Controls.Add(this.grdIntOS);
             this.pnlSecundario.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlSecundario.Location = new System.Drawing.Point(0, 547);
             this.pnlSecundario.Name = "pnlSecundario";
@@ -2252,6 +2273,130 @@
             this.lstEscalasBindingSource.DataMember = "lstEscalas";
             this.lstEscalasBindingSource.DataSource = this.escalasDeValidezBindingSource;
             // 
+            // grdIntOS
+            // 
+            this.grdIntOS.AutoGenerateColumns = false;
+            this.grdIntOS.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.grdIntOS.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.grdIntOS.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdIntOS.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.grdIntOS.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.grdIntOS.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle43.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle43.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle43.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle43.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdIntOS.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle43;
+            this.grdIntOS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdIntOS.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn43,
+            this.dataGridViewTextBoxColumn45,
+            this.dataGridViewTextBoxColumn41,
+            this.dataGridViewTextBoxColumn42,
+            this.dataGridViewTextBoxColumn44});
+            this.grdIntOS.DataSource = this.objInterpretacionBindingSource;
+            dataGridViewCellStyle49.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle49.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle49.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle49.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle49.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle49.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grdIntOS.DefaultCellStyle = dataGridViewCellStyle49;
+            this.grdIntOS.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grdIntOS.EnableHeadersVisualStyles = false;
+            this.grdIntOS.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.grdIntOS.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdIntOS.Location = new System.Drawing.Point(3, 26);
+            this.grdIntOS.Name = "grdIntOS";
+            this.grdIntOS.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle50.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle50.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle50.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle50.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdIntOS.RowHeadersDefaultCellStyle = dataGridViewCellStyle50;
+            this.grdIntOS.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.grdIntOS.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.grdIntOS.Size = new System.Drawing.Size(1039, 130);
+            this.grdIntOS.StandardTab = true;
+            this.grdIntOS.TabIndex = 7;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label10.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.DarkRed;
+            this.label10.Location = new System.Drawing.Point(3, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(318, 23);
+            this.label10.TabIndex = 6;
+            this.label10.Text = "ESCALAS DE ORDEN SUPERIOR OS (H-O)";
+            // 
+            // objInterpretacionBindingSource
+            // 
+            this.objInterpretacionBindingSource.DataSource = typeof(ConsultorioMMPI.Clases.Escalas.objInterpretacion);
+            // 
+            // dataGridViewTextBoxColumn43
+            // 
+            this.dataGridViewTextBoxColumn43.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn43.DataPropertyName = "siglas";
+            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn43.DefaultCellStyle = dataGridViewCellStyle44;
+            this.dataGridViewTextBoxColumn43.HeaderText = "Siglas";
+            this.dataGridViewTextBoxColumn43.Name = "dataGridViewTextBoxColumn43";
+            this.dataGridViewTextBoxColumn43.ReadOnly = true;
+            this.dataGridViewTextBoxColumn43.Width = 63;
+            // 
+            // dataGridViewTextBoxColumn45
+            // 
+            this.dataGridViewTextBoxColumn45.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn45.DataPropertyName = "puntuacionT";
+            dataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn45.DefaultCellStyle = dataGridViewCellStyle45;
+            this.dataGridViewTextBoxColumn45.HeaderText = "Puntuación-T";
+            this.dataGridViewTextBoxColumn45.Name = "dataGridViewTextBoxColumn45";
+            this.dataGridViewTextBoxColumn45.ReadOnly = true;
+            this.dataGridViewTextBoxColumn45.Width = 103;
+            // 
+            // dataGridViewTextBoxColumn41
+            // 
+            this.dataGridViewTextBoxColumn41.DataPropertyName = "respuestasALaPrueba";
+            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.dataGridViewTextBoxColumn41.DefaultCellStyle = dataGridViewCellStyle46;
+            this.dataGridViewTextBoxColumn41.HeaderText = "Respuestas a la prueba";
+            this.dataGridViewTextBoxColumn41.Name = "dataGridViewTextBoxColumn41";
+            this.dataGridViewTextBoxColumn41.ReadOnly = true;
+            this.dataGridViewTextBoxColumn41.Width = 96;
+            // 
+            // dataGridViewTextBoxColumn42
+            // 
+            this.dataGridViewTextBoxColumn42.DataPropertyName = "especificaciones";
+            dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.dataGridViewTextBoxColumn42.DefaultCellStyle = dataGridViewCellStyle47;
+            this.dataGridViewTextBoxColumn42.HeaderText = "Especificaciones";
+            this.dataGridViewTextBoxColumn42.Name = "dataGridViewTextBoxColumn42";
+            this.dataGridViewTextBoxColumn42.ReadOnly = true;
+            this.dataGridViewTextBoxColumn42.Width = 121;
+            // 
+            // dataGridViewTextBoxColumn44
+            // 
+            this.dataGridViewTextBoxColumn44.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn44.DataPropertyName = "puntuacionNatural";
+            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn44.DefaultCellStyle = dataGridViewCellStyle48;
+            this.dataGridViewTextBoxColumn44.HeaderText = "Correlaciones empíricas";
+            this.dataGridViewTextBoxColumn44.Name = "dataGridViewTextBoxColumn44";
+            this.dataGridViewTextBoxColumn44.ReadOnly = true;
+            this.dataGridViewTextBoxColumn44.Width = 149;
+            // 
             // frmFinal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2284,6 +2429,8 @@
             this.pnlEncabezado.ResumeLayout(false);
             this.pnlEncabezado.PerformLayout();
             this.tbInterpretacion.ResumeLayout(false);
+            this.pnlSecundario.ResumeLayout(false);
+            this.pnlSecundario.PerformLayout();
             this.pnlEscalasValidez1.ResumeLayout(false);
             this.tblLayEscalasValidez.ResumeLayout(false);
             this.tblLayEscalasValidez.PerformLayout();
@@ -2302,6 +2449,8 @@
             this.tblLaySinContestar.ResumeLayout(false);
             this.tblLaySinContestar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lstEscalasBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdIntOS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objInterpretacionBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2441,5 +2590,13 @@
         private System.Windows.Forms.TextBox txtConclusion1;
         private System.Windows.Forms.FlowLayoutPanel pnlSecundario;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label10;
+        private MetroFramework.Controls.MetroGrid grdIntOS;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn43;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn45;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn41;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn42;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn44;
+        private System.Windows.Forms.BindingSource objInterpretacionBindingSource;
     }
 }

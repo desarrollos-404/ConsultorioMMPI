@@ -272,6 +272,7 @@
     <None Include="Properties\app.manifest">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Properties\DataSources\ConsultorioMMPI.Clases.Escalas.objInterpretacion.datasource" />
     <None Include="Properties\DataSources\ConsultorioMMPI.Clases.Sexos.datasource" />
     <None Include="Properties\DataSources\ConsultorioMMPI.DataBase.UsuarioAcceso.datasource" />
     <None Include="Properties\Settings.settings">

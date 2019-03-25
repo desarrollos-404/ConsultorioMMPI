@@ -236,9 +236,10 @@ namespace ConsultorioMMPI.Clases
                     //    break;
             }
         }
-        public static objInterpretacion InterPretacionConclusion(objInterpretacion objInterpretacion)
+        public static objInterpretacion InterPretacionConclusion(Escala escala)
         {
-            switch (objInterpretacion.siglas)
+            objInterpretacion objInterpretacion = new objInterpretacion();
+            switch (escala.siglas)
             {
                 #region Orden superior
                 case "AE/PI":

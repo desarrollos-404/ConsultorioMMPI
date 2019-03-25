@@ -39,15 +39,18 @@ namespace ConsultorioMMPI
 
         private void CargarGridsInterpretaciones(RespuestaEscalas objResultados)
         {
-            Type myType = objResultados.GetType();
-            IList<PropertyInfo> props = new List<PropertyInfo>(myType.GetProperties());
 
-            foreach (PropertyInfo prop in props)
-            {
-                object propValue = prop.GetValue(objResultados, null);
+            List<objInterpretacion> lstInterpretacionOrdenSuperior = (from obj in objResultados.escalasDeOrdenSuperior.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
+            List<objInterpretacion> lstInterpretacionClincasReestructuradas = (from obj in objResultados.escalasDeClinicasReestructuradas.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
+            List<objInterpretacion> lstInterpretacionSomaticosCognitivos = (from obj in objResultados.somaticosCognitivos.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
+            List<objInterpretacion> lstInterpretacionProblemasInternalizados = (from obj in objResultados.escalasDeProblemasInternalizados.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
+            List<objInterpretacion> lstInterpretacionProblemasExternalizados = (from obj in objResultados.escalasDeProblemasExternalizados.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
+            List<objInterpretacion> lstInterpretacionProblemasInterpersonales = (from obj in objResultados.escalasDeProblemasInterpersonales.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
+            List<objInterpretacion> lstInterpretacionInteresEspecifico = (from obj in objResultados.escalasDeInteresEspecifico.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
+            List<objInterpretacion> lstInterpretacionPSY_5 = (from obj in objResultados.escalasDePSY_5.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
 
-                // Do something with propValue
-            }
+            grdIntOS.DataSource = lstInterpretacionOrdenSuperior;
+
         }
 
         private void CargarEscalasDeValidez(EscalasDeValidez escalasDeValidez)
