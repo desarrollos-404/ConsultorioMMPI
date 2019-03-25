@@ -2321,9 +2321,9 @@
             dataGridViewCellStyle50.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             dataGridViewCellStyle50.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.grdIntOS.RowHeadersDefaultCellStyle = dataGridViewCellStyle50;
-            this.grdIntOS.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.grdIntOS.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToDisplayedHeaders;
             this.grdIntOS.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdIntOS.Size = new System.Drawing.Size(1039, 130);
+            this.grdIntOS.Size = new System.Drawing.Size(1039, 243);
             this.grdIntOS.StandardTab = true;
             this.grdIntOS.TabIndex = 7;
             // 

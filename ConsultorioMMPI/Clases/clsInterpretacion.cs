@@ -238,7 +238,7 @@ namespace ConsultorioMMPI.Clases
         }
         public static objInterpretacion InterPretacionConclusion(Escala escala)
         {
-            objInterpretacion objInterpretacion = new objInterpretacion();
+            objInterpretacion objInterpretacion = new objInterpretacion() { puntuacionT = escala.puntuacionT, siglas = escala.siglas };
             switch (escala.siglas)
             {
                 #region Orden superior
