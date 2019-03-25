@@ -203,6 +203,8 @@
             this.lblSinContestarPuntuacion = new MetroFramework.Controls.MetroLabel();
             this.lblSincontestarSigla = new MetroFramework.Controls.MetroLabel();
             this.lstEscalasBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlSecundario = new System.Windows.Forms.FlowLayoutPanel();
             this.tbInterpretación.SuspendLayout();
             this.tbResultados.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdPSY5)).BeginInit();
@@ -1372,6 +1374,8 @@
             // tbInterpretacion
             // 
             this.tbInterpretacion.AutoScroll = true;
+            this.tbInterpretacion.Controls.Add(this.pnlSecundario);
+            this.tbInterpretacion.Controls.Add(this.panel1);
             this.tbInterpretacion.Controls.Add(this.pnlEscalasValidez1);
             this.tbInterpretacion.Controls.Add(this.pnlEscalasValidez);
             this.tbInterpretacion.HorizontalScrollbar = true;
@@ -1402,7 +1406,7 @@
             this.pnlEscalasValidez1.HorizontalScrollbarSize = 10;
             this.pnlEscalasValidez1.Location = new System.Drawing.Point(0, 46);
             this.pnlEscalasValidez1.Name = "pnlEscalasValidez1";
-            this.pnlEscalasValidez1.Size = new System.Drawing.Size(1056, 501);
+            this.pnlEscalasValidez1.Size = new System.Drawing.Size(1039, 501);
             this.pnlEscalasValidez1.TabIndex = 3;
             this.pnlEscalasValidez1.VerticalScrollbar = true;
             this.pnlEscalasValidez1.VerticalScrollbarBarColor = true;
@@ -1436,14 +1440,14 @@
             this.tblLayEscalasValidez.RowCount = 2;
             this.tblLayEscalasValidez.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tblLayEscalasValidez.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tblLayEscalasValidez.Size = new System.Drawing.Size(1056, 475);
+            this.tblLayEscalasValidez.Size = new System.Drawing.Size(1039, 475);
             this.tblLayEscalasValidez.TabIndex = 2;
             // 
             // txtConclusionGral
             // 
             this.txtConclusionGral.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtConclusionGral.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtConclusionGral.Location = new System.Drawing.Point(853, 33);
+            this.txtConclusionGral.Location = new System.Drawing.Point(838, 33);
             this.txtConclusionGral.Multiline = true;
             this.txtConclusionGral.Name = "txtConclusionGral";
             this.txtConclusionGral.Size = new System.Drawing.Size(144, 439);
@@ -1464,7 +1468,7 @@
             this.tableLayoutPanel5.Controls.Add(this.lblIMPfpsir, 0, 3);
             this.tableLayoutPanel5.Controls.Add(this.lblIMPfr, 0, 2);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(383, 33);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(378, 33);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 9;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
@@ -1477,7 +1481,7 @@
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(252, 439);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(247, 439);
             this.tableLayoutPanel5.TabIndex = 11;
             this.tableLayoutPanel5.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel5_Paint);
             // 
@@ -1644,7 +1648,7 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(254, 439);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(249, 439);
             this.tableLayoutPanel4.TabIndex = 16;
             // 
             // lblINQkr
@@ -2054,7 +2058,7 @@
             this.metroLabel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel3.Location = new System.Drawing.Point(123, 0);
             this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(254, 30);
+            this.metroLabel3.Size = new System.Drawing.Size(249, 30);
             this.metroLabel3.TabIndex = 3;
             this.metroLabel3.Text = "INQUIETUDES EN LA VALIDEZ DEL PROTOCOLO";
             this.metroLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2063,9 +2067,9 @@
             // 
             this.metroLabel4.AutoSize = true;
             this.metroLabel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroLabel4.Location = new System.Drawing.Point(383, 0);
+            this.metroLabel4.Location = new System.Drawing.Point(378, 0);
             this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(252, 30);
+            this.metroLabel4.Size = new System.Drawing.Size(247, 30);
             this.metroLabel4.TabIndex = 4;
             this.metroLabel4.Text = "IMPLICACIONES PARA LA INTERPRETACIÓN";
             this.metroLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2074,9 +2078,9 @@
             // 
             this.metroLabel5.AutoSize = true;
             this.metroLabel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroLabel5.Location = new System.Drawing.Point(641, 0);
+            this.metroLabel5.Location = new System.Drawing.Point(631, 0);
             this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.Size = new System.Drawing.Size(150, 30);
+            this.metroLabel5.Size = new System.Drawing.Size(147, 30);
             this.metroLabel5.TabIndex = 5;
             this.metroLabel5.Text = "CONCLUSIÓN";
             this.metroLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2085,9 +2089,9 @@
             // 
             this.metroLabel6.AutoSize = true;
             this.metroLabel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroLabel6.Location = new System.Drawing.Point(797, 0);
+            this.metroLabel6.Location = new System.Drawing.Point(784, 0);
             this.metroLabel6.Name = "metroLabel6";
-            this.metroLabel6.Size = new System.Drawing.Size(256, 30);
+            this.metroLabel6.Size = new System.Drawing.Size(252, 30);
             this.metroLabel6.TabIndex = 6;
             this.metroLabel6.Text = "CONCLUSIÓN GENERAL";
             this.metroLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2101,12 +2105,12 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.txtConclusion2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.txtConclusion1, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(641, 33);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(631, 33);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 22.22F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 77.78F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(150, 439);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(147, 439);
             this.tableLayoutPanel1.TabIndex = 17;
             // 
             // txtConclusion2
@@ -2116,7 +2120,7 @@
             this.txtConclusion2.Location = new System.Drawing.Point(3, 100);
             this.txtConclusion2.Multiline = true;
             this.txtConclusion2.Name = "txtConclusion2";
-            this.txtConclusion2.Size = new System.Drawing.Size(144, 336);
+            this.txtConclusion2.Size = new System.Drawing.Size(141, 336);
             this.txtConclusion2.TabIndex = 1;
             this.txtConclusion2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -2124,7 +2128,7 @@
             // 
             this.txtConclusion1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtConclusion1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtConclusion1.Location = new System.Drawing.Point(25, 3);
+            this.txtConclusion1.Location = new System.Drawing.Point(23, 3);
             this.txtConclusion1.Multiline = true;
             this.txtConclusion1.Name = "txtConclusion1";
             this.txtConclusion1.Size = new System.Drawing.Size(100, 91);
@@ -2139,7 +2143,7 @@
             this.pnllTitulo1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnllTitulo1.Location = new System.Drawing.Point(0, 0);
             this.pnllTitulo1.Name = "pnllTitulo1";
-            this.pnllTitulo1.Size = new System.Drawing.Size(1056, 26);
+            this.pnllTitulo1.Size = new System.Drawing.Size(1039, 26);
             this.pnllTitulo1.TabIndex = 4;
             // 
             // label9
@@ -2150,7 +2154,7 @@
             this.label9.ForeColor = System.Drawing.Color.DarkRed;
             this.label9.Location = new System.Drawing.Point(0, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(1056, 23);
+            this.label9.Size = new System.Drawing.Size(1039, 23);
             this.label9.TabIndex = 3;
             this.label9.Text = "ESCALAS DE VALIDEZ";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2169,7 +2173,7 @@
             this.pnlEscalasValidez.HorizontalScrollbarSize = 10;
             this.pnlEscalasValidez.Location = new System.Drawing.Point(0, 0);
             this.pnlEscalasValidez.Name = "pnlEscalasValidez";
-            this.pnlEscalasValidez.Size = new System.Drawing.Size(1056, 46);
+            this.pnlEscalasValidez.Size = new System.Drawing.Size(1039, 46);
             this.pnlEscalasValidez.TabIndex = 2;
             this.pnlEscalasValidez.VerticalScrollbar = true;
             this.pnlEscalasValidez.VerticalScrollbarBarColor = true;
@@ -2191,14 +2195,12 @@
             this.tblLaySinContestar.RowCount = 1;
             this.tblLaySinContestar.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tblLaySinContestar.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 55F));
-            this.tblLaySinContestar.Size = new System.Drawing.Size(1039, 55);
+            this.tblLaySinContestar.Size = new System.Drawing.Size(1022, 55);
             this.tblLaySinContestar.TabIndex = 2;
             // 
             // lblSinContestarDescripcion
             // 
-            this.lblSinContestarDescripcion.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblSinContestarDescripcion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.lblSinContestarDescripcion.Location = new System.Drawing.Point(123, 0);
             this.lblSinContestarDescripcion.Name = "lblSinContestarDescripcion";
             this.lblSinContestarDescripcion.Size = new System.Drawing.Size(913, 55);
@@ -2232,6 +2234,23 @@
             // 
             this.lstEscalasBindingSource.DataMember = "lstEscalas";
             this.lstEscalasBindingSource.DataSource = this.escalasDeValidezBindingSource;
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(-27, -84);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 100);
+            this.panel1.TabIndex = 4;
+            // 
+            // pnlSecundario
+            // 
+            this.pnlSecundario.AutoScroll = true;
+            this.pnlSecundario.BackColor = System.Drawing.Color.Transparent;
+            this.pnlSecundario.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlSecundario.Location = new System.Drawing.Point(0, 547);
+            this.pnlSecundario.Name = "pnlSecundario";
+            this.pnlSecundario.Size = new System.Drawing.Size(1039, 344);
+            this.pnlSecundario.TabIndex = 5;
             // 
             // frmFinal
             // 
@@ -2420,5 +2439,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TextBox txtConclusion2;
         private System.Windows.Forms.TextBox txtConclusion1;
+        private System.Windows.Forms.FlowLayoutPanel pnlSecundario;
+        private System.Windows.Forms.Panel panel1;
     }
 }
