@@ -140,7 +140,7 @@
     </Compile>
     <Compile Include="Clases\ClasesGenericas.cs" />
     <Compile Include="Clases\Encriptar.cs" />
-    <Compile Include="Clases\Escalas\objInterpretacion.cs" />
+    <Compile Include="Clases\Escalas\Interpretacion.cs" />
     <Compile Include="Clases\FechasExtensiones.cs" />
     <Compile Include="Clases\clsInterpretacion.cs" />
     <Compile Include="Clases\PuntuacionT.cs" />

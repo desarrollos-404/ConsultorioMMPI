@@ -40,14 +40,14 @@ namespace ConsultorioMMPI
         private void CargarGridsInterpretaciones(RespuestaEscalas objResultados)
         {
 
-            List<objInterpretacion> lstInterpretacionOrdenSuperior = (from obj in objResultados.escalasDeOrdenSuperior.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
-            List<objInterpretacion> lstInterpretacionClincasReestructuradas = (from obj in objResultados.escalasDeClinicasReestructuradas.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
-            List<objInterpretacion> lstInterpretacionSomaticosCognitivos = (from obj in objResultados.somaticosCognitivos.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
-            List<objInterpretacion> lstInterpretacionProblemasInternalizados = (from obj in objResultados.escalasDeProblemasInternalizados.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
-            List<objInterpretacion> lstInterpretacionProblemasExternalizados = (from obj in objResultados.escalasDeProblemasExternalizados.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
-            List<objInterpretacion> lstInterpretacionProblemasInterpersonales = (from obj in objResultados.escalasDeProblemasInterpersonales.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
-            List<objInterpretacion> lstInterpretacionInteresEspecifico = (from obj in objResultados.escalasDeInteresEspecifico.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
-            List<objInterpretacion> lstInterpretacionPSY_5 = (from obj in objResultados.escalasDePSY_5.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
+            List<Interpretacion> lstInterpretacionOrdenSuperior = (from obj in objResultados.escalasDeOrdenSuperior.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
+            List<Interpretacion> lstInterpretacionClincasReestructuradas = (from obj in objResultados.escalasDeClinicasReestructuradas.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
+            List<Interpretacion> lstInterpretacionSomaticosCognitivos = (from obj in objResultados.somaticosCognitivos.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
+            List<Interpretacion> lstInterpretacionProblemasInternalizados = (from obj in objResultados.escalasDeProblemasInternalizados.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
+            List<Interpretacion> lstInterpretacionProblemasExternalizados = (from obj in objResultados.escalasDeProblemasExternalizados.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
+            List<Interpretacion> lstInterpretacionProblemasInterpersonales = (from obj in objResultados.escalasDeProblemasInterpersonales.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
+            List<Interpretacion> lstInterpretacionInteresEspecifico = (from obj in objResultados.escalasDeInteresEspecifico.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
+            List<Interpretacion> lstInterpretacionPSY_5 = (from obj in objResultados.escalasDePSY_5.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
 
             grdIntOS.DataSource = lstInterpretacionOrdenSuperior;
 

@@ -236,9 +236,9 @@ namespace ConsultorioMMPI.Clases
                     //    break;
             }
         }
-        public static objInterpretacion InterPretacionConclusion(Escala escala)
+        public static Interpretacion InterPretacionConclusion(Escala escala)
         {
-            objInterpretacion objInterpretacion = new objInterpretacion() { puntuacionT = escala.puntuacionT, siglas = escala.siglas };
+            Interpretacion objInterpretacion = new Interpretacion() { puntuacionT = escala.puntuacionT, siglas = escala.siglas };
             switch (escala.siglas)
             {
                 #region Orden superior
