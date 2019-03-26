@@ -14,6 +14,8 @@ namespace ConsultorioMMPI.Clases.Escalas
             siglas = string.Empty;
             puntuacionNatural = 0;
             puntuacionT = 0;
+            maximo = 0;
+            minimo = 0;
         }
         
 
@@ -23,7 +25,9 @@ namespace ConsultorioMMPI.Clases.Escalas
         
         public int puntuacionNatural { get; set; }
         public int puntuacionT { get; set; }
-        
-        
+        public int maximo { get; set; }
+        public int minimo { get; set; }
+
+
     }
 }

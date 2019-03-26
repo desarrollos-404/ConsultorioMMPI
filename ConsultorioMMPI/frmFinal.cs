@@ -164,13 +164,15 @@ namespace ConsultorioMMPI
                 }
                 else if (valor <= 69)
                 {
-                    e.CellStyle.BackColor = Color.Yellow;
-                    e.CellStyle.ForeColor = Color.Black;
+                    e.CellStyle.BackColor = Color.Green;
+                    e.CellStyle.ForeColor = Color.White;
+
                 }
                 else
                 {
-                    e.CellStyle.BackColor = Color.Green;
-                    e.CellStyle.ForeColor = Color.White;
+                    e.CellStyle.BackColor = Color.Yellow;
+                    e.CellStyle.ForeColor = Color.Black;
+                    
                 }
             }
         }

@@ -27,12 +27,12 @@ namespace ConsultorioMMPI
 
         private void Grafica_Load(object sender, EventArgs e)
         {
-            CargarDatosGrafica();
+            CargarDatosGrafica(Resultados.escalasDeValidez.lstEscalas);
         }
 
-        private void CargarDatosGrafica()
+        private void CargarDatosGrafica(List<Escala> escala)
         {
-            chart1.DataSource = Resultados.escalasDeValidez.lstEscalas;
+            chart1.DataSource = escala;
             Series series = new Series("valor");
             Series maximo = new Series("maximo");
             Series minimo = new Series("minimo");
@@ -41,13 +41,17 @@ namespace ConsultorioMMPI
             series.YValueMembers = "puntuacionT";
             chart1.ChartAreas[0].AxisY.Maximum = 120;
             chart1.ChartAreas[0].AxisY.Minimum = 18;
-            chart1.ChartAreas[0].AxisY.Interval = 12;
+            chart1.ChartAreas[0].AxisY.Interval = 10;
             chart1.Series.Add(maximo);
             chart1.Series.Add(minimo);
-            chart1.Series["maximo"].Points.Add(new DataPoint(0, 50));
-            chart1.Series["minimo"].Points.Add(new DataPoint(0, 80));
+            for (int i = 0; i < Resultados.escalasDeValidez.lstEscalas.Count(); i++)
+            {
+                chart1.Series["maximo"].Points.Add(new DataPoint(0, escala[i].maximo));
+                chart1.Series["minimo"].Points.Add(new DataPoint(0, escala[i].minimo));
+            }
             chart1.Series["maximo"].ChartType = SeriesChartType.Point;
             chart1.Series["minimo"].ChartType = SeriesChartType.Point;
+
             chart1.DataBind();
 
         }

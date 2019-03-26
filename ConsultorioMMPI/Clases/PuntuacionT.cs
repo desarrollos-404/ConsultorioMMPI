@@ -74,54 +74,72 @@ namespace ConsultorioMMPI.Clases
                         escala.puntuacionT = 120;
                     else
                         escala.puntuacionT = arrayINVAR[escala.puntuacionNatural];
+                    escala.maximo = arrayINVAR[arrayINVAR.Count() - 1];
+                    escala.minimo = arrayINVAR[0];
                     break;
                 case "INVER-R":
                     if (escala.puntuacionNatural > 23)
                         escala.puntuacionT = 120;
                     else
                         escala.puntuacionT = arrayINVER[escala.puntuacionNatural];
+                    escala.maximo = arrayINVER[arrayINVER.Count() - 1];
+                    escala.minimo = arrayINVER[0];
                     break;
                 case "F-R":
                     if (escala.puntuacionNatural > 31)
                         escala.puntuacionT = 120;
                     else
                         escala.puntuacionT = arrayFR[escala.puntuacionNatural];
+                    escala.maximo = arrayFR[arrayFR.Count() - 1];
+                    escala.minimo = arrayFR[0];
                     break;
                 case "FPSI-R":
                     if (escala.puntuacionNatural > 15)
                         escala.puntuacionT = 120;
                     else
                         escala.puntuacionT = arrayFPSI[escala.puntuacionNatural];
+                    escala.maximo = arrayFPSI[arrayFPSI.Count() - 1];
+                    escala.minimo = arrayFPSI[0];
                     break;
                 case "FS":
                     if (escala.puntuacionNatural > 15)
                         escala.puntuacionT = 120;
                     else
                         escala.puntuacionT = arrayFS[escala.puntuacionNatural];
+                    escala.maximo = arrayFS[arrayFS.Count() - 1];
+                    escala.minimo = arrayFS[0];
                     break;
                 case "FVS-R":
                     if (escala.puntuacionNatural > 30)
                         escala.puntuacionT = 104;
                     else
                         escala.puntuacionT = arrayFVS[escala.puntuacionNatural];
+                    escala.maximo = arrayFVS[arrayFVS.Count() - 1];
+                    escala.minimo = arrayFVS[0];
                     break;
                 case "SI":
                     if (escala.puntuacionNatural > 28)
                         escala.puntuacionT = 115;
                     else
                         escala.puntuacionT = arraySI[escala.puntuacionNatural];
+                    escala.maximo = arraySI[arraySI.Count() - 1];
+                    escala.minimo = arraySI[0];
                     break;
                 case "L-R":
                     if (escala.puntuacionNatural > 14)
                         escala.puntuacionT = 92;
                     else
                         escala.puntuacionT = arrayLR[escala.puntuacionNatural];
+                    escala.maximo = arrayLR[arrayLR.Count() - 1];
+                    escala.minimo = arrayLR[0];
                     break;
                 case "K-R":
                     if (escala.puntuacionNatural > 14)
                         escala.puntuacionT = 73;
                     else
                         escala.puntuacionT = arrayKR[escala.puntuacionNatural];
+                    escala.maximo = arrayKR[arrayKR.Count() - 1];
+                    escala.minimo = arrayKR[0];
                     break;
 
                 #endregion
@@ -131,18 +149,24 @@ namespace ConsultorioMMPI.Clases
                         escala.puntuacionT = 93;
                     else
                         escala.puntuacionT = arrayAEPI[escala.puntuacionNatural];
+                    escala.maximo = arrayAEPI[arrayAEPI.Count() - 1];
+                    escala.minimo = arrayAEPI[0];
                     break;
                 case "AP":
                     if (escala.puntuacionNatural > 22)
                         escala.puntuacionT = 100;
                     else
                         escala.puntuacionT = arrayAP[escala.puntuacionNatural];
+                    escala.maximo = arrayAP[arrayAP.Count() - 1];
+                    escala.minimo = arrayAP[0];
                     break;
                 case "AC/PE":
                     if (escala.puntuacionNatural > 23)
                         escala.puntuacionT = 99;
                     else
                         escala.puntuacionT = arrayACPE[escala.puntuacionNatural];
+                    escala.maximo = arrayACPE[arrayACPE.Count() - 1];
+                    escala.minimo = arrayACPE[0];
                     break;
                 #endregion
                 #region Clinicas Reestructuradas
@@ -151,148 +175,226 @@ namespace ConsultorioMMPI.Clases
                         escala.puntuacionT = 84;
                     else
                         escala.puntuacionT = arrayCRD[escala.puntuacionNatural];
+                    escala.maximo = arrayCRD[arrayCRD.Count() - 1];
+                    escala.minimo = arrayCRD[0];
                     break;
                 case "CR1":
                     if (escala.puntuacionNatural > 27)
                         escala.puntuacionT = 95;
                     else
                         escala.puntuacionT = arrayCR1[escala.puntuacionNatural];
+                    escala.maximo = arrayCR1[arrayCR1.Count() - 1];
+                    escala.minimo = arrayCR1[0];
                     break;
                 case "CR2":
                     if (escala.puntuacionNatural > 17)
                         escala.puntuacionT = 89;
                     else
                         escala.puntuacionT = arrayCR2[escala.puntuacionNatural];
+                    escala.maximo = arrayCR2[arrayCR2.Count() - 1];
+                    escala.minimo = arrayCR2[0];
                     break;
                 case "CR3":
                     if (escala.puntuacionNatural > 15)
                         escala.puntuacionT = 83;
                     else
                         escala.puntuacionT = arrayCR3[escala.puntuacionNatural];
+                    escala.maximo = arrayCR3[arrayCR3.Count() - 1];
+                    escala.minimo = arrayCR3[0];
                     break;
                 case "CR4":
                     if (escala.puntuacionNatural > 20)
                         escala.puntuacionT = 100;
                     else
                         escala.puntuacionT = arrayCR4[escala.puntuacionNatural];
+                    escala.maximo = arrayCR4[arrayCR4.Count() - 1];
+                    escala.minimo = arrayCR4[0];
                     break;
                 case "CR6":
                     if (escala.puntuacionNatural > 16)
                         escala.puntuacionT = 100;
                     else
                         escala.puntuacionT = arrayCR6[escala.puntuacionNatural];
+                    escala.maximo = arrayCR6[arrayCR6.Count() - 1];
+                    escala.minimo = arrayCR6[0];
                     break;
                 case "CR7":
                     if (escala.puntuacionNatural > 24)
                         escala.puntuacionT = 88;
                     else
                         escala.puntuacionT = arrayCR7[escala.puntuacionNatural];
+                    escala.maximo = arrayCR7[arrayCR7.Count() - 1];
+                    escala.minimo = arrayCR7[0];
                     break;
                 case "CR8":
                     if (escala.puntuacionNatural > 18)
                         escala.puntuacionT = 100;
                     else
                         escala.puntuacionT = arrayCR8[escala.puntuacionNatural];
+                    escala.maximo = arrayCR8[arrayCR8.Count() - 1];
+                    escala.minimo = arrayCR8[0];
                     break;
                 case "CR9":
                     if (escala.puntuacionNatural > 28)
                         escala.puntuacionT = 96;
                     else
                         escala.puntuacionT = arrayCR9[escala.puntuacionNatural];
+                    escala.maximo = arrayCR9[arrayCR9.Count() - 1];
+                    escala.minimo = arrayCR9[0];
                     break;
                 #endregion
                 #region Somaticas/Cognitivas
                 case "MAL":
                     escala.puntuacionT = CalculaT(arrayMAL, escala.puntuacionNatural);
+                    escala.maximo = arrayMAL[arrayMAL.Count() - 1];
+                    escala.minimo = arrayMAL[0];
                     //escala.puntuacionT = arrayMAL[escala.puntuacionNatural];
                     break;
                 case "QGI":
                     escala.puntuacionT = CalculaT(arrayQGI, escala.puntuacionNatural);
+                    escala.maximo = arrayQGI[arrayQGI.Count() - 1];
+                    escala.minimo = arrayQGI[0];
                     break;
                 case "QDC":
                     escala.puntuacionT = CalculaT(arrayQDC, escala.puntuacionNatural);
+                    escala.maximo = arrayQDC[arrayQDC.Count() - 1];
+                    escala.minimo = arrayQDC[0];
                     break;
                 case "QNEU":
                     escala.puntuacionT = CalculaT(arrayQNEU, escala.puntuacionNatural);
+                    escala.maximo = arrayQNEU[arrayQNEU.Count() - 1];
+                    escala.minimo = arrayQNEU[0];
                     break;
                 case "QCO":
                     escala.puntuacionT = CalculaT(arrayQCO, escala.puntuacionNatural);
+                    escala.maximo = arrayQCO[arrayQCO.Count() - 1];
+                    escala.minimo = arrayQCO[0];
                     break;
                 #endregion
                 case "ISU":
                     escala.puntuacionT = CalculaT(arrayISU, escala.puntuacionNatural);
+                    escala.maximo = arrayISU[arrayISU.Count() - 1];
+                    escala.minimo = arrayISU[0];
                     break;
                 case "LM/D":
                     escala.puntuacionT = CalculaT(arrayIMD, escala.puntuacionNatural);
+                    escala.maximo = arrayIMD[arrayIMD.Count() - 1];
+                    escala.minimo = arrayIMD[0];
                     break;
                 case "DSM":
                     escala.puntuacionT = CalculaT(arrayDSM, escala.puntuacionNatural);
+                    escala.maximo = arrayDSM[arrayDSM.Count() - 1];
+                    escala.minimo = arrayDSM[0];
                     break;
                 case "INE":
                     escala.puntuacionT = CalculaT(arrayINE, escala.puntuacionNatural);
+                    escala.maximo = arrayINE[arrayINE.Count() - 1];
+                    escala.minimo = arrayINE[0];
                     break;
                 case "P/E":
                     escala.puntuacionT = CalculaT(arrayPE, escala.puntuacionNatural);
+                    escala.maximo = arrayPE[arrayPE.Count() - 1];
+                    escala.minimo = arrayPE[0];
                     break;
                 case "ANS":
                     escala.puntuacionT = CalculaT(arrayANS, escala.puntuacionNatural);
+                    escala.maximo = arrayANS[arrayANS.Count() - 1];
+                    escala.minimo = arrayANS[0];
                     break;
                 case "TEN":
                     escala.puntuacionT = CalculaT(arrayTEN, escala.puntuacionNatural);
+                    escala.maximo = arrayTEN[arrayTEN.Count() - 1];
+                    escala.minimo = arrayTEN[0];
                     break;
                 case "LCM":
                     escala.puntuacionT = CalculaT(arrayLCM, escala.puntuacionNatural);
+                    escala.maximo = arrayLCM[arrayLCM.Count() - 1];
+                    escala.minimo = arrayLCM[0];
                     break;
                 case "MEM":
                     escala.puntuacionT = CalculaT(arrayMEM, escala.puntuacionNatural);
+                    escala.maximo = arrayMEM[arrayMEM.Count() - 1];
+                    escala.minimo = arrayMEM[0];
                     break;
                 case "PCIJ":
                     escala.puntuacionT = CalculaT(arrayPCIJ, escala.puntuacionNatural);
+                    escala.maximo = arrayPCIJ[arrayPCIJ.Count() - 1];
+                    escala.minimo = arrayPCIJ[0];
                     break;
                 case "ABS":
                     escala.puntuacionT = CalculaT(arrayABS, escala.puntuacionNatural);
+                    escala.maximo = arrayABS[arrayABS.Count() - 1];
+                    escala.minimo = arrayABS[0];
                     break;
                 case "AG":
                     escala.puntuacionT = CalculaT(arrayAG, escala.puntuacionNatural);
+                    escala.maximo = arrayAG[arrayAG.Count() - 1];
+                    escala.minimo = arrayAG[0];
                     break;
                 case "EUF":
                     escala.puntuacionT = CalculaT(arrayEUF, escala.puntuacionNatural);
+                    escala.maximo = arrayEUF[arrayEUF.Count() - 1];
+                    escala.minimo = arrayEUF[0];
                     break;
                 case "PFA":
                     escala.puntuacionT = CalculaT(arrayPFA, escala.puntuacionNatural);
+                    escala.maximo = arrayPFA[arrayPFA.Count() - 1];
+                    escala.minimo = arrayPFA[0];
                     break;
                 case "PIP":
                     escala.puntuacionT = CalculaT(arrayPIP, escala.puntuacionNatural);
+                    escala.maximo = arrayPIP[arrayPIP.Count() - 1];
+                    escala.minimo = arrayPIP[0];
                     break;
                 case "ESO":
                     escala.puntuacionT = CalculaT(arrayESO, escala.puntuacionNatural);
+                    escala.maximo = arrayESO[arrayESO.Count() - 1];
+                    escala.minimo = arrayESO[0];
                     break;
                 case "TIM":
                     escala.puntuacionT = CalculaT(arrayTIM, escala.puntuacionNatural);
+                    escala.maximo = arrayTIM[arrayTIM.Count() - 1];
+                    escala.minimo = arrayTIM[0];
                     break;
                 case "DES":
                     escala.puntuacionT = CalculaT(arrayDES, escala.puntuacionNatural);
+                    escala.maximo = arrayDES[arrayDES.Count() - 1];
+                    escala.minimo = arrayDES[0];
                     break;
                 case "IEL":
                     escala.puntuacionT = CalculaT(arrayIEL, escala.puntuacionNatural);
+                    escala.maximo = arrayIEL[arrayIEL.Count() - 1];
+                    escala.minimo = arrayIEL[0];
                     break;
                 case "IFM":
                     escala.puntuacionT = CalculaT(arrayIFM, escala.puntuacionNatural);
+                    escala.maximo = arrayIFM[arrayIFM.Count() - 1];
+                    escala.minimo = arrayIFM[0];
                     break;
                 case "AGGR-R":
                     escala.puntuacionT = CalculaT(arrayAGGR, escala.puntuacionNatural);
+                    escala.maximo = arrayAGGR[arrayAGGR.Count() - 1];
+                    escala.minimo = arrayAGGR[0];
                     break;
                 case "PSYC-R":
                     escala.puntuacionT = CalculaT(arrayPSYC, escala.puntuacionNatural);
+                    escala.maximo = arrayPSYC[arrayPSYC.Count() - 1];
+                    escala.minimo = arrayPSYC[0];
                     break;
                 case "DISC-R":
                     escala.puntuacionT = CalculaT(arrayDISC, escala.puntuacionNatural);
+                    escala.maximo = arrayDISC[arrayDISC.Count() - 1];
+                    escala.minimo = arrayDISC[0];
                     break;
                 case "NEGE-R":
                     escala.puntuacionT = CalculaT(arrayNEGE, escala.puntuacionNatural);
+                    escala.maximo = arrayNEGE[arrayNEGE.Count() - 1];
+                    escala.minimo = arrayNEGE[0];
                     break;
                 case "INTR-R":
                     escala.puntuacionT = CalculaT(arrayINTR, escala.puntuacionNatural);
+                    escala.maximo = arrayINTR[arrayINTR.Count() - 1];
+                    escala.minimo = arrayINTR[0];
                     break;
                 default:
                     escala.puntuacionT = 0;
