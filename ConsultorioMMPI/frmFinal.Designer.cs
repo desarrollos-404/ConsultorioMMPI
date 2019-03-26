@@ -220,6 +220,7 @@
             this.dataGridViewTextBoxColumn42 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn44 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.objInterpretacionBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.tbInterpretación.SuspendLayout();
             this.tbResultados.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdPSY5)).BeginInit();
@@ -258,7 +259,7 @@
             this.tbInterpretación.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbInterpretación.Location = new System.Drawing.Point(0, 0);
             this.tbInterpretación.Name = "tbInterpretación";
-            this.tbInterpretación.SelectedIndex = 1;
+            this.tbInterpretación.SelectedIndex = 0;
             this.tbInterpretación.Size = new System.Drawing.Size(1064, 749);
             this.tbInterpretación.TabIndex = 0;
             this.tbInterpretación.UseSelectable = true;
@@ -941,6 +942,7 @@
             // 
             // pnlEncabezado
             // 
+            this.pnlEncabezado.Controls.Add(this.button1);
             this.pnlEncabezado.Controls.Add(this.lblSinContestar);
             this.pnlEncabezado.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlEncabezado.HorizontalScrollbarBarColor = true;
@@ -1015,6 +1017,7 @@
             // 
             // grdIntOS
             // 
+            this.grdIntOS.AllowUserToResizeRows = false;
             this.grdIntOS.AutoGenerateColumns = false;
             this.grdIntOS.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.grdIntOS.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
@@ -2386,7 +2389,17 @@
             // 
             // objInterpretacionBindingSource
             // 
-            this.objInterpretacionBindingSource.DataSource = typeof(ConsultorioMMPI.Clases.Escalas.objInterpretacion);
+            this.objInterpretacionBindingSource.DataSource = typeof(ConsultorioMMPI.Clases.Escalas.Interpretacion);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(689, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmFinal
             // 
@@ -2588,5 +2601,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn41;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn42;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn44;
+        private System.Windows.Forms.Button button1;
     }
 }

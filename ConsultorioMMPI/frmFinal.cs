@@ -16,7 +16,7 @@ namespace ConsultorioMMPI
     public partial class frmFinal : Form
     {
 
-
+        RespuestaEscalas resultados = new RespuestaEscalas();
 
         public frmFinal(RespuestaEscalas objResultados, int sinContestar)
         {
@@ -25,6 +25,7 @@ namespace ConsultorioMMPI
             CargarGrids(objResultados);
             CargarInterpretaciones(objResultados, sinContestar);
             lblSinContestar.Text = "Preguntas SIN CONTESTAR: " + sinContestar.ToString();
+            resultados = objResultados;
         }
 
         private void CargarInterpretaciones(RespuestaEscalas objResultados, int sinContestar)
@@ -276,6 +277,13 @@ namespace ConsultorioMMPI
         private void txtConclusion1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Grafica grafica = new Grafica();
+            grafica.Resultados = resultados;
+            grafica.ShowDialog();
         }
     }
 }

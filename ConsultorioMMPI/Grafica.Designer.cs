@@ -28,28 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.respuestaEscalasBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.escalaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.respuestaEscalasBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.escalaBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // chart1
             // 
             chartArea1.Name = "ChartArea1";
             this.chart1.ChartAreas.Add(chartArea1);
+            this.chart1.DataSource = this.escalaBindingSource;
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(128, 12);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
             series1.Legend = "Legend1";
-            series1.Name = "Series1";
+            series1.Name = "valor";
+            series1.XValueMember = "siglas";
+            series1.YValueMembers = "puntuacionT";
             this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(967, 519);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
+            this.chart1.Click += new System.EventHandler(this.chart1_Click);
+            // 
+            // respuestaEscalasBindingSource
+            // 
+            this.respuestaEscalasBindingSource.DataSource = typeof(ConsultorioMMPI.Clases.Escalas.RespuestaEscalas);
+            // 
+            // escalaBindingSource
+            // 
+            this.escalaBindingSource.DataSource = typeof(ConsultorioMMPI.Clases.Escalas.Escala);
             // 
             // Grafica
             // 
@@ -59,7 +77,10 @@
             this.Controls.Add(this.chart1);
             this.Name = "Grafica";
             this.Text = "Grafica";
+            this.Load += new System.EventHandler(this.Grafica_Load);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.respuestaEscalasBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.escalaBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -67,5 +88,7 @@
         #endregion
 
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.BindingSource respuestaEscalasBindingSource;
+        private System.Windows.Forms.BindingSource escalaBindingSource;
     }
 }
