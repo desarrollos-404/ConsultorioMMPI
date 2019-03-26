@@ -21,6 +21,7 @@ namespace ConsultorioMMPI
             //this.Visible = false;
             
             CrearUsuarioLogin();
+           
             
             
         }
