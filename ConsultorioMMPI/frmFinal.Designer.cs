@@ -2389,7 +2389,7 @@
             // dataGridViewTextBoxColumn44
             // 
             this.dataGridViewTextBoxColumn44.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn44.DataPropertyName = "puntuacionNatural";
+            this.dataGridViewTextBoxColumn44.DataPropertyName = "correlacionesEmpiricas";
             dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dataGridViewTextBoxColumn44.DefaultCellStyle = dataGridViewCellStyle48;
             this.dataGridViewTextBoxColumn44.HeaderText = "Correlaciones empíricas";
@@ -2592,11 +2592,11 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label10;
         private MetroFramework.Controls.MetroGrid grdIntOS;
+        private System.Windows.Forms.BindingSource objInterpretacionBindingSource;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn43;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn45;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn41;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn42;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn44;
-        private System.Windows.Forms.BindingSource objInterpretacionBindingSource;
     }
 }
