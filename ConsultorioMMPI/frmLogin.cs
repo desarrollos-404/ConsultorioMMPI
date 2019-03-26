@@ -19,6 +19,8 @@ namespace ConsultorioMMPI
             //ClsMesageBox.MostraFormaEspera("Cargando...", this);
             InitializeComponent();
             txtUsuario.Select();
+            txtUsuario.Text = "UMTUXTLA";
+            txtcontrasena.Text = "12032019";
             //ClsMesageBox.CerrarFormaEspera();
         }
 
