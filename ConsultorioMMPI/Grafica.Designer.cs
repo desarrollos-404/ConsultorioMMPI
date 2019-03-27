@@ -33,11 +33,12 @@
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.respuestaEscalasBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.listView1 = new System.Windows.Forms.ListView();
             this.escalaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.respuestaEscalasBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.respuestaEscalasBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.escalaBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.respuestaEscalasBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // chart1
@@ -61,26 +62,36 @@
             this.chart1.Text = "chart1";
             this.chart1.Click += new System.EventHandler(this.chart1_Click);
             // 
-            // respuestaEscalasBindingSource
+            // listView1
             // 
-            this.respuestaEscalasBindingSource.DataSource = typeof(ConsultorioMMPI.Clases.Escalas.RespuestaEscalas);
+            this.listView1.Location = new System.Drawing.Point(13, 570);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(1171, 168);
+            this.listView1.TabIndex = 1;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
             // 
             // escalaBindingSource
             // 
             this.escalaBindingSource.DataSource = typeof(ConsultorioMMPI.Clases.Escalas.Escala);
             // 
+            // respuestaEscalasBindingSource
+            // 
+            this.respuestaEscalasBindingSource.DataSource = typeof(ConsultorioMMPI.Clases.Escalas.RespuestaEscalas);
+            // 
             // Grafica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1223, 543);
+            this.ClientSize = new System.Drawing.Size(1241, 750);
+            this.Controls.Add(this.listView1);
             this.Controls.Add(this.chart1);
             this.Name = "Grafica";
             this.Text = "Grafica";
             this.Load += new System.EventHandler(this.Grafica_Load);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.respuestaEscalasBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.escalaBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.respuestaEscalasBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -90,5 +101,6 @@
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private System.Windows.Forms.BindingSource respuestaEscalasBindingSource;
         private System.Windows.Forms.BindingSource escalaBindingSource;
+        private System.Windows.Forms.ListView listView1;
     }
 }

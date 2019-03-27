@@ -283,8 +283,8 @@ namespace ConsultorioMMPI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Grafica grafica = new Grafica();
-            grafica.Resultados = resultados;
+            Grafica grafica = new Grafica(resultados.escalasDeOrdenSuperior.lstEscalas);
+            //grafica.Resultados = resultados;
             grafica.ShowDialog();
         }
     }
