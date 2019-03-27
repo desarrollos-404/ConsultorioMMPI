@@ -32,7 +32,7 @@ namespace ConsultorioMMPI
         {
             //cargar sin contestar
             lblSinContestarPuntuacion.Text = sinContestar.ToString();
-            lblSinContestarDescripcion.Text = clsInterpretacion.InterpretacionSinContestar(sinContestar);
+            textBox1.Text = clsInterpretacion.InterpretacionSinContestar(sinContestar);
             //Cargar escalas de validez
             CargarEscalasDeValidez(objResultados.escalasDeValidez);
             CargarGridsInterpretaciones(objResultados);
@@ -50,8 +50,14 @@ namespace ConsultorioMMPI
             List<Interpretacion> lstInterpretacionInteresEspecifico = (from obj in objResultados.escalasDeInteresEspecifico.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
             List<Interpretacion> lstInterpretacionPSY_5 = (from obj in objResultados.escalasDePSY_5.lstEscalas select clsInterpretacion.InterPretacionConclusion(obj)).ToList();
 
-            grdIntOS.DataSource = lstInterpretacionOrdenSuperior;
-
+            grdInterpretcionOS.DataSource = lstInterpretacionOrdenSuperior;
+            grdClinicasReestructuradas.DataSource = lstInterpretacionClincasReestructuradas;
+            grdSomaticosCognitivos.DataSource = lstInterpretacionSomaticosCognitivos;
+            grdInterProblemasInternalizados.DataSource = lstInterpretacionProblemasInternalizados;
+            grdInterProblemasExternalizados.DataSource = lstInterpretacionProblemasExternalizados;
+            grdInterProblemasPersonales.DataSource = lstInterpretacionProblemasInterpersonales;
+            grdInterInteresEspecifico.DataSource = lstInterpretacionInteresEspecifico;
+            grdInterPSY5.DataSource = lstInterpretacionPSY_5;
         }
 
         private void CargarEscalasDeValidez(EscalasDeValidez escalasDeValidez)
