@@ -103,7 +103,7 @@
             this.grdEscalasDeValidez = new MetroFramework.Controls.MetroGrid();
             this.lblEscalasDeValidez = new System.Windows.Forms.Label();
             this.pnlEncabezado = new MetroFramework.Controls.MetroPanel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnEscalasDeValidez = new System.Windows.Forms.Button();
             this.lblSinContestar = new System.Windows.Forms.Label();
             this.tbInterpretacion = new MetroFramework.Controls.MetroTabPage();
             this.pnlSecundario = new System.Windows.Forms.FlowLayoutPanel();
@@ -169,6 +169,7 @@
             this.lblSinContestarPuntuacion = new MetroFramework.Controls.MetroLabel();
             this.lblSincontestarSigla = new MetroFramework.Controls.MetroLabel();
             this.lstEscalasBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.btnEscalasSO = new System.Windows.Forms.Button();
             this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn37 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn38 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -260,13 +261,15 @@
             this.tbInterpretación.Location = new System.Drawing.Point(0, 0);
             this.tbInterpretación.Name = "tbInterpretación";
             this.tbInterpretación.SelectedIndex = 0;
-            this.tbInterpretación.Size = new System.Drawing.Size(1064, 749);
+            this.tbInterpretación.Size = new System.Drawing.Size(1253, 438);
             this.tbInterpretación.TabIndex = 0;
             this.tbInterpretación.UseSelectable = true;
             // 
             // tbResultados
             // 
             this.tbResultados.AutoScroll = true;
+            this.tbResultados.Controls.Add(this.btnEscalasSO);
+            this.tbResultados.Controls.Add(this.btnEscalasDeValidez);
             this.tbResultados.Controls.Add(this.grdPSY5);
             this.tbResultados.Controls.Add(this.label8);
             this.tbResultados.Controls.Add(this.grdEscalasInteresEspecifico);
@@ -293,7 +296,7 @@
             this.tbResultados.HorizontalScrollbarSize = 10;
             this.tbResultados.Location = new System.Drawing.Point(4, 38);
             this.tbResultados.Name = "tbResultados";
-            this.tbResultados.Size = new System.Drawing.Size(1056, 707);
+            this.tbResultados.Size = new System.Drawing.Size(1245, 396);
             this.tbResultados.TabIndex = 0;
             this.tbResultados.Text = "Resultados";
             this.tbResultados.VerticalScrollbar = true;
@@ -351,7 +354,7 @@
             this.grdPSY5.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.grdPSY5.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.grdPSY5.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdPSY5.Size = new System.Drawing.Size(1039, 170);
+            this.grdPSY5.Size = new System.Drawing.Size(1228, 170);
             this.grdPSY5.StandardTab = true;
             this.grdPSY5.TabIndex = 21;
             this.grdPSY5.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdPSY5_CellFormatting);
@@ -425,7 +428,7 @@
             this.grdEscalasInteresEspecifico.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.grdEscalasInteresEspecifico.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.grdEscalasInteresEspecifico.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdEscalasInteresEspecifico.Size = new System.Drawing.Size(1039, 100);
+            this.grdEscalasInteresEspecifico.Size = new System.Drawing.Size(1228, 100);
             this.grdEscalasInteresEspecifico.StandardTab = true;
             this.grdEscalasInteresEspecifico.TabIndex = 19;
             this.grdEscalasInteresEspecifico.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasInteresEspecifico_CellFormatting);
@@ -494,7 +497,7 @@
             this.grdEscalasProbleasInterpersonlaes.RowHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.grdEscalasProbleasInterpersonlaes.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.grdEscalasProbleasInterpersonlaes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdEscalasProbleasInterpersonlaes.Size = new System.Drawing.Size(1039, 170);
+            this.grdEscalasProbleasInterpersonlaes.Size = new System.Drawing.Size(1228, 170);
             this.grdEscalasProbleasInterpersonlaes.StandardTab = true;
             this.grdEscalasProbleasInterpersonlaes.TabIndex = 17;
             this.grdEscalasProbleasInterpersonlaes.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasProbleasInterpersonlaes_CellFormatting);
@@ -563,7 +566,7 @@
             this.grdProblemasExternalizados.RowHeadersDefaultCellStyle = dataGridViewCellStyle18;
             this.grdProblemasExternalizados.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.grdProblemasExternalizados.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdProblemasExternalizados.Size = new System.Drawing.Size(1039, 140);
+            this.grdProblemasExternalizados.Size = new System.Drawing.Size(1228, 140);
             this.grdProblemasExternalizados.StandardTab = true;
             this.grdProblemasExternalizados.TabIndex = 15;
             this.grdProblemasExternalizados.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdProblemasExternalizados_CellFormatting);
@@ -632,7 +635,7 @@
             this.grdProblemasInternalizados.RowHeadersDefaultCellStyle = dataGridViewCellStyle22;
             this.grdProblemasInternalizados.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.grdProblemasInternalizados.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdProblemasInternalizados.Size = new System.Drawing.Size(1039, 250);
+            this.grdProblemasInternalizados.Size = new System.Drawing.Size(1228, 250);
             this.grdProblemasInternalizados.StandardTab = true;
             this.grdProblemasInternalizados.TabIndex = 13;
             this.grdProblemasInternalizados.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdProblemasInternalizados_CellFormatting);
@@ -701,7 +704,7 @@
             this.grdEscalasProblemasSomaticosCognitivos.RowHeadersDefaultCellStyle = dataGridViewCellStyle27;
             this.grdEscalasProblemasSomaticosCognitivos.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.grdEscalasProblemasSomaticosCognitivos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdEscalasProblemasSomaticosCognitivos.Size = new System.Drawing.Size(1039, 170);
+            this.grdEscalasProblemasSomaticosCognitivos.Size = new System.Drawing.Size(1228, 170);
             this.grdEscalasProblemasSomaticosCognitivos.StandardTab = true;
             this.grdEscalasProblemasSomaticosCognitivos.TabIndex = 11;
             this.grdEscalasProblemasSomaticosCognitivos.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasProblemasSomaticosCognitivos_CellFormatting);
@@ -783,7 +786,7 @@
             this.grdEscalasClinicasReestructuradas.RowHeadersDefaultCellStyle = dataGridViewCellStyle32;
             this.grdEscalasClinicasReestructuradas.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.grdEscalasClinicasReestructuradas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdEscalasClinicasReestructuradas.Size = new System.Drawing.Size(1039, 250);
+            this.grdEscalasClinicasReestructuradas.Size = new System.Drawing.Size(1228, 250);
             this.grdEscalasClinicasReestructuradas.StandardTab = true;
             this.grdEscalasClinicasReestructuradas.TabIndex = 7;
             this.grdEscalasClinicasReestructuradas.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasClinicasReestructuradas_CellFormatting);
@@ -852,7 +855,7 @@
             this.grdEscalasOrdenSuperior.RowHeadersDefaultCellStyle = dataGridViewCellStyle37;
             this.grdEscalasOrdenSuperior.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.grdEscalasOrdenSuperior.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdEscalasOrdenSuperior.Size = new System.Drawing.Size(1039, 130);
+            this.grdEscalasOrdenSuperior.Size = new System.Drawing.Size(1228, 130);
             this.grdEscalasOrdenSuperior.StandardTab = true;
             this.grdEscalasOrdenSuperior.TabIndex = 5;
             this.grdEscalasOrdenSuperior.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasOrdenSuperior_CellFormatting);
@@ -921,7 +924,7 @@
             this.grdEscalasDeValidez.RowHeadersDefaultCellStyle = dataGridViewCellStyle42;
             this.grdEscalasDeValidez.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.grdEscalasDeValidez.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdEscalasDeValidez.Size = new System.Drawing.Size(1039, 250);
+            this.grdEscalasDeValidez.Size = new System.Drawing.Size(1228, 250);
             this.grdEscalasDeValidez.StandardTab = true;
             this.grdEscalasDeValidez.TabIndex = 3;
             this.grdEscalasDeValidez.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasDeValidez_CellFormatting);
@@ -942,7 +945,6 @@
             // 
             // pnlEncabezado
             // 
-            this.pnlEncabezado.Controls.Add(this.button1);
             this.pnlEncabezado.Controls.Add(this.lblSinContestar);
             this.pnlEncabezado.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlEncabezado.HorizontalScrollbarBarColor = true;
@@ -950,21 +952,22 @@
             this.pnlEncabezado.HorizontalScrollbarSize = 10;
             this.pnlEncabezado.Location = new System.Drawing.Point(0, 0);
             this.pnlEncabezado.Name = "pnlEncabezado";
-            this.pnlEncabezado.Size = new System.Drawing.Size(1039, 26);
+            this.pnlEncabezado.Size = new System.Drawing.Size(1228, 26);
             this.pnlEncabezado.TabIndex = 22;
             this.pnlEncabezado.VerticalScrollbarBarColor = true;
             this.pnlEncabezado.VerticalScrollbarHighlightOnWheel = false;
             this.pnlEncabezado.VerticalScrollbarSize = 10;
             // 
-            // button1
+            // btnEscalasDeValidez
             // 
-            this.button1.Location = new System.Drawing.Point(728, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnEscalasDeValidez.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnEscalasDeValidez.Location = new System.Drawing.Point(1132, 28);
+            this.btnEscalasDeValidez.Name = "btnEscalasDeValidez";
+            this.btnEscalasDeValidez.Size = new System.Drawing.Size(96, 23);
+            this.btnEscalasDeValidez.TabIndex = 4;
+            this.btnEscalasDeValidez.Text = "Mostrar gráfica";
+            this.btnEscalasDeValidez.UseVisualStyleBackColor = true;
+            this.btnEscalasDeValidez.Click += new System.EventHandler(this.button1_Click);
             // 
             // lblSinContestar
             // 
@@ -973,7 +976,7 @@
             this.lblSinContestar.Dock = System.Windows.Forms.DockStyle.Right;
             this.lblSinContestar.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSinContestar.ForeColor = System.Drawing.Color.DarkRed;
-            this.lblSinContestar.Location = new System.Drawing.Point(858, 0);
+            this.lblSinContestar.Location = new System.Drawing.Point(1047, 0);
             this.lblSinContestar.Name = "lblSinContestar";
             this.lblSinContestar.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
             this.lblSinContestar.Size = new System.Drawing.Size(181, 23);
@@ -992,7 +995,7 @@
             this.tbInterpretacion.HorizontalScrollbarSize = 10;
             this.tbInterpretacion.Location = new System.Drawing.Point(4, 38);
             this.tbInterpretacion.Name = "tbInterpretacion";
-            this.tbInterpretacion.Size = new System.Drawing.Size(1056, 707);
+            this.tbInterpretacion.Size = new System.Drawing.Size(1245, 396);
             this.tbInterpretacion.TabIndex = 1;
             this.tbInterpretacion.Text = "Interpretación";
             this.tbInterpretacion.VerticalScrollbar = true;
@@ -1009,7 +1012,7 @@
             this.pnlSecundario.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlSecundario.Location = new System.Drawing.Point(0, 547);
             this.pnlSecundario.Name = "pnlSecundario";
-            this.pnlSecundario.Size = new System.Drawing.Size(1039, 344);
+            this.pnlSecundario.Size = new System.Drawing.Size(1228, 344);
             this.pnlSecundario.TabIndex = 5;
             // 
             // label10
@@ -1094,7 +1097,7 @@
             this.pnlEscalasValidez1.HorizontalScrollbarSize = 10;
             this.pnlEscalasValidez1.Location = new System.Drawing.Point(0, 46);
             this.pnlEscalasValidez1.Name = "pnlEscalasValidez1";
-            this.pnlEscalasValidez1.Size = new System.Drawing.Size(1039, 501);
+            this.pnlEscalasValidez1.Size = new System.Drawing.Size(1228, 501);
             this.pnlEscalasValidez1.TabIndex = 3;
             this.pnlEscalasValidez1.VerticalScrollbar = true;
             this.pnlEscalasValidez1.VerticalScrollbarBarColor = true;
@@ -1128,14 +1131,14 @@
             this.tblLayEscalasValidez.RowCount = 2;
             this.tblLayEscalasValidez.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tblLayEscalasValidez.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tblLayEscalasValidez.Size = new System.Drawing.Size(1039, 475);
+            this.tblLayEscalasValidez.Size = new System.Drawing.Size(1228, 475);
             this.tblLayEscalasValidez.TabIndex = 2;
             // 
             // txtConclusionGral
             // 
             this.txtConclusionGral.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtConclusionGral.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtConclusionGral.Location = new System.Drawing.Point(838, 33);
+            this.txtConclusionGral.Location = new System.Drawing.Point(1001, 33);
             this.txtConclusionGral.Multiline = true;
             this.txtConclusionGral.Name = "txtConclusionGral";
             this.txtConclusionGral.Size = new System.Drawing.Size(144, 439);
@@ -1156,7 +1159,7 @@
             this.tableLayoutPanel5.Controls.Add(this.lblIMPfpsir, 0, 3);
             this.tableLayoutPanel5.Controls.Add(this.lblIMPfr, 0, 2);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(378, 33);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(431, 33);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 9;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
@@ -1169,7 +1172,7 @@
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(247, 439);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(299, 439);
             this.tableLayoutPanel5.TabIndex = 11;
             this.tableLayoutPanel5.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel5_Paint);
             // 
@@ -1182,7 +1185,7 @@
             this.lblIMPinvar.Location = new System.Drawing.Point(3, 3);
             this.lblIMPinvar.Multiline = true;
             this.lblIMPinvar.Name = "lblIMPinvar";
-            this.lblIMPinvar.Size = new System.Drawing.Size(248, 42);
+            this.lblIMPinvar.Size = new System.Drawing.Size(293, 42);
             this.lblIMPinvar.TabIndex = 24;
             this.lblIMPinvar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1195,7 +1198,7 @@
             this.lblIMPinver.Location = new System.Drawing.Point(3, 51);
             this.lblIMPinver.Multiline = true;
             this.lblIMPinver.Name = "lblIMPinver";
-            this.lblIMPinver.Size = new System.Drawing.Size(248, 42);
+            this.lblIMPinver.Size = new System.Drawing.Size(293, 42);
             this.lblIMPinver.TabIndex = 25;
             this.lblIMPinver.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1208,7 +1211,7 @@
             this.lblIMPkr.Location = new System.Drawing.Point(3, 387);
             this.lblIMPkr.Multiline = true;
             this.lblIMPkr.Name = "lblIMPkr";
-            this.lblIMPkr.Size = new System.Drawing.Size(248, 49);
+            this.lblIMPkr.Size = new System.Drawing.Size(293, 49);
             this.lblIMPkr.TabIndex = 26;
             this.lblIMPkr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1221,7 +1224,7 @@
             this.lblIMPlr.Location = new System.Drawing.Point(3, 339);
             this.lblIMPlr.Multiline = true;
             this.lblIMPlr.Name = "lblIMPlr";
-            this.lblIMPlr.Size = new System.Drawing.Size(248, 42);
+            this.lblIMPlr.Size = new System.Drawing.Size(293, 42);
             this.lblIMPlr.TabIndex = 27;
             this.lblIMPlr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1234,7 +1237,7 @@
             this.lblIMPfvsr.Location = new System.Drawing.Point(3, 243);
             this.lblIMPfvsr.Multiline = true;
             this.lblIMPfvsr.Name = "lblIMPfvsr";
-            this.lblIMPfvsr.Size = new System.Drawing.Size(248, 42);
+            this.lblIMPfvsr.Size = new System.Drawing.Size(293, 42);
             this.lblIMPfvsr.TabIndex = 28;
             this.lblIMPfvsr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1247,7 +1250,7 @@
             this.lblIMPsi.Location = new System.Drawing.Point(3, 291);
             this.lblIMPsi.Multiline = true;
             this.lblIMPsi.Name = "lblIMPsi";
-            this.lblIMPsi.Size = new System.Drawing.Size(248, 42);
+            this.lblIMPsi.Size = new System.Drawing.Size(293, 42);
             this.lblIMPsi.TabIndex = 29;
             this.lblIMPsi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1260,7 +1263,7 @@
             this.lblIMPfs.Location = new System.Drawing.Point(3, 195);
             this.lblIMPfs.Multiline = true;
             this.lblIMPfs.Name = "lblIMPfs";
-            this.lblIMPfs.Size = new System.Drawing.Size(248, 42);
+            this.lblIMPfs.Size = new System.Drawing.Size(293, 42);
             this.lblIMPfs.TabIndex = 30;
             this.lblIMPfs.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1273,7 +1276,7 @@
             this.lblIMPfpsir.Location = new System.Drawing.Point(3, 147);
             this.lblIMPfpsir.Multiline = true;
             this.lblIMPfpsir.Name = "lblIMPfpsir";
-            this.lblIMPfpsir.Size = new System.Drawing.Size(248, 42);
+            this.lblIMPfpsir.Size = new System.Drawing.Size(293, 42);
             this.lblIMPfpsir.TabIndex = 31;
             this.lblIMPfpsir.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1286,7 +1289,7 @@
             this.lblIMPfr.Location = new System.Drawing.Point(3, 99);
             this.lblIMPfr.Multiline = true;
             this.lblIMPfr.Name = "lblIMPfr";
-            this.lblIMPfr.Size = new System.Drawing.Size(248, 42);
+            this.lblIMPfr.Size = new System.Drawing.Size(293, 42);
             this.lblIMPfr.TabIndex = 32;
             this.lblIMPfr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1336,7 +1339,7 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(249, 439);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(302, 439);
             this.tableLayoutPanel4.TabIndex = 16;
             // 
             // lblINQkr
@@ -1348,7 +1351,7 @@
             this.lblINQkr.Location = new System.Drawing.Point(3, 387);
             this.lblINQkr.Multiline = true;
             this.lblINQkr.Name = "lblINQkr";
-            this.lblINQkr.Size = new System.Drawing.Size(248, 49);
+            this.lblINQkr.Size = new System.Drawing.Size(296, 49);
             this.lblINQkr.TabIndex = 29;
             this.lblINQkr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1361,7 +1364,7 @@
             this.lblINQlr.Location = new System.Drawing.Point(3, 339);
             this.lblINQlr.Multiline = true;
             this.lblINQlr.Name = "lblINQlr";
-            this.lblINQlr.Size = new System.Drawing.Size(248, 42);
+            this.lblINQlr.Size = new System.Drawing.Size(296, 42);
             this.lblINQlr.TabIndex = 28;
             this.lblINQlr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1374,7 +1377,7 @@
             this.lblINQsi.Location = new System.Drawing.Point(3, 291);
             this.lblINQsi.Multiline = true;
             this.lblINQsi.Name = "lblINQsi";
-            this.lblINQsi.Size = new System.Drawing.Size(248, 42);
+            this.lblINQsi.Size = new System.Drawing.Size(296, 42);
             this.lblINQsi.TabIndex = 27;
             this.lblINQsi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1387,7 +1390,7 @@
             this.lblINQfvsr.Location = new System.Drawing.Point(3, 243);
             this.lblINQfvsr.Multiline = true;
             this.lblINQfvsr.Name = "lblINQfvsr";
-            this.lblINQfvsr.Size = new System.Drawing.Size(248, 42);
+            this.lblINQfvsr.Size = new System.Drawing.Size(296, 42);
             this.lblINQfvsr.TabIndex = 26;
             this.lblINQfvsr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1400,7 +1403,7 @@
             this.lblINQfs.Location = new System.Drawing.Point(3, 195);
             this.lblINQfs.Multiline = true;
             this.lblINQfs.Name = "lblINQfs";
-            this.lblINQfs.Size = new System.Drawing.Size(248, 42);
+            this.lblINQfs.Size = new System.Drawing.Size(296, 42);
             this.lblINQfs.TabIndex = 25;
             this.lblINQfs.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1413,7 +1416,7 @@
             this.lblINQfpsir.Location = new System.Drawing.Point(3, 147);
             this.lblINQfpsir.Multiline = true;
             this.lblINQfpsir.Name = "lblINQfpsir";
-            this.lblINQfpsir.Size = new System.Drawing.Size(248, 42);
+            this.lblINQfpsir.Size = new System.Drawing.Size(296, 42);
             this.lblINQfpsir.TabIndex = 24;
             this.lblINQfpsir.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1426,7 +1429,7 @@
             this.lblINQfr.Location = new System.Drawing.Point(3, 99);
             this.lblINQfr.Multiline = true;
             this.lblINQfr.Name = "lblINQfr";
-            this.lblINQfr.Size = new System.Drawing.Size(248, 42);
+            this.lblINQfr.Size = new System.Drawing.Size(296, 42);
             this.lblINQfr.TabIndex = 23;
             this.lblINQfr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1439,7 +1442,7 @@
             this.lblINQinver.Location = new System.Drawing.Point(3, 51);
             this.lblINQinver.Multiline = true;
             this.lblINQinver.Name = "lblINQinver";
-            this.lblINQinver.Size = new System.Drawing.Size(248, 42);
+            this.lblINQinver.Size = new System.Drawing.Size(296, 42);
             this.lblINQinver.TabIndex = 22;
             this.lblINQinver.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1452,7 +1455,7 @@
             this.lblINQinvar.Location = new System.Drawing.Point(3, 3);
             this.lblINQinvar.Multiline = true;
             this.lblINQinvar.Name = "lblINQinvar";
-            this.lblINQinvar.Size = new System.Drawing.Size(248, 42);
+            this.lblINQinvar.Size = new System.Drawing.Size(296, 42);
             this.lblINQinvar.TabIndex = 21;
             this.lblINQinvar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1625,7 +1628,7 @@
             this.metroLabel19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel19.Location = new System.Drawing.Point(3, 384);
             this.metroLabel19.Name = "metroLabel19";
-            this.metroLabel19.Size = new System.Drawing.Size(61, 55);
+            this.metroLabel19.Size = new System.Drawing.Size(60, 55);
             this.metroLabel19.TabIndex = 20;
             this.metroLabel19.Text = "K-R";
             this.metroLabel19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1636,7 +1639,7 @@
             this.metroLabel20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel20.Location = new System.Drawing.Point(3, 336);
             this.metroLabel20.Name = "metroLabel20";
-            this.metroLabel20.Size = new System.Drawing.Size(61, 48);
+            this.metroLabel20.Size = new System.Drawing.Size(60, 48);
             this.metroLabel20.TabIndex = 19;
             this.metroLabel20.Text = "L-R";
             this.metroLabel20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1647,7 +1650,7 @@
             this.metroLabel21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel21.Location = new System.Drawing.Point(3, 288);
             this.metroLabel21.Name = "metroLabel21";
-            this.metroLabel21.Size = new System.Drawing.Size(61, 48);
+            this.metroLabel21.Size = new System.Drawing.Size(60, 48);
             this.metroLabel21.TabIndex = 18;
             this.metroLabel21.Text = "SI";
             this.metroLabel21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1658,7 +1661,7 @@
             this.metroLabel22.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel22.Location = new System.Drawing.Point(3, 240);
             this.metroLabel22.Name = "metroLabel22";
-            this.metroLabel22.Size = new System.Drawing.Size(61, 48);
+            this.metroLabel22.Size = new System.Drawing.Size(60, 48);
             this.metroLabel22.TabIndex = 17;
             this.metroLabel22.Text = "FVS-R";
             this.metroLabel22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1669,7 +1672,7 @@
             this.metroLabel23.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel23.Location = new System.Drawing.Point(3, 192);
             this.metroLabel23.Name = "metroLabel23";
-            this.metroLabel23.Size = new System.Drawing.Size(61, 48);
+            this.metroLabel23.Size = new System.Drawing.Size(60, 48);
             this.metroLabel23.TabIndex = 16;
             this.metroLabel23.Text = "FS";
             this.metroLabel23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1680,7 +1683,7 @@
             this.metroLabel24.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel24.Location = new System.Drawing.Point(3, 144);
             this.metroLabel24.Name = "metroLabel24";
-            this.metroLabel24.Size = new System.Drawing.Size(61, 48);
+            this.metroLabel24.Size = new System.Drawing.Size(60, 48);
             this.metroLabel24.TabIndex = 15;
             this.metroLabel24.Text = "FPSI-R";
             this.metroLabel24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1691,7 +1694,7 @@
             this.metroLabel25.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel25.Location = new System.Drawing.Point(3, 96);
             this.metroLabel25.Name = "metroLabel25";
-            this.metroLabel25.Size = new System.Drawing.Size(61, 48);
+            this.metroLabel25.Size = new System.Drawing.Size(60, 48);
             this.metroLabel25.TabIndex = 14;
             this.metroLabel25.Text = "F-R";
             this.metroLabel25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1702,7 +1705,7 @@
             this.metroLabel26.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel26.Location = new System.Drawing.Point(3, 48);
             this.metroLabel26.Name = "metroLabel26";
-            this.metroLabel26.Size = new System.Drawing.Size(61, 48);
+            this.metroLabel26.Size = new System.Drawing.Size(60, 48);
             this.metroLabel26.TabIndex = 14;
             this.metroLabel26.Text = "INVER-R";
             this.metroLabel26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1713,7 +1716,7 @@
             this.metroLabel27.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel27.Location = new System.Drawing.Point(3, 0);
             this.metroLabel27.Name = "metroLabel27";
-            this.metroLabel27.Size = new System.Drawing.Size(61, 48);
+            this.metroLabel27.Size = new System.Drawing.Size(60, 48);
             this.metroLabel27.TabIndex = 13;
             this.metroLabel27.Text = "INVAR-R";
             this.metroLabel27.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1746,7 +1749,7 @@
             this.metroLabel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel3.Location = new System.Drawing.Point(123, 0);
             this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(249, 30);
+            this.metroLabel3.Size = new System.Drawing.Size(302, 30);
             this.metroLabel3.TabIndex = 3;
             this.metroLabel3.Text = "INQUIETUDES EN LA VALIDEZ DEL PROTOCOLO";
             this.metroLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1755,9 +1758,9 @@
             // 
             this.metroLabel4.AutoSize = true;
             this.metroLabel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroLabel4.Location = new System.Drawing.Point(378, 0);
+            this.metroLabel4.Location = new System.Drawing.Point(431, 0);
             this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(247, 30);
+            this.metroLabel4.Size = new System.Drawing.Size(299, 30);
             this.metroLabel4.TabIndex = 4;
             this.metroLabel4.Text = "IMPLICACIONES PARA LA INTERPRETACIÓN";
             this.metroLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1766,9 +1769,9 @@
             // 
             this.metroLabel5.AutoSize = true;
             this.metroLabel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroLabel5.Location = new System.Drawing.Point(631, 0);
+            this.metroLabel5.Location = new System.Drawing.Point(736, 0);
             this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.Size = new System.Drawing.Size(147, 30);
+            this.metroLabel5.Size = new System.Drawing.Size(179, 30);
             this.metroLabel5.TabIndex = 5;
             this.metroLabel5.Text = "CONCLUSIÓN";
             this.metroLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1777,9 +1780,9 @@
             // 
             this.metroLabel6.AutoSize = true;
             this.metroLabel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroLabel6.Location = new System.Drawing.Point(784, 0);
+            this.metroLabel6.Location = new System.Drawing.Point(921, 0);
             this.metroLabel6.Name = "metroLabel6";
-            this.metroLabel6.Size = new System.Drawing.Size(252, 30);
+            this.metroLabel6.Size = new System.Drawing.Size(304, 30);
             this.metroLabel6.TabIndex = 6;
             this.metroLabel6.Text = "CONCLUSIÓN GENERAL";
             this.metroLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1793,19 +1796,19 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.txtConclusion2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.txtConclusion1, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(631, 33);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(736, 33);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 22.22F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 77.78F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(147, 439);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(179, 439);
             this.tableLayoutPanel1.TabIndex = 17;
             // 
             // txtConclusion2
             // 
             this.txtConclusion2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtConclusion2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtConclusion2.Location = new System.Drawing.Point(3, 100);
+            this.txtConclusion2.Location = new System.Drawing.Point(19, 100);
             this.txtConclusion2.Multiline = true;
             this.txtConclusion2.Name = "txtConclusion2";
             this.txtConclusion2.Size = new System.Drawing.Size(141, 336);
@@ -1816,7 +1819,7 @@
             // 
             this.txtConclusion1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtConclusion1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtConclusion1.Location = new System.Drawing.Point(23, 3);
+            this.txtConclusion1.Location = new System.Drawing.Point(39, 3);
             this.txtConclusion1.Multiline = true;
             this.txtConclusion1.Name = "txtConclusion1";
             this.txtConclusion1.Size = new System.Drawing.Size(100, 91);
@@ -1831,7 +1834,7 @@
             this.pnllTitulo1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnllTitulo1.Location = new System.Drawing.Point(0, 0);
             this.pnllTitulo1.Name = "pnllTitulo1";
-            this.pnllTitulo1.Size = new System.Drawing.Size(1039, 26);
+            this.pnllTitulo1.Size = new System.Drawing.Size(1228, 26);
             this.pnllTitulo1.TabIndex = 4;
             // 
             // label9
@@ -1842,7 +1845,7 @@
             this.label9.ForeColor = System.Drawing.Color.DarkRed;
             this.label9.Location = new System.Drawing.Point(0, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(1039, 23);
+            this.label9.Size = new System.Drawing.Size(1228, 23);
             this.label9.TabIndex = 3;
             this.label9.Text = "ESCALAS DE VALIDEZ";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1861,7 +1864,7 @@
             this.pnlEscalasValidez.HorizontalScrollbarSize = 10;
             this.pnlEscalasValidez.Location = new System.Drawing.Point(0, 0);
             this.pnlEscalasValidez.Name = "pnlEscalasValidez";
-            this.pnlEscalasValidez.Size = new System.Drawing.Size(1039, 46);
+            this.pnlEscalasValidez.Size = new System.Drawing.Size(1228, 46);
             this.pnlEscalasValidez.TabIndex = 2;
             this.pnlEscalasValidez.VerticalScrollbar = true;
             this.pnlEscalasValidez.VerticalScrollbarBarColor = true;
@@ -1883,13 +1886,13 @@
             this.tblLaySinContestar.RowCount = 1;
             this.tblLaySinContestar.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tblLaySinContestar.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 55F));
-            this.tblLaySinContestar.Size = new System.Drawing.Size(1022, 55);
+            this.tblLaySinContestar.Size = new System.Drawing.Size(1211, 55);
             this.tblLaySinContestar.TabIndex = 2;
             // 
             // lblSinContestarDescripcion
             // 
             this.lblSinContestarDescripcion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.lblSinContestarDescripcion.Location = new System.Drawing.Point(123, 0);
+            this.lblSinContestarDescripcion.Location = new System.Drawing.Point(209, 0);
             this.lblSinContestarDescripcion.Name = "lblSinContestarDescripcion";
             this.lblSinContestarDescripcion.Size = new System.Drawing.Size(913, 55);
             this.lblSinContestarDescripcion.TabIndex = 2;
@@ -1922,6 +1925,17 @@
             // 
             this.lstEscalasBindingSource.DataMember = "lstEscalas";
             this.lstEscalasBindingSource.DataSource = this.escalasDeValidezBindingSource;
+            // 
+            // btnEscalasSO
+            // 
+            this.btnEscalasSO.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnEscalasSO.Location = new System.Drawing.Point(1132, 309);
+            this.btnEscalasSO.Name = "btnEscalasSO";
+            this.btnEscalasSO.Size = new System.Drawing.Size(96, 23);
+            this.btnEscalasSO.TabIndex = 23;
+            this.btnEscalasSO.Text = "Mostrar gráfica";
+            this.btnEscalasSO.UseVisualStyleBackColor = true;
+            this.btnEscalasSO.Click += new System.EventHandler(this.btnEscalasValidez_Click);
             // 
             // dataGridViewTextBoxColumn36
             // 
@@ -2407,7 +2421,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1064, 749);
+            this.ClientSize = new System.Drawing.Size(1253, 438);
             this.Controls.Add(this.tbInterpretación);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -2601,6 +2615,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn41;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn42;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn44;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnEscalasDeValidez;
+        private System.Windows.Forms.Button btnEscalasSO;
     }
 }

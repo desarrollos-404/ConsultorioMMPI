@@ -172,7 +172,7 @@ namespace ConsultorioMMPI
                 {
                     e.CellStyle.BackColor = Color.Yellow;
                     e.CellStyle.ForeColor = Color.Black;
-                    
+
                 }
             }
         }
@@ -283,7 +283,14 @@ namespace ConsultorioMMPI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Grafica grafica = new Grafica(resultados.escalasDeOrdenSuperior.lstEscalas);
+            Grafica grafica = new Grafica(resultados.escalasDeValidez.lstEscalas, "ESCALAS DE VALIDEZ");
+            //grafica.Resultados = resultados;
+            grafica.ShowDialog();
+        }
+
+        private void btnEscalasValidez_Click(object sender, EventArgs e)
+        {
+            Grafica grafica = new Grafica(resultados.escalasDeOrdenSuperior.lstEscalas, "ESCALAS DE ORDEN SUPERIOR OS (H-O)");
             //grafica.Resultados = resultados;
             grafica.ShowDialog();
         }

@@ -19,13 +19,15 @@ namespace ConsultorioMMPI
         {
             InitializeComponent();
         }
-        public Grafica(List<Escala> escala)
+        public Grafica(List<Escala> escala, string titulo)
         {
             InitializeComponent();
             _escala = escala;
+            lblTitulo.Text = titulo;
+            this.Text = "GRÁFICA" + titulo;
         }
 
-       // public RespuestaEscalas Resultados { get; internal set; }
+        // public RespuestaEscalas Resultados { get; internal set; }
 
         private void Grafica_Load(object sender, EventArgs e)
         {
