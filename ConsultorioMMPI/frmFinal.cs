@@ -283,16 +283,59 @@ namespace ConsultorioMMPI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Grafica grafica = new Grafica(resultados.escalasDeValidez.lstEscalas, "ESCALAS DE VALIDEZ");
+            MostrarGrafica(resultados.escalasDeValidez.lstEscalas, "ESCALAS DE VALIDEZ");
+        }
+
+        private void MostrarGrafica(List<Escala> lstEscalas, string titulo)
+        {
+            Grafica grafica = new Grafica(lstEscalas, titulo);
             //grafica.Resultados = resultados;
             grafica.ShowDialog();
         }
 
         private void btnEscalasValidez_Click(object sender, EventArgs e)
         {
-            Grafica grafica = new Grafica(resultados.escalasDeOrdenSuperior.lstEscalas, "ESCALAS DE ORDEN SUPERIOR OS (H-O)");
-            //grafica.Resultados = resultados;
-            grafica.ShowDialog();
+            MostrarGrafica(resultados.escalasDeOrdenSuperior.lstEscalas, "ESCALAS DE ORDEN SUPERIOR OS (H-O)");
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            MostrarGrafica(resultados.escalasDeClinicasReestructuradas.lstEscalas, "ESCALAS CLINICAS REESTRUCTURADAS CR(RC)");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MostrarGrafica(resultados.somaticosCognitivos.lstEscalas, "ESCALAS DE PROBLEMAS SOMÁTICOS/COGNITIVOS");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MostrarGrafica(resultados.escalasDeProblemasInternalizados.lstEscalas, "ESCALAS DE PROBLEMAS INTERNALIZADOS");
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MostrarGrafica(resultados.escalasDeProblemasExternalizados.lstEscalas, "ESCALAS DE PROBLEMAS EXTERNALIZADOS");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MostrarGrafica(resultados.escalasDeProblemasInterpersonales.lstEscalas, "ESCALAS DE PROBLEMAS INTERPERSONALES");
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+            MostrarGrafica(resultados.escalasDeInteresEspecifico.lstEscalas, "ESCALAS DE INTERÉS ESPECIFICO");
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+            MostrarGrafica(resultados.escalasDePSY_5.lstEscalas, "CINCO ESCALAS DE PSICOPATOLOGÍA DE LA PERSONALIDAD (PSY-5)");
         }
     }
 }
