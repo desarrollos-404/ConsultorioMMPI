@@ -32,43 +32,43 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFinal));
@@ -84,28 +84,133 @@
             this.btnEscalasSO = new System.Windows.Forms.Button();
             this.btnEscalasDeValidez = new System.Windows.Forms.Button();
             this.grdPSY5 = new MetroFramework.Controls.MetroGrid();
+            this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn37 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn38 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn39 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn40 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lstEscalasBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.escalasDeValidezBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.label8 = new System.Windows.Forms.Label();
             this.grdEscalasInteresEspecifico = new MetroFramework.Controls.MetroGrid();
+            this.dataGridViewTextBoxColumn31 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn32 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn34 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn35 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label7 = new System.Windows.Forms.Label();
             this.grdEscalasProbleasInterpersonlaes = new MetroFramework.Controls.MetroGrid();
+            this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn29 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label6 = new System.Windows.Forms.Label();
             this.grdProblemasExternalizados = new MetroFramework.Controls.MetroGrid();
+            this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label5 = new System.Windows.Forms.Label();
             this.grdProblemasInternalizados = new MetroFramework.Controls.MetroGrid();
+            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label4 = new System.Windows.Forms.Label();
             this.grdEscalasProblemasSomaticosCognitivos = new MetroFramework.Controls.MetroGrid();
+            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.grdEscalasClinicasReestructuradas = new MetroFramework.Controls.MetroGrid();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.grdEscalasOrdenSuperior = new MetroFramework.Controls.MetroGrid();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblOrdenSuperior = new System.Windows.Forms.Label();
             this.grdEscalasDeValidez = new MetroFramework.Controls.MetroGrid();
+            this.descripcionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.significadoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.siglasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.puntuacionNaturalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.puntuacionTDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblEscalasDeValidez = new System.Windows.Forms.Label();
             this.pnlEncabezado = new MetroFramework.Controls.MetroPanel();
             this.lblSinContestar = new System.Windows.Forms.Label();
             this.tbInterpretacion = new MetroFramework.Controls.MetroTabPage();
+            this.pnlPrincipal = new System.Windows.Forms.Panel();
+            this.pnlsecundario = new System.Windows.Forms.Panel();
+            this.grdInterPSY5 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn71 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn72 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn73 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn74 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn75 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.objInterpretacionBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.label17 = new System.Windows.Forms.Label();
+            this.grdInterInteresEspecifico = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn66 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn67 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn68 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn69 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn70 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label16 = new System.Windows.Forms.Label();
+            this.grdInterProblemasPersonales = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn61 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn62 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn63 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn64 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn65 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label15 = new System.Windows.Forms.Label();
+            this.grdInterProblemasExternalizados = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn56 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn57 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn58 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn59 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn60 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label14 = new System.Windows.Forms.Label();
+            this.grdInterProblemasInternalizados = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn51 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn52 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn53 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn54 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn55 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label13 = new System.Windows.Forms.Label();
+            this.grdSomaticosCognitivos = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn46 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn47 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn49 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn50 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label12 = new System.Windows.Forms.Label();
+            this.grdClinicasReestructuradas = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn41 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn42 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn43 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn44 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn45 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label11 = new System.Windows.Forms.Label();
+            this.grdInterpretcionOS = new System.Windows.Forms.DataGridView();
+            this.siglasDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.puntuacionTDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.respuestasALaPruebaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.especificacionesDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.correlacionesEmpiricasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label10 = new System.Windows.Forms.Label();
             this.pnlEscalasValidez1 = new MetroFramework.Controls.MetroPanel();
             this.tblLayEscalasValidez = new System.Windows.Forms.TableLayoutPanel();
             this.txtConclusionGral = new System.Windows.Forms.TextBox();
@@ -164,117 +269,13 @@
             this.tblLayoutSinContestar = new System.Windows.Forms.TableLayoutPanel();
             this.lblSinContestarPuntuacion = new MetroFramework.Controls.MetroLabel();
             this.lblSincontestarSigla = new MetroFramework.Controls.MetroLabel();
-            this.lstEscalasBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pnlsecundario = new System.Windows.Forms.Panel();
-            this.grdInterpretcionOS = new System.Windows.Forms.DataGridView();
-            this.label10 = new System.Windows.Forms.Label();
-            this.grdClinicasReestructuradas = new System.Windows.Forms.DataGridView();
-            this.label11 = new System.Windows.Forms.Label();
-            this.grdSomaticosCognitivos = new System.Windows.Forms.DataGridView();
-            this.label12 = new System.Windows.Forms.Label();
-            this.grdInterProblemasInternalizados = new System.Windows.Forms.DataGridView();
-            this.label13 = new System.Windows.Forms.Label();
-            this.grdInterProblemasExternalizados = new System.Windows.Forms.DataGridView();
-            this.label14 = new System.Windows.Forms.Label();
-            this.grdInterProblemasPersonales = new System.Windows.Forms.DataGridView();
-            this.label15 = new System.Windows.Forms.Label();
-            this.grdInterInteresEspecifico = new System.Windows.Forms.DataGridView();
-            this.label16 = new System.Windows.Forms.Label();
-            this.grdInterPSY5 = new System.Windows.Forms.DataGridView();
-            this.label17 = new System.Windows.Forms.Label();
-            this.pnlPrincipal = new System.Windows.Forms.Panel();
-            this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn37 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn38 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn39 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn40 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.escalasDeValidezBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataGridViewTextBoxColumn31 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn32 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn34 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn35 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn29 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.descripcionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.significadoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.siglasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.puntuacionNaturalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.puntuacionTDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.objInterpretacionBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataGridViewTextBoxColumn71 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn72 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn73 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn74 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn75 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn66 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn67 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn68 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn69 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn70 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn61 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn62 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn63 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn64 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn65 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn56 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn57 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn58 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn59 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn60 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn51 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn52 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn53 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn54 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn55 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn46 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn47 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn49 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn50 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn41 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn42 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn43 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn44 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn45 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.siglasDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.puntuacionTDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.respuestasALaPruebaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.especificacionesDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.correlacionesEmpiricasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lstEscalasBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tbInterpretación.SuspendLayout();
             this.tbResultados.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdPSY5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lstEscalasBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.escalasDeValidezBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grdEscalasInteresEspecifico)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grdEscalasProbleasInterpersonlaes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grdProblemasExternalizados)).BeginInit();
@@ -285,6 +286,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.grdEscalasDeValidez)).BeginInit();
             this.pnlEncabezado.SuspendLayout();
             this.tbInterpretacion.SuspendLayout();
+            this.pnlPrincipal.SuspendLayout();
+            this.pnlsecundario.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grdInterPSY5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objInterpretacionBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdInterInteresEspecifico)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdInterProblemasPersonales)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdInterProblemasExternalizados)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdInterProblemasInternalizados)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdSomaticosCognitivos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdClinicasReestructuradas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdInterpretcionOS)).BeginInit();
             this.pnlEscalasValidez1.SuspendLayout();
             this.tblLayEscalasValidez.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
@@ -296,18 +308,6 @@
             this.pnlEscalasValidez.SuspendLayout();
             this.tblLayoutSinContestar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lstEscalasBindingSource)).BeginInit();
-            this.pnlsecundario.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grdInterpretcionOS)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdClinicasReestructuradas)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdSomaticosCognitivos)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdInterProblemasInternalizados)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdInterProblemasExternalizados)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdInterProblemasPersonales)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdInterInteresEspecifico)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdInterPSY5)).BeginInit();
-            this.pnlPrincipal.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.escalasDeValidezBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objInterpretacionBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // tbInterpretación
@@ -523,10 +523,59 @@
             this.grdPSY5.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdPSY5_CellFormatting);
             this.grdPSY5.SelectionChanged += new System.EventHandler(this.grdPSY5_SelectionChanged);
             // 
+            // dataGridViewTextBoxColumn36
+            // 
+            this.dataGridViewTextBoxColumn36.DataPropertyName = "descripcion";
+            this.dataGridViewTextBoxColumn36.HeaderText = "Escalas";
+            this.dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
+            this.dataGridViewTextBoxColumn36.ReadOnly = true;
+            this.dataGridViewTextBoxColumn36.Width = 72;
+            // 
+            // dataGridViewTextBoxColumn37
+            // 
+            this.dataGridViewTextBoxColumn37.DataPropertyName = "significado";
+            this.dataGridViewTextBoxColumn37.HeaderText = "Significado";
+            this.dataGridViewTextBoxColumn37.Name = "dataGridViewTextBoxColumn37";
+            this.dataGridViewTextBoxColumn37.ReadOnly = true;
+            this.dataGridViewTextBoxColumn37.Width = 91;
+            // 
+            // dataGridViewTextBoxColumn38
+            // 
+            this.dataGridViewTextBoxColumn38.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn38.DataPropertyName = "siglas";
+            this.dataGridViewTextBoxColumn38.HeaderText = "Siglas";
+            this.dataGridViewTextBoxColumn38.Name = "dataGridViewTextBoxColumn38";
+            this.dataGridViewTextBoxColumn38.ReadOnly = true;
+            this.dataGridViewTextBoxColumn38.Width = 63;
+            // 
+            // dataGridViewTextBoxColumn39
+            // 
+            this.dataGridViewTextBoxColumn39.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn39.DataPropertyName = "puntuacionNatural";
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn39.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridViewTextBoxColumn39.HeaderText = "Puntuación Natural";
+            this.dataGridViewTextBoxColumn39.Name = "dataGridViewTextBoxColumn39";
+            this.dataGridViewTextBoxColumn39.ReadOnly = true;
+            this.dataGridViewTextBoxColumn39.Width = 126;
+            // 
+            // dataGridViewTextBoxColumn40
+            // 
+            this.dataGridViewTextBoxColumn40.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn40.DataPropertyName = "puntuacionT";
+            this.dataGridViewTextBoxColumn40.HeaderText = "Puntuación-T";
+            this.dataGridViewTextBoxColumn40.Name = "dataGridViewTextBoxColumn40";
+            this.dataGridViewTextBoxColumn40.ReadOnly = true;
+            this.dataGridViewTextBoxColumn40.Width = 103;
+            // 
             // lstEscalasBindingSource1
             // 
             this.lstEscalasBindingSource1.DataMember = "lstEscalas";
             this.lstEscalasBindingSource1.DataSource = this.escalasDeValidezBindingSource;
+            // 
+            // escalasDeValidezBindingSource
+            // 
+            this.escalasDeValidezBindingSource.DataSource = typeof(ConsultorioMMPI.Clases.Escalas.EscalasDeValidez);
             // 
             // label8
             // 
@@ -597,6 +646,53 @@
             this.grdEscalasInteresEspecifico.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasInteresEspecifico_CellFormatting);
             this.grdEscalasInteresEspecifico.SelectionChanged += new System.EventHandler(this.grdEscalasInteresEspecifico_SelectionChanged);
             // 
+            // dataGridViewTextBoxColumn31
+            // 
+            this.dataGridViewTextBoxColumn31.DataPropertyName = "descripcion";
+            this.dataGridViewTextBoxColumn31.HeaderText = "Escalas";
+            this.dataGridViewTextBoxColumn31.Name = "dataGridViewTextBoxColumn31";
+            this.dataGridViewTextBoxColumn31.ReadOnly = true;
+            this.dataGridViewTextBoxColumn31.Width = 72;
+            // 
+            // dataGridViewTextBoxColumn32
+            // 
+            this.dataGridViewTextBoxColumn32.DataPropertyName = "significado";
+            this.dataGridViewTextBoxColumn32.HeaderText = "Significado";
+            this.dataGridViewTextBoxColumn32.Name = "dataGridViewTextBoxColumn32";
+            this.dataGridViewTextBoxColumn32.ReadOnly = true;
+            this.dataGridViewTextBoxColumn32.Width = 91;
+            // 
+            // dataGridViewTextBoxColumn33
+            // 
+            this.dataGridViewTextBoxColumn33.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn33.DataPropertyName = "siglas";
+            this.dataGridViewTextBoxColumn33.HeaderText = "Siglas";
+            this.dataGridViewTextBoxColumn33.Name = "dataGridViewTextBoxColumn33";
+            this.dataGridViewTextBoxColumn33.ReadOnly = true;
+            this.dataGridViewTextBoxColumn33.Width = 63;
+            // 
+            // dataGridViewTextBoxColumn34
+            // 
+            this.dataGridViewTextBoxColumn34.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn34.DataPropertyName = "puntuacionNatural";
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn34.DefaultCellStyle = dataGridViewCellStyle6;
+            this.dataGridViewTextBoxColumn34.HeaderText = "Puntuación Natural";
+            this.dataGridViewTextBoxColumn34.Name = "dataGridViewTextBoxColumn34";
+            this.dataGridViewTextBoxColumn34.ReadOnly = true;
+            this.dataGridViewTextBoxColumn34.Width = 126;
+            // 
+            // dataGridViewTextBoxColumn35
+            // 
+            this.dataGridViewTextBoxColumn35.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn35.DataPropertyName = "puntuacionT";
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn35.DefaultCellStyle = dataGridViewCellStyle7;
+            this.dataGridViewTextBoxColumn35.HeaderText = "Puntuación-T";
+            this.dataGridViewTextBoxColumn35.Name = "dataGridViewTextBoxColumn35";
+            this.dataGridViewTextBoxColumn35.ReadOnly = true;
+            this.dataGridViewTextBoxColumn35.Width = 103;
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -665,6 +761,53 @@
             this.grdEscalasProbleasInterpersonlaes.TabIndex = 17;
             this.grdEscalasProbleasInterpersonlaes.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasProbleasInterpersonlaes_CellFormatting);
             this.grdEscalasProbleasInterpersonlaes.SelectionChanged += new System.EventHandler(this.grdEscalasProbleasInterpersonlaes_SelectionChanged);
+            // 
+            // dataGridViewTextBoxColumn26
+            // 
+            this.dataGridViewTextBoxColumn26.DataPropertyName = "descripcion";
+            this.dataGridViewTextBoxColumn26.HeaderText = "Escalas";
+            this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
+            this.dataGridViewTextBoxColumn26.ReadOnly = true;
+            this.dataGridViewTextBoxColumn26.Width = 72;
+            // 
+            // dataGridViewTextBoxColumn27
+            // 
+            this.dataGridViewTextBoxColumn27.DataPropertyName = "significado";
+            this.dataGridViewTextBoxColumn27.HeaderText = "Significado";
+            this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
+            this.dataGridViewTextBoxColumn27.ReadOnly = true;
+            this.dataGridViewTextBoxColumn27.Width = 91;
+            // 
+            // dataGridViewTextBoxColumn28
+            // 
+            this.dataGridViewTextBoxColumn28.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn28.DataPropertyName = "siglas";
+            this.dataGridViewTextBoxColumn28.HeaderText = "Siglas";
+            this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
+            this.dataGridViewTextBoxColumn28.ReadOnly = true;
+            this.dataGridViewTextBoxColumn28.Width = 63;
+            // 
+            // dataGridViewTextBoxColumn29
+            // 
+            this.dataGridViewTextBoxColumn29.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn29.DataPropertyName = "puntuacionNatural";
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn29.DefaultCellStyle = dataGridViewCellStyle11;
+            this.dataGridViewTextBoxColumn29.HeaderText = "Puntuación Natural";
+            this.dataGridViewTextBoxColumn29.Name = "dataGridViewTextBoxColumn29";
+            this.dataGridViewTextBoxColumn29.ReadOnly = true;
+            this.dataGridViewTextBoxColumn29.Width = 126;
+            // 
+            // dataGridViewTextBoxColumn30
+            // 
+            this.dataGridViewTextBoxColumn30.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn30.DataPropertyName = "puntuacionT";
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn30.DefaultCellStyle = dataGridViewCellStyle12;
+            this.dataGridViewTextBoxColumn30.HeaderText = "Puntuación-T";
+            this.dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
+            this.dataGridViewTextBoxColumn30.ReadOnly = true;
+            this.dataGridViewTextBoxColumn30.Width = 103;
             // 
             // label6
             // 
@@ -735,6 +878,51 @@
             this.grdProblemasExternalizados.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdProblemasExternalizados_CellFormatting);
             this.grdProblemasExternalizados.SelectionChanged += new System.EventHandler(this.grdProblemasExternalizados_SelectionChanged);
             // 
+            // dataGridViewTextBoxColumn21
+            // 
+            this.dataGridViewTextBoxColumn21.DataPropertyName = "descripcion";
+            this.dataGridViewTextBoxColumn21.HeaderText = "Escalas";
+            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
+            this.dataGridViewTextBoxColumn21.ReadOnly = true;
+            this.dataGridViewTextBoxColumn21.Width = 72;
+            // 
+            // dataGridViewTextBoxColumn22
+            // 
+            this.dataGridViewTextBoxColumn22.DataPropertyName = "significado";
+            this.dataGridViewTextBoxColumn22.HeaderText = "Significado";
+            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
+            this.dataGridViewTextBoxColumn22.ReadOnly = true;
+            this.dataGridViewTextBoxColumn22.Width = 91;
+            // 
+            // dataGridViewTextBoxColumn23
+            // 
+            this.dataGridViewTextBoxColumn23.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn23.DataPropertyName = "siglas";
+            this.dataGridViewTextBoxColumn23.HeaderText = "Siglas";
+            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
+            this.dataGridViewTextBoxColumn23.ReadOnly = true;
+            this.dataGridViewTextBoxColumn23.Width = 63;
+            // 
+            // dataGridViewTextBoxColumn24
+            // 
+            this.dataGridViewTextBoxColumn24.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn24.DataPropertyName = "puntuacionNatural";
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn24.DefaultCellStyle = dataGridViewCellStyle16;
+            this.dataGridViewTextBoxColumn24.HeaderText = "Puntuación Natural";
+            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
+            this.dataGridViewTextBoxColumn24.ReadOnly = true;
+            this.dataGridViewTextBoxColumn24.Width = 126;
+            // 
+            // dataGridViewTextBoxColumn25
+            // 
+            this.dataGridViewTextBoxColumn25.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn25.DataPropertyName = "puntuacionT";
+            this.dataGridViewTextBoxColumn25.HeaderText = "Puntuación-T";
+            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
+            this.dataGridViewTextBoxColumn25.ReadOnly = true;
+            this.dataGridViewTextBoxColumn25.Width = 103;
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -804,6 +992,51 @@
             this.grdProblemasInternalizados.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdProblemasInternalizados_CellFormatting);
             this.grdProblemasInternalizados.SelectionChanged += new System.EventHandler(this.grdProblemasInternalizados_SelectionChanged);
             // 
+            // dataGridViewTextBoxColumn16
+            // 
+            this.dataGridViewTextBoxColumn16.DataPropertyName = "descripcion";
+            this.dataGridViewTextBoxColumn16.HeaderText = "Escalas";
+            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
+            this.dataGridViewTextBoxColumn16.ReadOnly = true;
+            this.dataGridViewTextBoxColumn16.Width = 72;
+            // 
+            // dataGridViewTextBoxColumn17
+            // 
+            this.dataGridViewTextBoxColumn17.DataPropertyName = "significado";
+            this.dataGridViewTextBoxColumn17.HeaderText = "Significado";
+            this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
+            this.dataGridViewTextBoxColumn17.ReadOnly = true;
+            this.dataGridViewTextBoxColumn17.Width = 91;
+            // 
+            // dataGridViewTextBoxColumn18
+            // 
+            this.dataGridViewTextBoxColumn18.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn18.DataPropertyName = "siglas";
+            this.dataGridViewTextBoxColumn18.HeaderText = "Siglas";
+            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
+            this.dataGridViewTextBoxColumn18.ReadOnly = true;
+            this.dataGridViewTextBoxColumn18.Width = 63;
+            // 
+            // dataGridViewTextBoxColumn19
+            // 
+            this.dataGridViewTextBoxColumn19.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn19.DataPropertyName = "puntuacionNatural";
+            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn19.DefaultCellStyle = dataGridViewCellStyle20;
+            this.dataGridViewTextBoxColumn19.HeaderText = "Puntuación Natural";
+            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
+            this.dataGridViewTextBoxColumn19.ReadOnly = true;
+            this.dataGridViewTextBoxColumn19.Width = 126;
+            // 
+            // dataGridViewTextBoxColumn20
+            // 
+            this.dataGridViewTextBoxColumn20.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn20.DataPropertyName = "puntuacionT";
+            this.dataGridViewTextBoxColumn20.HeaderText = "Puntuación-T";
+            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
+            this.dataGridViewTextBoxColumn20.ReadOnly = true;
+            this.dataGridViewTextBoxColumn20.Width = 103;
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -872,6 +1105,53 @@
             this.grdEscalasProblemasSomaticosCognitivos.TabIndex = 11;
             this.grdEscalasProblemasSomaticosCognitivos.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasProblemasSomaticosCognitivos_CellFormatting);
             this.grdEscalasProblemasSomaticosCognitivos.SelectionChanged += new System.EventHandler(this.grdEscalasProblemasSomaticosCognitivos_SelectionChanged);
+            // 
+            // dataGridViewTextBoxColumn11
+            // 
+            this.dataGridViewTextBoxColumn11.DataPropertyName = "descripcion";
+            this.dataGridViewTextBoxColumn11.HeaderText = "Escalas";
+            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            this.dataGridViewTextBoxColumn11.ReadOnly = true;
+            this.dataGridViewTextBoxColumn11.Width = 72;
+            // 
+            // dataGridViewTextBoxColumn12
+            // 
+            this.dataGridViewTextBoxColumn12.DataPropertyName = "significado";
+            this.dataGridViewTextBoxColumn12.HeaderText = "Significado";
+            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
+            this.dataGridViewTextBoxColumn12.ReadOnly = true;
+            this.dataGridViewTextBoxColumn12.Width = 91;
+            // 
+            // dataGridViewTextBoxColumn13
+            // 
+            this.dataGridViewTextBoxColumn13.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn13.DataPropertyName = "siglas";
+            this.dataGridViewTextBoxColumn13.HeaderText = "Siglas";
+            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
+            this.dataGridViewTextBoxColumn13.ReadOnly = true;
+            this.dataGridViewTextBoxColumn13.Width = 63;
+            // 
+            // dataGridViewTextBoxColumn14
+            // 
+            this.dataGridViewTextBoxColumn14.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn14.DataPropertyName = "puntuacionNatural";
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn14.DefaultCellStyle = dataGridViewCellStyle24;
+            this.dataGridViewTextBoxColumn14.HeaderText = "Puntuación Natural";
+            this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
+            this.dataGridViewTextBoxColumn14.ReadOnly = true;
+            this.dataGridViewTextBoxColumn14.Width = 126;
+            // 
+            // dataGridViewTextBoxColumn15
+            // 
+            this.dataGridViewTextBoxColumn15.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn15.DataPropertyName = "puntuacionT";
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn15.DefaultCellStyle = dataGridViewCellStyle25;
+            this.dataGridViewTextBoxColumn15.HeaderText = "Puntuación-T";
+            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
+            this.dataGridViewTextBoxColumn15.ReadOnly = true;
+            this.dataGridViewTextBoxColumn15.Width = 103;
             // 
             // label3
             // 
@@ -955,6 +1235,53 @@
             this.grdEscalasClinicasReestructuradas.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasClinicasReestructuradas_CellFormatting);
             this.grdEscalasClinicasReestructuradas.SelectionChanged += new System.EventHandler(this.grdEscalasClinicasReestructuradas_SelectionChanged);
             // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "descripcion";
+            this.dataGridViewTextBoxColumn6.HeaderText = "Escalas";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.ReadOnly = true;
+            this.dataGridViewTextBoxColumn6.Width = 72;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "significado";
+            this.dataGridViewTextBoxColumn7.HeaderText = "Significado";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
+            this.dataGridViewTextBoxColumn7.Width = 91;
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "siglas";
+            this.dataGridViewTextBoxColumn8.HeaderText = "Siglas";
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.dataGridViewTextBoxColumn8.ReadOnly = true;
+            this.dataGridViewTextBoxColumn8.Width = 63;
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "puntuacionNatural";
+            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn9.DefaultCellStyle = dataGridViewCellStyle29;
+            this.dataGridViewTextBoxColumn9.HeaderText = "Puntuación Natural";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            this.dataGridViewTextBoxColumn9.ReadOnly = true;
+            this.dataGridViewTextBoxColumn9.Width = 126;
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "puntuacionT";
+            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn10.DefaultCellStyle = dataGridViewCellStyle30;
+            this.dataGridViewTextBoxColumn10.HeaderText = "Puntuación-T";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            this.dataGridViewTextBoxColumn10.ReadOnly = true;
+            this.dataGridViewTextBoxColumn10.Width = 103;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -1023,6 +1350,53 @@
             this.grdEscalasOrdenSuperior.TabIndex = 5;
             this.grdEscalasOrdenSuperior.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasOrdenSuperior_CellFormatting);
             this.grdEscalasOrdenSuperior.SelectionChanged += new System.EventHandler(this.grdEscalasOrdenSuperior_SelectionChanged);
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "descripcion";
+            this.dataGridViewTextBoxColumn1.HeaderText = "Escalas";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.Width = 72;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "significado";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Significado";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
+            this.dataGridViewTextBoxColumn2.Width = 91;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "siglas";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Siglas";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            this.dataGridViewTextBoxColumn3.Width = 63;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "puntuacionNatural";
+            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn4.DefaultCellStyle = dataGridViewCellStyle34;
+            this.dataGridViewTextBoxColumn4.HeaderText = "Puntuación Natural";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.ReadOnly = true;
+            this.dataGridViewTextBoxColumn4.Width = 126;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "puntuacionT";
+            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn5.DefaultCellStyle = dataGridViewCellStyle35;
+            this.dataGridViewTextBoxColumn5.HeaderText = "Puntuación-T";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            this.dataGridViewTextBoxColumn5.Width = 103;
             // 
             // lblOrdenSuperior
             // 
@@ -1093,6 +1467,53 @@
             this.grdEscalasDeValidez.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.grdEscalasDeValidez_CellFormatting);
             this.grdEscalasDeValidez.SelectionChanged += new System.EventHandler(this.grdEscalasDeValidez_SelectionChanged);
             // 
+            // descripcionDataGridViewTextBoxColumn
+            // 
+            this.descripcionDataGridViewTextBoxColumn.DataPropertyName = "descripcion";
+            this.descripcionDataGridViewTextBoxColumn.HeaderText = "Escalas";
+            this.descripcionDataGridViewTextBoxColumn.Name = "descripcionDataGridViewTextBoxColumn";
+            this.descripcionDataGridViewTextBoxColumn.ReadOnly = true;
+            this.descripcionDataGridViewTextBoxColumn.Width = 72;
+            // 
+            // significadoDataGridViewTextBoxColumn
+            // 
+            this.significadoDataGridViewTextBoxColumn.DataPropertyName = "significado";
+            this.significadoDataGridViewTextBoxColumn.HeaderText = "Significado";
+            this.significadoDataGridViewTextBoxColumn.Name = "significadoDataGridViewTextBoxColumn";
+            this.significadoDataGridViewTextBoxColumn.ReadOnly = true;
+            this.significadoDataGridViewTextBoxColumn.Width = 91;
+            // 
+            // siglasDataGridViewTextBoxColumn
+            // 
+            this.siglasDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.siglasDataGridViewTextBoxColumn.DataPropertyName = "siglas";
+            this.siglasDataGridViewTextBoxColumn.HeaderText = "Siglas";
+            this.siglasDataGridViewTextBoxColumn.Name = "siglasDataGridViewTextBoxColumn";
+            this.siglasDataGridViewTextBoxColumn.ReadOnly = true;
+            this.siglasDataGridViewTextBoxColumn.Width = 63;
+            // 
+            // puntuacionNaturalDataGridViewTextBoxColumn
+            // 
+            this.puntuacionNaturalDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.puntuacionNaturalDataGridViewTextBoxColumn.DataPropertyName = "puntuacionNatural";
+            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.puntuacionNaturalDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle39;
+            this.puntuacionNaturalDataGridViewTextBoxColumn.HeaderText = "Puntuación Natural";
+            this.puntuacionNaturalDataGridViewTextBoxColumn.Name = "puntuacionNaturalDataGridViewTextBoxColumn";
+            this.puntuacionNaturalDataGridViewTextBoxColumn.ReadOnly = true;
+            this.puntuacionNaturalDataGridViewTextBoxColumn.Width = 126;
+            // 
+            // puntuacionTDataGridViewTextBoxColumn
+            // 
+            this.puntuacionTDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.puntuacionTDataGridViewTextBoxColumn.DataPropertyName = "puntuacionT";
+            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.puntuacionTDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle40;
+            this.puntuacionTDataGridViewTextBoxColumn.HeaderText = "Puntuación-T";
+            this.puntuacionTDataGridViewTextBoxColumn.Name = "puntuacionTDataGridViewTextBoxColumn";
+            this.puntuacionTDataGridViewTextBoxColumn.ReadOnly = true;
+            this.puntuacionTDataGridViewTextBoxColumn.Width = 103;
+            // 
             // lblEscalasDeValidez
             // 
             this.lblEscalasDeValidez.AutoSize = true;
@@ -1152,6 +1573,679 @@
             this.tbInterpretacion.VerticalScrollbarHighlightOnWheel = false;
             this.tbInterpretacion.VerticalScrollbarSize = 10;
             // 
+            // pnlPrincipal
+            // 
+            this.pnlPrincipal.Controls.Add(this.pnlsecundario);
+            this.pnlPrincipal.Controls.Add(this.pnlEscalasValidez1);
+            this.pnlPrincipal.Controls.Add(this.pnlEscalasValidez);
+            this.pnlPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlPrincipal.Location = new System.Drawing.Point(0, 0);
+            this.pnlPrincipal.Name = "pnlPrincipal";
+            this.pnlPrincipal.Size = new System.Drawing.Size(1245, 695);
+            this.pnlPrincipal.TabIndex = 5;
+            // 
+            // pnlsecundario
+            // 
+            this.pnlsecundario.AutoScroll = true;
+            this.pnlsecundario.BackColor = System.Drawing.SystemColors.Window;
+            this.pnlsecundario.Controls.Add(this.grdInterPSY5);
+            this.pnlsecundario.Controls.Add(this.label17);
+            this.pnlsecundario.Controls.Add(this.grdInterInteresEspecifico);
+            this.pnlsecundario.Controls.Add(this.label16);
+            this.pnlsecundario.Controls.Add(this.grdInterProblemasPersonales);
+            this.pnlsecundario.Controls.Add(this.label15);
+            this.pnlsecundario.Controls.Add(this.grdInterProblemasExternalizados);
+            this.pnlsecundario.Controls.Add(this.label14);
+            this.pnlsecundario.Controls.Add(this.grdInterProblemasInternalizados);
+            this.pnlsecundario.Controls.Add(this.label13);
+            this.pnlsecundario.Controls.Add(this.grdSomaticosCognitivos);
+            this.pnlsecundario.Controls.Add(this.label12);
+            this.pnlsecundario.Controls.Add(this.grdClinicasReestructuradas);
+            this.pnlsecundario.Controls.Add(this.label11);
+            this.pnlsecundario.Controls.Add(this.grdInterpretcionOS);
+            this.pnlsecundario.Controls.Add(this.label10);
+            this.pnlsecundario.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlsecundario.Location = new System.Drawing.Point(0, 403);
+            this.pnlsecundario.Name = "pnlsecundario";
+            this.pnlsecundario.Size = new System.Drawing.Size(1245, 292);
+            this.pnlsecundario.TabIndex = 4;
+            // 
+            // grdInterPSY5
+            // 
+            this.grdInterPSY5.AutoGenerateColumns = false;
+            this.grdInterPSY5.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.grdInterPSY5.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.grdInterPSY5.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.grdInterPSY5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdInterPSY5.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn71,
+            this.dataGridViewTextBoxColumn72,
+            this.dataGridViewTextBoxColumn73,
+            this.dataGridViewTextBoxColumn74,
+            this.dataGridViewTextBoxColumn75});
+            this.grdInterPSY5.DataSource = this.objInterpretacionBindingSource;
+            this.grdInterPSY5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grdInterPSY5.GridColor = System.Drawing.SystemColors.MenuText;
+            this.grdInterPSY5.Location = new System.Drawing.Point(0, 1197);
+            this.grdInterPSY5.MultiSelect = false;
+            this.grdInterPSY5.Name = "grdInterPSY5";
+            this.grdInterPSY5.ReadOnly = true;
+            this.grdInterPSY5.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.grdInterPSY5.RowTemplate.Height = 30;
+            this.grdInterPSY5.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdInterPSY5.Size = new System.Drawing.Size(1228, 141);
+            this.grdInterPSY5.TabIndex = 18;
+            // 
+            // dataGridViewTextBoxColumn71
+            // 
+            this.dataGridViewTextBoxColumn71.DataPropertyName = "siglas";
+            this.dataGridViewTextBoxColumn71.HeaderText = "Siglas";
+            this.dataGridViewTextBoxColumn71.Name = "dataGridViewTextBoxColumn71";
+            this.dataGridViewTextBoxColumn71.ReadOnly = true;
+            this.dataGridViewTextBoxColumn71.Width = 60;
+            // 
+            // dataGridViewTextBoxColumn72
+            // 
+            this.dataGridViewTextBoxColumn72.DataPropertyName = "puntuacionT";
+            this.dataGridViewTextBoxColumn72.HeaderText = "P.T.";
+            this.dataGridViewTextBoxColumn72.Name = "dataGridViewTextBoxColumn72";
+            this.dataGridViewTextBoxColumn72.ReadOnly = true;
+            this.dataGridViewTextBoxColumn72.Width = 52;
+            // 
+            // dataGridViewTextBoxColumn73
+            // 
+            this.dataGridViewTextBoxColumn73.DataPropertyName = "respuestasALaPrueba";
+            this.dataGridViewTextBoxColumn73.HeaderText = "RESPUESTAS A LA PRUEBA";
+            this.dataGridViewTextBoxColumn73.Name = "dataGridViewTextBoxColumn73";
+            this.dataGridViewTextBoxColumn73.ReadOnly = true;
+            this.dataGridViewTextBoxColumn73.Width = 107;
+            // 
+            // dataGridViewTextBoxColumn74
+            // 
+            this.dataGridViewTextBoxColumn74.DataPropertyName = "especificaciones";
+            this.dataGridViewTextBoxColumn74.HeaderText = "ESPECIFICACIONES";
+            this.dataGridViewTextBoxColumn74.Name = "dataGridViewTextBoxColumn74";
+            this.dataGridViewTextBoxColumn74.ReadOnly = true;
+            this.dataGridViewTextBoxColumn74.Width = 133;
+            // 
+            // dataGridViewTextBoxColumn75
+            // 
+            this.dataGridViewTextBoxColumn75.DataPropertyName = "correlacionesEmpiricas";
+            this.dataGridViewTextBoxColumn75.HeaderText = "CORRELACIONES EMPIRICAS";
+            this.dataGridViewTextBoxColumn75.Name = "dataGridViewTextBoxColumn75";
+            this.dataGridViewTextBoxColumn75.ReadOnly = true;
+            this.dataGridViewTextBoxColumn75.Width = 168;
+            // 
+            // objInterpretacionBindingSource
+            // 
+            this.objInterpretacionBindingSource.DataSource = typeof(ConsultorioMMPI.Clases.Escalas.Interpretacion);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label17.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.DarkRed;
+            this.label17.Location = new System.Drawing.Point(0, 1174);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(533, 23);
+            this.label17.TabIndex = 19;
+            this.label17.Text = "CINCO ESCALAS DE PSICOPATOLOGÍA DE LA PERSONALIDAD (PSY-5)";
+            // 
+            // grdInterInteresEspecifico
+            // 
+            this.grdInterInteresEspecifico.AutoGenerateColumns = false;
+            this.grdInterInteresEspecifico.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.grdInterInteresEspecifico.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.grdInterInteresEspecifico.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.grdInterInteresEspecifico.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdInterInteresEspecifico.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn66,
+            this.dataGridViewTextBoxColumn67,
+            this.dataGridViewTextBoxColumn68,
+            this.dataGridViewTextBoxColumn69,
+            this.dataGridViewTextBoxColumn70});
+            this.grdInterInteresEspecifico.DataSource = this.objInterpretacionBindingSource;
+            this.grdInterInteresEspecifico.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grdInterInteresEspecifico.GridColor = System.Drawing.SystemColors.MenuText;
+            this.grdInterInteresEspecifico.Location = new System.Drawing.Point(0, 1033);
+            this.grdInterInteresEspecifico.MultiSelect = false;
+            this.grdInterInteresEspecifico.Name = "grdInterInteresEspecifico";
+            this.grdInterInteresEspecifico.ReadOnly = true;
+            this.grdInterInteresEspecifico.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.grdInterInteresEspecifico.RowTemplate.Height = 30;
+            this.grdInterInteresEspecifico.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdInterInteresEspecifico.Size = new System.Drawing.Size(1228, 141);
+            this.grdInterInteresEspecifico.TabIndex = 16;
+            // 
+            // dataGridViewTextBoxColumn66
+            // 
+            this.dataGridViewTextBoxColumn66.DataPropertyName = "siglas";
+            this.dataGridViewTextBoxColumn66.HeaderText = "Siglas";
+            this.dataGridViewTextBoxColumn66.Name = "dataGridViewTextBoxColumn66";
+            this.dataGridViewTextBoxColumn66.ReadOnly = true;
+            this.dataGridViewTextBoxColumn66.Width = 60;
+            // 
+            // dataGridViewTextBoxColumn67
+            // 
+            this.dataGridViewTextBoxColumn67.DataPropertyName = "puntuacionT";
+            this.dataGridViewTextBoxColumn67.HeaderText = "P.T.";
+            this.dataGridViewTextBoxColumn67.Name = "dataGridViewTextBoxColumn67";
+            this.dataGridViewTextBoxColumn67.ReadOnly = true;
+            this.dataGridViewTextBoxColumn67.Width = 52;
+            // 
+            // dataGridViewTextBoxColumn68
+            // 
+            this.dataGridViewTextBoxColumn68.DataPropertyName = "respuestasALaPrueba";
+            this.dataGridViewTextBoxColumn68.HeaderText = "RESPUESTAS A LA PRUEBA";
+            this.dataGridViewTextBoxColumn68.Name = "dataGridViewTextBoxColumn68";
+            this.dataGridViewTextBoxColumn68.ReadOnly = true;
+            this.dataGridViewTextBoxColumn68.Width = 107;
+            // 
+            // dataGridViewTextBoxColumn69
+            // 
+            this.dataGridViewTextBoxColumn69.DataPropertyName = "especificaciones";
+            this.dataGridViewTextBoxColumn69.HeaderText = "ESPECIFICACIONES";
+            this.dataGridViewTextBoxColumn69.Name = "dataGridViewTextBoxColumn69";
+            this.dataGridViewTextBoxColumn69.ReadOnly = true;
+            this.dataGridViewTextBoxColumn69.Width = 133;
+            // 
+            // dataGridViewTextBoxColumn70
+            // 
+            this.dataGridViewTextBoxColumn70.DataPropertyName = "correlacionesEmpiricas";
+            this.dataGridViewTextBoxColumn70.HeaderText = "CORRELACIONES EMPIRICAS";
+            this.dataGridViewTextBoxColumn70.Name = "dataGridViewTextBoxColumn70";
+            this.dataGridViewTextBoxColumn70.ReadOnly = true;
+            this.dataGridViewTextBoxColumn70.Width = 168;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label16.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.DarkRed;
+            this.label16.Location = new System.Drawing.Point(0, 1010);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(265, 23);
+            this.label16.TabIndex = 17;
+            this.label16.Text = "ESCALAS DE INTERÉS ESPECIFICO";
+            // 
+            // grdInterProblemasPersonales
+            // 
+            this.grdInterProblemasPersonales.AutoGenerateColumns = false;
+            this.grdInterProblemasPersonales.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.grdInterProblemasPersonales.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.grdInterProblemasPersonales.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.grdInterProblemasPersonales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdInterProblemasPersonales.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn61,
+            this.dataGridViewTextBoxColumn62,
+            this.dataGridViewTextBoxColumn63,
+            this.dataGridViewTextBoxColumn64,
+            this.dataGridViewTextBoxColumn65});
+            this.grdInterProblemasPersonales.DataSource = this.objInterpretacionBindingSource;
+            this.grdInterProblemasPersonales.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grdInterProblemasPersonales.GridColor = System.Drawing.SystemColors.MenuText;
+            this.grdInterProblemasPersonales.Location = new System.Drawing.Point(0, 869);
+            this.grdInterProblemasPersonales.MultiSelect = false;
+            this.grdInterProblemasPersonales.Name = "grdInterProblemasPersonales";
+            this.grdInterProblemasPersonales.ReadOnly = true;
+            this.grdInterProblemasPersonales.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.grdInterProblemasPersonales.RowTemplate.Height = 30;
+            this.grdInterProblemasPersonales.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdInterProblemasPersonales.Size = new System.Drawing.Size(1228, 141);
+            this.grdInterProblemasPersonales.TabIndex = 14;
+            // 
+            // dataGridViewTextBoxColumn61
+            // 
+            this.dataGridViewTextBoxColumn61.DataPropertyName = "siglas";
+            this.dataGridViewTextBoxColumn61.HeaderText = "Siglas";
+            this.dataGridViewTextBoxColumn61.Name = "dataGridViewTextBoxColumn61";
+            this.dataGridViewTextBoxColumn61.ReadOnly = true;
+            this.dataGridViewTextBoxColumn61.Width = 60;
+            // 
+            // dataGridViewTextBoxColumn62
+            // 
+            this.dataGridViewTextBoxColumn62.DataPropertyName = "puntuacionT";
+            this.dataGridViewTextBoxColumn62.HeaderText = "P.T.";
+            this.dataGridViewTextBoxColumn62.Name = "dataGridViewTextBoxColumn62";
+            this.dataGridViewTextBoxColumn62.ReadOnly = true;
+            this.dataGridViewTextBoxColumn62.Width = 52;
+            // 
+            // dataGridViewTextBoxColumn63
+            // 
+            this.dataGridViewTextBoxColumn63.DataPropertyName = "respuestasALaPrueba";
+            this.dataGridViewTextBoxColumn63.HeaderText = "RESPUESTAS A LA PRUEBA";
+            this.dataGridViewTextBoxColumn63.Name = "dataGridViewTextBoxColumn63";
+            this.dataGridViewTextBoxColumn63.ReadOnly = true;
+            this.dataGridViewTextBoxColumn63.Width = 107;
+            // 
+            // dataGridViewTextBoxColumn64
+            // 
+            this.dataGridViewTextBoxColumn64.DataPropertyName = "especificaciones";
+            this.dataGridViewTextBoxColumn64.HeaderText = "ESPECIFICACIONES";
+            this.dataGridViewTextBoxColumn64.Name = "dataGridViewTextBoxColumn64";
+            this.dataGridViewTextBoxColumn64.ReadOnly = true;
+            this.dataGridViewTextBoxColumn64.Width = 133;
+            // 
+            // dataGridViewTextBoxColumn65
+            // 
+            this.dataGridViewTextBoxColumn65.DataPropertyName = "correlacionesEmpiricas";
+            this.dataGridViewTextBoxColumn65.HeaderText = "CORRELACIONES EMPIRICAS";
+            this.dataGridViewTextBoxColumn65.Name = "dataGridViewTextBoxColumn65";
+            this.dataGridViewTextBoxColumn65.ReadOnly = true;
+            this.dataGridViewTextBoxColumn65.Width = 168;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label15.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.DarkRed;
+            this.label15.Location = new System.Drawing.Point(0, 846);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(352, 23);
+            this.label15.TabIndex = 15;
+            this.label15.Text = "ESCALAS DE PROBLEMAS INTERPERSONALES";
+            // 
+            // grdInterProblemasExternalizados
+            // 
+            this.grdInterProblemasExternalizados.AutoGenerateColumns = false;
+            this.grdInterProblemasExternalizados.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.grdInterProblemasExternalizados.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.grdInterProblemasExternalizados.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.grdInterProblemasExternalizados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdInterProblemasExternalizados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn56,
+            this.dataGridViewTextBoxColumn57,
+            this.dataGridViewTextBoxColumn58,
+            this.dataGridViewTextBoxColumn59,
+            this.dataGridViewTextBoxColumn60});
+            this.grdInterProblemasExternalizados.DataSource = this.objInterpretacionBindingSource;
+            this.grdInterProblemasExternalizados.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grdInterProblemasExternalizados.GridColor = System.Drawing.SystemColors.MenuText;
+            this.grdInterProblemasExternalizados.Location = new System.Drawing.Point(0, 705);
+            this.grdInterProblemasExternalizados.MultiSelect = false;
+            this.grdInterProblemasExternalizados.Name = "grdInterProblemasExternalizados";
+            this.grdInterProblemasExternalizados.ReadOnly = true;
+            this.grdInterProblemasExternalizados.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.grdInterProblemasExternalizados.RowTemplate.Height = 30;
+            this.grdInterProblemasExternalizados.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdInterProblemasExternalizados.Size = new System.Drawing.Size(1228, 141);
+            this.grdInterProblemasExternalizados.TabIndex = 12;
+            // 
+            // dataGridViewTextBoxColumn56
+            // 
+            this.dataGridViewTextBoxColumn56.DataPropertyName = "siglas";
+            this.dataGridViewTextBoxColumn56.HeaderText = "Siglas";
+            this.dataGridViewTextBoxColumn56.Name = "dataGridViewTextBoxColumn56";
+            this.dataGridViewTextBoxColumn56.ReadOnly = true;
+            this.dataGridViewTextBoxColumn56.Width = 60;
+            // 
+            // dataGridViewTextBoxColumn57
+            // 
+            this.dataGridViewTextBoxColumn57.DataPropertyName = "puntuacionT";
+            this.dataGridViewTextBoxColumn57.HeaderText = "P.T.";
+            this.dataGridViewTextBoxColumn57.Name = "dataGridViewTextBoxColumn57";
+            this.dataGridViewTextBoxColumn57.ReadOnly = true;
+            this.dataGridViewTextBoxColumn57.Width = 52;
+            // 
+            // dataGridViewTextBoxColumn58
+            // 
+            this.dataGridViewTextBoxColumn58.DataPropertyName = "respuestasALaPrueba";
+            this.dataGridViewTextBoxColumn58.HeaderText = "RESPUESTAS A LA PRUEBA";
+            this.dataGridViewTextBoxColumn58.Name = "dataGridViewTextBoxColumn58";
+            this.dataGridViewTextBoxColumn58.ReadOnly = true;
+            this.dataGridViewTextBoxColumn58.Width = 107;
+            // 
+            // dataGridViewTextBoxColumn59
+            // 
+            this.dataGridViewTextBoxColumn59.DataPropertyName = "especificaciones";
+            this.dataGridViewTextBoxColumn59.HeaderText = "ESPECIFICACIONES";
+            this.dataGridViewTextBoxColumn59.Name = "dataGridViewTextBoxColumn59";
+            this.dataGridViewTextBoxColumn59.ReadOnly = true;
+            this.dataGridViewTextBoxColumn59.Width = 133;
+            // 
+            // dataGridViewTextBoxColumn60
+            // 
+            this.dataGridViewTextBoxColumn60.DataPropertyName = "correlacionesEmpiricas";
+            this.dataGridViewTextBoxColumn60.HeaderText = "CORRELACIONES EMPIRICAS";
+            this.dataGridViewTextBoxColumn60.Name = "dataGridViewTextBoxColumn60";
+            this.dataGridViewTextBoxColumn60.ReadOnly = true;
+            this.dataGridViewTextBoxColumn60.Width = 168;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label14.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.DarkRed;
+            this.label14.Location = new System.Drawing.Point(0, 682);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(344, 23);
+            this.label14.TabIndex = 13;
+            this.label14.Text = "ESCALAS DE PROBLEMAS EXTERNALIZADOS";
+            // 
+            // grdInterProblemasInternalizados
+            // 
+            this.grdInterProblemasInternalizados.AutoGenerateColumns = false;
+            this.grdInterProblemasInternalizados.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.grdInterProblemasInternalizados.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.grdInterProblemasInternalizados.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.grdInterProblemasInternalizados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdInterProblemasInternalizados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn51,
+            this.dataGridViewTextBoxColumn52,
+            this.dataGridViewTextBoxColumn53,
+            this.dataGridViewTextBoxColumn54,
+            this.dataGridViewTextBoxColumn55});
+            this.grdInterProblemasInternalizados.DataSource = this.objInterpretacionBindingSource;
+            this.grdInterProblemasInternalizados.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grdInterProblemasInternalizados.GridColor = System.Drawing.SystemColors.MenuText;
+            this.grdInterProblemasInternalizados.Location = new System.Drawing.Point(0, 541);
+            this.grdInterProblemasInternalizados.MultiSelect = false;
+            this.grdInterProblemasInternalizados.Name = "grdInterProblemasInternalizados";
+            this.grdInterProblemasInternalizados.ReadOnly = true;
+            this.grdInterProblemasInternalizados.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.grdInterProblemasInternalizados.RowTemplate.Height = 30;
+            this.grdInterProblemasInternalizados.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdInterProblemasInternalizados.Size = new System.Drawing.Size(1228, 141);
+            this.grdInterProblemasInternalizados.TabIndex = 10;
+            // 
+            // dataGridViewTextBoxColumn51
+            // 
+            this.dataGridViewTextBoxColumn51.DataPropertyName = "siglas";
+            this.dataGridViewTextBoxColumn51.HeaderText = "Siglas";
+            this.dataGridViewTextBoxColumn51.Name = "dataGridViewTextBoxColumn51";
+            this.dataGridViewTextBoxColumn51.ReadOnly = true;
+            this.dataGridViewTextBoxColumn51.Width = 60;
+            // 
+            // dataGridViewTextBoxColumn52
+            // 
+            this.dataGridViewTextBoxColumn52.DataPropertyName = "puntuacionT";
+            this.dataGridViewTextBoxColumn52.HeaderText = "P.T.";
+            this.dataGridViewTextBoxColumn52.Name = "dataGridViewTextBoxColumn52";
+            this.dataGridViewTextBoxColumn52.ReadOnly = true;
+            this.dataGridViewTextBoxColumn52.Width = 52;
+            // 
+            // dataGridViewTextBoxColumn53
+            // 
+            this.dataGridViewTextBoxColumn53.DataPropertyName = "respuestasALaPrueba";
+            this.dataGridViewTextBoxColumn53.HeaderText = "RESPUESTAS A LA PRUEBA";
+            this.dataGridViewTextBoxColumn53.Name = "dataGridViewTextBoxColumn53";
+            this.dataGridViewTextBoxColumn53.ReadOnly = true;
+            this.dataGridViewTextBoxColumn53.Width = 107;
+            // 
+            // dataGridViewTextBoxColumn54
+            // 
+            this.dataGridViewTextBoxColumn54.DataPropertyName = "especificaciones";
+            this.dataGridViewTextBoxColumn54.HeaderText = "ESPECIFICACIONES";
+            this.dataGridViewTextBoxColumn54.Name = "dataGridViewTextBoxColumn54";
+            this.dataGridViewTextBoxColumn54.ReadOnly = true;
+            this.dataGridViewTextBoxColumn54.Width = 133;
+            // 
+            // dataGridViewTextBoxColumn55
+            // 
+            this.dataGridViewTextBoxColumn55.DataPropertyName = "correlacionesEmpiricas";
+            this.dataGridViewTextBoxColumn55.HeaderText = "CORRELACIONES EMPIRICAS";
+            this.dataGridViewTextBoxColumn55.Name = "dataGridViewTextBoxColumn55";
+            this.dataGridViewTextBoxColumn55.ReadOnly = true;
+            this.dataGridViewTextBoxColumn55.Width = 168;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label13.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.DarkRed;
+            this.label13.Location = new System.Drawing.Point(0, 518);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(343, 23);
+            this.label13.TabIndex = 11;
+            this.label13.Text = "ESCALAS DE PROBLEMAS INTERNALIZADOS";
+            // 
+            // grdSomaticosCognitivos
+            // 
+            this.grdSomaticosCognitivos.AutoGenerateColumns = false;
+            this.grdSomaticosCognitivos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.grdSomaticosCognitivos.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.grdSomaticosCognitivos.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.grdSomaticosCognitivos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdSomaticosCognitivos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn46,
+            this.dataGridViewTextBoxColumn47,
+            this.dataGridViewTextBoxColumn48,
+            this.dataGridViewTextBoxColumn49,
+            this.dataGridViewTextBoxColumn50});
+            this.grdSomaticosCognitivos.DataSource = this.objInterpretacionBindingSource;
+            this.grdSomaticosCognitivos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grdSomaticosCognitivos.GridColor = System.Drawing.SystemColors.MenuText;
+            this.grdSomaticosCognitivos.Location = new System.Drawing.Point(0, 377);
+            this.grdSomaticosCognitivos.MultiSelect = false;
+            this.grdSomaticosCognitivos.Name = "grdSomaticosCognitivos";
+            this.grdSomaticosCognitivos.ReadOnly = true;
+            this.grdSomaticosCognitivos.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.grdSomaticosCognitivos.RowTemplate.Height = 30;
+            this.grdSomaticosCognitivos.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdSomaticosCognitivos.Size = new System.Drawing.Size(1228, 141);
+            this.grdSomaticosCognitivos.TabIndex = 8;
+            // 
+            // dataGridViewTextBoxColumn46
+            // 
+            this.dataGridViewTextBoxColumn46.DataPropertyName = "siglas";
+            this.dataGridViewTextBoxColumn46.HeaderText = "Siglas";
+            this.dataGridViewTextBoxColumn46.Name = "dataGridViewTextBoxColumn46";
+            this.dataGridViewTextBoxColumn46.ReadOnly = true;
+            this.dataGridViewTextBoxColumn46.Width = 60;
+            // 
+            // dataGridViewTextBoxColumn47
+            // 
+            this.dataGridViewTextBoxColumn47.DataPropertyName = "puntuacionT";
+            this.dataGridViewTextBoxColumn47.HeaderText = "P.T.";
+            this.dataGridViewTextBoxColumn47.Name = "dataGridViewTextBoxColumn47";
+            this.dataGridViewTextBoxColumn47.ReadOnly = true;
+            this.dataGridViewTextBoxColumn47.Width = 52;
+            // 
+            // dataGridViewTextBoxColumn48
+            // 
+            this.dataGridViewTextBoxColumn48.DataPropertyName = "respuestasALaPrueba";
+            this.dataGridViewTextBoxColumn48.HeaderText = "RESPUESTAS A LA PRUEBA";
+            this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
+            this.dataGridViewTextBoxColumn48.ReadOnly = true;
+            this.dataGridViewTextBoxColumn48.Width = 107;
+            // 
+            // dataGridViewTextBoxColumn49
+            // 
+            this.dataGridViewTextBoxColumn49.DataPropertyName = "especificaciones";
+            this.dataGridViewTextBoxColumn49.HeaderText = "ESPECIFICACIONES";
+            this.dataGridViewTextBoxColumn49.Name = "dataGridViewTextBoxColumn49";
+            this.dataGridViewTextBoxColumn49.ReadOnly = true;
+            this.dataGridViewTextBoxColumn49.Width = 133;
+            // 
+            // dataGridViewTextBoxColumn50
+            // 
+            this.dataGridViewTextBoxColumn50.DataPropertyName = "correlacionesEmpiricas";
+            this.dataGridViewTextBoxColumn50.HeaderText = "CORRELACIONES EMPIRICAS";
+            this.dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
+            this.dataGridViewTextBoxColumn50.ReadOnly = true;
+            this.dataGridViewTextBoxColumn50.Width = 168;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label12.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.DarkRed;
+            this.label12.Location = new System.Drawing.Point(0, 354);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(409, 23);
+            this.label12.TabIndex = 9;
+            this.label12.Text = "ESCALAS DE PROBLEMAS SOMÁTICOS/COGNITIVOS";
+            // 
+            // grdClinicasReestructuradas
+            // 
+            this.grdClinicasReestructuradas.AutoGenerateColumns = false;
+            this.grdClinicasReestructuradas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.grdClinicasReestructuradas.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.grdClinicasReestructuradas.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.grdClinicasReestructuradas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdClinicasReestructuradas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn41,
+            this.dataGridViewTextBoxColumn42,
+            this.dataGridViewTextBoxColumn43,
+            this.dataGridViewTextBoxColumn44,
+            this.dataGridViewTextBoxColumn45});
+            this.grdClinicasReestructuradas.DataSource = this.objInterpretacionBindingSource;
+            this.grdClinicasReestructuradas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grdClinicasReestructuradas.GridColor = System.Drawing.SystemColors.MenuText;
+            this.grdClinicasReestructuradas.Location = new System.Drawing.Point(0, 175);
+            this.grdClinicasReestructuradas.MultiSelect = false;
+            this.grdClinicasReestructuradas.Name = "grdClinicasReestructuradas";
+            this.grdClinicasReestructuradas.ReadOnly = true;
+            this.grdClinicasReestructuradas.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.grdClinicasReestructuradas.RowTemplate.Height = 30;
+            this.grdClinicasReestructuradas.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdClinicasReestructuradas.Size = new System.Drawing.Size(1228, 179);
+            this.grdClinicasReestructuradas.TabIndex = 6;
+            // 
+            // dataGridViewTextBoxColumn41
+            // 
+            this.dataGridViewTextBoxColumn41.DataPropertyName = "siglas";
+            this.dataGridViewTextBoxColumn41.HeaderText = "Siglas";
+            this.dataGridViewTextBoxColumn41.Name = "dataGridViewTextBoxColumn41";
+            this.dataGridViewTextBoxColumn41.ReadOnly = true;
+            this.dataGridViewTextBoxColumn41.Width = 60;
+            // 
+            // dataGridViewTextBoxColumn42
+            // 
+            this.dataGridViewTextBoxColumn42.DataPropertyName = "puntuacionT";
+            this.dataGridViewTextBoxColumn42.HeaderText = "P.T.";
+            this.dataGridViewTextBoxColumn42.Name = "dataGridViewTextBoxColumn42";
+            this.dataGridViewTextBoxColumn42.ReadOnly = true;
+            this.dataGridViewTextBoxColumn42.Width = 52;
+            // 
+            // dataGridViewTextBoxColumn43
+            // 
+            this.dataGridViewTextBoxColumn43.DataPropertyName = "respuestasALaPrueba";
+            this.dataGridViewTextBoxColumn43.HeaderText = "RESPUESTAS A LA PRUEBA";
+            this.dataGridViewTextBoxColumn43.Name = "dataGridViewTextBoxColumn43";
+            this.dataGridViewTextBoxColumn43.ReadOnly = true;
+            this.dataGridViewTextBoxColumn43.Width = 107;
+            // 
+            // dataGridViewTextBoxColumn44
+            // 
+            this.dataGridViewTextBoxColumn44.DataPropertyName = "especificaciones";
+            this.dataGridViewTextBoxColumn44.HeaderText = "ESPECIFICACIONES";
+            this.dataGridViewTextBoxColumn44.Name = "dataGridViewTextBoxColumn44";
+            this.dataGridViewTextBoxColumn44.ReadOnly = true;
+            this.dataGridViewTextBoxColumn44.Width = 133;
+            // 
+            // dataGridViewTextBoxColumn45
+            // 
+            this.dataGridViewTextBoxColumn45.DataPropertyName = "correlacionesEmpiricas";
+            this.dataGridViewTextBoxColumn45.HeaderText = "CORRELACIONES EMPIRICAS";
+            this.dataGridViewTextBoxColumn45.Name = "dataGridViewTextBoxColumn45";
+            this.dataGridViewTextBoxColumn45.ReadOnly = true;
+            this.dataGridViewTextBoxColumn45.Width = 168;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label11.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.DarkRed;
+            this.label11.Location = new System.Drawing.Point(0, 152);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(369, 23);
+            this.label11.TabIndex = 7;
+            this.label11.Text = "ESCALAS CLINICAS REESTRUCTURADAS CR (RC)";
+            // 
+            // grdInterpretcionOS
+            // 
+            this.grdInterpretcionOS.AutoGenerateColumns = false;
+            this.grdInterpretcionOS.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.grdInterpretcionOS.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.grdInterpretcionOS.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.grdInterpretcionOS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdInterpretcionOS.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.siglasDataGridViewTextBoxColumn1,
+            this.puntuacionTDataGridViewTextBoxColumn1,
+            this.respuestasALaPruebaDataGridViewTextBoxColumn,
+            this.especificacionesDataGridViewTextBoxColumn,
+            this.correlacionesEmpiricasDataGridViewTextBoxColumn});
+            this.grdInterpretcionOS.DataSource = this.objInterpretacionBindingSource;
+            this.grdInterpretcionOS.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grdInterpretcionOS.GridColor = System.Drawing.SystemColors.MenuText;
+            this.grdInterpretcionOS.Location = new System.Drawing.Point(0, 23);
+            this.grdInterpretcionOS.MultiSelect = false;
+            this.grdInterpretcionOS.Name = "grdInterpretcionOS";
+            this.grdInterpretcionOS.ReadOnly = true;
+            this.grdInterpretcionOS.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.grdInterpretcionOS.RowTemplate.Height = 30;
+            this.grdInterpretcionOS.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdInterpretcionOS.Size = new System.Drawing.Size(1228, 129);
+            this.grdInterpretcionOS.TabIndex = 1;
+            // 
+            // siglasDataGridViewTextBoxColumn1
+            // 
+            this.siglasDataGridViewTextBoxColumn1.DataPropertyName = "siglas";
+            this.siglasDataGridViewTextBoxColumn1.HeaderText = "Siglas";
+            this.siglasDataGridViewTextBoxColumn1.Name = "siglasDataGridViewTextBoxColumn1";
+            this.siglasDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.siglasDataGridViewTextBoxColumn1.Width = 60;
+            // 
+            // puntuacionTDataGridViewTextBoxColumn1
+            // 
+            this.puntuacionTDataGridViewTextBoxColumn1.DataPropertyName = "puntuacionT";
+            this.puntuacionTDataGridViewTextBoxColumn1.HeaderText = "P.T.";
+            this.puntuacionTDataGridViewTextBoxColumn1.Name = "puntuacionTDataGridViewTextBoxColumn1";
+            this.puntuacionTDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.puntuacionTDataGridViewTextBoxColumn1.Width = 52;
+            // 
+            // respuestasALaPruebaDataGridViewTextBoxColumn
+            // 
+            this.respuestasALaPruebaDataGridViewTextBoxColumn.DataPropertyName = "respuestasALaPrueba";
+            this.respuestasALaPruebaDataGridViewTextBoxColumn.HeaderText = "RESPUESTAS A LA PRUEBA";
+            this.respuestasALaPruebaDataGridViewTextBoxColumn.Name = "respuestasALaPruebaDataGridViewTextBoxColumn";
+            this.respuestasALaPruebaDataGridViewTextBoxColumn.ReadOnly = true;
+            this.respuestasALaPruebaDataGridViewTextBoxColumn.Width = 107;
+            // 
+            // especificacionesDataGridViewTextBoxColumn
+            // 
+            this.especificacionesDataGridViewTextBoxColumn.DataPropertyName = "especificaciones";
+            this.especificacionesDataGridViewTextBoxColumn.HeaderText = "ESPECIFICACIONES";
+            this.especificacionesDataGridViewTextBoxColumn.Name = "especificacionesDataGridViewTextBoxColumn";
+            this.especificacionesDataGridViewTextBoxColumn.ReadOnly = true;
+            this.especificacionesDataGridViewTextBoxColumn.Width = 133;
+            // 
+            // correlacionesEmpiricasDataGridViewTextBoxColumn
+            // 
+            this.correlacionesEmpiricasDataGridViewTextBoxColumn.DataPropertyName = "correlacionesEmpiricas";
+            this.correlacionesEmpiricasDataGridViewTextBoxColumn.HeaderText = "CORRELACIONES EMPIRICAS";
+            this.correlacionesEmpiricasDataGridViewTextBoxColumn.Name = "correlacionesEmpiricasDataGridViewTextBoxColumn";
+            this.correlacionesEmpiricasDataGridViewTextBoxColumn.ReadOnly = true;
+            this.correlacionesEmpiricasDataGridViewTextBoxColumn.Width = 168;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label10.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.DarkRed;
+            this.label10.Location = new System.Drawing.Point(0, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(318, 23);
+            this.label10.TabIndex = 5;
+            this.label10.Text = "ESCALAS DE ORDEN SUPERIOR OS (H-O)";
+            // 
             // pnlEscalasValidez1
             // 
             this.pnlEscalasValidez1.AutoScroll = true;
@@ -1200,14 +2294,14 @@
             this.tblLayEscalasValidez.RowCount = 2;
             this.tblLayEscalasValidez.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tblLayEscalasValidez.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tblLayEscalasValidez.Size = new System.Drawing.Size(1228, 474);
+            this.tblLayEscalasValidez.Size = new System.Drawing.Size(1245, 474);
             this.tblLayEscalasValidez.TabIndex = 2;
             // 
             // txtConclusionGral
             // 
             this.txtConclusionGral.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtConclusionGral.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtConclusionGral.Location = new System.Drawing.Point(1001, 33);
+            this.txtConclusionGral.Location = new System.Drawing.Point(1016, 33);
             this.txtConclusionGral.Multiline = true;
             this.txtConclusionGral.Name = "txtConclusionGral";
             this.txtConclusionGral.Size = new System.Drawing.Size(144, 439);
@@ -1228,7 +2322,7 @@
             this.tableLayoutPanel5.Controls.Add(this.lblIMPfpsir, 0, 3);
             this.tableLayoutPanel5.Controls.Add(this.lblIMPfr, 0, 2);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(431, 33);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(436, 33);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 9;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
@@ -1241,7 +2335,7 @@
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(299, 439);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(304, 439);
             this.tableLayoutPanel5.TabIndex = 11;
             this.tableLayoutPanel5.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel5_Paint);
             // 
@@ -1254,7 +2348,7 @@
             this.lblIMPinvar.Location = new System.Drawing.Point(3, 3);
             this.lblIMPinvar.Multiline = true;
             this.lblIMPinvar.Name = "lblIMPinvar";
-            this.lblIMPinvar.Size = new System.Drawing.Size(293, 42);
+            this.lblIMPinvar.Size = new System.Drawing.Size(298, 42);
             this.lblIMPinvar.TabIndex = 24;
             this.lblIMPinvar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1267,7 +2361,7 @@
             this.lblIMPinver.Location = new System.Drawing.Point(3, 51);
             this.lblIMPinver.Multiline = true;
             this.lblIMPinver.Name = "lblIMPinver";
-            this.lblIMPinver.Size = new System.Drawing.Size(293, 42);
+            this.lblIMPinver.Size = new System.Drawing.Size(298, 42);
             this.lblIMPinver.TabIndex = 25;
             this.lblIMPinver.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1280,7 +2374,7 @@
             this.lblIMPkr.Location = new System.Drawing.Point(3, 387);
             this.lblIMPkr.Multiline = true;
             this.lblIMPkr.Name = "lblIMPkr";
-            this.lblIMPkr.Size = new System.Drawing.Size(293, 49);
+            this.lblIMPkr.Size = new System.Drawing.Size(298, 49);
             this.lblIMPkr.TabIndex = 26;
             this.lblIMPkr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1293,7 +2387,7 @@
             this.lblIMPlr.Location = new System.Drawing.Point(3, 339);
             this.lblIMPlr.Multiline = true;
             this.lblIMPlr.Name = "lblIMPlr";
-            this.lblIMPlr.Size = new System.Drawing.Size(293, 42);
+            this.lblIMPlr.Size = new System.Drawing.Size(298, 42);
             this.lblIMPlr.TabIndex = 27;
             this.lblIMPlr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1306,7 +2400,7 @@
             this.lblIMPfvsr.Location = new System.Drawing.Point(3, 243);
             this.lblIMPfvsr.Multiline = true;
             this.lblIMPfvsr.Name = "lblIMPfvsr";
-            this.lblIMPfvsr.Size = new System.Drawing.Size(293, 42);
+            this.lblIMPfvsr.Size = new System.Drawing.Size(298, 42);
             this.lblIMPfvsr.TabIndex = 28;
             this.lblIMPfvsr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1319,7 +2413,7 @@
             this.lblIMPsi.Location = new System.Drawing.Point(3, 291);
             this.lblIMPsi.Multiline = true;
             this.lblIMPsi.Name = "lblIMPsi";
-            this.lblIMPsi.Size = new System.Drawing.Size(293, 42);
+            this.lblIMPsi.Size = new System.Drawing.Size(298, 42);
             this.lblIMPsi.TabIndex = 29;
             this.lblIMPsi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1332,7 +2426,7 @@
             this.lblIMPfs.Location = new System.Drawing.Point(3, 195);
             this.lblIMPfs.Multiline = true;
             this.lblIMPfs.Name = "lblIMPfs";
-            this.lblIMPfs.Size = new System.Drawing.Size(293, 42);
+            this.lblIMPfs.Size = new System.Drawing.Size(298, 42);
             this.lblIMPfs.TabIndex = 30;
             this.lblIMPfs.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1345,7 +2439,7 @@
             this.lblIMPfpsir.Location = new System.Drawing.Point(3, 147);
             this.lblIMPfpsir.Multiline = true;
             this.lblIMPfpsir.Name = "lblIMPfpsir";
-            this.lblIMPfpsir.Size = new System.Drawing.Size(293, 42);
+            this.lblIMPfpsir.Size = new System.Drawing.Size(298, 42);
             this.lblIMPfpsir.TabIndex = 31;
             this.lblIMPfpsir.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1358,7 +2452,7 @@
             this.lblIMPfr.Location = new System.Drawing.Point(3, 99);
             this.lblIMPfr.Multiline = true;
             this.lblIMPfr.Name = "lblIMPfr";
-            this.lblIMPfr.Size = new System.Drawing.Size(293, 42);
+            this.lblIMPfr.Size = new System.Drawing.Size(298, 42);
             this.lblIMPfr.TabIndex = 32;
             this.lblIMPfr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1408,7 +2502,7 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(302, 439);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(307, 439);
             this.tableLayoutPanel4.TabIndex = 16;
             // 
             // lblINQkr
@@ -1420,7 +2514,7 @@
             this.lblINQkr.Location = new System.Drawing.Point(3, 387);
             this.lblINQkr.Multiline = true;
             this.lblINQkr.Name = "lblINQkr";
-            this.lblINQkr.Size = new System.Drawing.Size(296, 49);
+            this.lblINQkr.Size = new System.Drawing.Size(301, 49);
             this.lblINQkr.TabIndex = 29;
             this.lblINQkr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1433,7 +2527,7 @@
             this.lblINQlr.Location = new System.Drawing.Point(3, 339);
             this.lblINQlr.Multiline = true;
             this.lblINQlr.Name = "lblINQlr";
-            this.lblINQlr.Size = new System.Drawing.Size(296, 42);
+            this.lblINQlr.Size = new System.Drawing.Size(301, 42);
             this.lblINQlr.TabIndex = 28;
             this.lblINQlr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1446,7 +2540,7 @@
             this.lblINQsi.Location = new System.Drawing.Point(3, 291);
             this.lblINQsi.Multiline = true;
             this.lblINQsi.Name = "lblINQsi";
-            this.lblINQsi.Size = new System.Drawing.Size(296, 42);
+            this.lblINQsi.Size = new System.Drawing.Size(301, 42);
             this.lblINQsi.TabIndex = 27;
             this.lblINQsi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1459,7 +2553,7 @@
             this.lblINQfvsr.Location = new System.Drawing.Point(3, 243);
             this.lblINQfvsr.Multiline = true;
             this.lblINQfvsr.Name = "lblINQfvsr";
-            this.lblINQfvsr.Size = new System.Drawing.Size(296, 42);
+            this.lblINQfvsr.Size = new System.Drawing.Size(301, 42);
             this.lblINQfvsr.TabIndex = 26;
             this.lblINQfvsr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1472,7 +2566,7 @@
             this.lblINQfs.Location = new System.Drawing.Point(3, 195);
             this.lblINQfs.Multiline = true;
             this.lblINQfs.Name = "lblINQfs";
-            this.lblINQfs.Size = new System.Drawing.Size(296, 42);
+            this.lblINQfs.Size = new System.Drawing.Size(301, 42);
             this.lblINQfs.TabIndex = 25;
             this.lblINQfs.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1485,7 +2579,7 @@
             this.lblINQfpsir.Location = new System.Drawing.Point(3, 147);
             this.lblINQfpsir.Multiline = true;
             this.lblINQfpsir.Name = "lblINQfpsir";
-            this.lblINQfpsir.Size = new System.Drawing.Size(296, 42);
+            this.lblINQfpsir.Size = new System.Drawing.Size(301, 42);
             this.lblINQfpsir.TabIndex = 24;
             this.lblINQfpsir.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1498,7 +2592,7 @@
             this.lblINQfr.Location = new System.Drawing.Point(3, 99);
             this.lblINQfr.Multiline = true;
             this.lblINQfr.Name = "lblINQfr";
-            this.lblINQfr.Size = new System.Drawing.Size(296, 42);
+            this.lblINQfr.Size = new System.Drawing.Size(301, 42);
             this.lblINQfr.TabIndex = 23;
             this.lblINQfr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1511,7 +2605,7 @@
             this.lblINQinver.Location = new System.Drawing.Point(3, 51);
             this.lblINQinver.Multiline = true;
             this.lblINQinver.Name = "lblINQinver";
-            this.lblINQinver.Size = new System.Drawing.Size(296, 42);
+            this.lblINQinver.Size = new System.Drawing.Size(301, 42);
             this.lblINQinver.TabIndex = 22;
             this.lblINQinver.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1524,7 +2618,7 @@
             this.lblINQinvar.Location = new System.Drawing.Point(3, 3);
             this.lblINQinvar.Multiline = true;
             this.lblINQinvar.Name = "lblINQinvar";
-            this.lblINQinvar.Size = new System.Drawing.Size(296, 42);
+            this.lblINQinvar.Size = new System.Drawing.Size(301, 42);
             this.lblINQinvar.TabIndex = 21;
             this.lblINQinvar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1818,7 +2912,7 @@
             this.metroLabel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel3.Location = new System.Drawing.Point(123, 0);
             this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(302, 30);
+            this.metroLabel3.Size = new System.Drawing.Size(307, 30);
             this.metroLabel3.TabIndex = 3;
             this.metroLabel3.Text = "INQUIETUDES EN LA VALIDEZ DEL PROTOCOLO";
             this.metroLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1827,9 +2921,9 @@
             // 
             this.metroLabel4.AutoSize = true;
             this.metroLabel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroLabel4.Location = new System.Drawing.Point(431, 0);
+            this.metroLabel4.Location = new System.Drawing.Point(436, 0);
             this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(299, 30);
+            this.metroLabel4.Size = new System.Drawing.Size(304, 30);
             this.metroLabel4.TabIndex = 4;
             this.metroLabel4.Text = "IMPLICACIONES PARA LA INTERPRETACIÓN";
             this.metroLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1838,9 +2932,9 @@
             // 
             this.metroLabel5.AutoSize = true;
             this.metroLabel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroLabel5.Location = new System.Drawing.Point(736, 0);
+            this.metroLabel5.Location = new System.Drawing.Point(746, 0);
             this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.Size = new System.Drawing.Size(179, 30);
+            this.metroLabel5.Size = new System.Drawing.Size(182, 30);
             this.metroLabel5.TabIndex = 5;
             this.metroLabel5.Text = "CONCLUSIÓN";
             this.metroLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1849,9 +2943,9 @@
             // 
             this.metroLabel6.AutoSize = true;
             this.metroLabel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroLabel6.Location = new System.Drawing.Point(921, 0);
+            this.metroLabel6.Location = new System.Drawing.Point(934, 0);
             this.metroLabel6.Name = "metroLabel6";
-            this.metroLabel6.Size = new System.Drawing.Size(304, 30);
+            this.metroLabel6.Size = new System.Drawing.Size(308, 30);
             this.metroLabel6.TabIndex = 6;
             this.metroLabel6.Text = "CONCLUSIÓN GENERAL";
             this.metroLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1865,19 +2959,19 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.txtConclusion2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.txtConclusion1, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(736, 33);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(746, 33);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 22.22F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 77.78F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(179, 439);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(182, 439);
             this.tableLayoutPanel1.TabIndex = 17;
             // 
             // txtConclusion2
             // 
             this.txtConclusion2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtConclusion2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtConclusion2.Location = new System.Drawing.Point(19, 100);
+            this.txtConclusion2.Location = new System.Drawing.Point(20, 100);
             this.txtConclusion2.Multiline = true;
             this.txtConclusion2.Name = "txtConclusion2";
             this.txtConclusion2.Size = new System.Drawing.Size(141, 336);
@@ -1888,7 +2982,7 @@
             // 
             this.txtConclusion1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtConclusion1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtConclusion1.Location = new System.Drawing.Point(39, 3);
+            this.txtConclusion1.Location = new System.Drawing.Point(41, 3);
             this.txtConclusion1.Multiline = true;
             this.txtConclusion1.Name = "txtConclusion1";
             this.txtConclusion1.Size = new System.Drawing.Size(100, 91);
@@ -1921,6 +3015,7 @@
             // 
             // pnlEscalasValidez
             // 
+            this.pnlEscalasValidez.AutoScroll = true;
             this.pnlEscalasValidez.AutoScrollMargin = new System.Drawing.Size(5, 5);
             this.pnlEscalasValidez.AutoScrollMinSize = new System.Drawing.Size(100, 50);
             this.pnlEscalasValidez.BackColor = System.Drawing.Color.Transparent;
@@ -1952,7 +3047,7 @@
             this.tblLayoutSinContestar.RowCount = 1;
             this.tblLayoutSinContestar.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tblLayoutSinContestar.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.tblLayoutSinContestar.Size = new System.Drawing.Size(1245, 50);
+            this.tblLayoutSinContestar.Size = new System.Drawing.Size(1228, 55);
             this.tblLayoutSinContestar.TabIndex = 2;
             // 
             // lblSinContestarPuntuacion
@@ -1961,7 +3056,7 @@
             this.lblSinContestarPuntuacion.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblSinContestarPuntuacion.Location = new System.Drawing.Point(73, 0);
             this.lblSinContestarPuntuacion.Name = "lblSinContestarPuntuacion";
-            this.lblSinContestarPuntuacion.Size = new System.Drawing.Size(44, 50);
+            this.lblSinContestarPuntuacion.Size = new System.Drawing.Size(44, 55);
             this.lblSinContestarPuntuacion.TabIndex = 1;
             this.lblSinContestarPuntuacion.Text = "?";
             this.lblSinContestarPuntuacion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1972,15 +3067,10 @@
             this.lblSincontestarSigla.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblSincontestarSigla.Location = new System.Drawing.Point(3, 0);
             this.lblSincontestarSigla.Name = "lblSincontestarSigla";
-            this.lblSincontestarSigla.Size = new System.Drawing.Size(64, 50);
+            this.lblSincontestarSigla.Size = new System.Drawing.Size(64, 55);
             this.lblSincontestarSigla.TabIndex = 0;
             this.lblSincontestarSigla.Text = "?";
             this.lblSincontestarSigla.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lstEscalasBindingSource
-            // 
-            this.lstEscalasBindingSource.DataMember = "lstEscalas";
-            this.lstEscalasBindingSource.DataSource = this.escalasDeValidezBindingSource;
             // 
             // textBox1
             // 
@@ -1993,1103 +3083,14 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(1119, 44);
+            this.textBox1.Size = new System.Drawing.Size(1119, 49);
             this.textBox1.TabIndex = 22;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // pnlsecundario
+            // lstEscalasBindingSource
             // 
-            this.pnlsecundario.AutoScroll = true;
-            this.pnlsecundario.BackColor = System.Drawing.SystemColors.Window;
-            this.pnlsecundario.Controls.Add(this.grdInterPSY5);
-            this.pnlsecundario.Controls.Add(this.label17);
-            this.pnlsecundario.Controls.Add(this.grdInterInteresEspecifico);
-            this.pnlsecundario.Controls.Add(this.label16);
-            this.pnlsecundario.Controls.Add(this.grdInterProblemasPersonales);
-            this.pnlsecundario.Controls.Add(this.label15);
-            this.pnlsecundario.Controls.Add(this.grdInterProblemasExternalizados);
-            this.pnlsecundario.Controls.Add(this.label14);
-            this.pnlsecundario.Controls.Add(this.grdInterProblemasInternalizados);
-            this.pnlsecundario.Controls.Add(this.label13);
-            this.pnlsecundario.Controls.Add(this.grdSomaticosCognitivos);
-            this.pnlsecundario.Controls.Add(this.label12);
-            this.pnlsecundario.Controls.Add(this.grdClinicasReestructuradas);
-            this.pnlsecundario.Controls.Add(this.label11);
-            this.pnlsecundario.Controls.Add(this.grdInterpretcionOS);
-            this.pnlsecundario.Controls.Add(this.label10);
-            this.pnlsecundario.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlsecundario.Location = new System.Drawing.Point(0, 403);
-            this.pnlsecundario.Name = "pnlsecundario";
-            this.pnlsecundario.Size = new System.Drawing.Size(1245, 292);
-            this.pnlsecundario.TabIndex = 4;
-            // 
-            // grdInterpretcionOS
-            // 
-            this.grdInterpretcionOS.AutoGenerateColumns = false;
-            this.grdInterpretcionOS.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.grdInterpretcionOS.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.grdInterpretcionOS.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.grdInterpretcionOS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdInterpretcionOS.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.siglasDataGridViewTextBoxColumn1,
-            this.puntuacionTDataGridViewTextBoxColumn1,
-            this.respuestasALaPruebaDataGridViewTextBoxColumn,
-            this.especificacionesDataGridViewTextBoxColumn,
-            this.correlacionesEmpiricasDataGridViewTextBoxColumn});
-            this.grdInterpretcionOS.DataSource = this.objInterpretacionBindingSource;
-            this.grdInterpretcionOS.Dock = System.Windows.Forms.DockStyle.Top;
-            this.grdInterpretcionOS.GridColor = System.Drawing.SystemColors.MenuText;
-            this.grdInterpretcionOS.Location = new System.Drawing.Point(0, 23);
-            this.grdInterpretcionOS.MultiSelect = false;
-            this.grdInterpretcionOS.Name = "grdInterpretcionOS";
-            this.grdInterpretcionOS.ReadOnly = true;
-            this.grdInterpretcionOS.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.grdInterpretcionOS.RowTemplate.Height = 30;
-            this.grdInterpretcionOS.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdInterpretcionOS.Size = new System.Drawing.Size(1228, 129);
-            this.grdInterpretcionOS.TabIndex = 1;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label10.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.DarkRed;
-            this.label10.Location = new System.Drawing.Point(0, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(318, 23);
-            this.label10.TabIndex = 5;
-            this.label10.Text = "ESCALAS DE ORDEN SUPERIOR OS (H-O)";
-            // 
-            // grdClinicasReestructuradas
-            // 
-            this.grdClinicasReestructuradas.AutoGenerateColumns = false;
-            this.grdClinicasReestructuradas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.grdClinicasReestructuradas.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.grdClinicasReestructuradas.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.grdClinicasReestructuradas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdClinicasReestructuradas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn41,
-            this.dataGridViewTextBoxColumn42,
-            this.dataGridViewTextBoxColumn43,
-            this.dataGridViewTextBoxColumn44,
-            this.dataGridViewTextBoxColumn45});
-            this.grdClinicasReestructuradas.DataSource = this.objInterpretacionBindingSource;
-            this.grdClinicasReestructuradas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.grdClinicasReestructuradas.GridColor = System.Drawing.SystemColors.MenuText;
-            this.grdClinicasReestructuradas.Location = new System.Drawing.Point(0, 175);
-            this.grdClinicasReestructuradas.MultiSelect = false;
-            this.grdClinicasReestructuradas.Name = "grdClinicasReestructuradas";
-            this.grdClinicasReestructuradas.ReadOnly = true;
-            this.grdClinicasReestructuradas.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.grdClinicasReestructuradas.RowTemplate.Height = 30;
-            this.grdClinicasReestructuradas.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdClinicasReestructuradas.Size = new System.Drawing.Size(1228, 179);
-            this.grdClinicasReestructuradas.TabIndex = 6;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label11.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.DarkRed;
-            this.label11.Location = new System.Drawing.Point(0, 152);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(369, 23);
-            this.label11.TabIndex = 7;
-            this.label11.Text = "ESCALAS CLINICAS REESTRUCTURADAS CR (RC)";
-            // 
-            // grdSomaticosCognitivos
-            // 
-            this.grdSomaticosCognitivos.AutoGenerateColumns = false;
-            this.grdSomaticosCognitivos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.grdSomaticosCognitivos.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.grdSomaticosCognitivos.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.grdSomaticosCognitivos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdSomaticosCognitivos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn46,
-            this.dataGridViewTextBoxColumn47,
-            this.dataGridViewTextBoxColumn48,
-            this.dataGridViewTextBoxColumn49,
-            this.dataGridViewTextBoxColumn50});
-            this.grdSomaticosCognitivos.DataSource = this.objInterpretacionBindingSource;
-            this.grdSomaticosCognitivos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.grdSomaticosCognitivos.GridColor = System.Drawing.SystemColors.MenuText;
-            this.grdSomaticosCognitivos.Location = new System.Drawing.Point(0, 377);
-            this.grdSomaticosCognitivos.MultiSelect = false;
-            this.grdSomaticosCognitivos.Name = "grdSomaticosCognitivos";
-            this.grdSomaticosCognitivos.ReadOnly = true;
-            this.grdSomaticosCognitivos.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.grdSomaticosCognitivos.RowTemplate.Height = 30;
-            this.grdSomaticosCognitivos.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdSomaticosCognitivos.Size = new System.Drawing.Size(1228, 141);
-            this.grdSomaticosCognitivos.TabIndex = 8;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label12.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.DarkRed;
-            this.label12.Location = new System.Drawing.Point(0, 354);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(409, 23);
-            this.label12.TabIndex = 9;
-            this.label12.Text = "ESCALAS DE PROBLEMAS SOMÁTICOS/COGNITIVOS";
-            // 
-            // grdInterProblemasInternalizados
-            // 
-            this.grdInterProblemasInternalizados.AutoGenerateColumns = false;
-            this.grdInterProblemasInternalizados.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.grdInterProblemasInternalizados.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.grdInterProblemasInternalizados.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.grdInterProblemasInternalizados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdInterProblemasInternalizados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn51,
-            this.dataGridViewTextBoxColumn52,
-            this.dataGridViewTextBoxColumn53,
-            this.dataGridViewTextBoxColumn54,
-            this.dataGridViewTextBoxColumn55});
-            this.grdInterProblemasInternalizados.DataSource = this.objInterpretacionBindingSource;
-            this.grdInterProblemasInternalizados.Dock = System.Windows.Forms.DockStyle.Top;
-            this.grdInterProblemasInternalizados.GridColor = System.Drawing.SystemColors.MenuText;
-            this.grdInterProblemasInternalizados.Location = new System.Drawing.Point(0, 541);
-            this.grdInterProblemasInternalizados.MultiSelect = false;
-            this.grdInterProblemasInternalizados.Name = "grdInterProblemasInternalizados";
-            this.grdInterProblemasInternalizados.ReadOnly = true;
-            this.grdInterProblemasInternalizados.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.grdInterProblemasInternalizados.RowTemplate.Height = 30;
-            this.grdInterProblemasInternalizados.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdInterProblemasInternalizados.Size = new System.Drawing.Size(1228, 141);
-            this.grdInterProblemasInternalizados.TabIndex = 10;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label13.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.DarkRed;
-            this.label13.Location = new System.Drawing.Point(0, 518);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(343, 23);
-            this.label13.TabIndex = 11;
-            this.label13.Text = "ESCALAS DE PROBLEMAS INTERNALIZADOS";
-            // 
-            // grdInterProblemasExternalizados
-            // 
-            this.grdInterProblemasExternalizados.AutoGenerateColumns = false;
-            this.grdInterProblemasExternalizados.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.grdInterProblemasExternalizados.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.grdInterProblemasExternalizados.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.grdInterProblemasExternalizados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdInterProblemasExternalizados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn56,
-            this.dataGridViewTextBoxColumn57,
-            this.dataGridViewTextBoxColumn58,
-            this.dataGridViewTextBoxColumn59,
-            this.dataGridViewTextBoxColumn60});
-            this.grdInterProblemasExternalizados.DataSource = this.objInterpretacionBindingSource;
-            this.grdInterProblemasExternalizados.Dock = System.Windows.Forms.DockStyle.Top;
-            this.grdInterProblemasExternalizados.GridColor = System.Drawing.SystemColors.MenuText;
-            this.grdInterProblemasExternalizados.Location = new System.Drawing.Point(0, 705);
-            this.grdInterProblemasExternalizados.MultiSelect = false;
-            this.grdInterProblemasExternalizados.Name = "grdInterProblemasExternalizados";
-            this.grdInterProblemasExternalizados.ReadOnly = true;
-            this.grdInterProblemasExternalizados.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.grdInterProblemasExternalizados.RowTemplate.Height = 30;
-            this.grdInterProblemasExternalizados.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdInterProblemasExternalizados.Size = new System.Drawing.Size(1228, 141);
-            this.grdInterProblemasExternalizados.TabIndex = 12;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label14.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.DarkRed;
-            this.label14.Location = new System.Drawing.Point(0, 682);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(344, 23);
-            this.label14.TabIndex = 13;
-            this.label14.Text = "ESCALAS DE PROBLEMAS EXTERNALIZADOS";
-            // 
-            // grdInterProblemasPersonales
-            // 
-            this.grdInterProblemasPersonales.AutoGenerateColumns = false;
-            this.grdInterProblemasPersonales.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.grdInterProblemasPersonales.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.grdInterProblemasPersonales.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.grdInterProblemasPersonales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdInterProblemasPersonales.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn61,
-            this.dataGridViewTextBoxColumn62,
-            this.dataGridViewTextBoxColumn63,
-            this.dataGridViewTextBoxColumn64,
-            this.dataGridViewTextBoxColumn65});
-            this.grdInterProblemasPersonales.DataSource = this.objInterpretacionBindingSource;
-            this.grdInterProblemasPersonales.Dock = System.Windows.Forms.DockStyle.Top;
-            this.grdInterProblemasPersonales.GridColor = System.Drawing.SystemColors.MenuText;
-            this.grdInterProblemasPersonales.Location = new System.Drawing.Point(0, 869);
-            this.grdInterProblemasPersonales.MultiSelect = false;
-            this.grdInterProblemasPersonales.Name = "grdInterProblemasPersonales";
-            this.grdInterProblemasPersonales.ReadOnly = true;
-            this.grdInterProblemasPersonales.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.grdInterProblemasPersonales.RowTemplate.Height = 30;
-            this.grdInterProblemasPersonales.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdInterProblemasPersonales.Size = new System.Drawing.Size(1228, 141);
-            this.grdInterProblemasPersonales.TabIndex = 14;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label15.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.DarkRed;
-            this.label15.Location = new System.Drawing.Point(0, 846);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(352, 23);
-            this.label15.TabIndex = 15;
-            this.label15.Text = "ESCALAS DE PROBLEMAS INTERPERSONALES";
-            // 
-            // grdInterInteresEspecifico
-            // 
-            this.grdInterInteresEspecifico.AutoGenerateColumns = false;
-            this.grdInterInteresEspecifico.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.grdInterInteresEspecifico.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.grdInterInteresEspecifico.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.grdInterInteresEspecifico.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdInterInteresEspecifico.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn66,
-            this.dataGridViewTextBoxColumn67,
-            this.dataGridViewTextBoxColumn68,
-            this.dataGridViewTextBoxColumn69,
-            this.dataGridViewTextBoxColumn70});
-            this.grdInterInteresEspecifico.DataSource = this.objInterpretacionBindingSource;
-            this.grdInterInteresEspecifico.Dock = System.Windows.Forms.DockStyle.Top;
-            this.grdInterInteresEspecifico.GridColor = System.Drawing.SystemColors.MenuText;
-            this.grdInterInteresEspecifico.Location = new System.Drawing.Point(0, 1033);
-            this.grdInterInteresEspecifico.MultiSelect = false;
-            this.grdInterInteresEspecifico.Name = "grdInterInteresEspecifico";
-            this.grdInterInteresEspecifico.ReadOnly = true;
-            this.grdInterInteresEspecifico.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.grdInterInteresEspecifico.RowTemplate.Height = 30;
-            this.grdInterInteresEspecifico.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdInterInteresEspecifico.Size = new System.Drawing.Size(1228, 141);
-            this.grdInterInteresEspecifico.TabIndex = 16;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label16.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.DarkRed;
-            this.label16.Location = new System.Drawing.Point(0, 1010);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(265, 23);
-            this.label16.TabIndex = 17;
-            this.label16.Text = "ESCALAS DE INTERÉS ESPECIFICO";
-            // 
-            // grdInterPSY5
-            // 
-            this.grdInterPSY5.AutoGenerateColumns = false;
-            this.grdInterPSY5.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.grdInterPSY5.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.grdInterPSY5.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.grdInterPSY5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdInterPSY5.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn71,
-            this.dataGridViewTextBoxColumn72,
-            this.dataGridViewTextBoxColumn73,
-            this.dataGridViewTextBoxColumn74,
-            this.dataGridViewTextBoxColumn75});
-            this.grdInterPSY5.DataSource = this.objInterpretacionBindingSource;
-            this.grdInterPSY5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.grdInterPSY5.GridColor = System.Drawing.SystemColors.MenuText;
-            this.grdInterPSY5.Location = new System.Drawing.Point(0, 1197);
-            this.grdInterPSY5.MultiSelect = false;
-            this.grdInterPSY5.Name = "grdInterPSY5";
-            this.grdInterPSY5.ReadOnly = true;
-            this.grdInterPSY5.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.grdInterPSY5.RowTemplate.Height = 30;
-            this.grdInterPSY5.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdInterPSY5.Size = new System.Drawing.Size(1228, 141);
-            this.grdInterPSY5.TabIndex = 18;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label17.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.DarkRed;
-            this.label17.Location = new System.Drawing.Point(0, 1174);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(533, 23);
-            this.label17.TabIndex = 19;
-            this.label17.Text = "CINCO ESCALAS DE PSICOPATOLOGÍA DE LA PERSONALIDAD (PSY-5)";
-            // 
-            // pnlPrincipal
-            // 
-            this.pnlPrincipal.Controls.Add(this.pnlsecundario);
-            this.pnlPrincipal.Controls.Add(this.pnlEscalasValidez1);
-            this.pnlPrincipal.Controls.Add(this.pnlEscalasValidez);
-            this.pnlPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlPrincipal.Location = new System.Drawing.Point(0, 0);
-            this.pnlPrincipal.Name = "pnlPrincipal";
-            this.pnlPrincipal.Size = new System.Drawing.Size(1245, 695);
-            this.pnlPrincipal.TabIndex = 5;
-            // 
-            // dataGridViewTextBoxColumn36
-            // 
-            this.dataGridViewTextBoxColumn36.DataPropertyName = "descripcion";
-            this.dataGridViewTextBoxColumn36.HeaderText = "Escalas";
-            this.dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
-            this.dataGridViewTextBoxColumn36.ReadOnly = true;
-            this.dataGridViewTextBoxColumn36.Width = 72;
-            // 
-            // dataGridViewTextBoxColumn37
-            // 
-            this.dataGridViewTextBoxColumn37.DataPropertyName = "significado";
-            this.dataGridViewTextBoxColumn37.HeaderText = "Significado";
-            this.dataGridViewTextBoxColumn37.Name = "dataGridViewTextBoxColumn37";
-            this.dataGridViewTextBoxColumn37.ReadOnly = true;
-            this.dataGridViewTextBoxColumn37.Width = 91;
-            // 
-            // dataGridViewTextBoxColumn38
-            // 
-            this.dataGridViewTextBoxColumn38.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn38.DataPropertyName = "siglas";
-            this.dataGridViewTextBoxColumn38.HeaderText = "Siglas";
-            this.dataGridViewTextBoxColumn38.Name = "dataGridViewTextBoxColumn38";
-            this.dataGridViewTextBoxColumn38.ReadOnly = true;
-            this.dataGridViewTextBoxColumn38.Width = 63;
-            // 
-            // dataGridViewTextBoxColumn39
-            // 
-            this.dataGridViewTextBoxColumn39.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn39.DataPropertyName = "puntuacionNatural";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn39.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridViewTextBoxColumn39.HeaderText = "Puntuación Natural";
-            this.dataGridViewTextBoxColumn39.Name = "dataGridViewTextBoxColumn39";
-            this.dataGridViewTextBoxColumn39.ReadOnly = true;
-            this.dataGridViewTextBoxColumn39.Width = 126;
-            // 
-            // dataGridViewTextBoxColumn40
-            // 
-            this.dataGridViewTextBoxColumn40.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn40.DataPropertyName = "puntuacionT";
-            this.dataGridViewTextBoxColumn40.HeaderText = "Puntuación-T";
-            this.dataGridViewTextBoxColumn40.Name = "dataGridViewTextBoxColumn40";
-            this.dataGridViewTextBoxColumn40.ReadOnly = true;
-            this.dataGridViewTextBoxColumn40.Width = 103;
-            // 
-            // escalasDeValidezBindingSource
-            // 
-            this.escalasDeValidezBindingSource.DataSource = typeof(ConsultorioMMPI.Clases.Escalas.EscalasDeValidez);
-            // 
-            // dataGridViewTextBoxColumn31
-            // 
-            this.dataGridViewTextBoxColumn31.DataPropertyName = "descripcion";
-            this.dataGridViewTextBoxColumn31.HeaderText = "Escalas";
-            this.dataGridViewTextBoxColumn31.Name = "dataGridViewTextBoxColumn31";
-            this.dataGridViewTextBoxColumn31.ReadOnly = true;
-            this.dataGridViewTextBoxColumn31.Width = 72;
-            // 
-            // dataGridViewTextBoxColumn32
-            // 
-            this.dataGridViewTextBoxColumn32.DataPropertyName = "significado";
-            this.dataGridViewTextBoxColumn32.HeaderText = "Significado";
-            this.dataGridViewTextBoxColumn32.Name = "dataGridViewTextBoxColumn32";
-            this.dataGridViewTextBoxColumn32.ReadOnly = true;
-            this.dataGridViewTextBoxColumn32.Width = 91;
-            // 
-            // dataGridViewTextBoxColumn33
-            // 
-            this.dataGridViewTextBoxColumn33.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn33.DataPropertyName = "siglas";
-            this.dataGridViewTextBoxColumn33.HeaderText = "Siglas";
-            this.dataGridViewTextBoxColumn33.Name = "dataGridViewTextBoxColumn33";
-            this.dataGridViewTextBoxColumn33.ReadOnly = true;
-            this.dataGridViewTextBoxColumn33.Width = 63;
-            // 
-            // dataGridViewTextBoxColumn34
-            // 
-            this.dataGridViewTextBoxColumn34.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn34.DataPropertyName = "puntuacionNatural";
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn34.DefaultCellStyle = dataGridViewCellStyle6;
-            this.dataGridViewTextBoxColumn34.HeaderText = "Puntuación Natural";
-            this.dataGridViewTextBoxColumn34.Name = "dataGridViewTextBoxColumn34";
-            this.dataGridViewTextBoxColumn34.ReadOnly = true;
-            this.dataGridViewTextBoxColumn34.Width = 126;
-            // 
-            // dataGridViewTextBoxColumn35
-            // 
-            this.dataGridViewTextBoxColumn35.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn35.DataPropertyName = "puntuacionT";
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn35.DefaultCellStyle = dataGridViewCellStyle7;
-            this.dataGridViewTextBoxColumn35.HeaderText = "Puntuación-T";
-            this.dataGridViewTextBoxColumn35.Name = "dataGridViewTextBoxColumn35";
-            this.dataGridViewTextBoxColumn35.ReadOnly = true;
-            this.dataGridViewTextBoxColumn35.Width = 103;
-            // 
-            // dataGridViewTextBoxColumn26
-            // 
-            this.dataGridViewTextBoxColumn26.DataPropertyName = "descripcion";
-            this.dataGridViewTextBoxColumn26.HeaderText = "Escalas";
-            this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
-            this.dataGridViewTextBoxColumn26.ReadOnly = true;
-            this.dataGridViewTextBoxColumn26.Width = 72;
-            // 
-            // dataGridViewTextBoxColumn27
-            // 
-            this.dataGridViewTextBoxColumn27.DataPropertyName = "significado";
-            this.dataGridViewTextBoxColumn27.HeaderText = "Significado";
-            this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
-            this.dataGridViewTextBoxColumn27.ReadOnly = true;
-            this.dataGridViewTextBoxColumn27.Width = 91;
-            // 
-            // dataGridViewTextBoxColumn28
-            // 
-            this.dataGridViewTextBoxColumn28.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn28.DataPropertyName = "siglas";
-            this.dataGridViewTextBoxColumn28.HeaderText = "Siglas";
-            this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
-            this.dataGridViewTextBoxColumn28.ReadOnly = true;
-            this.dataGridViewTextBoxColumn28.Width = 63;
-            // 
-            // dataGridViewTextBoxColumn29
-            // 
-            this.dataGridViewTextBoxColumn29.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn29.DataPropertyName = "puntuacionNatural";
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn29.DefaultCellStyle = dataGridViewCellStyle11;
-            this.dataGridViewTextBoxColumn29.HeaderText = "Puntuación Natural";
-            this.dataGridViewTextBoxColumn29.Name = "dataGridViewTextBoxColumn29";
-            this.dataGridViewTextBoxColumn29.ReadOnly = true;
-            this.dataGridViewTextBoxColumn29.Width = 126;
-            // 
-            // dataGridViewTextBoxColumn30
-            // 
-            this.dataGridViewTextBoxColumn30.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn30.DataPropertyName = "puntuacionT";
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn30.DefaultCellStyle = dataGridViewCellStyle12;
-            this.dataGridViewTextBoxColumn30.HeaderText = "Puntuación-T";
-            this.dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
-            this.dataGridViewTextBoxColumn30.ReadOnly = true;
-            this.dataGridViewTextBoxColumn30.Width = 103;
-            // 
-            // dataGridViewTextBoxColumn21
-            // 
-            this.dataGridViewTextBoxColumn21.DataPropertyName = "descripcion";
-            this.dataGridViewTextBoxColumn21.HeaderText = "Escalas";
-            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
-            this.dataGridViewTextBoxColumn21.ReadOnly = true;
-            this.dataGridViewTextBoxColumn21.Width = 72;
-            // 
-            // dataGridViewTextBoxColumn22
-            // 
-            this.dataGridViewTextBoxColumn22.DataPropertyName = "significado";
-            this.dataGridViewTextBoxColumn22.HeaderText = "Significado";
-            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
-            this.dataGridViewTextBoxColumn22.ReadOnly = true;
-            this.dataGridViewTextBoxColumn22.Width = 91;
-            // 
-            // dataGridViewTextBoxColumn23
-            // 
-            this.dataGridViewTextBoxColumn23.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn23.DataPropertyName = "siglas";
-            this.dataGridViewTextBoxColumn23.HeaderText = "Siglas";
-            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
-            this.dataGridViewTextBoxColumn23.ReadOnly = true;
-            this.dataGridViewTextBoxColumn23.Width = 63;
-            // 
-            // dataGridViewTextBoxColumn24
-            // 
-            this.dataGridViewTextBoxColumn24.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn24.DataPropertyName = "puntuacionNatural";
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn24.DefaultCellStyle = dataGridViewCellStyle16;
-            this.dataGridViewTextBoxColumn24.HeaderText = "Puntuación Natural";
-            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
-            this.dataGridViewTextBoxColumn24.ReadOnly = true;
-            this.dataGridViewTextBoxColumn24.Width = 126;
-            // 
-            // dataGridViewTextBoxColumn25
-            // 
-            this.dataGridViewTextBoxColumn25.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn25.DataPropertyName = "puntuacionT";
-            this.dataGridViewTextBoxColumn25.HeaderText = "Puntuación-T";
-            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
-            this.dataGridViewTextBoxColumn25.ReadOnly = true;
-            this.dataGridViewTextBoxColumn25.Width = 103;
-            // 
-            // dataGridViewTextBoxColumn16
-            // 
-            this.dataGridViewTextBoxColumn16.DataPropertyName = "descripcion";
-            this.dataGridViewTextBoxColumn16.HeaderText = "Escalas";
-            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
-            this.dataGridViewTextBoxColumn16.ReadOnly = true;
-            this.dataGridViewTextBoxColumn16.Width = 72;
-            // 
-            // dataGridViewTextBoxColumn17
-            // 
-            this.dataGridViewTextBoxColumn17.DataPropertyName = "significado";
-            this.dataGridViewTextBoxColumn17.HeaderText = "Significado";
-            this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
-            this.dataGridViewTextBoxColumn17.ReadOnly = true;
-            this.dataGridViewTextBoxColumn17.Width = 91;
-            // 
-            // dataGridViewTextBoxColumn18
-            // 
-            this.dataGridViewTextBoxColumn18.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn18.DataPropertyName = "siglas";
-            this.dataGridViewTextBoxColumn18.HeaderText = "Siglas";
-            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
-            this.dataGridViewTextBoxColumn18.ReadOnly = true;
-            this.dataGridViewTextBoxColumn18.Width = 63;
-            // 
-            // dataGridViewTextBoxColumn19
-            // 
-            this.dataGridViewTextBoxColumn19.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn19.DataPropertyName = "puntuacionNatural";
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn19.DefaultCellStyle = dataGridViewCellStyle20;
-            this.dataGridViewTextBoxColumn19.HeaderText = "Puntuación Natural";
-            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
-            this.dataGridViewTextBoxColumn19.ReadOnly = true;
-            this.dataGridViewTextBoxColumn19.Width = 126;
-            // 
-            // dataGridViewTextBoxColumn20
-            // 
-            this.dataGridViewTextBoxColumn20.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn20.DataPropertyName = "puntuacionT";
-            this.dataGridViewTextBoxColumn20.HeaderText = "Puntuación-T";
-            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
-            this.dataGridViewTextBoxColumn20.ReadOnly = true;
-            this.dataGridViewTextBoxColumn20.Width = 103;
-            // 
-            // dataGridViewTextBoxColumn11
-            // 
-            this.dataGridViewTextBoxColumn11.DataPropertyName = "descripcion";
-            this.dataGridViewTextBoxColumn11.HeaderText = "Escalas";
-            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
-            this.dataGridViewTextBoxColumn11.ReadOnly = true;
-            this.dataGridViewTextBoxColumn11.Width = 72;
-            // 
-            // dataGridViewTextBoxColumn12
-            // 
-            this.dataGridViewTextBoxColumn12.DataPropertyName = "significado";
-            this.dataGridViewTextBoxColumn12.HeaderText = "Significado";
-            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
-            this.dataGridViewTextBoxColumn12.ReadOnly = true;
-            this.dataGridViewTextBoxColumn12.Width = 91;
-            // 
-            // dataGridViewTextBoxColumn13
-            // 
-            this.dataGridViewTextBoxColumn13.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn13.DataPropertyName = "siglas";
-            this.dataGridViewTextBoxColumn13.HeaderText = "Siglas";
-            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
-            this.dataGridViewTextBoxColumn13.ReadOnly = true;
-            this.dataGridViewTextBoxColumn13.Width = 63;
-            // 
-            // dataGridViewTextBoxColumn14
-            // 
-            this.dataGridViewTextBoxColumn14.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn14.DataPropertyName = "puntuacionNatural";
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn14.DefaultCellStyle = dataGridViewCellStyle24;
-            this.dataGridViewTextBoxColumn14.HeaderText = "Puntuación Natural";
-            this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
-            this.dataGridViewTextBoxColumn14.ReadOnly = true;
-            this.dataGridViewTextBoxColumn14.Width = 126;
-            // 
-            // dataGridViewTextBoxColumn15
-            // 
-            this.dataGridViewTextBoxColumn15.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn15.DataPropertyName = "puntuacionT";
-            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn15.DefaultCellStyle = dataGridViewCellStyle25;
-            this.dataGridViewTextBoxColumn15.HeaderText = "Puntuación-T";
-            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
-            this.dataGridViewTextBoxColumn15.ReadOnly = true;
-            this.dataGridViewTextBoxColumn15.Width = 103;
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "descripcion";
-            this.dataGridViewTextBoxColumn6.HeaderText = "Escalas";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.ReadOnly = true;
-            this.dataGridViewTextBoxColumn6.Width = 72;
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "significado";
-            this.dataGridViewTextBoxColumn7.HeaderText = "Significado";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.ReadOnly = true;
-            this.dataGridViewTextBoxColumn7.Width = 91;
-            // 
-            // dataGridViewTextBoxColumn8
-            // 
-            this.dataGridViewTextBoxColumn8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn8.DataPropertyName = "siglas";
-            this.dataGridViewTextBoxColumn8.HeaderText = "Siglas";
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            this.dataGridViewTextBoxColumn8.ReadOnly = true;
-            this.dataGridViewTextBoxColumn8.Width = 63;
-            // 
-            // dataGridViewTextBoxColumn9
-            // 
-            this.dataGridViewTextBoxColumn9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn9.DataPropertyName = "puntuacionNatural";
-            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn9.DefaultCellStyle = dataGridViewCellStyle29;
-            this.dataGridViewTextBoxColumn9.HeaderText = "Puntuación Natural";
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            this.dataGridViewTextBoxColumn9.ReadOnly = true;
-            this.dataGridViewTextBoxColumn9.Width = 126;
-            // 
-            // dataGridViewTextBoxColumn10
-            // 
-            this.dataGridViewTextBoxColumn10.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn10.DataPropertyName = "puntuacionT";
-            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn10.DefaultCellStyle = dataGridViewCellStyle30;
-            this.dataGridViewTextBoxColumn10.HeaderText = "Puntuación-T";
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            this.dataGridViewTextBoxColumn10.ReadOnly = true;
-            this.dataGridViewTextBoxColumn10.Width = 103;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "descripcion";
-            this.dataGridViewTextBoxColumn1.HeaderText = "Escalas";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Width = 72;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "significado";
-            this.dataGridViewTextBoxColumn2.HeaderText = "Significado";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.ReadOnly = true;
-            this.dataGridViewTextBoxColumn2.Width = 91;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "siglas";
-            this.dataGridViewTextBoxColumn3.HeaderText = "Siglas";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.ReadOnly = true;
-            this.dataGridViewTextBoxColumn3.Width = 63;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "puntuacionNatural";
-            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn4.DefaultCellStyle = dataGridViewCellStyle34;
-            this.dataGridViewTextBoxColumn4.HeaderText = "Puntuación Natural";
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.ReadOnly = true;
-            this.dataGridViewTextBoxColumn4.Width = 126;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "puntuacionT";
-            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn5.DefaultCellStyle = dataGridViewCellStyle35;
-            this.dataGridViewTextBoxColumn5.HeaderText = "Puntuación-T";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.ReadOnly = true;
-            this.dataGridViewTextBoxColumn5.Width = 103;
-            // 
-            // descripcionDataGridViewTextBoxColumn
-            // 
-            this.descripcionDataGridViewTextBoxColumn.DataPropertyName = "descripcion";
-            this.descripcionDataGridViewTextBoxColumn.HeaderText = "Escalas";
-            this.descripcionDataGridViewTextBoxColumn.Name = "descripcionDataGridViewTextBoxColumn";
-            this.descripcionDataGridViewTextBoxColumn.ReadOnly = true;
-            this.descripcionDataGridViewTextBoxColumn.Width = 72;
-            // 
-            // significadoDataGridViewTextBoxColumn
-            // 
-            this.significadoDataGridViewTextBoxColumn.DataPropertyName = "significado";
-            this.significadoDataGridViewTextBoxColumn.HeaderText = "Significado";
-            this.significadoDataGridViewTextBoxColumn.Name = "significadoDataGridViewTextBoxColumn";
-            this.significadoDataGridViewTextBoxColumn.ReadOnly = true;
-            this.significadoDataGridViewTextBoxColumn.Width = 91;
-            // 
-            // siglasDataGridViewTextBoxColumn
-            // 
-            this.siglasDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.siglasDataGridViewTextBoxColumn.DataPropertyName = "siglas";
-            this.siglasDataGridViewTextBoxColumn.HeaderText = "Siglas";
-            this.siglasDataGridViewTextBoxColumn.Name = "siglasDataGridViewTextBoxColumn";
-            this.siglasDataGridViewTextBoxColumn.ReadOnly = true;
-            this.siglasDataGridViewTextBoxColumn.Width = 63;
-            // 
-            // puntuacionNaturalDataGridViewTextBoxColumn
-            // 
-            this.puntuacionNaturalDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.puntuacionNaturalDataGridViewTextBoxColumn.DataPropertyName = "puntuacionNatural";
-            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.puntuacionNaturalDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle39;
-            this.puntuacionNaturalDataGridViewTextBoxColumn.HeaderText = "Puntuación Natural";
-            this.puntuacionNaturalDataGridViewTextBoxColumn.Name = "puntuacionNaturalDataGridViewTextBoxColumn";
-            this.puntuacionNaturalDataGridViewTextBoxColumn.ReadOnly = true;
-            this.puntuacionNaturalDataGridViewTextBoxColumn.Width = 126;
-            // 
-            // puntuacionTDataGridViewTextBoxColumn
-            // 
-            this.puntuacionTDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.puntuacionTDataGridViewTextBoxColumn.DataPropertyName = "puntuacionT";
-            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.puntuacionTDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle40;
-            this.puntuacionTDataGridViewTextBoxColumn.HeaderText = "Puntuación-T";
-            this.puntuacionTDataGridViewTextBoxColumn.Name = "puntuacionTDataGridViewTextBoxColumn";
-            this.puntuacionTDataGridViewTextBoxColumn.ReadOnly = true;
-            this.puntuacionTDataGridViewTextBoxColumn.Width = 103;
-            // 
-            // objInterpretacionBindingSource
-            // 
-            this.objInterpretacionBindingSource.DataSource = typeof(ConsultorioMMPI.Clases.Escalas.Interpretacion);
-            // 
-            // dataGridViewTextBoxColumn71
-            // 
-            this.dataGridViewTextBoxColumn71.DataPropertyName = "siglas";
-            this.dataGridViewTextBoxColumn71.HeaderText = "Siglas";
-            this.dataGridViewTextBoxColumn71.Name = "dataGridViewTextBoxColumn71";
-            this.dataGridViewTextBoxColumn71.ReadOnly = true;
-            this.dataGridViewTextBoxColumn71.Width = 60;
-            // 
-            // dataGridViewTextBoxColumn72
-            // 
-            this.dataGridViewTextBoxColumn72.DataPropertyName = "puntuacionT";
-            this.dataGridViewTextBoxColumn72.HeaderText = "P.T.";
-            this.dataGridViewTextBoxColumn72.Name = "dataGridViewTextBoxColumn72";
-            this.dataGridViewTextBoxColumn72.ReadOnly = true;
-            this.dataGridViewTextBoxColumn72.Width = 52;
-            // 
-            // dataGridViewTextBoxColumn73
-            // 
-            this.dataGridViewTextBoxColumn73.DataPropertyName = "respuestasALaPrueba";
-            this.dataGridViewTextBoxColumn73.HeaderText = "RESPUESTAS A LA PRUEBA";
-            this.dataGridViewTextBoxColumn73.Name = "dataGridViewTextBoxColumn73";
-            this.dataGridViewTextBoxColumn73.ReadOnly = true;
-            this.dataGridViewTextBoxColumn73.Width = 107;
-            // 
-            // dataGridViewTextBoxColumn74
-            // 
-            this.dataGridViewTextBoxColumn74.DataPropertyName = "especificaciones";
-            this.dataGridViewTextBoxColumn74.HeaderText = "ESPECIFICACIONES";
-            this.dataGridViewTextBoxColumn74.Name = "dataGridViewTextBoxColumn74";
-            this.dataGridViewTextBoxColumn74.ReadOnly = true;
-            this.dataGridViewTextBoxColumn74.Width = 133;
-            // 
-            // dataGridViewTextBoxColumn75
-            // 
-            this.dataGridViewTextBoxColumn75.DataPropertyName = "correlacionesEmpiricas";
-            this.dataGridViewTextBoxColumn75.HeaderText = "CORRELACIONES EMPIRICAS";
-            this.dataGridViewTextBoxColumn75.Name = "dataGridViewTextBoxColumn75";
-            this.dataGridViewTextBoxColumn75.ReadOnly = true;
-            this.dataGridViewTextBoxColumn75.Width = 168;
-            // 
-            // dataGridViewTextBoxColumn66
-            // 
-            this.dataGridViewTextBoxColumn66.DataPropertyName = "siglas";
-            this.dataGridViewTextBoxColumn66.HeaderText = "Siglas";
-            this.dataGridViewTextBoxColumn66.Name = "dataGridViewTextBoxColumn66";
-            this.dataGridViewTextBoxColumn66.ReadOnly = true;
-            this.dataGridViewTextBoxColumn66.Width = 60;
-            // 
-            // dataGridViewTextBoxColumn67
-            // 
-            this.dataGridViewTextBoxColumn67.DataPropertyName = "puntuacionT";
-            this.dataGridViewTextBoxColumn67.HeaderText = "P.T.";
-            this.dataGridViewTextBoxColumn67.Name = "dataGridViewTextBoxColumn67";
-            this.dataGridViewTextBoxColumn67.ReadOnly = true;
-            this.dataGridViewTextBoxColumn67.Width = 52;
-            // 
-            // dataGridViewTextBoxColumn68
-            // 
-            this.dataGridViewTextBoxColumn68.DataPropertyName = "respuestasALaPrueba";
-            this.dataGridViewTextBoxColumn68.HeaderText = "RESPUESTAS A LA PRUEBA";
-            this.dataGridViewTextBoxColumn68.Name = "dataGridViewTextBoxColumn68";
-            this.dataGridViewTextBoxColumn68.ReadOnly = true;
-            this.dataGridViewTextBoxColumn68.Width = 107;
-            // 
-            // dataGridViewTextBoxColumn69
-            // 
-            this.dataGridViewTextBoxColumn69.DataPropertyName = "especificaciones";
-            this.dataGridViewTextBoxColumn69.HeaderText = "ESPECIFICACIONES";
-            this.dataGridViewTextBoxColumn69.Name = "dataGridViewTextBoxColumn69";
-            this.dataGridViewTextBoxColumn69.ReadOnly = true;
-            this.dataGridViewTextBoxColumn69.Width = 133;
-            // 
-            // dataGridViewTextBoxColumn70
-            // 
-            this.dataGridViewTextBoxColumn70.DataPropertyName = "correlacionesEmpiricas";
-            this.dataGridViewTextBoxColumn70.HeaderText = "CORRELACIONES EMPIRICAS";
-            this.dataGridViewTextBoxColumn70.Name = "dataGridViewTextBoxColumn70";
-            this.dataGridViewTextBoxColumn70.ReadOnly = true;
-            this.dataGridViewTextBoxColumn70.Width = 168;
-            // 
-            // dataGridViewTextBoxColumn61
-            // 
-            this.dataGridViewTextBoxColumn61.DataPropertyName = "siglas";
-            this.dataGridViewTextBoxColumn61.HeaderText = "Siglas";
-            this.dataGridViewTextBoxColumn61.Name = "dataGridViewTextBoxColumn61";
-            this.dataGridViewTextBoxColumn61.ReadOnly = true;
-            this.dataGridViewTextBoxColumn61.Width = 60;
-            // 
-            // dataGridViewTextBoxColumn62
-            // 
-            this.dataGridViewTextBoxColumn62.DataPropertyName = "puntuacionT";
-            this.dataGridViewTextBoxColumn62.HeaderText = "P.T.";
-            this.dataGridViewTextBoxColumn62.Name = "dataGridViewTextBoxColumn62";
-            this.dataGridViewTextBoxColumn62.ReadOnly = true;
-            this.dataGridViewTextBoxColumn62.Width = 52;
-            // 
-            // dataGridViewTextBoxColumn63
-            // 
-            this.dataGridViewTextBoxColumn63.DataPropertyName = "respuestasALaPrueba";
-            this.dataGridViewTextBoxColumn63.HeaderText = "RESPUESTAS A LA PRUEBA";
-            this.dataGridViewTextBoxColumn63.Name = "dataGridViewTextBoxColumn63";
-            this.dataGridViewTextBoxColumn63.ReadOnly = true;
-            this.dataGridViewTextBoxColumn63.Width = 107;
-            // 
-            // dataGridViewTextBoxColumn64
-            // 
-            this.dataGridViewTextBoxColumn64.DataPropertyName = "especificaciones";
-            this.dataGridViewTextBoxColumn64.HeaderText = "ESPECIFICACIONES";
-            this.dataGridViewTextBoxColumn64.Name = "dataGridViewTextBoxColumn64";
-            this.dataGridViewTextBoxColumn64.ReadOnly = true;
-            this.dataGridViewTextBoxColumn64.Width = 133;
-            // 
-            // dataGridViewTextBoxColumn65
-            // 
-            this.dataGridViewTextBoxColumn65.DataPropertyName = "correlacionesEmpiricas";
-            this.dataGridViewTextBoxColumn65.HeaderText = "CORRELACIONES EMPIRICAS";
-            this.dataGridViewTextBoxColumn65.Name = "dataGridViewTextBoxColumn65";
-            this.dataGridViewTextBoxColumn65.ReadOnly = true;
-            this.dataGridViewTextBoxColumn65.Width = 168;
-            // 
-            // dataGridViewTextBoxColumn56
-            // 
-            this.dataGridViewTextBoxColumn56.DataPropertyName = "siglas";
-            this.dataGridViewTextBoxColumn56.HeaderText = "Siglas";
-            this.dataGridViewTextBoxColumn56.Name = "dataGridViewTextBoxColumn56";
-            this.dataGridViewTextBoxColumn56.ReadOnly = true;
-            this.dataGridViewTextBoxColumn56.Width = 60;
-            // 
-            // dataGridViewTextBoxColumn57
-            // 
-            this.dataGridViewTextBoxColumn57.DataPropertyName = "puntuacionT";
-            this.dataGridViewTextBoxColumn57.HeaderText = "P.T.";
-            this.dataGridViewTextBoxColumn57.Name = "dataGridViewTextBoxColumn57";
-            this.dataGridViewTextBoxColumn57.ReadOnly = true;
-            this.dataGridViewTextBoxColumn57.Width = 52;
-            // 
-            // dataGridViewTextBoxColumn58
-            // 
-            this.dataGridViewTextBoxColumn58.DataPropertyName = "respuestasALaPrueba";
-            this.dataGridViewTextBoxColumn58.HeaderText = "RESPUESTAS A LA PRUEBA";
-            this.dataGridViewTextBoxColumn58.Name = "dataGridViewTextBoxColumn58";
-            this.dataGridViewTextBoxColumn58.ReadOnly = true;
-            this.dataGridViewTextBoxColumn58.Width = 107;
-            // 
-            // dataGridViewTextBoxColumn59
-            // 
-            this.dataGridViewTextBoxColumn59.DataPropertyName = "especificaciones";
-            this.dataGridViewTextBoxColumn59.HeaderText = "ESPECIFICACIONES";
-            this.dataGridViewTextBoxColumn59.Name = "dataGridViewTextBoxColumn59";
-            this.dataGridViewTextBoxColumn59.ReadOnly = true;
-            this.dataGridViewTextBoxColumn59.Width = 133;
-            // 
-            // dataGridViewTextBoxColumn60
-            // 
-            this.dataGridViewTextBoxColumn60.DataPropertyName = "correlacionesEmpiricas";
-            this.dataGridViewTextBoxColumn60.HeaderText = "CORRELACIONES EMPIRICAS";
-            this.dataGridViewTextBoxColumn60.Name = "dataGridViewTextBoxColumn60";
-            this.dataGridViewTextBoxColumn60.ReadOnly = true;
-            this.dataGridViewTextBoxColumn60.Width = 168;
-            // 
-            // dataGridViewTextBoxColumn51
-            // 
-            this.dataGridViewTextBoxColumn51.DataPropertyName = "siglas";
-            this.dataGridViewTextBoxColumn51.HeaderText = "Siglas";
-            this.dataGridViewTextBoxColumn51.Name = "dataGridViewTextBoxColumn51";
-            this.dataGridViewTextBoxColumn51.ReadOnly = true;
-            this.dataGridViewTextBoxColumn51.Width = 60;
-            // 
-            // dataGridViewTextBoxColumn52
-            // 
-            this.dataGridViewTextBoxColumn52.DataPropertyName = "puntuacionT";
-            this.dataGridViewTextBoxColumn52.HeaderText = "P.T.";
-            this.dataGridViewTextBoxColumn52.Name = "dataGridViewTextBoxColumn52";
-            this.dataGridViewTextBoxColumn52.ReadOnly = true;
-            this.dataGridViewTextBoxColumn52.Width = 52;
-            // 
-            // dataGridViewTextBoxColumn53
-            // 
-            this.dataGridViewTextBoxColumn53.DataPropertyName = "respuestasALaPrueba";
-            this.dataGridViewTextBoxColumn53.HeaderText = "RESPUESTAS A LA PRUEBA";
-            this.dataGridViewTextBoxColumn53.Name = "dataGridViewTextBoxColumn53";
-            this.dataGridViewTextBoxColumn53.ReadOnly = true;
-            this.dataGridViewTextBoxColumn53.Width = 107;
-            // 
-            // dataGridViewTextBoxColumn54
-            // 
-            this.dataGridViewTextBoxColumn54.DataPropertyName = "especificaciones";
-            this.dataGridViewTextBoxColumn54.HeaderText = "ESPECIFICACIONES";
-            this.dataGridViewTextBoxColumn54.Name = "dataGridViewTextBoxColumn54";
-            this.dataGridViewTextBoxColumn54.ReadOnly = true;
-            this.dataGridViewTextBoxColumn54.Width = 133;
-            // 
-            // dataGridViewTextBoxColumn55
-            // 
-            this.dataGridViewTextBoxColumn55.DataPropertyName = "correlacionesEmpiricas";
-            this.dataGridViewTextBoxColumn55.HeaderText = "CORRELACIONES EMPIRICAS";
-            this.dataGridViewTextBoxColumn55.Name = "dataGridViewTextBoxColumn55";
-            this.dataGridViewTextBoxColumn55.ReadOnly = true;
-            this.dataGridViewTextBoxColumn55.Width = 168;
-            // 
-            // dataGridViewTextBoxColumn46
-            // 
-            this.dataGridViewTextBoxColumn46.DataPropertyName = "siglas";
-            this.dataGridViewTextBoxColumn46.HeaderText = "Siglas";
-            this.dataGridViewTextBoxColumn46.Name = "dataGridViewTextBoxColumn46";
-            this.dataGridViewTextBoxColumn46.ReadOnly = true;
-            this.dataGridViewTextBoxColumn46.Width = 60;
-            // 
-            // dataGridViewTextBoxColumn47
-            // 
-            this.dataGridViewTextBoxColumn47.DataPropertyName = "puntuacionT";
-            this.dataGridViewTextBoxColumn47.HeaderText = "P.T.";
-            this.dataGridViewTextBoxColumn47.Name = "dataGridViewTextBoxColumn47";
-            this.dataGridViewTextBoxColumn47.ReadOnly = true;
-            this.dataGridViewTextBoxColumn47.Width = 52;
-            // 
-            // dataGridViewTextBoxColumn48
-            // 
-            this.dataGridViewTextBoxColumn48.DataPropertyName = "respuestasALaPrueba";
-            this.dataGridViewTextBoxColumn48.HeaderText = "RESPUESTAS A LA PRUEBA";
-            this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
-            this.dataGridViewTextBoxColumn48.ReadOnly = true;
-            this.dataGridViewTextBoxColumn48.Width = 107;
-            // 
-            // dataGridViewTextBoxColumn49
-            // 
-            this.dataGridViewTextBoxColumn49.DataPropertyName = "especificaciones";
-            this.dataGridViewTextBoxColumn49.HeaderText = "ESPECIFICACIONES";
-            this.dataGridViewTextBoxColumn49.Name = "dataGridViewTextBoxColumn49";
-            this.dataGridViewTextBoxColumn49.ReadOnly = true;
-            this.dataGridViewTextBoxColumn49.Width = 133;
-            // 
-            // dataGridViewTextBoxColumn50
-            // 
-            this.dataGridViewTextBoxColumn50.DataPropertyName = "correlacionesEmpiricas";
-            this.dataGridViewTextBoxColumn50.HeaderText = "CORRELACIONES EMPIRICAS";
-            this.dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
-            this.dataGridViewTextBoxColumn50.ReadOnly = true;
-            this.dataGridViewTextBoxColumn50.Width = 168;
-            // 
-            // dataGridViewTextBoxColumn41
-            // 
-            this.dataGridViewTextBoxColumn41.DataPropertyName = "siglas";
-            this.dataGridViewTextBoxColumn41.HeaderText = "Siglas";
-            this.dataGridViewTextBoxColumn41.Name = "dataGridViewTextBoxColumn41";
-            this.dataGridViewTextBoxColumn41.ReadOnly = true;
-            this.dataGridViewTextBoxColumn41.Width = 60;
-            // 
-            // dataGridViewTextBoxColumn42
-            // 
-            this.dataGridViewTextBoxColumn42.DataPropertyName = "puntuacionT";
-            this.dataGridViewTextBoxColumn42.HeaderText = "P.T.";
-            this.dataGridViewTextBoxColumn42.Name = "dataGridViewTextBoxColumn42";
-            this.dataGridViewTextBoxColumn42.ReadOnly = true;
-            this.dataGridViewTextBoxColumn42.Width = 52;
-            // 
-            // dataGridViewTextBoxColumn43
-            // 
-            this.dataGridViewTextBoxColumn43.DataPropertyName = "respuestasALaPrueba";
-            this.dataGridViewTextBoxColumn43.HeaderText = "RESPUESTAS A LA PRUEBA";
-            this.dataGridViewTextBoxColumn43.Name = "dataGridViewTextBoxColumn43";
-            this.dataGridViewTextBoxColumn43.ReadOnly = true;
-            this.dataGridViewTextBoxColumn43.Width = 107;
-            // 
-            // dataGridViewTextBoxColumn44
-            // 
-            this.dataGridViewTextBoxColumn44.DataPropertyName = "especificaciones";
-            this.dataGridViewTextBoxColumn44.HeaderText = "ESPECIFICACIONES";
-            this.dataGridViewTextBoxColumn44.Name = "dataGridViewTextBoxColumn44";
-            this.dataGridViewTextBoxColumn44.ReadOnly = true;
-            this.dataGridViewTextBoxColumn44.Width = 133;
-            // 
-            // dataGridViewTextBoxColumn45
-            // 
-            this.dataGridViewTextBoxColumn45.DataPropertyName = "correlacionesEmpiricas";
-            this.dataGridViewTextBoxColumn45.HeaderText = "CORRELACIONES EMPIRICAS";
-            this.dataGridViewTextBoxColumn45.Name = "dataGridViewTextBoxColumn45";
-            this.dataGridViewTextBoxColumn45.ReadOnly = true;
-            this.dataGridViewTextBoxColumn45.Width = 168;
-            // 
-            // siglasDataGridViewTextBoxColumn1
-            // 
-            this.siglasDataGridViewTextBoxColumn1.DataPropertyName = "siglas";
-            this.siglasDataGridViewTextBoxColumn1.HeaderText = "Siglas";
-            this.siglasDataGridViewTextBoxColumn1.Name = "siglasDataGridViewTextBoxColumn1";
-            this.siglasDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.siglasDataGridViewTextBoxColumn1.Width = 60;
-            // 
-            // puntuacionTDataGridViewTextBoxColumn1
-            // 
-            this.puntuacionTDataGridViewTextBoxColumn1.DataPropertyName = "puntuacionT";
-            this.puntuacionTDataGridViewTextBoxColumn1.HeaderText = "P.T.";
-            this.puntuacionTDataGridViewTextBoxColumn1.Name = "puntuacionTDataGridViewTextBoxColumn1";
-            this.puntuacionTDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.puntuacionTDataGridViewTextBoxColumn1.Width = 52;
-            // 
-            // respuestasALaPruebaDataGridViewTextBoxColumn
-            // 
-            this.respuestasALaPruebaDataGridViewTextBoxColumn.DataPropertyName = "respuestasALaPrueba";
-            this.respuestasALaPruebaDataGridViewTextBoxColumn.HeaderText = "RESPUESTAS A LA PRUEBA";
-            this.respuestasALaPruebaDataGridViewTextBoxColumn.Name = "respuestasALaPruebaDataGridViewTextBoxColumn";
-            this.respuestasALaPruebaDataGridViewTextBoxColumn.ReadOnly = true;
-            this.respuestasALaPruebaDataGridViewTextBoxColumn.Width = 107;
-            // 
-            // especificacionesDataGridViewTextBoxColumn
-            // 
-            this.especificacionesDataGridViewTextBoxColumn.DataPropertyName = "especificaciones";
-            this.especificacionesDataGridViewTextBoxColumn.HeaderText = "ESPECIFICACIONES";
-            this.especificacionesDataGridViewTextBoxColumn.Name = "especificacionesDataGridViewTextBoxColumn";
-            this.especificacionesDataGridViewTextBoxColumn.ReadOnly = true;
-            this.especificacionesDataGridViewTextBoxColumn.Width = 133;
-            // 
-            // correlacionesEmpiricasDataGridViewTextBoxColumn
-            // 
-            this.correlacionesEmpiricasDataGridViewTextBoxColumn.DataPropertyName = "correlacionesEmpiricas";
-            this.correlacionesEmpiricasDataGridViewTextBoxColumn.HeaderText = "CORRELACIONES EMPIRICAS";
-            this.correlacionesEmpiricasDataGridViewTextBoxColumn.Name = "correlacionesEmpiricasDataGridViewTextBoxColumn";
-            this.correlacionesEmpiricasDataGridViewTextBoxColumn.ReadOnly = true;
-            this.correlacionesEmpiricasDataGridViewTextBoxColumn.Width = 168;
+            this.lstEscalasBindingSource.DataMember = "lstEscalas";
+            this.lstEscalasBindingSource.DataSource = this.escalasDeValidezBindingSource;
             // 
             // frmFinal
             // 
@@ -3111,6 +3112,7 @@
             this.tbResultados.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdPSY5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lstEscalasBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.escalasDeValidezBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grdEscalasInteresEspecifico)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grdEscalasProbleasInterpersonlaes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grdProblemasExternalizados)).EndInit();
@@ -3122,6 +3124,18 @@
             this.pnlEncabezado.ResumeLayout(false);
             this.pnlEncabezado.PerformLayout();
             this.tbInterpretacion.ResumeLayout(false);
+            this.pnlPrincipal.ResumeLayout(false);
+            this.pnlsecundario.ResumeLayout(false);
+            this.pnlsecundario.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grdInterPSY5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objInterpretacionBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdInterInteresEspecifico)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdInterProblemasPersonales)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdInterProblemasExternalizados)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdInterProblemasInternalizados)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdSomaticosCognitivos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdClinicasReestructuradas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdInterpretcionOS)).EndInit();
             this.pnlEscalasValidez1.ResumeLayout(false);
             this.tblLayEscalasValidez.ResumeLayout(false);
             this.tblLayEscalasValidez.PerformLayout();
@@ -3140,19 +3154,6 @@
             this.tblLayoutSinContestar.ResumeLayout(false);
             this.tblLayoutSinContestar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lstEscalasBindingSource)).EndInit();
-            this.pnlsecundario.ResumeLayout(false);
-            this.pnlsecundario.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grdInterpretcionOS)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdClinicasReestructuradas)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdSomaticosCognitivos)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdInterProblemasInternalizados)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdInterProblemasExternalizados)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdInterProblemasPersonales)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdInterInteresEspecifico)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdInterPSY5)).EndInit();
-            this.pnlPrincipal.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.escalasDeValidezBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objInterpretacionBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
