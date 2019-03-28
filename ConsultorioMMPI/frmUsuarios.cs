@@ -378,7 +378,7 @@ namespace ConsultorioMMPI
             btnGuardar.Visible = true;
 
             txtNSS.Enabled = false;
-            txtEdad.Enabled = true;
+            txtEdad.Enabled = false;
             txtEscolaridad.Enabled = true;
             txtLugarResidencia.Enabled = true;
             txtNombre.Enabled = true;
