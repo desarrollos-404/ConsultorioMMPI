@@ -82,8 +82,8 @@ namespace ConsultorioMMPI.Clases
                         escala.puntuacionT = 120;
                     else
                         escala.puntuacionT = arrayINVER[escala.puntuacionNatural];
-                    escala.maximo = arrayINVER[arrayINVER.Count() - 1];
-                    escala.minimo = arrayINVER[0];
+                    escala.maximo = arrayINVER.Max();
+                    escala.minimo = arrayINVER.Min();
                     break;
                 case "F-R":
                     if (escala.puntuacionNatural > 31)

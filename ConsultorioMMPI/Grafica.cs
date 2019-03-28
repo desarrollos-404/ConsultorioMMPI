@@ -24,7 +24,7 @@ namespace ConsultorioMMPI
             InitializeComponent();
             _escala = escala;
             lblTitulo.Text = titulo;
-            this.Text = "GRÁFICA" + titulo;
+            this.Text = "GRÁFICA " + titulo;
         }
 
         // public RespuestaEscalas Resultados { get; internal set; }

@@ -48,7 +48,7 @@ namespace ConsultorioMMPI
                 for (int j = 1; j < 4; j++)
                 {
                     group.Controls.Add(new RadioButton { Name = "Radio" + i + j, Tag = j - 1, Text = j == 1 ? "Verdadero" : j == 2 ? "Falso" : "No contestar" }, j, 0);
-                    if (group.Controls[j].Tag.ToString() == "0")
+                    if (group.Controls[j].Tag.ToString() == "2")
                         ((RadioButton)group.Controls[j]).Checked = true;
                 }
 
