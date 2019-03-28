@@ -80,6 +80,22 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle57 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle58 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle59 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle60 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle61 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle62 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle63 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle64 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle65 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle66 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle67 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFinal));
             this.tbInterpretación = new MetroFramework.Controls.MetroTabControl();
             this.tbResultados = new MetroFramework.Controls.MetroTabPage();
@@ -380,7 +396,7 @@
             // button7
             // 
             this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button7.Location = new System.Drawing.Point(1132, 2874);
+            this.button7.Location = new System.Drawing.Point(1129, 1687);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(96, 23);
             this.button7.TabIndex = 30;
@@ -391,7 +407,7 @@
             // button6
             // 
             this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button6.Location = new System.Drawing.Point(1132, 2751);
+            this.button6.Location = new System.Drawing.Point(1129, 1564);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(96, 23);
             this.button6.TabIndex = 29;
@@ -402,7 +418,7 @@
             // button5
             // 
             this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button5.Location = new System.Drawing.Point(1132, 2558);
+            this.button5.Location = new System.Drawing.Point(1129, 1371);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(96, 23);
             this.button5.TabIndex = 28;
@@ -413,7 +429,7 @@
             // button4
             // 
             this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button4.Location = new System.Drawing.Point(1132, 2395);
+            this.button4.Location = new System.Drawing.Point(1129, 1208);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(96, 23);
             this.button4.TabIndex = 27;
@@ -424,7 +440,7 @@
             // button3
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.Location = new System.Drawing.Point(1132, 2122);
+            this.button3.Location = new System.Drawing.Point(1129, 935);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(96, 23);
             this.button3.TabIndex = 26;
@@ -435,7 +451,7 @@
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(1132, 1929);
+            this.button2.Location = new System.Drawing.Point(1129, 742);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(96, 23);
             this.button2.TabIndex = 25;
@@ -446,7 +462,7 @@
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(1132, 1637);
+            this.button1.Location = new System.Drawing.Point(1129, 450);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(96, 23);
             this.button1.TabIndex = 24;
@@ -457,7 +473,7 @@
             // btnEscalasSO
             // 
             this.btnEscalasSO.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnEscalasSO.Location = new System.Drawing.Point(1132, 1494);
+            this.btnEscalasSO.Location = new System.Drawing.Point(1129, 307);
             this.btnEscalasSO.Name = "btnEscalasSO";
             this.btnEscalasSO.Size = new System.Drawing.Size(96, 23);
             this.btnEscalasSO.TabIndex = 23;
@@ -468,7 +484,7 @@
             // btnEscalasDeValidez
             // 
             this.btnEscalasDeValidez.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnEscalasDeValidez.Location = new System.Drawing.Point(1132, 1213);
+            this.btnEscalasDeValidez.Location = new System.Drawing.Point(1129, 26);
             this.btnEscalasDeValidez.Name = "btnEscalasDeValidez";
             this.btnEscalasDeValidez.Size = new System.Drawing.Size(96, 23);
             this.btnEscalasDeValidez.TabIndex = 4;
@@ -1248,7 +1264,7 @@
             this.grdInterPSY5.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.grdInterPSY5.RowTemplate.Height = 30;
             this.grdInterPSY5.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdInterPSY5.Size = new System.Drawing.Size(1245, 141);
+            this.grdInterPSY5.Size = new System.Drawing.Size(1228, 141);
             this.grdInterPSY5.TabIndex = 18;
             // 
             // label17
@@ -1287,7 +1303,7 @@
             this.grdInterInteresEspecifico.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.grdInterInteresEspecifico.RowTemplate.Height = 30;
             this.grdInterInteresEspecifico.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdInterInteresEspecifico.Size = new System.Drawing.Size(1245, 141);
+            this.grdInterInteresEspecifico.Size = new System.Drawing.Size(1228, 141);
             this.grdInterInteresEspecifico.TabIndex = 16;
             // 
             // label16
@@ -1326,7 +1342,7 @@
             this.grdInterProblemasPersonales.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.grdInterProblemasPersonales.RowTemplate.Height = 30;
             this.grdInterProblemasPersonales.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdInterProblemasPersonales.Size = new System.Drawing.Size(1245, 141);
+            this.grdInterProblemasPersonales.Size = new System.Drawing.Size(1228, 141);
             this.grdInterProblemasPersonales.TabIndex = 14;
             // 
             // label15
@@ -1365,7 +1381,7 @@
             this.grdInterProblemasExternalizados.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.grdInterProblemasExternalizados.RowTemplate.Height = 30;
             this.grdInterProblemasExternalizados.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdInterProblemasExternalizados.Size = new System.Drawing.Size(1245, 141);
+            this.grdInterProblemasExternalizados.Size = new System.Drawing.Size(1228, 141);
             this.grdInterProblemasExternalizados.TabIndex = 12;
             // 
             // label14
@@ -1404,7 +1420,7 @@
             this.grdInterProblemasInternalizados.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.grdInterProblemasInternalizados.RowTemplate.Height = 30;
             this.grdInterProblemasInternalizados.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdInterProblemasInternalizados.Size = new System.Drawing.Size(1245, 141);
+            this.grdInterProblemasInternalizados.Size = new System.Drawing.Size(1228, 141);
             this.grdInterProblemasInternalizados.TabIndex = 10;
             // 
             // label13
@@ -1443,7 +1459,7 @@
             this.grdSomaticosCognitivos.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.grdSomaticosCognitivos.RowTemplate.Height = 30;
             this.grdSomaticosCognitivos.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdSomaticosCognitivos.Size = new System.Drawing.Size(1245, 141);
+            this.grdSomaticosCognitivos.Size = new System.Drawing.Size(1228, 141);
             this.grdSomaticosCognitivos.TabIndex = 8;
             // 
             // label12
@@ -1482,7 +1498,7 @@
             this.grdClinicasReestructuradas.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.grdClinicasReestructuradas.RowTemplate.Height = 30;
             this.grdClinicasReestructuradas.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdClinicasReestructuradas.Size = new System.Drawing.Size(1245, 179);
+            this.grdClinicasReestructuradas.Size = new System.Drawing.Size(1228, 179);
             this.grdClinicasReestructuradas.TabIndex = 6;
             // 
             // label11
@@ -1521,7 +1537,7 @@
             this.grdInterpretcionOS.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.grdInterpretcionOS.RowTemplate.Height = 30;
             this.grdInterpretcionOS.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdInterpretcionOS.Size = new System.Drawing.Size(1245, 129);
+            this.grdInterpretcionOS.Size = new System.Drawing.Size(1228, 129);
             this.grdInterpretcionOS.TabIndex = 1;
             // 
             // label10
@@ -1585,14 +1601,14 @@
             this.tblLayEscalasValidez.RowCount = 2;
             this.tblLayEscalasValidez.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tblLayEscalasValidez.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tblLayEscalasValidez.Size = new System.Drawing.Size(1245, 474);
+            this.tblLayEscalasValidez.Size = new System.Drawing.Size(1228, 474);
             this.tblLayEscalasValidez.TabIndex = 2;
             // 
             // txtConclusionGral
             // 
             this.txtConclusionGral.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtConclusionGral.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtConclusionGral.Location = new System.Drawing.Point(1016, 33);
+            this.txtConclusionGral.Location = new System.Drawing.Point(1001, 33);
             this.txtConclusionGral.Multiline = true;
             this.txtConclusionGral.Name = "txtConclusionGral";
             this.txtConclusionGral.Size = new System.Drawing.Size(144, 439);
@@ -1613,7 +1629,7 @@
             this.tableLayoutPanel5.Controls.Add(this.lblIMPfpsir, 0, 3);
             this.tableLayoutPanel5.Controls.Add(this.lblIMPfr, 0, 2);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(436, 33);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(431, 33);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 9;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
@@ -1626,7 +1642,7 @@
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(304, 439);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(299, 439);
             this.tableLayoutPanel5.TabIndex = 11;
             this.tableLayoutPanel5.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel5_Paint);
             // 
@@ -1793,7 +1809,7 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(307, 439);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(302, 439);
             this.tableLayoutPanel4.TabIndex = 16;
             // 
             // lblINQkr
@@ -2203,7 +2219,7 @@
             this.metroLabel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroLabel3.Location = new System.Drawing.Point(123, 0);
             this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(307, 30);
+            this.metroLabel3.Size = new System.Drawing.Size(302, 30);
             this.metroLabel3.TabIndex = 3;
             this.metroLabel3.Text = "INQUIETUDES EN LA VALIDEZ DEL PROTOCOLO";
             this.metroLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2212,9 +2228,9 @@
             // 
             this.metroLabel4.AutoSize = true;
             this.metroLabel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroLabel4.Location = new System.Drawing.Point(436, 0);
+            this.metroLabel4.Location = new System.Drawing.Point(431, 0);
             this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(304, 30);
+            this.metroLabel4.Size = new System.Drawing.Size(299, 30);
             this.metroLabel4.TabIndex = 4;
             this.metroLabel4.Text = "IMPLICACIONES PARA LA INTERPRETACIÓN";
             this.metroLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2223,9 +2239,9 @@
             // 
             this.metroLabel5.AutoSize = true;
             this.metroLabel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroLabel5.Location = new System.Drawing.Point(746, 0);
+            this.metroLabel5.Location = new System.Drawing.Point(736, 0);
             this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.Size = new System.Drawing.Size(182, 30);
+            this.metroLabel5.Size = new System.Drawing.Size(179, 30);
             this.metroLabel5.TabIndex = 5;
             this.metroLabel5.Text = "CONCLUSIÓN";
             this.metroLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2234,9 +2250,9 @@
             // 
             this.metroLabel6.AutoSize = true;
             this.metroLabel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroLabel6.Location = new System.Drawing.Point(934, 0);
+            this.metroLabel6.Location = new System.Drawing.Point(921, 0);
             this.metroLabel6.Name = "metroLabel6";
-            this.metroLabel6.Size = new System.Drawing.Size(308, 30);
+            this.metroLabel6.Size = new System.Drawing.Size(304, 30);
             this.metroLabel6.TabIndex = 6;
             this.metroLabel6.Text = "CONCLUSIÓN GENERAL";
             this.metroLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2250,19 +2266,19 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.txtConclusion2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.txtConclusion1, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(746, 33);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(736, 33);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 22.22F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 77.78F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(182, 439);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(179, 439);
             this.tableLayoutPanel1.TabIndex = 17;
             // 
             // txtConclusion2
             // 
             this.txtConclusion2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtConclusion2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtConclusion2.Location = new System.Drawing.Point(20, 100);
+            this.txtConclusion2.Location = new System.Drawing.Point(19, 100);
             this.txtConclusion2.Multiline = true;
             this.txtConclusion2.Name = "txtConclusion2";
             this.txtConclusion2.Size = new System.Drawing.Size(141, 336);
@@ -2273,7 +2289,7 @@
             // 
             this.txtConclusion1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtConclusion1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtConclusion1.Location = new System.Drawing.Point(41, 3);
+            this.txtConclusion1.Location = new System.Drawing.Point(39, 3);
             this.txtConclusion1.Multiline = true;
             this.txtConclusion1.Name = "txtConclusion1";
             this.txtConclusion1.Size = new System.Drawing.Size(100, 91);
@@ -2809,6 +2825,8 @@
             // dataGridViewTextBoxColumn71
             // 
             this.dataGridViewTextBoxColumn71.DataPropertyName = "siglas";
+            dataGridViewCellStyle52.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            this.dataGridViewTextBoxColumn71.DefaultCellStyle = dataGridViewCellStyle52;
             this.dataGridViewTextBoxColumn71.HeaderText = "Siglas";
             this.dataGridViewTextBoxColumn71.Name = "dataGridViewTextBoxColumn71";
             this.dataGridViewTextBoxColumn71.ReadOnly = true;
@@ -2817,6 +2835,8 @@
             // dataGridViewTextBoxColumn72
             // 
             this.dataGridViewTextBoxColumn72.DataPropertyName = "puntuacionT";
+            dataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            this.dataGridViewTextBoxColumn72.DefaultCellStyle = dataGridViewCellStyle53;
             this.dataGridViewTextBoxColumn72.HeaderText = "P.T.";
             this.dataGridViewTextBoxColumn72.Name = "dataGridViewTextBoxColumn72";
             this.dataGridViewTextBoxColumn72.ReadOnly = true;
@@ -2853,6 +2873,8 @@
             // dataGridViewTextBoxColumn66
             // 
             this.dataGridViewTextBoxColumn66.DataPropertyName = "siglas";
+            dataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            this.dataGridViewTextBoxColumn66.DefaultCellStyle = dataGridViewCellStyle54;
             this.dataGridViewTextBoxColumn66.HeaderText = "Siglas";
             this.dataGridViewTextBoxColumn66.Name = "dataGridViewTextBoxColumn66";
             this.dataGridViewTextBoxColumn66.ReadOnly = true;
@@ -2861,6 +2883,8 @@
             // dataGridViewTextBoxColumn67
             // 
             this.dataGridViewTextBoxColumn67.DataPropertyName = "puntuacionT";
+            dataGridViewCellStyle55.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            this.dataGridViewTextBoxColumn67.DefaultCellStyle = dataGridViewCellStyle55;
             this.dataGridViewTextBoxColumn67.HeaderText = "P.T.";
             this.dataGridViewTextBoxColumn67.Name = "dataGridViewTextBoxColumn67";
             this.dataGridViewTextBoxColumn67.ReadOnly = true;
@@ -2893,6 +2917,8 @@
             // dataGridViewTextBoxColumn61
             // 
             this.dataGridViewTextBoxColumn61.DataPropertyName = "siglas";
+            dataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            this.dataGridViewTextBoxColumn61.DefaultCellStyle = dataGridViewCellStyle56;
             this.dataGridViewTextBoxColumn61.HeaderText = "Siglas";
             this.dataGridViewTextBoxColumn61.Name = "dataGridViewTextBoxColumn61";
             this.dataGridViewTextBoxColumn61.ReadOnly = true;
@@ -2901,6 +2927,8 @@
             // dataGridViewTextBoxColumn62
             // 
             this.dataGridViewTextBoxColumn62.DataPropertyName = "puntuacionT";
+            dataGridViewCellStyle57.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            this.dataGridViewTextBoxColumn62.DefaultCellStyle = dataGridViewCellStyle57;
             this.dataGridViewTextBoxColumn62.HeaderText = "P.T.";
             this.dataGridViewTextBoxColumn62.Name = "dataGridViewTextBoxColumn62";
             this.dataGridViewTextBoxColumn62.ReadOnly = true;
@@ -2933,6 +2961,8 @@
             // dataGridViewTextBoxColumn56
             // 
             this.dataGridViewTextBoxColumn56.DataPropertyName = "siglas";
+            dataGridViewCellStyle58.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            this.dataGridViewTextBoxColumn56.DefaultCellStyle = dataGridViewCellStyle58;
             this.dataGridViewTextBoxColumn56.HeaderText = "Siglas";
             this.dataGridViewTextBoxColumn56.Name = "dataGridViewTextBoxColumn56";
             this.dataGridViewTextBoxColumn56.ReadOnly = true;
@@ -2941,6 +2971,8 @@
             // dataGridViewTextBoxColumn57
             // 
             this.dataGridViewTextBoxColumn57.DataPropertyName = "puntuacionT";
+            dataGridViewCellStyle59.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            this.dataGridViewTextBoxColumn57.DefaultCellStyle = dataGridViewCellStyle59;
             this.dataGridViewTextBoxColumn57.HeaderText = "P.T.";
             this.dataGridViewTextBoxColumn57.Name = "dataGridViewTextBoxColumn57";
             this.dataGridViewTextBoxColumn57.ReadOnly = true;
@@ -2973,6 +3005,8 @@
             // dataGridViewTextBoxColumn51
             // 
             this.dataGridViewTextBoxColumn51.DataPropertyName = "siglas";
+            dataGridViewCellStyle60.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            this.dataGridViewTextBoxColumn51.DefaultCellStyle = dataGridViewCellStyle60;
             this.dataGridViewTextBoxColumn51.HeaderText = "Siglas";
             this.dataGridViewTextBoxColumn51.Name = "dataGridViewTextBoxColumn51";
             this.dataGridViewTextBoxColumn51.ReadOnly = true;
@@ -2981,6 +3015,8 @@
             // dataGridViewTextBoxColumn52
             // 
             this.dataGridViewTextBoxColumn52.DataPropertyName = "puntuacionT";
+            dataGridViewCellStyle61.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            this.dataGridViewTextBoxColumn52.DefaultCellStyle = dataGridViewCellStyle61;
             this.dataGridViewTextBoxColumn52.HeaderText = "P.T.";
             this.dataGridViewTextBoxColumn52.Name = "dataGridViewTextBoxColumn52";
             this.dataGridViewTextBoxColumn52.ReadOnly = true;
@@ -3013,6 +3049,8 @@
             // dataGridViewTextBoxColumn46
             // 
             this.dataGridViewTextBoxColumn46.DataPropertyName = "siglas";
+            dataGridViewCellStyle62.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            this.dataGridViewTextBoxColumn46.DefaultCellStyle = dataGridViewCellStyle62;
             this.dataGridViewTextBoxColumn46.HeaderText = "Siglas";
             this.dataGridViewTextBoxColumn46.Name = "dataGridViewTextBoxColumn46";
             this.dataGridViewTextBoxColumn46.ReadOnly = true;
@@ -3021,6 +3059,8 @@
             // dataGridViewTextBoxColumn47
             // 
             this.dataGridViewTextBoxColumn47.DataPropertyName = "puntuacionT";
+            dataGridViewCellStyle63.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            this.dataGridViewTextBoxColumn47.DefaultCellStyle = dataGridViewCellStyle63;
             this.dataGridViewTextBoxColumn47.HeaderText = "P.T.";
             this.dataGridViewTextBoxColumn47.Name = "dataGridViewTextBoxColumn47";
             this.dataGridViewTextBoxColumn47.ReadOnly = true;
@@ -3053,6 +3093,8 @@
             // dataGridViewTextBoxColumn41
             // 
             this.dataGridViewTextBoxColumn41.DataPropertyName = "siglas";
+            dataGridViewCellStyle64.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            this.dataGridViewTextBoxColumn41.DefaultCellStyle = dataGridViewCellStyle64;
             this.dataGridViewTextBoxColumn41.HeaderText = "Siglas";
             this.dataGridViewTextBoxColumn41.Name = "dataGridViewTextBoxColumn41";
             this.dataGridViewTextBoxColumn41.ReadOnly = true;
@@ -3061,6 +3103,8 @@
             // dataGridViewTextBoxColumn42
             // 
             this.dataGridViewTextBoxColumn42.DataPropertyName = "puntuacionT";
+            dataGridViewCellStyle65.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            this.dataGridViewTextBoxColumn42.DefaultCellStyle = dataGridViewCellStyle65;
             this.dataGridViewTextBoxColumn42.HeaderText = "P.T.";
             this.dataGridViewTextBoxColumn42.Name = "dataGridViewTextBoxColumn42";
             this.dataGridViewTextBoxColumn42.ReadOnly = true;
@@ -3093,6 +3137,8 @@
             // siglasDataGridViewTextBoxColumn1
             // 
             this.siglasDataGridViewTextBoxColumn1.DataPropertyName = "siglas";
+            dataGridViewCellStyle66.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            this.siglasDataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle66;
             this.siglasDataGridViewTextBoxColumn1.HeaderText = "Siglas";
             this.siglasDataGridViewTextBoxColumn1.Name = "siglasDataGridViewTextBoxColumn1";
             this.siglasDataGridViewTextBoxColumn1.ReadOnly = true;
@@ -3101,6 +3147,8 @@
             // puntuacionTDataGridViewTextBoxColumn1
             // 
             this.puntuacionTDataGridViewTextBoxColumn1.DataPropertyName = "puntuacionT";
+            dataGridViewCellStyle67.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            this.puntuacionTDataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle67;
             this.puntuacionTDataGridViewTextBoxColumn1.HeaderText = "P.T.";
             this.puntuacionTDataGridViewTextBoxColumn1.Name = "puntuacionTDataGridViewTextBoxColumn1";
             this.puntuacionTDataGridViewTextBoxColumn1.ReadOnly = true;

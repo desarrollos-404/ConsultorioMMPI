@@ -26,7 +26,7 @@ namespace ConsultorioMMPI.Clases
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Excepción al mostrar forma de espera: \r\n" + ex.ToString(), "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Excepción al mostrar forma de espera: , " + ex.ToString(), "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
         public static void Carga()
@@ -47,7 +47,7 @@ namespace ConsultorioMMPI.Clases
         //    }
         //    catch (Exception ex)
         //    {
-        //        MessageBox.Show("Excepción al mostrar forma de espera: \r\n" + ex.ToString(), "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        //        MessageBox.Show("Excepción al mostrar forma de espera: , " + ex.ToString(), "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         //    }
         //}
         public static void CerrarFormaEspera()
@@ -75,7 +75,7 @@ namespace ConsultorioMMPI.Clases
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Excepción al llamar MB DevExpress: \r\n" + ex.ToString(), "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Excepción al llamar MB DevExpress: , " + ex.ToString(), "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
         }

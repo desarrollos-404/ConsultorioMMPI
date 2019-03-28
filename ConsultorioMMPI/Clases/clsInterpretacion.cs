@@ -78,14 +78,14 @@ namespace ConsultorioMMPI.Clases
                     }
                     else if (cantidad >= 100 && cantidad <= 119)
                     {
-                        result[0] = @" *Inconsistencias en las respuestas\r\n* psicopatología severa\r\n* estrés emocional severo\r\n*exageración en el síntoma";//INQUIETUD
+                        result[0] = @" *Inconsistencias en las respuestas, * psicopatología severa, * estrés emocional severo, *exageración en el síntoma";//INQUIETUD
                         result[1] = @"este protocolo puede no ser valido";//IMPLICACIONES
                         valConclusion.Add(0);
                         return result;
                     }
                     else if (cantidad >= 80 && cantidad <= 99)
                     {
-                        result[0] = @"*Inconsistencia en las respuestas\r\n* psicopatología significativa\r\n* estrés emocional significativo";
+                        result[0] = @"*Inconsistencia en las respuestas, * psicopatología significativa, * estrés emocional significativo";
                         result[1] = @"Exageración en síntoma";//IMPLICACIONES
                         valConclusion.Add(1);
                         return result;
@@ -110,7 +110,7 @@ namespace ConsultorioMMPI.Clases
                     }
                     else if (cantidad > 70 && cantidad <= 99)
                     {
-                        result[0] = @"*Inconsistencia en las respuestas\r\n* Psicopatología significativa";//INQUIETUD
+                        result[0] = @"*Inconsistencia en las respuestas, * Psicopatología significativa";//INQUIETUD
                         result[1] = @"Exagaración en el síntoma";//IMPLICACIONES
                         valConclusion.Add(1);
                         return result;
@@ -191,14 +191,14 @@ namespace ConsultorioMMPI.Clases
                 case "L-R":
                     if (cantidad >= 80)
                     {
-                        result[0] = @"*Inconsistencias en las respuestas.\r\n*Posible exageración de síntomas\r\n*El operador se presenta a si mismo como una persona extremadamente positiva, negando fallas menores y deficiencias que la mayoría de las personas reconocen.";//INQUIETUD
+                        result[0] = @"*Inconsistencias en las respuestas., *Posible exageración de síntomas, *El operador se presenta a si mismo como una persona extremadamente positiva, negando fallas menores y deficiencias que la mayoría de las personas reconocen.";//INQUIETUD
                         result[1] = @"El protocolo puede no ser valido.";//IMPLICACIONES
                         valConclusion.Add(0);
                         return result;
                     }
                     else if (cantidad > 65 && cantidad <= 79)
                     {
-                        result[0] = @"*Inconsistencia en las respuestas\r\n*Educación tradicional\r\n*El operador se presente a si mismo de una forma positiva negando algunas faltas leves y deficiencias que la mayoría de las personas reconocen.";//INQUIETUD
+                        result[0] = @"*Inconsistencia en las respuestas, *Educación tradicional, *El operador se presente a si mismo de una forma positiva negando algunas faltas leves y deficiencias que la mayoría de las personas reconocen.";//INQUIETUD
                         result[1] = @"Exageración en el síntoma";//IMPLICACIONES
                         valConclusion.Add(1);
                         return result;
